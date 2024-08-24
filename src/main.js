@@ -15,4 +15,4 @@ app.use(createPinia());
 app.use(router);
 app.use(BootstrapIconsPlugin);
 
-app.mount('#app')
+app.mount('#app');
