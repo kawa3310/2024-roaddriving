@@ -3,7 +3,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style lang="scss">
@@ -16,5 +16,5 @@ export default {}
   a {
   cursor: pointer;
   }
-}
+};
 </style>
