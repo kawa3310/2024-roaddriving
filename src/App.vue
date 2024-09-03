@@ -8,6 +8,7 @@
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
+  letter-spacing: 1.5px;
   a {
   cursor: pointer;
   }
