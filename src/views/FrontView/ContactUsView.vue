@@ -1,3 +1,3 @@
 <template>
-  <h4>5</h4>
+  4
 </template>
