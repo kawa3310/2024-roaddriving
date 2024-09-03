@@ -164,10 +164,54 @@
   </div>
   <main class="main mt-7">
     <div class="container">
-      <div class="text-center text-primary py-7">
+      <div class="text-center text-primary py-7 py-lg-9">
         <p class="main-title fs-1 fw-bold">
           一對一指導
         </p>
+      </div>
+      <div class="row">
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://github.com/kawa3310/2024-roaddriving/blob/main/public/%E4%B8%80%E5%B0%8D%E4%B8%80%E6%8C%87%E5%B0%8E%2001.jpg?raw=true" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>擁擠混亂的市區</h2></li>
+        </ul>
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180856099.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=FiUboeylHhHRWESTDLGdDhBhQZaYC6e551i9V9cGzllN%2FFVOsmiet4MpUCJocUhaY8vaaFJWX%2FKOLDfmdxDCU5IMDrw9JMcm7dRt3xvQBuKWZg3%2BiMfP%2BTN4S5w835fdu9qU3JMYpCVUX7BL9BgxQuLPeANrod0cAIm6f%2B%2FYYkUfPufqJ%2FlEGXij5ZM4339vZzJDROO%2FCgQ89cS8v3yamD%2Fz1XuCS0Owy85%2F7zIa626ua38OInOy%2BgrubewYmi9AqYvnxJqoXkzbP4FL4KhoqflfRo2302MoQBa6qcHkT1d6t%2BPGDZk8LiVZaPyVMMCgQMbDjxaEJobVNS71WC4LCw%3D%3D" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>很快的高速公路</h2></li>
+        </ul>
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180898178.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Eyc6ktvITVfvTF8BSXNRExs9TecQcP0ReE%2BNaZzuYv9Cfpwf%2F5Qp5K4DHfUDKMK9NUEhE9vW87mC1cMMMxAEYU1GcciFUFJPeaT47SoCZUxNUa5o%2FfgavuTcam4SsmNylZ1TrYvNJyMoL3GmiycEdW%2FxQxzyA7%2B5X7JDtOJa12gynmL1UdFfoOkdhNx65KlpB6KXauG32w8E7m2rRZpiUUnz8Re8cbilWdEPq8TbtNt1GOTGGlQaAP3JaqN5bjQ4dBv3BruZ5tzpxMycN2eW9IVb5zAHPD%2BlWmAd8izeQ7d8NXzQT4nnIzll%2B42AqdPFmrTF0Lk4Z%2BmU8RJFtN7hYA%3D%3D" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>蜿蜒崎嶇的山路</h2></li>
+        </ul>
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725366278045.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ffLeFMh%2FLaKmySQ5epvw84i4Ic0e6eXNfcYVUH%2Fd0ngznBugXTfOpS4N43niDA61U5TYMmSBzpl63w4EPGWj%2F%2B77FmyUAqFYSNeWkU8LAcTE0ajRWGE8mZKjW7k8p%2F8feAxaCHktE1EqtXjANr%2Byc8On1jHRTbXChUn1kQw1NM0uefNEGR5hO7QNLhj5wq%2BJ5DCx%2FsqLkXZUujy%2FhbQx%2BVllbLu844SKsGtmxY78%2F5MzmU9%2BO84Uf%2By8hGLkCRNc0Cx%2BZh3gmhMyqoD1HvvGEPSoHiaFfo%2B2W3nTsQxG%2BdsmNnslcRx0iNZwVSSOzBbLUIZJUVwaRlCfIUIbycQWeQ%3D%3D" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>路邊停車大魔王</h2></li>
+        </ul>
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725366870154.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ecD7c1mgHLneiFIEwrFI8RshcJs1H%2F6wMi2mHUUoAmB5hXRZIcZy1W8B16vhlgd86%2BL9TTRxv5lY4naMUe8VPIfH4JdiYLyHwQm74kHRWyEkDIFqD8vbs9QQTgOlNhfDL3QTsxT6RMINF8BUN0kAhxoovD6t3xxma85xenvg9dcuZX1b1z905227bxOWK1eHfGDjBZdiPY7pb1aEasqq%2FgI50jEvQ%2BntASCbDg0CW%2Fqt6gbED0kQp42NQRhCNvWphUn4fzGKCiU6Zv6QDjeMUvEwkIpQfKgju9jnmgArHZSTygO%2BfNvtzncgCzhRkV30SoaZSMgRQwk1iOyOuYw9Gw%3D%3D" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>倒車入庫二魔王</h2></li>
+        </ul>
+        <ul class="col-12 col-lg-4 d-grid gap-3 my-3">
+          <li>
+            <img src="https://github.com/kawa3310/2024-roaddriving/blob/main/public/%E4%B8%80%E5%B0%8D%E4%B8%80%E6%8C%87%E5%B0%8E%2006.jpg?raw=true" alt="carousel" class="carousel-img">
+          </li>
+          <li class="text-center"><h2>抓不準變化車道的時機</h2></li>
+        </ul>
+        <div class="button d-flex justify-content-center justify-content-lg-end mt-3 mb-5 my-lg-8">
+          <button type="button" class="btn btn-primary d-flex justify-content-center
+          align-items-center text-white">
+            還想看更多<i class="bi bi-arrow-right-short"></i>
+          </button>
+        </div>
       </div>
     </div>
   </main>
@@ -214,6 +258,19 @@
     padding: 34px;
     background-color: #e3b726b2;
     border-radius: 500px;
+  }
+  .carousel-img{
+    height: 360px;
+    border-radius: 16px;
+  }
+  .button{
+    button{
+      padding: 12px 24px 12px 20px;
+      border-radius: 12px;
+    }
+    i{
+      font-size: 20px;
+    }
   }
   @media (min-width: 768px) {
     .banner{
