@@ -162,9 +162,9 @@
       </div>
     </div>
   </div>
-  <main class="main mt-7">
+  <main class="main my-7 mt-lg-9">
     <div class="container">
-      <div class="text-center text-primary py-7 py-lg-9">
+      <div class="text-center text-primary pb-7">
         <p class="main-title fs-1 fw-bold">
           一對一指導
         </p>
@@ -215,11 +215,59 @@
       </div>
     </div>
   </main>
+  <section class="tips mt-7 mt-lg-9 mb-lg-4">
+    <div class="container">
+      <div class="text-center text-primary py-7 py-lg-9">
+        <p class="main-title fs-1 fw-bold">課程特色</p>
+      </div>
+    </div>
+    <div class="carousel-feature bg-primary bg-opacity-50">
+      <div class="container">
+        <ul class="feature-card d-grid gap-3 py-7">
+          <li class="card-img">
+            <span class="problem rotate">這些都不是問題!</span>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
+          </li>
+          <li><h3 class="fw-bold text-center">教練一對一細心教學</h3></li>
+          <li class="text-center text-white fw-normal d-grid gap-2">
+            <p>還在因為不會抓車距導致偏離車道?</p>
+            <p>右轉時機車貼好近讓你膽戰心驚?</p>
+            <p>老是抓不到左轉的時機?</p>
+            <p>掌握不到停車的訣竅讓你頭好痛?</p>
+          </li>
+        </ul>
+        <ul class="feature-card d-grid gap-3 py-7">
+          <li class="card-img">
+            <span class="straightway rotate">立即預約</span>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
+          </li>
+          <li><h3 class="fw-bold text-center">彈性的上課時間</h3></li>
+          <li class="text-center text-white fw-normal d-grid gap-2">
+            <p>時間有限</p>
+            <p>工作排班制休假不固定</p>
+            <p>上班族朝九晚五</p>
+          </li>
+        </ul>
+        <ul class="feature-card d-grid gap-3 py-7">
+          <li class="card-img">
+            <span class="complete rotate">內容最完整</span>
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
+          </li>
+          <li><h3 class="fw-bold text-center">客製化課程</h3></li>
+          <li class="text-center text-white fw-normal d-grid gap-2">
+            <p>無論是從零開始的初學者</p>
+            <p>還是想要針對弱點進修的老手</p>
+            <p>我們都提供內容豐富可客製化的課程</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </section>
 </template>
 
 <style scoped>
   .banner{
-    background: url('https://github.com/kawa3310/2024-roaddriving/blob/main/public/img/Banner.jpg?raw=true') no-repeat center center / cover;
+    background: url('https://github.com/kawa3310/2024-roaddriving/blob/main/public/Banner.jpg?raw=true') no-repeat center center / cover;
     width: 100%;
     padding: 173px 0;
   }
@@ -256,7 +304,7 @@
   .situation-img{
     max-width: 368px;
     padding: 34px;
-    background-color: #e3b726b2;
+    background-color: #AEBECBCC;
     border-radius: 500px;
   }
   .carousel-img{
@@ -271,6 +319,45 @@
     i{
       font-size: 20px;
     }
+  }
+  .feature-card{
+    justify-content: center;
+    .card-img{
+      width: 300px;
+      height: 300px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 16px solid #5BAADF;
+      border-radius: 500px;
+      background-color: #fff;
+      position: relative;
+    }
+    span{
+      position: absolute;
+    }
+    .problem{
+      top: -8%;
+      left: -15%;
+      transform: rotate(5deg);
+    }
+    .straightway{
+      top: -5%;
+      left: 0%;
+      transform: rotate(15deg);
+    }
+    .complete{
+      top: -8%;
+      right: -15%;
+      transform: rotate(-15deg);
+    }
+  }
+  .rotate{
+    font-size: 24px;
+    font-weight: 700;
+    background-color: #F6E6AF;
+    border-radius: 8px;
+    padding: 8px 16px;
   }
   @media (min-width: 768px) {
     .banner{
