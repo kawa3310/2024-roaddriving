@@ -215,51 +215,130 @@
       </div>
     </div>
   </main>
-  <section class="tips mt-7 mt-lg-9 mb-lg-4">
+  <section class="tips mt-7 mb-4 mb-lg-9 mt-lg-9 mb-lg-4">
     <div class="container">
       <div class="text-center text-primary py-7 py-lg-9">
         <p class="main-title fs-1 fw-bold">課程特色</p>
       </div>
     </div>
-    <div class="carousel-feature bg-primary bg-opacity-50">
+    <div class="carousel-feature border">
       <div class="container">
-        <ul class="feature-card d-grid gap-3 py-7">
-          <li class="card-img">
-            <span class="problem rotate">這些都不是問題!</span>
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
-          </li>
-          <li><h3 class="fw-bold text-center">教練一對一細心教學</h3></li>
-          <li class="text-center text-white fw-normal d-grid gap-2">
-            <p>還在因為不會抓車距導致偏離車道?</p>
-            <p>右轉時機車貼好近讓你膽戰心驚?</p>
-            <p>老是抓不到左轉的時機?</p>
-            <p>掌握不到停車的訣竅讓你頭好痛?</p>
-          </li>
-        </ul>
-        <ul class="feature-card d-grid gap-3 py-7">
-          <li class="card-img">
-            <span class="straightway rotate">立即預約</span>
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
-          </li>
-          <li><h3 class="fw-bold text-center">彈性的上課時間</h3></li>
-          <li class="text-center text-white fw-normal d-grid gap-2">
-            <p>時間有限</p>
-            <p>工作排班制休假不固定</p>
-            <p>上班族朝九晚五</p>
-          </li>
-        </ul>
-        <ul class="feature-card d-grid gap-3 py-7">
-          <li class="card-img">
-            <span class="complete rotate">內容最完整</span>
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
-          </li>
-          <li><h3 class="fw-bold text-center">客製化課程</h3></li>
-          <li class="text-center text-white fw-normal d-grid gap-2">
-            <p>無論是從零開始的初學者</p>
-            <p>還是想要針對弱點進修的老手</p>
-            <p>我們都提供內容豐富可客製化的課程</p>
-          </li>
-        </ul>
+        <div class="feature-sm d-lg-none">
+          <ul class="feature-card d-grid gap-3 py-7">
+            <li class="card-img">
+              <span class="problem rotate">這些都不是問題!</span>
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
+            </li>
+            <li><h3 class="fw-bold text-center">教練一對一細心教學</h3></li>
+            <li class="text-center text-white fw-normal d-grid gap-2">
+              <p>還在因為不會抓車距導致偏離車道?</p>
+              <p>右轉時機車貼好近讓你膽戰心驚?</p>
+              <p>老是抓不到左轉的時機?</p>
+              <p>掌握不到停車的訣竅讓你頭好痛?</p>
+            </li>
+          </ul>
+          <ul class="feature-card d-grid gap-3 py-7">
+            <li class="card-img">
+              <span class="straightway rotate">立即預約</span>
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
+            </li>
+            <li><h3 class="fw-bold text-center">彈性的上課時間</h3></li>
+            <li class="text-center text-white fw-normal d-grid gap-2">
+              <p>時間有限</p>
+              <p>工作排班制休假不固定</p>
+              <p>上班族朝九晚五</p>
+            </li>
+          </ul>
+          <ul class="feature-card d-grid gap-3 py-7">
+            <li class="card-img">
+              <span class="complete rotate">內容最完整</span>
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
+            </li>
+            <li><h3 class="fw-bold text-center">客製化課程</h3></li>
+            <li class="text-center text-white fw-normal d-grid gap-2">
+              <p>無論是從零開始的初學者</p>
+              <p>還是想要針對弱點進修的老手</p>
+              <p>我們都提供內容豐富可客製化的課程</p>
+            </li>
+          </ul>
+        </div>
+        <div class="feature-pc d-lg-block d-none">
+          <div class="d-flex flex-column justify-content-center">
+            <div class="feature-card feature-top d-flex
+            justify-content-center align-items-center d-grid gap-3 mb-5">
+              <div>
+                <div class="card-img">
+                  <span class="problem rotate">這些都不是問題!</span>
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
+                </div>
+                <h3 class="fw-bold text-center pt-3">教練一對一細心教學</h3>
+              </div>
+              <div class="text-white fw-normal d-grid gap-3">
+                <p>還在因為不會抓車距導致偏離車道?</p>
+                <p>右轉時機車貼好近讓你膽戰心驚?</p>
+                <p>老是抓不到左轉的時機?</p>
+                <p>掌握不到停車的訣竅讓你頭好痛?</p>
+              </div>
+            </div>
+            <ul class="feature-card d-flex justify-content-between d-grid gap-lg-3">
+              <li class="d-flex justify-content-center align-items-center">
+                <div class="text-white text-end fw-normal d-grid gap-3 pe-3">
+                  <p>時間有限</p>
+                  <p>工作排班制休假不固定</p>
+                  <p>上班族朝九晚五</p>
+                </div>
+                <div>
+                  <div class="card-img">
+                    <span class="straightway rotate">立即預約</span>
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
+                  </div>
+                  <h3 class="fw-bold text-center pt-3">彈性的上課時間</h3>
+                </div>
+              </li>
+              <li class="d-flex justify-content-center align-items-center">
+                <div>
+                  <div class="card-img">
+                    <span class="complete rotate">內容最完整</span>
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
+                  </div>
+                  <h3 class="fw-bold text-center pt-3">客製化課程</h3>
+                </div>
+                <div class="text-white fw-normal d-grid gap-3 ps-3">
+                  <p>無論是從零開始的初學者</p>
+                  <p>還是想要針對弱點進修的老手</p>
+                  <p>提供內容豐富可客製化的課程</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="teachers mt-7 mt-lg-9">
+    <div class="container pt-8">
+      <div class="text-center text-primary pb-4">
+        <p class="main-title fs-1 fw-bold">
+          北中南最優秀的師資
+        </p>
+      </div>
+      <div>
+        <div class="area pt-3">
+          <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
+        </div>
+        <div class="card mt-5">
+          <div class="card-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+          </div>
+          <div class="card-body text-center">
+            <h3 class="card-title">吳三寶 教練</h3>
+            <span class="text-light text-start">資歷</span>
+            <div class="d-flex justify-content-center">
+              <div class="car-icon"></div>
+              <p class="">小台北駕訓班 5 年</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -320,10 +399,13 @@
       font-size: 20px;
     }
   }
+  .carousel-feature{
+    background-color: rgb(91 170 223 / 70%);
+  }
   .feature-card{
     justify-content: center;
     .card-img{
-      width: 300px;
+      max-width: 300px;
       height: 300px;
       display: flex;
       justify-content: center;
@@ -359,9 +441,24 @@
     border-radius: 8px;
     padding: 8px 16px;
   }
+  .car-icon{
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193336922.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rEt%2F%2Bx%2FdZV2tA3XgYP39vzI%2BkKGba8P1BjY%2BJh45ZtoM%2Fepy0MDovdG%2FFQUe0ATRqb9SnvDsv7igrrUpohi25iwXOLhjLcTuPA5Hi4yaMKlqHAXtBh4G45v1%2FbbHFfuwpVfdUHHeKUFd2ypMVAllQ5P4BiJhWf087%2F6zOkBUi8svBGN4xSFfxkfcbyayRzOLJZD1Eq6GSoJmR2JssEZJN%2Fc6rOF51d9IoLmW8ULfsIKBmW6gEAWJSjDkKU6HDKLgC5E0ay7Jko9sMPUmGwYDFMqd3jFuNwMGygIqUXU1PS278R%2Bda4dXjz032UIQEPExMIyIB31cJTmC%2BI7KsoE1%2Fg%3D%3D') no-repeat;
+    width: 32px;
+    height: 32px;
+  }
   @media (min-width: 768px) {
     .banner{
       padding: 400px 0 400px 0;
+    }
+    .carousel-feature{
+      position: relative;
+      background-color: transparent;
+      width: 100%;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725452499118.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=lxXd04mtxBC0bY86rZ879mpKp950HQ0R7J8%2FY9SZOzFoYIy7elQs6RLDI32enwGcpZzX85B29dWLPAW01oDLr%2F1gpIi%2F6BGaOZEWAdSLnKxwck%2FizRZZmyvgVnC4kqDJ2bGtvo4lh5H1c3QyOfijrIU7awPtf9%2Fwtc1tvBBX1YfqGGHrpz94pY%2B1xL5tz97yh2EXFUh8wnH%2Be5JnXM1oiBGHMBCxzU9gSDMrAho%2F3vnNVtuEgMIfYMqwutB1rwuSYcbcSdVvhPN7qpwu0%2F3TYTnfweRuQ%2BXoz5lX2%2FNHawnnBDeEk9%2BcEvOGBUmmpNbYDNtbpCSBoi1CBRSiBgbK0w%3D%3D') no-repeat;
+      padding: 100px 0;
+      .feature-top{
+        margin-left: 250px;
+      }
     }
   }
   @media (max-width: 768px) {
@@ -371,7 +468,7 @@
       }
     }
     .banner2{
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725347170911.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=nRB5Gha%2BcqVusHB51s99Hmg%2FE77qtWlMrM3Mt0Y29lpT%2FFCI%2BrkXa2mEVdtEGHIJyKWRKp1IE3lxSe2utmPy6sM6n1SPAhndtHsy19avYLk74Um9dDLP2FtYW6HfZ55piwOMBUYz52qODUXSslMzeBpD0ba3K9%2Fpvc1AsAyt%2FQeDDofC3BY8Le%2BrppWhRGeWUPPEdmUADAf7a7FZoFz4Eei3U6E8SiwsTbKhOpsBTHhD1Q5a54bgiQh3HTxfQNQ1zkfjufY6OpztNtwE1rmgUV86grnC%2BiS64b%2BSKbFsYttwMZ0JaI4HE9Q8flqTBlrqxg1Euzvyzm2TrpRMtMBteA%3D%3D') no-repeat center center / cover;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725347170911.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=nRB5Gha%2BcqVusHB51s99Hmg%2FE77qtWlMrM3Mt0Y29lpT%2FFCI%2BrkXa2mEVdtEGHIJyKWRKp1IE3lxSe2utmPy6sM6n1SPAhndtHsy19avYLk74Um9dDLP2FtYW6HfZ55piwOMBUYz52qODUXSslMzeBpD0ba3K9%2Fpvc1AsAyt%2FQeDDofC3BY8Le%2BrppWhRGeWUPPEdmUADAf7a7FZoFz4Eei3U6E8SiwsTbKhOpsBTHhD1Q5a54bgiQh3HTxfQNQ1zkfjufY6OpztNtwE1rmgUV86grnC%2BiS64b%2BSKbFsYttwMZ0JaI4HE9Q8flqTBlrqxg1Euzvyzm2TrpRMtMBteA%3D%3D') no-repeat;
       border-radius: 8px;
     }
     .banner2-title{
