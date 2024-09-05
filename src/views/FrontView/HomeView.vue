@@ -150,7 +150,7 @@
   </section>
   <div class="banner2 mt-lg-9 mt-7">
     <div class="container">
-      <div class="pt-9 d-lg-block d-md-block d-none">
+      <div class="pt-9 d-none">
         <p class="fs-1 fw-bold text-white">不用怕!</p>
         <p class="banner2-title fs-1 fw-bol text-end text-white">
           我們<span class="text-info px-2">手把手</span>教會你!</p>
@@ -315,28 +315,287 @@
       </div>
     </div>
   </section>
-  <section class="teachers mt-7 mt-lg-9">
+  <section class="teachers mt-7 mb-7 mt-lg-9">
     <div class="container pt-8">
-      <div class="text-center text-primary pb-4">
-        <p class="main-title fs-1 fw-bold">
-          北中南最優秀的師資
-        </p>
-      </div>
-      <div>
-        <div class="area pt-3">
-          <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
+      <div class="teachers-sm d-lg-none d-md-none">
+        <div class="text-center text-primary pb-4">
+          <p class="main-title fs-1 fw-bold">
+            北中南最優秀的師資
+          </p>
         </div>
-        <div class="card mt-5">
-          <div class="card-img">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+        <div>
+          <div class="area pt-8">
+            <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
           </div>
-          <div class="card-body text-center">
-            <h3 class="card-title">吳三寶 教練</h3>
-            <span class="text-light text-start">資歷</span>
-            <div class="d-flex justify-content-center">
-              <div class="car-icon"></div>
-              <p class="">小台北駕訓班 5 年</p>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="teachers-img">
+                <div class="bg-yellow">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+                </div>
+              </div>
+              <div class="teachers-body pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h3 class="teachers-title">吳三寶 教練</h3>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>小台北駕訓班 5 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>新北竹駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>開運駕訓班 主任 5 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
+        </div>
+        <div>
+          <div class="area pt-8">
+            <button type="button" class="btn btn-primary text-white fs-4 fw-bold">中部</button>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="teachers-img">
+                <div class="bg-blue">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181044785.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sy9N8e1n8zeM%2FHGv%2Bba0cc4fdRQ4EW%2B8G6dFyY6f0vIVkKKzz12QVjdoengkHBsYVjUInnv1cGnHmzkkbzPrSDu%2FVJwx4oO7NyoSjJu6S%2FHC9sm1V0OAwUgdXURCumCItfG4NDLd%2Fm8Lc7%2FlgbQk0ep9yU7A0E4Wai9sOYkLpqIBy6Ec4DpAVCi7rnCWqaaRnXQjnsLWkD6flqFHRjfXBipdQxD%2FARCBZ7wlwJ9GWRcemMdbl8ctpqAJscGKSgfuA%2FnuVvGZhQiLvg%2B%2FVvZtO0jHWm9JzkkyAtCyZiKzgTxg28ogWueFtMf%2BNQ6DAbTzwiFwdvMRM5VOwAg%2BqZWykw%3D%3D" alt="teacher">
+                </div>
+              </div>
+              <div class="teachers-body  d-lg-none d-md-none pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h3 class="teachers-title">郝安銓 教練</h3>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>台中中駕訓班 2 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>彰化圓駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>開開駕訓班 4 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="area pt-8">
+            <button type="button" class="btn btn-secondary fs-4 fw-bold">南部</button>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="teachers-img">
+                <div class="bg-yellow">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D" alt="teacher">
+                </div>
+              </div>
+              <div class="teachers-body d-lg-none d-md-none pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h3 class="card-title">甄卉葶 教練</h3>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>大高雄駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>南台駕訓班 1 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>墾丁駕訓班 6 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="teachers-pc d-lg-block d-md-block d-none">
+        <div class="text-center text-primary pb-4">
+          <p class="main-title fs-1 fw-bold">
+            北中南最優秀的師資
+          </p>
+        </div>
+        <div>
+          <div class="area pt-8">
+            <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-7 teachers-img">
+                <div class="bg-yellow">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+                </div>
+              </div>
+              <div class="col-4 teachers-body pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h2 class="teachers-title">吳三寶 教練</h2>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>小台北駕訓班 5 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>新北竹駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>開運駕訓班 主任 5 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="area pt-8">
+            <button type="button" class="btn btn-primary text-white fs-4 fw-bold">中部</button>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-4 teachers-body pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h2 class="teachers-title">郝安銓 教練</h2>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>台中中駕訓班 2 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>彰化圓駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>開開駕訓班 4 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-7 teachers-img">
+                <div class="bg-blue">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181044785.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sy9N8e1n8zeM%2FHGv%2Bba0cc4fdRQ4EW%2B8G6dFyY6f0vIVkKKzz12QVjdoengkHBsYVjUInnv1cGnHmzkkbzPrSDu%2FVJwx4oO7NyoSjJu6S%2FHC9sm1V0OAwUgdXURCumCItfG4NDLd%2Fm8Lc7%2FlgbQk0ep9yU7A0E4Wai9sOYkLpqIBy6Ec4DpAVCi7rnCWqaaRnXQjnsLWkD6flqFHRjfXBipdQxD%2FARCBZ7wlwJ9GWRcemMdbl8ctpqAJscGKSgfuA%2FnuVvGZhQiLvg%2B%2FVvZtO0jHWm9JzkkyAtCyZiKzgTxg28ogWueFtMf%2BNQ6DAbTzwiFwdvMRM5VOwAg%2BqZWykw%3D%3D" alt="teacher">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="area pt-8 pb-4">
+            <button type="button" class="btn btn-secondary fs-4 fw-bold">南部</button>
+          </div>
+          <div class="mt-5">
+            <div class="row justify-content-center align-items-center">
+              <div class="col-7 teachers-img">
+                <div class="bg-yellow">
+                  <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D" alt="teacher">
+                </div>
+              </div>
+              <div class="col-4 teachers-body pt-4">
+                <div class="d-flex justify-content-center">
+                  <div class="d-grid gap-3">
+                    <div class="d-flex">
+                    <h2 class="card-title">甄卉葶 教練</h2>
+                    </div>
+                    <div class="d-flex">
+                      <span class="text-light text-end">資歷</span>
+                    </div>
+                    <div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>大高雄駕訓班 3 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>南台駕訓班 1 年</p>
+                      </div>
+                      <div class="d-flex justify-content-start">
+                        <div class="car-icon"></div>
+                        <p>墾丁駕訓班 6 年</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="textbook mt-7 border">
+    <div class="container textbook-bg bg-secondary">
+      <div class="text-center text-primary py-7 py-lg-9">
+        <p class="main-title fs-1 fw-bold text-center">上課使用車種</p>
+      </div>
+      <h5 class="text-center">Honda HR-V</h5>
+      <div class="textbook-sm py-7">
+        <div class="pb-3">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181077626.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JG17zc0oAag%2F8uCYeWU945y%2FWLoawYGKhS90erH5f45xXLUBjWTAMIj9XFE3nquKR6SlZo7YAd3tbKTdQ%2FRTlrq59rRHZB8IXSuPAXFo7OTUbhPeAlwDQHZ06R%2BuGgipoPFDROHiymvGQS8NBD%2BpQhlIL%2FjE9pPWIHcqkYKsxOJR07fv2RC88LuoAeWzB1g9t8rx5D4wk7Z5kxuDBddCHRPCNz1B5StLMhw7sCCjC%2Fp9yYDkQk93WVIuiukPud2%2FnPdYN8s0bvh40Rz2nFydAjviwOoY65hbEDyWcneiyyKu2HOVxAXjE9H1abFXkhwJaAmNTv8C4%2BSHYOZJlQMtBQ%3D%3D" alt="textbook-car" class="textbook-car-img">
+        </div>
+        <div class="py-3">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181105969.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OpG%2BD%2BIGL1KBb04RMkT5l9f9OGuK4vQcZtYFMfmTt4Se2jLwMYEoXiE4kiJtLF1IHTZPenywOS5Jpx87NA%2Bmadw7%2F0%2B5Qxba6B49QUtZ0CCwBY3uKW%2BdGVsbQE5FSH%2FqwMtN1B%2BzY4LTYt07X7nm9AZq5Tyzsgy7Nml6b1m9Kfc%2BScKoRKqBxqf4jlNv%2FmGbfU2Ex3BVEVKr0BTUcZbBYD2C38u1TUcTW0MIemH4n7%2ByB6DnTTUOouKiwWalz6Uzsr7UhMPhk52FqU39lst7sxukFk9F4PNA4XICkT1jZI4Fz1NYXpgxZREYGxwWpM6cOXpccxAeXWyyGEuacYrpxA%3D%3D" alt="textbook-car" class="textbook-car-img">
+          <div class="d-flex justify-content-center py-3">
+            <div class="car-icon"></div>
+            <p>每款車輛搭配副駕駛座煞車</p>
+          </div>
+        </div>
+        <div class="py-3">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181129230.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Tplq9YhEefLPDPuXll64LdEPjr1QpKhprJysuZ0tnooXgMP%2BOTSU94s%2BjkSPCF9KoukjzZtlOkLzGzbKxFsKP8pvMrJBRvJEBXSgvwaTidDRwmw1wPS%2BF2ZZ5k2CCmep9WjVKFlZxIG1Ka7EG7KUgSZH6Vj4CJpsCH%2FXhfrGiYklm9HkAr8qydX%2BX6UKf8dyHfVnpA137NN0E5mlxFQzRTXvpf%2FDgYzJtFTbqsNR%2FWDTp8Ya9zODpecxLGwIXIOLBtAcMCE9AM55q90skgCmNY72%2FOmqGYHcyOIHSeG0SUHygC3RtJRrjcy6yEWekx8M%2Fk4Drl%2Ba8f32cqS%2BJy84Gw%3D%3D" alt="textbook-car" class="textbook-car-img">
+          <div class="d-flex justify-content-center py-3">
+            <div class="car-icon"></div>
+            <p>車輛搭載 ACC</p>
+            <p>車道置中</p>
           </div>
         </div>
       </div>
@@ -344,7 +603,7 @@
   </section>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
   .banner{
     background: url('https://github.com/kawa3310/2024-roaddriving/blob/main/public/Banner.jpg?raw=true') no-repeat center center / cover;
     width: 100%;
@@ -445,6 +704,49 @@
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193336922.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rEt%2F%2Bx%2FdZV2tA3XgYP39vzI%2BkKGba8P1BjY%2BJh45ZtoM%2Fepy0MDovdG%2FFQUe0ATRqb9SnvDsv7igrrUpohi25iwXOLhjLcTuPA5Hi4yaMKlqHAXtBh4G45v1%2FbbHFfuwpVfdUHHeKUFd2ypMVAllQ5P4BiJhWf087%2F6zOkBUi8svBGN4xSFfxkfcbyayRzOLJZD1Eq6GSoJmR2JssEZJN%2Fc6rOF51d9IoLmW8ULfsIKBmW6gEAWJSjDkKU6HDKLgC5E0ay7Jko9sMPUmGwYDFMqd3jFuNwMGygIqUXU1PS278R%2Bda4dXjz032UIQEPExMIyIB31cJTmC%2BI7KsoE1%2Fg%3D%3D') no-repeat;
     width: 32px;
     height: 32px;
+  }
+  .bg-yellow{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725457534402.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=dsoti3GD4I300gaDrBc%2BwBb5NDvj2wnSYWqMYBGafXZU9RSyIg9uvc0TQB3rrS%2FQPHOL7sJzRUqqKBsXVFC8Hp5i%2BOw06HWjn3A1eNtX1bLtnMp2IGInKNvWd5MfXie0jWeDtsaRpjS27WUJ6nSphi6gVhkjRrTnSdEcF5nFcaYHZNgYchKcvzTptDf5AT2oKYjGjI4KmJRAn8jGiAWUpGP%2Bhndc1VQogxA%2Fr6KHmo7ZOTGM2%2FP4uPZQV8NNyfTlSRvYqyJY5gUv%2BA2tOFwc4Uiii9JzEZeReVkaOZcEAfJUlQhQLZd%2Bkq%2BMXa1FYb8ZmxI4kw6lI76%2F6TnJoiZIAg%3D%3D') no-repeat bottom center / 100% 100%;
+      width: 80%;
+      height: 83%;
+      bottom: 0%;
+      border-radius: 16px 16px;
+    }
+    & img{
+      position: relative;
+    }
+  }
+  .bg-blue{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    &::before{
+      content: "";
+      position: absolute;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725457559562.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=THwU6x01t94Tk%2Bo0NxFyWB6vPqECVO57oX0TgcEgGalaUt1j0eYt%2BNAM1dURw8JH9d4GmR7YQvK%2FkhT3CnZAoVJw83Pj%2FkK3KdIak5bmhv0B66GkP44cjHCqSwu8MxzeS1UV9vBuTgiUfuJxJFa0aZj0kI1HXYUT%2F7anfg7Al%2B3wYHKconsJmvso%2FrGQ2nuvM1zbm6NG6YTrq%2BKawX7BUzfq1MsjSXUWsAeiDTlEUiO8ortCnFfa%2BY3zAsL2HmJktXyfy2etSC%2B1LtJT2%2BbsK1EN0vUV0%2B%2FrDyAOi9%2Bp5IcDCT%2BIL4Y%2BEzNQqkxo2bnPORlpnSjuDFUiB7dohNTWmg%3D%3D') no-repeat bottom center / 100% 100%;
+      width: 80%;
+      height: 83%;
+      bottom: 0%;
+      border-radius: 16px 16px;
+    }
+    & img{
+      position: relative;
+      align-items: center;
+    }
+  }
+  .textbook-sm{
+    border-radius: 50px 50px 0 0;
+    & .textbook-car-img{
+      max-width: 343px;
+      height: 428px;
+      border-radius: 16px;
+    }
   }
   @media (min-width: 768px) {
     .banner{
