@@ -82,11 +82,7 @@
 
 </template>
 
-<script>
-
-</script>
-
-<style scoped>
+<style leng="scss" scoped>
   .navbar-toggler,
   .navbar-toggler:focus,
   .navbar-toggler:active,

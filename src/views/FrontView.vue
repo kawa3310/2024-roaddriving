@@ -72,7 +72,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
   .footer-logo{
     width: 48px;
   }
