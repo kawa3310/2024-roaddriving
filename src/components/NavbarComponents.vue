@@ -50,7 +50,7 @@
   </nav>
 
   <nav class="d-lg-flex d-md-flex d-none fixed-top
-  navbar navbar-pc fw-bold navbar-ligh">
+  navbar navbar-pc fw-bold" :class="navbarClass">
     <div class="container d-flex justify-content-center">
       <RouterLink class="navbar-brand nav-hover d-flex align-items-center
       justify-content-center fs-3
@@ -80,6 +80,39 @@
     </div>
   </nav>
 </template>
+
+<script>
+export default {
+  data() {
+    return {
+      navbarClass: ['bg-white, py-md-3'],
+    };
+  },
+  methods: {
+    changeNavbarClass() {
+      const windowY = window.scrollY;
+      const carousel = document.querySelector('.carousel');
+
+      if (windowY > carousel.offsetTop - 120) {
+        this.navbarClass = ['bg-primary'];
+      } else {
+        this.navbarClass = [''];
+      }
+    },
+    backTop() {
+      document.body.scrollTop = 0;
+      document.documentElement.scrollTop = 0;
+    },
+  },
+  mounted() {
+    window.addEventListener('scroll', this.changeNavbarClass);
+    this.backTop();
+  },
+  unmounted() {
+    window.removeEventListener('scroll', this.changeNavbarClass);
+  },
+};
+</script>
 
 <style leng="scss" scoped>
   .navbar-toggler,
