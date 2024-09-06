@@ -221,7 +221,7 @@
         <p class="main-title fs-1 fw-bold">課程特色</p>
       </div>
     </div>
-    <div class="carousel-feature border">
+    <div class="carousel-feature">
       <div class="container">
         <div class="feature-sm d-lg-none">
           <ul class="feature-card d-grid gap-3 py-7">
