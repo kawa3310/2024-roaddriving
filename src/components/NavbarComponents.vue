@@ -79,7 +79,6 @@
       </ul>
     </div>
   </nav>
-
 </template>
 
 <style leng="scss" scoped>
