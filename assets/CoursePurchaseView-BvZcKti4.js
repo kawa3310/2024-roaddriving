@@ -1,1 +1,0 @@
-import{_ as e,c as a,d as c,F as s,a as t,o}from"./index-L9x1mBzW.js";const r={},n=t("p",null,"2323",-1);function _(l,d){return o(),a(s,null,[c(" 1 "),n],64)}const f=e(r,[["render",_]]);export{f as default};
