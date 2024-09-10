@@ -1,7 +1,7 @@
 <template>
   <NavbarComponents/>
     <RouterView/>
-  <footer class="mt-7 mt-lg-8">
+  <footer class="mt-7 mb-3 mb-lg-4 mt-lg-8">
     <div class="container">
       <div class="d-flex justify-content-start justify-content-lg-between
       align-items-center d-grid gap-3 mb-4">
@@ -73,13 +73,4 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-  .footer-logo{
-    width: 48px;
-  }
-  .community-icon{
-    max-width: 40px;
-  }
-  .statement{
-    font-size: 14px;
-  }
 </style>
