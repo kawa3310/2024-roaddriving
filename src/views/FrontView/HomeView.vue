@@ -1,4 +1,5 @@
 <template>
+  <HomeNavbar/>
   <div class="banner">
     <div class="container">
       <div class="d-flex justify-content-center align-items-center">
@@ -593,6 +594,7 @@
 </template>
 
 <script>
+import HomeNavbar from '@/components/HomeNavbarComponents.vue';
 import HomeSwiper from '@/components/SwiperComponents.vue';
 
 export default {
@@ -601,6 +603,7 @@ export default {
     };
   },
   components: {
+    HomeNavbar,
     HomeSwiper,
   },
 };
