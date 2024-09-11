@@ -87,12 +87,12 @@
   </section>
   <div class="banner2 mt-7">
     <div class="container">
-      <div class="pt-9 d-lg-block d-md-block d-none">
+      <div class="banner-word pt-9 d-lg-block d-md-block d-none">
         <p class="fs-1 fw-bold text-white">不用怕!</p>
         <p class="banner2-title fs-1 fw-bol text-end text-white">
           我們<span class="text-info px-2">手把手</span>教會你!</p>
       </div>
-      <div class="banner2-title d-lg-none d-md-none text-center">
+      <div class="banner-word banner2-title d-lg-none d-md-none text-center">
         <p class="fs-1 fw-bold text-white">不用怕!</p>
         <p class="fs-1 fw-bold text-white">
           我們<span class="text-info px-2">手把手</span>教會你!</p>
@@ -682,6 +682,9 @@ export default {
   .banner2{
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725347170911.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=nRB5Gha%2BcqVusHB51s99Hmg%2FE77qtWlMrM3Mt0Y29lpT%2FFCI%2BrkXa2mEVdtEGHIJyKWRKp1IE3lxSe2utmPy6sM6n1SPAhndtHsy19avYLk74Um9dDLP2FtYW6HfZ55piwOMBUYz52qODUXSslMzeBpD0ba3K9%2Fpvc1AsAyt%2FQeDDofC3BY8Le%2BrppWhRGeWUPPEdmUADAf7a7FZoFz4Eei3U6E8SiwsTbKhOpsBTHhD1Q5a54bgiQh3HTxfQNQ1zkfjufY6OpztNtwE1rmgUV86grnC%2BiS64b%2BSKbFsYttwMZ0JaI4HE9Q8flqTBlrqxg1Euzvyzm2TrpRMtMBteA%3D%3D') no-repeat center center / cover;
     width: 100%;
+  }
+  .banner-word{
+    text-shadow: 0px 0.3px 1px black;
   }
   .banner2-title{
     padding: 160px 0 86px 0;
