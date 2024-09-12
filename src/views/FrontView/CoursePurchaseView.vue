@@ -73,8 +73,8 @@
       </div>
     </div>
   </main>
-  <section>
-    <div class="container my-9">
+  <section class="my-9">
+    <div class="container">
       <h2 class="text-center">熱門課程</h2>
       <div class="row mt-9">
         <div class="col-4">
@@ -138,6 +138,9 @@
       </div>
     </div>
   </section>
+  <section class="section">
+
+  </section>
 </template>
 
 <style lang="scss">
@@ -159,22 +162,6 @@
     max-width: 600px;
     border-radius: 20px;
     border: 0 !important;
-    &::after{
-      content: "";
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border-radius: 20px;
-      opacity: 0;
-      transition: opacity 0.3s;
-      background-color: rgba(239, 239, 239, 0.5);
-    }
-    &:hover::after {
-      opacity: 1;
-      cursor: pointer;
-    }
     .card-img{
       width: 100%;
       height: 400px;
