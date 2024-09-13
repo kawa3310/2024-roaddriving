@@ -11,7 +11,7 @@
       </ol>
     </div>
   </div>
-  <main class="mb-9">
+  <main>
     <div class="course-bg my-9">
       <h2 class="course-banner">課程內容</h2>
     </div>
@@ -22,7 +22,7 @@
         <h2>所有行車眉角一步一步教會你</h2>
       </div>
       <div class="row">
-        <div class="col-6 mb-9">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975500350.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ll1yj1VvnhcdzltZ7Ko5fuhGdmV7IhEpMRjuUdi1bdMEMLCWCx9lwyErYAAyaNdjpTJwTtjRuYUzYtKVJ14qP6%2Fdm91CxAwFVWkzpJE4U8NjoomIfx%2FagDuANmcz7u%2Fz8u125jCKF6WZUt14Dc%2Bwq5xqWjIotz8sHdcd8bULI6TaugDIf3XiLU8ed2o2Y31LJgv%2B5hT8w13e7Q6Eu%2BkwB4fe6b0AafRzMfqgB7FdBNoX1FEb%2FU4n0xicTVKxYJqnEY5fl2Y3QV22liyswpbhLAYXQ16bMnvqLsRMcFGbuJkUsbZpF28KQTZk4g9c9bRdxE4jf9h%2BWSbO%2Brg0S2%2Fckg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -30,7 +30,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975657362.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OwcjYS%2BQjchxvHGhDXYp%2F2St6fd%2BQ8xZmoCSTzLKLvZAMANBh2VFSy4Ohz5SWooa4K0CV%2BPIj74Is9csHeV%2BhWcFcXER3ERC7%2FATynjqto9RWFaZya4OY6DLAl%2BheqSPlTpy1YGnhKKi%2BAoPQ6PFH8dCMb%2BD%2FCgVDQ9O7Yw1jbxITPyZTyOGlweZRTF9rILoo5yWMuFRy7vHqvVxpQVhmcAwIlnVZiYs%2BWgEgvnchEgIeaeafyq74zjK9TAN%2FzlWO7JEqyzszRUddpP3YTTrc%2FVsC8T7lwzGkpN2p1k2iVLfd02fbpxGB7HYHV5mf14wnEonguYCltdH%2FHwWbmz8bQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6 mb-9">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975612101.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=bXyPFHcvNFXAz7j3Q67lsEOTOcxyZhgsMYNITmBkLieAoiRSsnmG0eW4BEdb0RkYo00BRY%2FxTuuXjikh79m1Uecd%2FMluAxo0RTrqvDHyqGt%2BsVDYbYqw8r34rHBpW8LoxGq428c4M9vk%2FBgrKqC%2BWccdJvVw47emZ25x8CxtzARu%2F8PCOx04UtG%2Fzibn7Dd4frL7W56Kp3MR7B0Bx5v66KRc%2FxsU%2BkSkaUtHdBJRtrx0Gx6dCleyRXLUIJ7Biz65HVx8rWHka0TFeeEraRhP49BgCuyAgpwY1NTaaGEZv0nbQd4bFwNncSrX9PLP5x0YZDhR94jPcli5S2MTNu9PfA%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975632075.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mAC%2BjT3Qxj%2FIS0Z28xaqCtm68ekcJe6rXlXldkxyjO8janepsZxVblFl600Q%2Br7C%2F4oOc9KVCavIs%2B9KzSCLsjXlyIJp9WVjo7rqyUaPJxuyQE9Mkf8VX1OQLWaeP6CKJXvpE95ZfxsxwbQuaLOEFq%2FsqA4MIJHAi4sFU0Dtvh00cxjNAjtMnidLByJJzw2JkWH3dK%2BiK26RBhuc65%2BDCtXxaawZ%2Bgs6J9q89BRZ0X7JIl475WsXnbLEIUd%2BSzwNx7e%2FEoOzD%2FCDLfcruSB7zccoV3MA%2BZZwzex4TLYqGoOsBUdO0Va81vm1uz%2FOfLbTzcM9vaXluPRcOsjMk4S8Xg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975681482.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=k0ZAciNmWARkpmSmMA%2BpSXCLcBwNNBHQUbHQw0BtLIq%2BVPYsAJLwSCSsRnalAaA4G8veBnZBV5Nkt0AU%2FsKZRabiVZmY6rzWnGx8F1xI0ymbqjjeitKaiZA7STL%2FCXhfIr4LETseUWbQLQZX3vvW8r65JCS0eKQx4OhW2RpvPRk1EBcUVxWtMotdxPGxsut1RHCVGyEVpnXNMZlEcxd6T6bThMPIE0g0bKIYfIf9XgmF5tpeHPTslNVqBmoR27GLmiJGgssP%2FAw5kl%2FiRihvF3S3HGg%2F6RUY%2BJBsUFTpzBKSfjNQFG1SjC6kio2rWB3KTDwXEMNZ1%2F9JeJdMX%2FBpjQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -62,7 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="col-6">
+        <div class="col-lg-6 mb-9">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726061210888.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=HBpRmTEpNWEbVaTdd4kEntRgtdjmWD%2BJUtUwhm4qDcIdD7fOiJDUdyMTO9xy3dVHNfbwXUgkBnMYNLvsMFpiPj232hvuzVPNWAFmXOY%2BSSuhuY09sGntZlmUf66Lq5Kyi7FjqbDTruM9oY3Ny8hG70M92Z1vp2qza6UKKEg4nJaSjil8j4CBcOcl0drPeTaBYuilBEj%2B63qYntoH5fymMBmrySDKT16U2iqyhXs8a8FaLuipnRYMedREawDmScsh0qazUNZ1sXHynR8chh%2BgPbrFlQJVOQF1vgOEb90ke2xqPXBTKHEUZjyPzoDXsgjwNe5NtXXQhcEuCIN0hUk8nQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -73,11 +73,11 @@
       </div>
     </div>
   </main>
-  <section class="my-9">
+  <section class="hot-course my-10">
     <div class="container">
       <h2 class="text-center">熱門課程</h2>
-      <div class="row mt-9">
-        <div class="col-4">
+      <div class="row mt-9 justify-content-between">
+        <div class="col-lg-3 col-12 mb-5">
           <div class="hot-card">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D" alt="hot-cours-img">
@@ -95,7 +95,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-3 col-12 mb-5">
           <div class="hot-card">
             <div class="hot-logo"></div>
             <div class="hot-card-img">
@@ -116,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-4">
+        <div class="col-lg-3 col-12 mb-5">
           <div class="hot-card">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D" alt="hot-cours-img">
@@ -138,8 +138,98 @@
       </div>
     </div>
   </section>
-  <section class="section">
-
+  <section class="plan my-10">
+    <div class="container">
+      <h2>課程方案</h2>
+      <div class="d-lg-flex d-md-flex d-none">
+        <table class="table mt-4 text-center table-bordered">
+          <thead>
+            <tr class="table-primary">
+              <th width="15%" scope="col" class="py-3">方案</th>
+              <th width="10%" scope="col">堂數</th>
+              <th width="30%" scope="col">1堂</th>
+              <th width="15%" scope="col">價格</th>
+              <th width="30%" scope="col">內容</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">課程一</th>
+              <td>1</td>
+              <td>4小時</td>
+              <td class="fw-medium">NT $4500</td>
+              <td>安全行車知識、路邊停車、倒車入庫
+                <br>實際上路：市郊區</td>
+            </tr>
+            <tr>
+              <div class="medal d-lg-flex d-md-flex d-none"></div>
+              <th scope="row">課程二</th>
+              <td>3</td>
+              <td>分別為 2 小時/堂、
+                3 小時/堂、4 小時/堂</td>
+              <td class="fw-medium">NT $8500</td>
+              <td>安全行車知識、路邊停車、倒車入庫
+                <br>實際上路：市郊區、高速公路、山路過彎</td>
+            </tr>
+            <tr>
+              <th scope="row">課程三</th>
+              <td>1</td>
+              <td>2.5小時</td>
+              <td class="fw-medium">NT $3000</td>
+              <td>路邊停車、倒車入庫、高速公路、山路過彎
+                <br>四項中擇三項教學</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div>
+        <table class="d-lg-none d-md-none table mt-4 text-center table-bordered">
+          <thead>
+            <tr class="table-primary">
+              <th width="20%" scope="col" class="py-3">方案</th>
+              <th class="fw-normal" scope="col">課程一</th>
+              <th class="fw-normal" scope="col">課程二</th>
+              <th class="fw-normal" scope="col">課程三</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">堂數</th>
+              <td>1</td>
+              <td>3</td>
+              <td>1</td>
+            </tr>
+            <tr>
+              <th scope="row">1堂</th>
+              <td>4小時</td>
+              <td>分別為 2 小時/堂、
+                3 小時/堂、4 小時/堂</td>
+              <td>2.5小時</td>
+            </tr>
+            <tr>
+              <th scope="row">價格</th>
+              <td>NT $4500</td>
+              <td>NT $8500</td>
+              <td>NT $3000</td>
+            </tr>
+            <tr>
+              <th scope="row">內容</th>
+              <td>安全行車知識、路邊停車、倒車入庫
+                實際上路：市郊區。</td>
+              <td>安全行車知識、路邊停車、倒車入庫
+                實際上路：市郊區、高速公路、山路過彎。</td>
+              <td>路邊停車、倒車入庫、高速公路、山路過彎
+                四項中擇三項教學</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="d-flex justify-content-end mt-4">
+        <RouterLink class="btn btn-outline-danger d-flex align-items-center" to="/reservation">我要上課
+          <i class="bi bi-chevron-double-right"></i>
+        </RouterLink>
+      </div>
+    </div>
   </section>
 </template>
 
@@ -175,7 +265,7 @@
       position: absolute;
       font-size: 48px;
       margin: 0;
-      top: 50%;
+      bottom: 40%;
       left: 50%;
       transform: translate(-50%, 150%);
       color: #ffffff;
@@ -183,6 +273,9 @@
       text-shadow:
         0.05em 0.07em 0 var(--shadow-color);
     }
+  }
+  .hot-course{
+    margin: 120px 0;
   }
   .hot-logo{
     position: absolute;
@@ -194,19 +287,15 @@
     transform: rotate(340deg);
   }
   .hot-card{
-    width: 300px;
     border-radius: 10px 10px 10px 10px;
     position: relative;
-    border: 1px solid #000 transparent;
     background-color: #6BC3C0;
+    transition-duration: 0.3s;
     &:hover{
       width: 320px;
       .hot-logo{
         width: 50px;
         height: 50px;
-      }
-      .hot-course{
-        top: 66%;
       }
     }
   }
@@ -218,10 +307,11 @@
     border: 1px solid #969191;
     border-radius: 10px 10px 10px 10px;
     background-color: #fff;
+    position: relative;
     .hot-course{
       position: absolute;
       font-size: 10px;
-      top: 63%;
+      bottom: -10%;
       left: 2%;
       border: 1px solid #93463f;
       background-color: #db7369;
@@ -234,6 +324,29 @@
     }
     .bi-star-fill{
       color: #fad54f;
+    }
+  }
+  .plan{
+    position: relative;
+    table td,table ,th{
+      margin: 0;
+      vertical-align: middle;
+    }
+    td{
+      align-items: center;
+      line-height: 2;
+    }
+    .medal{
+      position: relative;
+      &::after{
+        content: "";
+        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726213800865.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=fDBvqJMmpWC8gOS8ncgEBTN9HW%2BnBLj5d6nvEspKrWrwnDmWR4fGnoyDAIR2xnUJ5VCRISiFopLPAHsleGdNkh65Jk0qxc9NlDA7gqtVEYnOzo%2BLomxqJfOucm%2BBu4Of4krjAM5LcwBJMrCPYvwtmg1jy3rdfoWuGUOAl5EM69Y9xLaznXjVKsto3uLUdnC832liXbEtgtKjyRVT0R0tn9CQhw8cuyl29y2wpXtyHkfcJe2gHEhlK5Wz%2BfygGbj%2FYvcRJ5nBXZrUmZVnKwkYdzPK3X6To2PGYdZ8wh8PVhtRsHYCuqQnDuNvjOYdD2FRub4AUwA6Te%2FrLo5z3vb3Pg%3D%3D') no-repeat center center / cover;
+        width: 60px;
+        height: 60px;
+        top: 53%;
+        right: 0%;
+        position: absolute;
+      }
     }
   }
 </style>
