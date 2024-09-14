@@ -50,7 +50,7 @@
   </nav>
 
   <nav class="d-lg-flex d-md-flex d-none
-  navbar navbar-pc bg-primary fw-bold">
+  navbar navbar-pc bg-primary fw-bold fixed-top">
     <div class="container d-flex justify-content-center">
       <RouterLink class="navbar-brand nav-hover d-flex align-items-center
       justify-content-center fs-3
@@ -85,4 +85,10 @@
 </script>
 
 <style leng="scss" scoped>
+.dropdown-menu-end{
+  top: 160%;
+  right: -25%;
+  padding: 0 ;
+  border: 0;
+}
 </style>

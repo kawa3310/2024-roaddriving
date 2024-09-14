@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-lg-9 my-4">
+  <div class="container mt-lg-9 pt-lg-3 pt-0 mb-lg-0 my-4">
     <div aria-label="breadcrumb">
       <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
         <li class="breadcrumb-item">
@@ -12,7 +12,7 @@
     </div>
   </div>
   <main>
-    <div class="course-bg my-lg-9 my-4">
+    <div class="course-bg mb-lg-9 mt-lg-4 my-3">
       <h2 class="course-banner">課程內容</h2>
     </div>
     <div class="container">

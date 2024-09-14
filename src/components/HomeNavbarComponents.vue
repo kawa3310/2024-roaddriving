@@ -115,4 +115,10 @@ export default {
 </script>
 
 <style leng="scss" scoped>
+.dropdown-menu-end{
+  top: 160%;
+  right: -25%;
+  padding: 0 ;
+  border: 0;
+}
 </style>
