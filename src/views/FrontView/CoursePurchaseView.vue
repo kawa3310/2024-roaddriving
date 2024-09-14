@@ -1,5 +1,6 @@
 <template>
-  <div class="container mt-lg-9 pt-lg-3 pt-0 mb-lg-0 my-4">
+  <div class="empty-content"></div>
+  <div class="container mt-3">
     <div aria-label="breadcrumb">
       <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
         <li class="breadcrumb-item">
