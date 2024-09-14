@@ -7,7 +7,7 @@
           <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
         </li>
         <li class="breadcrumb-item">
-          <a href="#">購買課程</a>
+          <RouterLink class="d-flex align-items-center" to="/purchase">購買課程</RouterLink>
         </li>
       </ol>
     </div>
