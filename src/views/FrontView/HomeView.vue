@@ -144,7 +144,7 @@
           <li class="text-center"><h2>抓不準變化車道的時機</h2></li>
         </ul>
         <div class="purchase d-flex justify-content-center justify-content-lg-end mt-3 ">
-          <RouterLink class="btn btn-primary d-flex justify-content-center rounded-4
+          <RouterLink class="btn btn-primary d-flex justify-content-center
           align-items-center text-white" to="/purchase">
           還想看更多<i class="bi bi-arrow-right-circle ps-2"></i>
           </RouterLink>
