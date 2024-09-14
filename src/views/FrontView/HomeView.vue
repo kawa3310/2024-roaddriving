@@ -143,11 +143,11 @@
           </li>
           <li class="text-center"><h2>抓不準變化車道的時機</h2></li>
         </ul>
-        <div class="button d-flex justify-content-center justify-content-lg-end mt-3 ">
-          <button type="button" class="btn btn-primary d-flex justify-content-center
-          align-items-center text-white">
-            還想看更多<i class="bi bi-arrow-right-circle ps-2"></i>
-          </button>
+        <div class="purchase d-flex justify-content-center justify-content-lg-end mt-3 ">
+          <RouterLink class="btn btn-primary d-flex justify-content-center rounded-4
+          align-items-center text-white" to="/purchase">
+          還想看更多<i class="bi bi-arrow-right-circle ps-2"></i>
+          </RouterLink>
         </div>
       </div>
     </div>
@@ -705,8 +705,8 @@ export default {
     height: 360px;
     border-radius: 16px;
   }
-  .button{
-    button{
+  .purchase{
+    a{
       padding: 12px 24px 12px 20px;
       border-radius: 12px;
     }
