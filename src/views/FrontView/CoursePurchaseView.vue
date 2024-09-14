@@ -1,5 +1,5 @@
 <template>
-  <div class="container my-9">
+  <div class="container my-lg-9 my-4">
     <div aria-label="breadcrumb">
       <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
         <li class="breadcrumb-item">
@@ -12,25 +12,25 @@
     </div>
   </div>
   <main>
-    <div class="course-bg my-9">
+    <div class="course-bg my-lg-9 my-4">
       <h2 class="course-banner">課程內容</h2>
     </div>
     <div class="container">
-      <div class="text-center d-grid gap-7 my-9">
+      <div class="text-center d-grid gap-7 my-lg-9 my-5">
         <h2>安全行車知識</h2>
         <h2>無論是車前檢查或者是起步前注意事項</h2>
         <h2>所有行車眉角一步一步教會你</h2>
       </div>
       <div class="row">
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975500350.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ll1yj1VvnhcdzltZ7Ko5fuhGdmV7IhEpMRjuUdi1bdMEMLCWCx9lwyErYAAyaNdjpTJwTtjRuYUzYtKVJ14qP6%2Fdm91CxAwFVWkzpJE4U8NjoomIfx%2FagDuANmcz7u%2Fz8u125jCKF6WZUt14Dc%2Bwq5xqWjIotz8sHdcd8bULI6TaugDIf3XiLU8ed2o2Y31LJgv%2B5hT8w13e7Q6Eu%2BkwB4fe6b0AafRzMfqgB7FdBNoX1FEb%2FU4n0xicTVKxYJqnEY5fl2Y3QV22liyswpbhLAYXQ16bMnvqLsRMcFGbuJkUsbZpF28KQTZk4g9c9bRdxE4jf9h%2BWSbO%2Brg0S2%2Fckg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
-              <p>行車前檢查</p>
+              <p class="text-nowrap">行車前檢查</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975657362.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OwcjYS%2BQjchxvHGhDXYp%2F2St6fd%2BQ8xZmoCSTzLKLvZAMANBh2VFSy4Ohz5SWooa4K0CV%2BPIj74Is9csHeV%2BhWcFcXER3ERC7%2FATynjqto9RWFaZya4OY6DLAl%2BheqSPlTpy1YGnhKKi%2BAoPQ6PFH8dCMb%2BD%2FCgVDQ9O7Yw1jbxITPyZTyOGlweZRTF9rILoo5yWMuFRy7vHqvVxpQVhmcAwIlnVZiYs%2BWgEgvnchEgIeaeafyq74zjK9TAN%2FzlWO7JEqyzszRUddpP3YTTrc%2FVsC8T7lwzGkpN2p1k2iVLfd02fbpxGB7HYHV5mf14wnEonguYCltdH%2FHwWbmz8bQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -38,7 +38,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975612101.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=bXyPFHcvNFXAz7j3Q67lsEOTOcxyZhgsMYNITmBkLieAoiRSsnmG0eW4BEdb0RkYo00BRY%2FxTuuXjikh79m1Uecd%2FMluAxo0RTrqvDHyqGt%2BsVDYbYqw8r34rHBpW8LoxGq428c4M9vk%2FBgrKqC%2BWccdJvVw47emZ25x8CxtzARu%2F8PCOx04UtG%2Fzibn7Dd4frL7W56Kp3MR7B0Bx5v66KRc%2FxsU%2BkSkaUtHdBJRtrx0Gx6dCleyRXLUIJ7Biz65HVx8rWHka0TFeeEraRhP49BgCuyAgpwY1NTaaGEZv0nbQd4bFwNncSrX9PLP5x0YZDhR94jPcli5S2MTNu9PfA%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -46,7 +46,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975632075.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mAC%2BjT3Qxj%2FIS0Z28xaqCtm68ekcJe6rXlXldkxyjO8janepsZxVblFl600Q%2Br7C%2F4oOc9KVCavIs%2B9KzSCLsjXlyIJp9WVjo7rqyUaPJxuyQE9Mkf8VX1OQLWaeP6CKJXvpE95ZfxsxwbQuaLOEFq%2FsqA4MIJHAi4sFU0Dtvh00cxjNAjtMnidLByJJzw2JkWH3dK%2BiK26RBhuc65%2BDCtXxaawZ%2Bgs6J9q89BRZ0X7JIl475WsXnbLEIUd%2BSzwNx7e%2FEoOzD%2FCDLfcruSB7zccoV3MA%2BZZwzex4TLYqGoOsBUdO0Va81vm1uz%2FOfLbTzcM9vaXluPRcOsjMk4S8Xg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -54,7 +54,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975681482.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=k0ZAciNmWARkpmSmMA%2BpSXCLcBwNNBHQUbHQw0BtLIq%2BVPYsAJLwSCSsRnalAaA4G8veBnZBV5Nkt0AU%2FsKZRabiVZmY6rzWnGx8F1xI0ymbqjjeitKaiZA7STL%2FCXhfIr4LETseUWbQLQZX3vvW8r65JCS0eKQx4OhW2RpvPRk1EBcUVxWtMotdxPGxsut1RHCVGyEVpnXNMZlEcxd6T6bThMPIE0g0bKIYfIf9XgmF5tpeHPTslNVqBmoR27GLmiJGgssP%2FAw5kl%2FiRihvF3S3HGg%2F6RUY%2BJBsUFTpzBKSfjNQFG1SjC6kio2rWB3KTDwXEMNZ1%2F9JeJdMX%2FBpjQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -62,7 +62,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-9">
+        <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726061210888.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=HBpRmTEpNWEbVaTdd4kEntRgtdjmWD%2BJUtUwhm4qDcIdD7fOiJDUdyMTO9xy3dVHNfbwXUgkBnMYNLvsMFpiPj232hvuzVPNWAFmXOY%2BSSuhuY09sGntZlmUf66Lq5Kyi7FjqbDTruM9oY3Ny8hG70M92Z1vp2qza6UKKEg4nJaSjil8j4CBcOcl0drPeTaBYuilBEj%2B63qYntoH5fymMBmrySDKT16U2iqyhXs8a8FaLuipnRYMedREawDmScsh0qazUNZ1sXHynR8chh%2BgPbrFlQJVOQF1vgOEb90ke2xqPXBTKHEUZjyPzoDXsgjwNe5NtXXQhcEuCIN0hUk8nQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
@@ -73,10 +73,10 @@
       </div>
     </div>
   </main>
-  <section class="hot-course my-10">
+  <section class="hot-course my-lg-10 my-5">
     <div class="container">
       <h2 class="text-center">熱門課程</h2>
-      <div class="row mt-9 justify-content-between">
+      <div class="row mt-lg-9 mt-4 justify-content-between">
         <div class="col-lg-3 col-12 mb-5">
           <div class="hot-card">
             <div class="hot-card-img">
@@ -116,7 +116,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-12 mb-5">
+        <div class="col-lg-3 col-12">
           <div class="hot-card">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D" alt="hot-cours-img">
@@ -138,7 +138,7 @@
       </div>
     </div>
   </section>
-  <section class="plan my-10">
+  <section class="plan my-lg-10 mb-7">
     <div class="container">
       <h2>課程方案</h2>
       <div class="d-lg-flex d-md-flex d-none">
@@ -249,7 +249,6 @@
     --shadow-color: #523c3c;
   }
   .card{
-    max-width: 600px;
     border-radius: 20px;
     border: 0 !important;
     .card-img{
@@ -257,21 +256,29 @@
       height: 400px;
       position: relative;
       border-radius: 20px;
+      @media (max-width: 376px) {
+        height: 250px;
+      }
     }
     .card-title{
       --letter-spacing: 0.5vw;
       letter-spacing: var(--letter-spacing);
       padding-left: var(--letter-spacing);
       position: absolute;
-      font-size: 48px;
+      font-size: 3vw;
       margin: 0;
       bottom: 40%;
       left: 50%;
       transform: translate(-50%, 150%);
       color: #ffffff;
       font-weight: 900;
-      text-shadow:
-        0.05em 0.07em 0 var(--shadow-color);
+      text-shadow: 0.05em 0.07em 0 var(--shadow-color);
+      @media (max-width: 992px) {
+        font-size: 7vw;
+      }
+      @media (max-width: 376px) {
+        font-size: 8vw;
+      }
     }
   }
   .hot-course{
@@ -285,6 +292,10 @@
     top: -10%;
     left: -7%;
     transform: rotate(340deg);
+    @media (max-width: 376px) {
+      top: -10%;
+      left: -4%;
+    }
   }
   .hot-card{
     border-radius: 10px 10px 10px 10px;
