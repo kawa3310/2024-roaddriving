@@ -277,7 +277,7 @@
         font-size: 8vw;
       }
       p{
-        border: 1px solid #a7a8a9;
+        border: 1px solid #bec5c9;
         border-radius: 60px;
         padding: 8px 16px;
         background-color: #ffffff;
