@@ -808,6 +808,7 @@ export default {
     background-color: #FBE4B5;
     border-radius: 50px 50px 0 0;
     & .textbook-car-img{
+      margin: auto;
       max-width: 343px;
       height: 428px;
       border-radius: 16px;
