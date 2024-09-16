@@ -249,12 +249,9 @@
       padding: 100px;
     }
   }
-  :root{
-    --shadow-color: #523c3c;
-  }
   .card{
     border-radius: 20px;
-    border: 0 !important;
+    border: 0!important;
     .card-img{
       width: 100%;
       height: 400px;
@@ -265,23 +262,25 @@
       }
     }
     .card-title{
-      --letter-spacing: 0.5vw;
-      letter-spacing: var(--letter-spacing);
-      padding-left: var(--letter-spacing);
       position: absolute;
       font-size: 3vw;
       margin: 0;
-      bottom: 40%;
+      bottom: 35%;
       left: 50%;
       transform: translate(-50%, 150%);
-      color: #ffffff;
+      color: #565555;
       font-weight: 900;
-      text-shadow: 0.05em 0.07em 0 var(--shadow-color);
       @media (max-width: 992px) {
         font-size: 7vw;
       }
       @media (max-width: 376px) {
         font-size: 8vw;
+      }
+      p{
+        border: 1px solid #a7a8a9;
+        border-radius: 60px;
+        padding: 8px 16px;
+        background-color: #ffffff;
       }
     }
   }
