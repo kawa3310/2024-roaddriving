@@ -1,20 +1,20 @@
 <template>
   <div class="empty-content"></div>
-  <div class="container mt-3">
-    <div aria-label="breadcrumb">
-      <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
-        <li class="breadcrumb-item">
-          <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
-        </li>
-        <li class="breadcrumb-item">
-          <RouterLink class="d-flex align-items-center" to="/purchase">購買課程</RouterLink>
-        </li>
-      </ol>
-    </div>
-  </div>
   <main>
-    <div class="course-bg mb-lg-9 mt-lg-4 my-3">
+    <div class="course-bg mb-3">
       <h2 class="course-banner">課程內容</h2>
+    </div>
+    <div class="container">
+      <div aria-label="breadcrumb">
+        <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
+          <li class="breadcrumb-item">
+            <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
+          </li>
+          <li class="breadcrumb-item">
+            <RouterLink class="d-flex align-items-center" to="/purchase">購買課程</RouterLink>
+          </li>
+        </ol>
+      </div>
     </div>
     <div class="container">
       <div class="text-center d-grid gap-7 my-lg-9 my-5">
@@ -240,11 +240,14 @@
     width: 100%;
   }
   .course-banner{
-    padding: 100px;
+    padding: 200px;
     border: 1px solid #fff7f7;
     background: rgba(73, 70, 70, 0.5);
     color: white;
-    text-align: start;
+    text-align: center;
+    @media (max-width: 468px) {
+      padding: 100px;
+    }
   }
   :root{
     --shadow-color: #523c3c;
