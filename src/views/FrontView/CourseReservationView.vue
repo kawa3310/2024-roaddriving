@@ -18,12 +18,13 @@
       <form action="">
         <h2 class="text-center mb-lg-9">1. 選擇課程</h2>
         <div class="row">
-          <select class="col-4" v-model="selOption" @change="changeVal($event)">
-            <template v-for="(course, index) in courseCard" :key="index">
-              <option :value="course.id">{{ course.title }}</option>
+          <select class="col-4" v-model="courseData">
+            <template v-for="course in courseCard" :key="course.id">
+              <option :value="course.id" >{{ course.title }}</option>
+              <option :value="course" :id="`${course.id}`">{{ course.title }}</option>
             </template>
           </select>
-          <div>選{{ selOption }}</div>
+          <div>選{{ courseData }}</div>
           <template>
             <div class="col-3 card">
               <div id="hot-1" class="hot-card">
@@ -48,9 +49,9 @@
           <ul class="row mt-5">
             <li class="col-4" v-for="(teacher) in teacherData" :key="teacher.id">
               <label class="business-card"
-              :for="`${teacher.id}`" :class="{'selected': teacher.id === teacherArea}">
+              :for="`${teacher.id}`" :class="{'selected': teacher.id === teacherAreaData}">
                 <input type="radio" name="teacher-card" :value="teacher.id" :id="`${teacher.id}`"
-                v-model="teacherArea" class="form-check-input">
+                v-model="teacherAreaData" class="form-check-input">
                 <div class="teachers-img">
                   <img :src="teacher.img" alt="teacher" class="img">
                   <p class="area">{{ teacher.area }}</p>
@@ -91,8 +92,8 @@
 export default {
   data() {
     return {
-      selOption: '',
-      teacherArea: '',
+      courseData: '',
+      teacherAreaData: '',
       courseCard: [
         {
           id: 1,
@@ -142,14 +143,10 @@ export default {
     };
   },
   methods: {
-    changeVal(e) {
-      this.selOption = e.target.value;
-      console.log(e.target.value);
-    },
   },
   computed: {
     clickAreaCardData() {
-      return this.teacherData[this.teacherArea - 1] || {};
+      return this.teacherData[this.teacherAreaData - 1] || {};
     },
   },
 };
@@ -179,6 +176,7 @@ export default {
   border:3px solid gold;
   padding: 20px;
   }
+
   .teachers-img{
     position: relative;
     .img{
