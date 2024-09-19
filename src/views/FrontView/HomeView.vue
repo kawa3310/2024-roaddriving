@@ -514,11 +514,13 @@
     <div class="text-center text-primary py-7 py-lg-9">
       <p class="main-title fs-1 fw-bold text-center">上課使用車種</p>
     </div>
-    <div class="textbook-sm container d-lg-none d-md-none mt-4">
-      <p class="fs-5 text-center pt-3">Honda HR-V</p>
-      <div class="py-7">
-        <div class="pb-3">
+    <div class="textbook-sm container d-lg-none mt-4">
+      <div class="pt-7">
+        <div class="py-3">
           <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181077626.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JG17zc0oAag%2F8uCYeWU945y%2FWLoawYGKhS90erH5f45xXLUBjWTAMIj9XFE3nquKR6SlZo7YAd3tbKTdQ%2FRTlrq59rRHZB8IXSuPAXFo7OTUbhPeAlwDQHZ06R%2BuGgipoPFDROHiymvGQS8NBD%2BpQhlIL%2FjE9pPWIHcqkYKsxOJR07fv2RC88LuoAeWzB1g9t8rx5D4wk7Z5kxuDBddCHRPCNz1B5StLMhw7sCCjC%2Fp9yYDkQk93WVIuiukPud2%2FnPdYN8s0bvh40Rz2nFydAjviwOoY65hbEDyWcneiyyKu2HOVxAXjE9H1abFXkhwJaAmNTv8C4%2BSHYOZJlQMtBQ%3D%3D" alt="textbook-car" class="textbook-car-img">
+          <div class="d-flex justify-content-center py-3">
+            <p class="fw-medium">Honda HR-V</p>
+          </div>
         </div>
         <div class="py-3">
           <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625497932.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sfg64VSxfZzaPdofM0W2vP5iOURwzMFOCtAM22e6Zuq4g3nRAvfJ3e9bI1O%2B3q5lxUTbdLdjn%2FxFPx0yVXROHe6F0Ilj72WqbYDK9xFoz7DCBp0%2FH6iTsAxOcXZRdMRknzxdN1tZtyoh5qqpv29agHpuCwg%2FWHwmu7ukEmnE3HIGiOHMXu1b1UNzVWBwuHGoMt7578%2BjhplqksfguAQI0pz%2FknQuaj5dfZSK82qNeMH0Wdmvx1J7qauYXb43NkkstPOMumb7fy%2F5Mw7ZRH3DPNlIMfB2FrM5EgPAH5F05X4hS5OT98mG8gcfP6RaKyFuoTI7mqUdCWIi1LSTSR0UCw%3D%3D" alt="textbook-car" class="textbook-car-img">
@@ -543,7 +545,7 @@
         </div>
       </div>
     </div>
-    <div class="textbook-pc d-lg-block d-md-block d-none">
+    <div class="textbook-pc d-lg-block d-none">
       <p class="fs-5 text-center pt-3">Honda HR-V</p>
       <div class="mt-4">
         <div class="bg-wave">
