@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
-          <div class="order-table">
+          <div class="order-table table-bg">
             <h2 class="text-center my-5">預約資訊</h2>
             <table class="table">
               <tbody>
@@ -82,19 +82,9 @@
 </template>
 
 <style lang="scss">
-  .order-table{
-    table td,table ,th{
-    margin: 0px;
-    vertical-align: middle;
-    text-align: center;
-    border: 1px solid #000;
-    }
-    td{
-        align-items: center;
-        line-height: 2;
-      }
+  .table-bg{
     th{
-      background-color: #e9e7e7;
+    background-color: #f3f0f0;
     }
   }
 </style>
