@@ -15,38 +15,50 @@
   <main>
     <div class="container my-lg-9">
       <h1 class="text-center mb-lg-9">開始預約</h1>
-      <form action="">
-        <h2 class="text-center mb-lg-9">1. 選擇課程</h2>
-        <div class="row d-flex flex-reverse">
-          <select class="col-4" v-model="courseData">
-            <template v-for="(course) in courseCard" :key="course.id">
-              <option :value="course.id"
-              :id="`course${course.id}`">{{ course.title }}</option>
-            </template>
-          </select>
-          <p>{{ courseData }}</p>
-            <div class="col-3 card">
+      <form action="" class="bg-card">
+        <div class="mb-lg-8">
+          <h2 class="text-center mb-lg-9">1. 選擇課程</h2>
+          <div class="row d-flex flex-reverse justify-content-center">
+            <div class="col-4">
               <div id="hot-1" class="hot-card">
-                <div v-if="courseData.title === '課程二'" class="hot-logo"></div>
-                <div class="hot-card-img">
-                  <img :src="courseData.img" alt="hot-cours-img">
-                </div>
-                <div class="hot-card-title">
-                  <span class="course-side">{{ courseData.title }}</span>
-                  <h6 class="pt-3">{{ courseData.title }}</h6>
-                  <div class="d-flex justify-content-between align-items-center p-4">
-                    <span class="price">{{ courseData.price }}</span>
-                    <span class="d-flex align-items-center fw-bold">推薦指數：
-                      <p class="d-flex" v-html="courseData.start"></p>
-                    </span>
+                <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
+                <div>
+                  <div class="hot-card-img">
+                    <img :src="changeCourse.img" alt="hot-course-img">
+                  </div>
+                  <div class="hot-card-title">
+                    <span class="course-side">{{ changeCourse.title }}</span>
+                    <h6 class="pt-3">{{ changeCourse.title }}</h6>
+                    <div class="d-flex justify-content-between align-items-center p-4">
+                      <span class="price">{{ changeCourse.price }}</span>
+                      <span class="d-flex align-items-center fw-bold">推薦指數：
+                        <p class="d-flex" v-html="changeCourse.start"></p>
+                      </span>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
+            <div class="col-4 select-card d-flex flex-column justify-content-between p-5 ">
+              <select v-model="courseData">
+                <template v-for="(course, index) in courseCard" :key="index.id">
+                  <option
+                  :value="course.id"
+                  :id="`course${course.id}`">{{ course.title }}</option>
+                </template>
+              </select>
+              <div class=" d-grid gap-4">
+                <p>課程內容：</p>
+                <p>{{ changeCourse.content }}</p>
+                <p>{{ changeCourse.hours }}</p>
+              </div>
+              <div class="price text-end">{{ changeCourse.price }}</div>
+            </div>
+          </div>
         </div>
-        <div class="mt-9">
-          <h2 class="text-center">2. 選擇上課地區</h2>
-          <ul class="row mt-5">
+        <div class="my-lg-9">
+          <h2 class="text-center mb-lg-9">2. 選擇上課地區</h2>
+          <ul class="row">
             <li class="col-4" v-for="(teacher) in teacherData" :key="teacher.id">
               <label class="business-card"
               :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === teacherAreaData}">
@@ -63,59 +75,60 @@
               </div>
             </li>
           </ul>
-          <input type="submit" class="submit" value="送出">
+        </div>
+        <section class="my-lg-9">
+          <div class="container">
+            <div class="row">
+              <p class="text-end text-danger mb-3">※需先預繳訂金 NT 1000 元，上課後補差價</p>
+              <div class="col-6">
+                <div class="select-card p-3">
+                  <h2 class="text-center ">3. 選擇日期 / 時段</h2>
+                  <div class="d-flex justify-content-center mt-4">
+                    <div class="w-50 mb-4 date">
+                      <label class="d-block pb-2" for="due_date">年／月／日</label>
+                      <input type="date" value="2024-09-17" min="2024-09-17"
+                      max="2028-09-17" class="w-100 mb-4"/>
+                      <div class="border-top"></div>
+                    </div>
+                  </div>
+                  <div class="d-flex justify-content-center d-grid gap-4">
+                    <label for="checkbox">
+                      <input type="checkbox" name="timeAM" value="AM" checked />
+                      上午時段（09:30 ~ 13:30）
+                    </label>
+                    <label for="checkbox">
+                      <input type="checkbox" name="timePM" value="PM" />
+                      下午時段（15:30 ~ 20:30）
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="select-card h-100 p-3 d-flex flex-column
+                justify-content-between">
+                  <h2 class="text-center">4. 付款方式</h2>
+                  <div class="w-100">
+                    <div class="payment d-flex justify-content-center">
+                      <select class="w-50">
+                        <option value="信用卡">信用卡</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="text-end">
+                    <span class="fw-semibold">NT$ 1000／預繳訂金</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="d-flex justify-content-center mb-lg-9">
+          <button type="submit" class="btn btn btn-danger px-4 text-white"
+          @click="checkout">立刻預約</button>
         </div>
       </form>
     </div>
   </main>
-  <section class="mt-4">
-    <div class="container">
-      <div class="row">
-        <p class="text-end text-danger mb-3">※需先預繳訂金 NT 1000 元，上課後補差價</p>
-        <div class="col-6">
-          <div class="select-card p-3">
-            <h2 class="text-center">3. 選擇日期 / 時段</h2>
-            <div class="d-flex justify-content-center mt-4">
-              <div class="w-50 mb-4 date">
-                <label class="d-block pb-2" for="due_date">年／月／日</label>
-                <input type="date" value="2024-09-17" min="2024-09-17"
-                max="2028-09-17" class="w-100 mb-4"/>
-                <div class="border-top"></div>
-              </div>
-            </div>
-            <div class="d-flex justify-content-center d-grid gap-4">
-              <label for="checkbox">
-                <input type="checkbox" name="timeAM" value="AM" checked />
-                上午時段（09:30 ~ 13:30）
-              </label>
-              <label for="checkbox">
-                <input type="checkbox" name="timePM" value="PM" />
-                下午時段（15:30 ~ 20:30）
-              </label>
-            </div>
-          </div>
-        </div>
-        <div class="col-6">
-          <div class="select-card h-100 p-3 d-flex flex-column justify-content-between">
-            <h2 class="text-center">4. 付款方式</h2>
-            <div class="w-100">
-              <div class="payment d-flex justify-content-center">
-                <select class="w-50">
-                  <option value="信用卡">信用卡</option>
-                </select>
-              </div>
-            </div>
-            <div class="text-end">
-              <span class="fw-semibold">NT$ 1000／預繳訂金</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <div class="d-flex justify-content-center mt-9">
-    <button type="button" class="btn btn-outline-danger">立刻預約</button>
-  </div>
 </template>
 
 <script>
@@ -132,6 +145,8 @@ export default {
           text: '推薦給初學者的你',
           price: 'NT$ 4500',
           start: '<i class="bi bi-star-fill"><i class="bi bi-star-fill">',
+          content: '安全行車知識、路邊停車、倒車入庫、市郊區。',
+          hours: '共一堂，每堂 4 小時',
           img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
         },
         {
@@ -140,6 +155,8 @@ export default {
           text: '開課至今最受歡迎的課程！',
           price: 'NT$ 8500',
           start: '<i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>',
+          content: '安全行車知識、路邊停車、倒車入庫、市郊區、高速公路、山路過彎。',
+          hours: '共三堂，分為三天上課。分別為 2 小時/堂、3 小時/堂、4 小時/堂',
           img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132491711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Nz4OBEKkRB9nt5Lj81xYgORzqZ1C28tS%2B5iZxKyyfg09qC2slpI109QRP9BqEGlg6OCqi%2F3SCGCT1q0396IF0%2F6FjlQFd9U2kkJUi0i0QrDcXbcib1ecY1WAsmArrwsoFr%2BCHuyQ79Ij1%2BvSTfSzVEd%2Fl64%2BFWQJ9RJnd6B03sWk%2BU49Yd7AA7TLDvrirknBVAUPVPr9VQrZw3i4jW%2FVp93dUPgQ3AcCB9wx7EWIzJy04KLa%2B%2BxVXQUIZX%2FEyWKJ2nroN%2FnN7ZzIz5siIYMJcDtHYcOkPj6waqwwK2yqgWARkWHPuxax2iY%2BXBAVYXtYL%2BzD9LeLO8WV3iPa2bMYfw%3D%3D',
         },
         {
@@ -148,6 +165,8 @@ export default {
           text: '推薦給想客製化加強的你',
           price: 'NT$ 3000',
           start: '<i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>',
+          content: '路邊停車、倒車入庫、高速公路、山路過彎四項中擇三項教學',
+          hours: '共一堂，每堂 2.5 小時',
           img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D',
         },
       ],
@@ -174,8 +193,24 @@ export default {
     };
   },
   methods: {
+    checkout() {
+      this.$router.push('/payment');
+    },
   },
   computed: {
+    changeCourse() {
+      const defaultCourseData = {
+        title: '課程一',
+        text: '推薦給初學者的你',
+        price: 'NT$ 4500',
+        start: '<i class="bi bi-star-fill"><i class="bi bi-star-fill">',
+        content: '安全行車知識、路邊停車、倒車入庫、市郊區。',
+        hours: '共一堂，每堂 4 小時',
+        img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
+      };
+      const courseData = this.courseCard.filter((course) => course.id === this.courseData);
+      return courseData[0] || defaultCourseData;
+    },
     clickAreaCardData() {
       return this.teacherData[this.teacherAreaData - 1] || {};
     },
@@ -190,6 +225,15 @@ export default {
 </script>
 
 <style lang="scss">
+  .bg-card{
+    background-color: #fdf9f9;
+    border-radius: 5px;
+  }
+  .select-card{
+    select{
+      width: 50%;
+    }
+  }
   .hot-card{
     border-radius: 10px 10px 10px 10px;
     position: relative;
@@ -229,7 +273,6 @@ export default {
     }
   }
   form{
-  border:3px solid gold;
   padding: 20px;
   }
   .teachers-img{
