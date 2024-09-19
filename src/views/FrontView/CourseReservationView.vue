@@ -265,18 +265,7 @@ export default {
     left: 2%;
     transform: rotate(340deg);
   }
-  .hot-card-img{
-    border-radius: 10px 10px 10px 10px;
-  }
   .hot-card-title{
-    text-align: center;
-    border: 1px solid #969191;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #fff;
-    position: relative;
-    .bi-star-fill{
-      color: #fad54f;
-    }
     .course-side{
       position: absolute;
       font-size: 10px;

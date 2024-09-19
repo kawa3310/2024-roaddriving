@@ -77,8 +77,8 @@
   <section class="hot-course my-lg-10 my-5">
     <div class="container">
       <h2 class="text-center">熱門課程</h2>
-      <div class="row mt-lg-9 mt-4 justify-content-between">
-        <div class="col-lg-3 col-12 mb-5">
+      <div class="row mt-lg-9 mt-4 justify-content-center">
+        <div class="col-lg-3 col-12 mb-5 me-3">
           <div class="hot-card">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D" alt="hot-cours-img">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-12 mb-5">
+        <div class="col-lg-3 col-12 mb-5 me-3">
           <div class="hot-card">
             <div class="hot-logo"></div>
             <div class="hot-card-img">
@@ -311,33 +311,6 @@
         width: 50px;
         height: 50px;
       }
-    }
-  }
-  .hot-card-img{
-    border-radius: 10px 10px 10px 10px;
-  }
-  .hot-card-title{
-    text-align: center;
-    border: 1px solid #969191;
-    border-radius: 10px 10px 10px 10px;
-    background-color: #fff;
-    position: relative;
-    .hot-course{
-      position: absolute;
-      font-size: 10px;
-      bottom: -10%;
-      left: 2%;
-      border: 1px solid #93463f;
-      background-color: #db7369;
-      color: white;
-      border-radius: 20px;
-      padding: 5px;
-    }
-    span{
-      font-size: 14px;
-    }
-    .bi-star-fill{
-      color: #fad54f;
     }
   }
   .plan{
