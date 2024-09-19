@@ -160,7 +160,7 @@
               <td>4小時</td>
               <td class="fw-medium">NT $4500</td>
               <td>安全行車知識、路邊停車、倒車入庫
-                <br>實際上路：市郊區</td>
+                <br>實際上路：<span class="text-pink">市郊區</span></td>
             </tr>
             <tr>
               <div class="medal d-lg-flex d-md-flex d-none"></div>
@@ -170,7 +170,7 @@
                 3 小時/堂、4 小時/堂</td>
               <td class="fw-medium">NT $8500</td>
               <td>安全行車知識、路邊停車、倒車入庫
-                <br>實際上路：市郊區、高速公路、山路過彎</td>
+                <br>實際上路：<span class="text-pink">市郊區、高速公路、山路過彎</span></td>
             </tr>
             <tr>
               <th scope="row">課程三</th>
@@ -178,7 +178,7 @@
               <td>2.5小時</td>
               <td class="fw-medium">NT $3000</td>
               <td>路邊停車、倒車入庫、高速公路、山路過彎
-                <br>四項中擇三項教學</td>
+                <br><span class="text-pink">四項中擇三項教學</span></td>
             </tr>
           </tbody>
         </table>
@@ -216,11 +216,11 @@
             <tr>
               <th scope="row">內容</th>
               <td>安全行車知識、路邊停車、倒車入庫
-                實際上路：市郊區。</td>
+                實際上路：<span class="text-pink">市郊區。</span></td>
               <td>安全行車知識、路邊停車、倒車入庫
-                實際上路：市郊區、高速公路、山路過彎。</td>
-              <td>路邊停車、倒車入庫、高速公路、山路過彎
-                四項中擇三項教學</td>
+                實際上路：<span class="text-pink">市郊區、高速公路、山路過彎。</span></td>
+              <td>路邊停車、倒車入庫、高速公路、山路過彎。<br/>
+                <span class="text-pink">四項中擇三項教學</span></td>
             </tr>
           </tbody>
         </table>
