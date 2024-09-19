@@ -194,7 +194,7 @@ export default {
   },
   methods: {
     checkout() {
-      this.$router.push('/payment');
+      this.$router.push('/checkout');
     },
   },
   computed: {

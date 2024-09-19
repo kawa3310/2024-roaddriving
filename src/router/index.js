@@ -19,12 +19,20 @@ const routes = [
         component: () => import('../views/FrontView/CourseReservationView.vue'),
       },
       {
+        path: 'checkout',
+        component: () => import('../views/FrontView/CheckOutView.vue'),
+      },
+      {
         path: 'question',
         component: () => import('../views/FrontView/QuestionView.vue'),
       },
       {
         path: 'contact',
         component: () => import('../views/FrontView/ContactUsView.vue'),
+      },
+      {
+        path: 'payment',
+        component: () => import('../views/FrontView/PaymentView.vue'),
       },
     ],
   },
