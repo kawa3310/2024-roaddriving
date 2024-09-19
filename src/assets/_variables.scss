@@ -315,10 +315,11 @@ $theme-colors: (
   "success":    $success,
   "info":       #C2E4FB,//$info,
   "warning":    $warning,
-  "danger":     #F79BAB,//$danger,
+  "danger":     $danger,
   "light":      #AEBECB, //$light,
   "dark":       #1E1E1E,//$dark
   "white":      #FFFFFF,
+  "pink":       #F79BAB,//,
 ) !default;
 // scss-docs-end theme-colors-map
 
