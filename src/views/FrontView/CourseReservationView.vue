@@ -13,13 +13,13 @@
     </div>
   </section>
   <main>
-    <div class="container my-lg-9">
-      <h1 class="text-center mb-lg-9">開始預約</h1>
-      <form action="" class="bg-card">
+    <div class="container my-lg-9 my-5">
+      <h1 class="text-center mb-lg-9 mb-4">開始預約</h1>
+      <form action="">
         <div class="mb-lg-8">
-          <h2 class="text-center mb-lg-9">1. 選擇課程</h2>
+          <h2 class="text-center mb-lg-9 mb-4">1. 選擇課程</h2>
           <div class="row d-flex flex-reverse justify-content-center">
-            <div class="col-4">
+            <div class="col-lg-4 col-md-6 d-lg-block d-md-block d-none">
               <div id="hot-1" class="hot-card">
                 <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
                 <div>
@@ -39,7 +39,9 @@
                 </div>
               </div>
             </div>
-            <div class="col-4 select-card d-flex flex-column justify-content-between p-5 ">
+            <div class="col-lg-4 col-md-6 bg-card
+            select-card d-flex flex-column justify-content-between
+            p-5">
               <select v-model="courseData">
                 <template v-for="(course, index) in courseCard" :key="index.id">
                   <option
@@ -47,19 +49,39 @@
                   :id="`course${course.id}`">{{ course.title }}</option>
                 </template>
               </select>
-              <div class=" d-grid gap-4">
-                <p>課程內容：</p>
+              <div class="d-grid gap-4">
+                <p class="my-3">課程內容：</p>
                 <p>{{ changeCourse.content }}</p>
                 <p>{{ changeCourse.hours }}</p>
               </div>
               <div class="price text-end">{{ changeCourse.price }}</div>
             </div>
+            <div class="d-lg-none d-md-none mt-3">
+              <div id="hot-1" class="hot-card">
+                <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
+                <div>
+                  <div class="hot-card-img">
+                    <img :src="changeCourse.img" alt="hot-course-img">
+                  </div>
+                  <div class="hot-card-title">
+                    <span class="course-side">{{ changeCourse.title }}</span>
+                    <h6 class="pt-3">{{ changeCourse.title }}</h6>
+                    <div class="d-flex justify-content-between align-items-center p-4">
+                      <span class="price">{{ changeCourse.price }}</span>
+                      <span class="d-flex align-items-center fw-bold">推薦指數：
+                        <p class="d-flex" v-html="changeCourse.start"></p>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="my-lg-9">
-          <h2 class="text-center mb-lg-9">2. 選擇上課地區</h2>
+        <div class="my-lg-9 my-5">
+          <h2 class="text-center mb-lg-9 mb-4">2. 選擇上課地區</h2>
           <ul class="row">
-            <li class="col-4" v-for="(teacher) in teacherData" :key="teacher.id">
+            <li class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id">
               <label class="business-card"
               :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === teacherAreaData}">
                 <input type="radio" name="teacher-card" :value="teacher.id"
@@ -76,13 +98,13 @@
             </li>
           </ul>
         </div>
-        <section class="my-lg-9">
+        <section class="my-lg-9 my-5">
           <div class="container">
             <div class="row">
               <p class="text-end text-danger mb-3">※需先預繳訂金 NT 1000 元，上課後補差價</p>
-              <div class="col-6">
-                <div class="select-card p-3">
-                  <h2 class="text-center ">3. 選擇日期 / 時段</h2>
+              <div class="col-lg-6 mb-lg-0 mb-4">
+                <div class="select-card bg-card p-3">
+                  <h2 class="text-center">3. 選擇日期 / 時段</h2>
                   <div class="d-flex justify-content-center mt-4">
                     <div class="w-50 mb-4 date">
                       <label class="d-block pb-2" for="due_date">年／月／日</label>
@@ -103,12 +125,12 @@
                   </div>
                 </div>
               </div>
-              <div class="col-6">
+              <div class="col-lg-6">
                 <div class="select-card h-100 p-3 d-flex flex-column
-                justify-content-between">
-                  <h2 class="text-center">4. 付款方式</h2>
+                justify-content-between bg-card">
+                  <h2 class="text-center mb-lg-0 mb-4">4. 付款方式</h2>
                   <div class="w-100">
-                    <div class="payment d-flex justify-content-center">
+                    <div class="payment d-flex justify-content-center mb-lg-0 mb-4">
                       <select class="w-50">
                         <option value="信用卡">信用卡</option>
                       </select>
@@ -226,13 +248,8 @@ export default {
 
 <style lang="scss">
   .bg-card{
-    background-color: #fdf9f9;
-    border-radius: 5px;
-  }
-  .select-card{
-    select{
-      width: 50%;
-    }
+    background-color: #f0efef;
+    border-radius: 10px;
   }
   .hot-card{
     border-radius: 10px 10px 10px 10px;
@@ -289,6 +306,9 @@ export default {
       color: #444040;
       padding: 0 20px;
       opacity: 3;
+      @media (max-width: 988px) {
+        font-size: 17vw;
+      }
     }
   }
   .business-card {
@@ -325,9 +345,8 @@ export default {
     letter-spacing: 1.5px;
   }
   .select-card{
-    border: 1px solid #000;
-    border-radius: 10px;
     select{
+      width: 50%;
       padding: 5px;
     }
   }

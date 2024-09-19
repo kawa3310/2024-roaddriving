@@ -20,8 +20,11 @@
   position: relative;
   display: block;
   height: 70px;
+  @media (max-width: 988px) {
+    height: 100px;
+  }
   @media (max-width: 768px) {
-    height: 0;
+    height: 0px;
   }
 }
 
