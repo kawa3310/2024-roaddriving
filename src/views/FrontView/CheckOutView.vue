@@ -1,6 +1,21 @@
 <template>
   <div class="empty-content"></div>
     <div class="container">
+      <div aria-label="breadcrumb">
+        <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
+          <li class="breadcrumb-item">
+            <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
+          </li>
+          <li class="breadcrumb-item">
+            <RouterLink class="text-muted" to="/purchase">購買課程</RouterLink>
+          </li>
+          <li class="breadcrumb-item">
+            <RouterLink to="/checkout">確認訂單</RouterLink>
+          </li>
+        </ol>
+      </div>
+    </div>
+    <div class="container">
       <div class="row">
         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
           <div class="order-table table-bg">
