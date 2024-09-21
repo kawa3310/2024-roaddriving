@@ -231,7 +231,33 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  @import '/src/assets/default/loginSet';
+  .logo-box{
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #eef0f1;
+  }
+  .login-logo{
+    width: 20%;
+  }
+  .registration-form{
+    width: 40%;
+    align-items: center;
+    border-radius: 40px;
+    padding: 10px 75px;
+    background-color: #eef0f1;
+    .underline{
+      color: rgb(62, 62, 174);
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    form{
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
   .code-box {
     display: flex;
     justify-content: space-between;
