@@ -14,7 +14,7 @@
       </ol>
     </div>
   </div>
-  <div class="container">
+  <div class="container mb-lg-9">
     <div class="d-flex justify-content-center">
       <div class="logo-box">
         <h5>南南駕訓班</h5>
@@ -23,7 +23,108 @@
         </div>
       </div>
     </div>
-    <Registration/>
+    <div class="login d-flex justify-content-center mt-5" v-if="loginStates">
+      <div class="registration-form">
+        <h5 class="text-center py-3">立即登入</h5>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp" placeholder="輸入帳號">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label"></label>
+            <input type="password" class="form-control" id="exampleInputPassword1"
+            placeholder="輸入密碼">
+          </div>
+          <div class="mb-3 form-check">
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">記住密碼</label>
+          </div>
+          <div class="d-flex justify-content-center align-items-center py-4">
+            <RouterLink to="/contact" class="btn btn-outline-dark px-8">登入</RouterLink>
+          </div>
+          <div class="d-flex justify-content-between d-grid gap-3 mb-3">
+            <a @click="registrationstates">註冊</a>
+            <a class="text-muted" @click="forgotpassword">忘記密碼</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="registration d-flex justify-content-center mt-5" v-if="registrationStates">
+      <div class="registration-form">
+        <h5 class="text-center py-3">立即註冊</h5>
+        <div class="d-flex justify-content-center d-grid gap-3">
+          <p>已經有帳號了？</p>
+          <RouterLink to="/contact">
+            登入
+          </RouterLink>
+        </div>
+        <form>
+          <div class="mb-3">
+            <label for="exampleInputName" class="form-label">姓名</label>
+            <input type="name" class="form-control"
+            d="exampleInputName" aria-describedby="name" placeholder="請填入姓名">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputTel" class="form-label">聯絡電話</label>
+            <input type="name" class="form-control"
+            d="exampleInputTel" aria-describedby="Tel" placeholder="請填入聯絡電話">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">信箱</label>
+            <input type="email" class="form-control" id="exampleInputEmail1"
+            aria-describedby="emailHelp" placeholder="請填入信箱">
+          </div>
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">密碼</label>
+            <input type="password" class="form-control" id="exampleInputPassword1"
+            placeholder="請填入6-15字密碼">
+          </div>
+          <div class="d-flex justify-content-center align-items-center py-4">
+            <a class="btn btn-outline-dark px-8" @click="registrationstates">註冊</a>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="forgot-password" v-if="forgotPassword">
+      <div class="d-flex justify-content-center my-5" v-if="enteremail">
+        <div class="registration-form">
+          <h5 class="text-center py-3">忘記密碼</h5>
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">信箱</label>
+              <input type="email" class="form-control" id="exampleInputEmail1"
+              aria-describedby="emailHelp" placeholder="請填入已註冊信箱">
+            </div>
+            <div class="d-flex justify-content-center align-items-center py-4">
+              <button type="submit" class="btn btn-outline-dark px-8"
+              @click="getcertified">送出</button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center my-5" v-if="certified">
+        <div class="registration-form">
+          <h5 class="text-center py-3">輸入驗證碼</h5>
+          <p class="text-center">已透過Email將驗證碼傳送至您的的信箱</p>
+          <div class="code-box">
+            <div class="code-item"></div>
+            <div class="code-item"></div>
+            <div class="code-item"></div>
+            <div class="code-item"></div>
+            <input type="text" class="code-input" maxlength="4">
+          </div>
+          <div class="d-flex justify-content-center align-items-center py-4">
+            <button type="submit" class="btn btn-outline-dark px-8">確認</button>
+          </div>
+          <div class="d-flex justify-content-between d-grid gap-3 mb-3">
+            <p class="text-muted">沒收到驗證碼嗎？</p>
+            <a href="#">重新發送</a>
+            </div>
+        </div>
+      </div>
+    </div>
   </div>
   <footer class="mt-7 mb-3 mb-lg-4 mt-lg-8">
     <div class="container">
@@ -88,16 +189,74 @@
 
 <script>
 import NavbarComponents from '@/components/NavbarComponents.vue';
-import Registration from '@/components/RegistrationComponents.vue';
 
 export default {
+  data() {
+    return {
+      loginStates: true,
+      registrationStates: false,
+      forgotPassword: false,
+      enteremail: true,
+      certified: false,
+    };
+  },
+  methods: {
+    forgotpassword() {
+      this.forgotPassword = true;
+      this.loginStates = false;
+    },
+    registrationstates() {
+      if (this.registrationStates !== true) {
+        this.registrationStates = true;
+        this.loginStates = false;
+      } else {
+        this.loginStates = true;
+        this.registrationStates = false;
+      }
+    },
+    getcertified() {
+      if (this.certified !== true) {
+        this.certified = true;
+        this.enteremail = false;
+      } else {
+        this.enteremail = true;
+        this.certified = false;
+      }
+    },
+  },
   components: {
     NavbarComponents,
-    Registration,
   },
 };
 </script>
 
 <style scoped lang="scss">
   @import '/src/assets/default/loginSet';
+  .code-box {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    margin: 30px auto;
+    position: relative;
+  }
+  .code-item {
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 5px 5px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 24px;
+    color: #000;
+    font-weight: bold;
+    border: 1px solid rgb(209, 209, 209);
+    transition: border 0.3s;
+    box-sizing: border-box;
+    }
+    .code-box .code-input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    }
 </style>

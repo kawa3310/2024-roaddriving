@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 10px;
+    padding: 20px;
     background-color: #eef0f1;
   }
   .login-logo{
@@ -15,7 +15,7 @@
     border-radius: 40px;
     padding: 10px 75px;
     background-color: #eef0f1;
-    a{
+    .underline{
       color: rgb(62, 62, 174);
       text-decoration: underline;
       text-underline-offset: 2px;

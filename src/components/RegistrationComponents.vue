@@ -4,7 +4,9 @@
       <h5 class="text-center py-3">立即註冊</h5>
       <div class="d-flex justify-content-center d-grid gap-3">
         <p>已經有帳號了？</p>
-        <a class="">登入</a>
+        <RouterLink to="/contact">
+          登入
+        </RouterLink>
       </div>
       <form>
         <div class="mb-3">
@@ -28,7 +30,7 @@
           placeholder="請填入6-15字密碼">
         </div>
         <div class="d-flex justify-content-center align-items-center py-4">
-          <button type="submit" class="btn btn-outline-dark px-8">註冊</button>
+          <RouterLink to="/contact" class="btn btn-outline-dark px-8">註冊</RouterLink>
         </div>
       </form>
     </div>
