@@ -243,7 +243,7 @@ export default {
     width: 20%;
   }
   .registration-form{
-    width: 40%;
+    max-width: 100%;
     align-items: center;
     border-radius: 40px;
     padding: 10px 75px;
