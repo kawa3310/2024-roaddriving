@@ -25,17 +25,25 @@
     </div>
     <div class="login d-flex justify-content-center mt-5" v-if="loginStates">
       <div class="registration-form">
-        <h5 class="text-center py-3">立即登入</h5>
-        <form>
-          <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label"></label>
-            <input type="email" class="form-control" id="exampleInputEmail1"
-            aria-describedby="emailHelp" placeholder="輸入帳號">
+        <h5 class="text-center py-4">立即登入</h5>
+        <VForm ref="form" v-slot="{ errors }">
+          <div class="mb-4">
+            <label for="email" class="form-label">帳號</label>
+            <VField id="email" name="email" type="email" class="form-control"
+            placeholder="輸入帳號"
+            :class="{ 'is-invalid': errors['email'] }"
+            rules="email|required">
+            </VField>
+            <ErrorMessage name="email" class="invalid-feedback"></ErrorMessage>
           </div>
-          <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label"></label>
-            <input type="password" class="form-control" id="exampleInputPassword1"
-            placeholder="輸入密碼">
+          <div class="mb-4">
+            <label for="email" class="form-label">密碼</label>
+            <VField ref="password" name="密碼" type="text"
+            rules="required|min:9|max:10" class="form-control"
+            placeholder="輸入密碼"
+            :class="{ 'is-invalid': errors['密碼'] }">
+            </VField>
+            <ErrorMessage name="密碼" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="mb-3 form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -48,7 +56,7 @@
             <a @click="registrationstates">註冊</a>
             <a class="text-muted" @click="forgotpassword">忘記密碼</a>
           </div>
-        </form>
+        </VForm>
       </div>
     </div>
     <div class="registration d-flex justify-content-center mt-5" v-if="registrationStates">
@@ -60,48 +68,61 @@
             登入
           </RouterLink>
         </div>
-        <form>
+        <VForm ref="form" v-slot="{ errors }">
           <div class="mb-3">
-            <label for="exampleInputName" class="form-label">姓名</label>
-            <input type="name" class="form-control"
-            d="exampleInputName" aria-describedby="name" placeholder="請填入姓名">
+            <label for="email" class="form-label">姓名</label>
+            <VField id="name" name="姓名" type="text" class="form-control"
+              :class="{ 'is-invalid': errors['姓名'] }" placeholder="請輸入姓名" rules="required">
+            </VField>
+            <ErrorMessage name="姓名" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="mb-3">
-            <label for="exampleInputTel" class="form-label">聯絡電話</label>
-            <input type="name" class="form-control"
-            d="exampleInputTel" aria-describedby="Tel" placeholder="請填入聯絡電話">
+            <label for="email" class="form-label">聯絡電話</label>
+            <VField id="tel" name="電話" type="text" class="form-control"
+              :class="{ 'is-invalid': errors['電話'] }" placeholder="請填入聯絡電話"
+              rules="required|min:9|max:10">
+            </VField>
+            <ErrorMessage name="電話" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">信箱</label>
-            <input type="email" class="form-control" id="exampleInputEmail1"
-            aria-describedby="emailHelp" placeholder="請填入信箱">
+            <label for="email" class="form-label">信箱</label>
+            <VField id="email" name="email" type="email" class="form-control"
+            :class="{ 'is-invalid': errors['email'] }" placeholder="請填入信箱"
+              rules="email|required"></VField>
+            <ErrorMessage name="email" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="mb-3">
-            <label for="exampleInputPassword1" class="form-label">密碼</label>
-            <input type="password" class="form-control" id="exampleInputPassword1"
-            placeholder="請填入6-15字密碼">
+            <label for="email" class="form-label">密碼</label>
+            <VField ref="password" name="密碼" type="text"
+            rules="required|min:9|max:10" class="form-control"
+            placeholder="請填入6-15字密碼"
+            :class="{ 'is-invalid': errors['密碼'] }">
+            </VField>
+            <ErrorMessage name="密碼" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="d-flex justify-content-center align-items-center py-4">
             <a class="btn btn-outline-dark px-8" @click="registrationstates">註冊</a>
           </div>
-        </form>
+        </VForm>
       </div>
     </div>
     <div class="forgot-password" v-if="forgotPassword">
       <div class="d-flex justify-content-center my-5" v-if="enteremail">
         <div class="registration-form">
           <h5 class="text-center py-3">忘記密碼</h5>
-          <form>
+          <VForm ref="form" v-slot="{ errors }">
             <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">信箱</label>
-              <input type="email" class="form-control" id="exampleInputEmail1"
-              aria-describedby="emailHelp" placeholder="請填入已註冊信箱">
+              <label for="email" class="form-label">信箱</label>
+              <VField id="email" name="email" type="email" class="form-control"
+              :class="{ 'is-invalid': errors['email'] }" placeholder="請填入已註冊信箱"
+                rules="email|required"></VField>
+              <ErrorMessage name="email" class="invalid-feedback"></ErrorMessage>
             </div>
             <div class="d-flex justify-content-center align-items-center py-4">
               <button type="submit" class="btn btn-outline-dark px-8"
               @click="getcertified">送出</button>
             </div>
-          </form>
+          </VForm>
         </div>
       </div>
       <div class="d-flex justify-content-center my-5" v-if="certified">
@@ -285,4 +306,8 @@ export default {
     height: 100%;
     opacity: 0;
     }
+    .form-control:focus {
+      border-color: #939799 ;
+      box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.075) ;
+    };
 </style>
