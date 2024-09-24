@@ -34,6 +34,10 @@ const routes = [
         path: 'payment',
         component: () => import('../views/FrontView/PaymentView.vue'),
       },
+      {
+        path: 'member',
+        component: () => import('../views/FrontView/UserMemberView.vue'),
+      },
     ],
   },
   {

@@ -50,7 +50,7 @@
             <label class="form-check-label" for="exampleCheck1">記住密碼</label>
           </div>
           <div class="d-flex justify-content-center align-items-center py-4">
-            <RouterLink to="/contact" class="btn btn-outline-dark px-8">登入</RouterLink>
+            <RouterLink to="/member" class="btn btn-outline-dark px-8">登入</RouterLink>
           </div>
           <div class="d-flex justify-content-between d-grid gap-3 mb-3">
             <a @click="registrationstates">註冊</a>
