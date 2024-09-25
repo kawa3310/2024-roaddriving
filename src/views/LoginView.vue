@@ -1,6 +1,5 @@
 <template>
   <NavbarComponents/>
-  <RouterView/>
   <div class="empty-content"></div>
   <div class="container mt-3">
     <div aria-label="breadcrumb">

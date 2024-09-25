@@ -8,13 +8,13 @@
             <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
           </li>
           <li class="breadcrumb-item">
-            <RouterLink class="text-muted" to="/contact">會員中心</RouterLink>
+            <RouterLink class="text-muted" to="/member">會員中心</RouterLink>
           </li>
           <li class="breadcrumb-item" v-if="this.personal">
-            <RouterLink to="/contact">會員資料</RouterLink>
+            <RouterLink to="/member">會員資料</RouterLink>
           </li>
           <li class="breadcrumb-item" v-if="this.reserve">
-            <RouterLink to="/contact">預約記錄</RouterLink>
+            <RouterLink to="/member">預約記錄</RouterLink>
           </li>
         </ol>
       </div>
@@ -134,19 +134,19 @@
                             <td>ATR443213</td>
                             <td>課程二</td>
                             <td>已完課</td>
-                            <td><a href="#">看詳細</a></td>
+                            <td><RouterLink to="/order">看詳細</RouterLink></td>
                           </tr>
                           <tr>
                             <td>BGA56523</td>
                             <td>課程一</td>
                             <td>未開課</td>
-                            <td><a href="#">看詳細</a></td>
+                            <td><RouterLink to="/order">看詳細</RouterLink></td>
                           </tr>
                           <tr>
                             <td>JHU78913</td>
                             <td>課程三</td>
                             <td>未開課</td>
-                            <td><a href="#">看詳細</a></td>
+                            <td><RouterLink to="/order">看詳細</RouterLink></td>
                           </tr>
                         </tbody>
                       </table>

@@ -38,6 +38,10 @@ const routes = [
         path: 'member',
         component: () => import('../views/FrontView/UserMemberView.vue'),
       },
+      {
+        path: 'order',
+        component: () => import('../views/FrontView/OrderView.vue'),
+      },
     ],
   },
   {
