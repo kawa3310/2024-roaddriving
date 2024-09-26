@@ -42,15 +42,13 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-              <Field v-model="courseData" name="title" as="select">
-                <select>
+                <select v-model="courseData" name="title" as="select">
                   <template v-for="(course, index) in courseCard" :key="index.id">
                     <option
                     :value="course.id"
                     :id="`course${course.id}`">{{ course.title }}</option>
                   </template>
                 </select>
-              </Field>
                 <div class="d-grid gap-4">
                   <p class="my-3">課程內容：</p>
                   <p>{{ changeCourse.content }}</p>
@@ -83,7 +81,7 @@
           <div class="my-lg-9 my-5">
             <h2 class="text-center mb-lg-9 mb-4">2. 選擇上課地區</h2>
             <div class="row">
-              <Field class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
+              <div class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
               name="terms" type="radio"
               :value="true" :unchecked-value="false">
                 <label class="business-card"
@@ -99,8 +97,7 @@
                 <div class="text-center pt-4">
                   <span>{{ teacher.name }} 教練</span>
                 </div>
-              </Field>
-              <ErrorMessage name="email"/>
+              </div>
             </div>
           </div>
           <section class="my-lg-9 my-5">
