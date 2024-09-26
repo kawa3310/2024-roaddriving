@@ -78,7 +78,7 @@
     <div class="container">
       <h2 class="text-center">熱門課程</h2>
       <div class="row mt-lg-9 mt-4 justify-content-center">
-        <div class="col-lg-3 col-12 mb-5 me-3">
+        <div class="col-lg-3 col-12 mb-5 me-lg-3">
           <div class="hot-card">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D" alt="hot-cours-img">
@@ -96,7 +96,7 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-3 col-12 mb-5 me-3">
+        <div class="col-lg-3 col-12 mb-5 me-lg-3">
           <div class="hot-card">
             <div class="hot-logo"></div>
             <div class="hot-card-img">
@@ -295,9 +295,9 @@
     top: -10%;
     left: -7%;
     transform: rotate(340deg);
-    @media (max-width: 376px) {
+    @media (max-width: 594px) {
       top: -10%;
-      left: -4%;
+      left: -3%;
     }
   }
   .hot-card{
@@ -305,13 +305,6 @@
     position: relative;
     background-color: #6BC3C0;
     transition-duration: 0.3s;
-    &:hover{
-      width: 320px;
-      .hot-logo{
-        width: 50px;
-        height: 50px;
-      }
-    }
   }
   .plan{
     position: relative;
