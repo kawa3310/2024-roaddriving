@@ -1,5 +1,4 @@
 <template>
-  <HomeNavbar/>
   <div class="banner">
     <div class="container">
       <div class="d-flex justify-content-center align-items-center">
@@ -10,7 +9,7 @@
       </div>
     </div>
   </div>
-  <section class="carousel">
+  <section class="navigation">
     <div class="container">
       <div class="text-center text-primary mt-5 mt-lg-9 mb-9">
         <p class="main-title fs-1 fw-bold">
@@ -655,7 +654,6 @@
 </template>
 
 <script>
-import HomeNavbar from '@/components/HomeNavbarComponents.vue';
 import HomeSwiper from '@/components/SwiperComponents.vue';
 
 export default {
@@ -664,7 +662,6 @@ export default {
     };
   },
   components: {
-    HomeNavbar,
     HomeSwiper,
   },
 };

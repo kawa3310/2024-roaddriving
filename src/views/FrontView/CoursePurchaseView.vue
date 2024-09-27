@@ -1,5 +1,4 @@
 <template>
-  <div class="empty-content"></div>
   <main>
     <div class="course-bg mb-3">
       <h2 class="bg-banner">課程內容</h2>
@@ -16,7 +15,7 @@
         </ol>
       </div>
     </div>
-    <div class="container">
+    <div class="navigation container">
       <div class="text-center d-grid gap-7 my-lg-9 my-5">
         <h2>安全行車知識</h2>
         <h2>無論是車前檢查或者是起步前注意事項</h2>
@@ -255,7 +254,7 @@
       position: absolute;
       font-size: 3vw;
       margin: 0;
-      bottom: 35%;
+      bottom: 45%;
       left: 50%;
       transform: translate(-50%, 150%);
       color: #565555;

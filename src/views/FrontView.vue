@@ -1,5 +1,5 @@
 <template>
-  <NavbarComponents/>
+  <HomeNavbar/>
     <RouterView/>
   <footer class="mt-7 mb-3 mb-lg-4 mt-lg-8">
     <div class="container">
@@ -63,11 +63,11 @@
 </template>
 
 <script>
-import NavbarComponents from '@/components/NavbarComponents.vue';
+import HomeNavbar from '@/components/HomeNavbarComponents.vue';
 
 export default {
   components: {
-    NavbarComponents,
+    HomeNavbar,
   },
 };
 </script>

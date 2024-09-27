@@ -1,5 +1,4 @@
 <template>
-  <div class="empty-content"></div>
     <div class="contact-bg mb-3">
       <h2 class="bg-banner">聯絡我們</h2>
     </div>
@@ -15,7 +14,7 @@
         </ol>
       </div>
     </header>
-    <main>
+    <main class="navigation">
       <div class="container pb-lg-9">
         <div class="row">
           <div class="col-12 d-flex justify-content-center align-items-center">

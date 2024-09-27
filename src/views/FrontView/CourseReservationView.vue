@@ -12,7 +12,7 @@
       </ol>
     </div>
   </section>
-  <main>
+  <main class="navigation">
     <div class="container my-lg-9 my-5">
       <h1 class="text-center mb-lg-9 mb-4">開始預約</h1>
       <VForm v-slot="{ meta }" ref="form" @submit="sendOutOrder">
