@@ -1,8 +1,8 @@
 <template>
   <div>
     <div class="empty-content"></div>
-      <div class="bg-banner mb-3">
-        <h2 class="quesiton-banner">常見問題</h2>
+      <div class="quesiton-bg mb-3">
+        <h2 class="bg-banner">常見問題</h2>
       </div>
       <header class="container mt-3">
         <div aria-label="breadcrumb">
@@ -107,12 +107,27 @@
     border: 1px solid #f2f0f0;
   }
   .quesiton-buttom{
+    position: relative;
     background-color: #fff;
     font-size: 24px;
+    &::after{
+      content: "\F13A";
+      font-family: 'bootstrap-icons';
+      margin-left: 10px;
+      font-size: 1.5rem;
+      position: absolute;
+      right: 5%;
+      transition: transform .2s ease-in-out;
+    }
   }
   .quesiton-buttom:not(.collapsed){
     background-color: #e7f5ff;
     border: 0;
+    &::after{
+      content: "\F13A";
+      font-family: 'bootstrap-icons';
+      transform: rotate(180deg);
+    }
   }
   .quesiton-shadow {
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
