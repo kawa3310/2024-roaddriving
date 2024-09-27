@@ -18,7 +18,7 @@
         </svg>
         會員資料</a>
         <a href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
-        data-bs-target="#v-reserve" type="button" role="tab" @@click="$emit('changeState')"
+        data-bs-target="#v-reserve" type="button" role="tab" @click="$emit('changeState')"
         aria-controls="v-pills-profile" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
           <path d="M2.52 3.515A2.5 2.5 0 0 1 4.82 2h6.362c1 0 1.904.596 2.298
@@ -51,24 +51,6 @@ export default {
     };
   },
   emits: ['personal, reserve'],
-  methods: {
-    changeState() {
-      if (this.reserve !== true) {
-        this.reserve = true;
-        this.personal = false;
-      } else {
-        this.reserve = true;
-      }
-    },
-    changeStates() {
-      if (this.personal !== true) {
-        this.personal = true;
-        this.reserve = false;
-      } else {
-        this.personal = true;
-      }
-    },
-  },
 };
 </script>
 

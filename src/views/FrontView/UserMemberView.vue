@@ -22,7 +22,8 @@
     <main class="pb-8">
       <div class="container">
         <div class="row">
-          <SideMenu :personal="personal" :reserve="reserve"/>
+          <SideMenu @change-State="changeState" @change-States="changeStates"
+          :personal="personal" :reserve="reserve"/>
           <div class="col-9 course-materials">
             <div class="tab-content border-0
             d-flex flex-column align-items-center justify-content-between">
@@ -184,6 +185,24 @@ export default {
       personal: '',
       reserve: '',
     };
+  },
+  methods: {
+    changeState() {
+      if (this.reserve !== true) {
+        this.reserve = true;
+        this.personal = false;
+      } else {
+        this.reserve = true;
+      }
+    },
+    changeStates() {
+      if (this.personal !== true) {
+        this.personal = true;
+        this.reserve = false;
+      } else {
+        this.personal = true;
+      }
+    },
   },
   components: {
     SideMenu,
