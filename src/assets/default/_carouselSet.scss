@@ -69,3 +69,13 @@
       line-height: 2;
     }
 }
+
+.bg-banner{
+  padding: 250px;
+  background: rgba(73, 70, 70, 0.5);
+  color: white;
+  text-align: center;
+  @media (max-width: 468px) {
+    padding: 100px;
+  }
+}

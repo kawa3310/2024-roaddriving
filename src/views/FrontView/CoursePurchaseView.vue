@@ -2,7 +2,7 @@
   <div class="empty-content"></div>
   <main>
     <div class="course-bg mb-3">
-      <h2 class="course-banner">課程內容</h2>
+      <h2 class="bg-banner">課程內容</h2>
     </div>
     <div class="container">
       <div aria-label="breadcrumb">
@@ -236,18 +236,8 @@
 
 <style lang="scss">
   .course-bg{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975569922.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=bc5lImlJZNhhnac0lvTuQIapo%2BQak3kb0H6IYsLjr1On4mwUBBExq3tvx6OR5BQilLdo%2B%2FNST7jkwMc554QexVIG2rW2z7TFjTebMQ%2FbfRdTF88pLG1fhsuOfUvSxHxiEKLsfVRt7sE7t%2F5zlJIOxEYpPyf6POQLNTxsVu%2Fg18O8rOhkGzrxZn0imRbFsEvWMGxWYH8fovBU%2F4xtHAlj9FJiZ8IHyD3qxoIlLQiC83qKEsB8qzoE5mPBleSznpJZ6bCnIIODHDIm5C6MXoDRjaWs4ZL5djdikthMUvHRSCsDzAiU9tPhRyLSGbrHfNVdljQPvBsTsS2PyqQxp5SnSQ%3D%3D') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727425651225.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jEK2G6%2BV3%2B3FA4KFRkuPCuzxQ4ZjZJYL96iPR4amAUtpnkblDekRszJfzyoxL7NUrK8ldX6XPlt3kr3Ji5DUPzWvaSBymPxUvrXfHnivSa4wcp313VZshI%2BKfHVLUHp8bTuaio5IVN7IKXgL2Ye5q%2FQ9VG1r8CIAIyvzNIEaFuErfajLVeL6U7WM6m8mRnnLehd93fIwOxZ8tRuaZDbbP9r9YBroI0hrPy2GrbVTL7bjlmOF0v4byWJC1LzGP%2FUig4644%2BPszsejJjq11n5zdYbUK3jdtHL79sviRFl8wUm%2F1bLv2JzIIEe1K3v4RkOkuOM53KoJbPVcVB0JPsn1PA%3D%3D') no-repeat center center / cover;
     width: 100%;
-  }
-  .course-banner{
-    padding: 200px;
-    border: 1px solid #fff7f7;
-    background: rgba(73, 70, 70, 0.5);
-    color: white;
-    text-align: center;
-    @media (max-width: 468px) {
-      padding: 100px;
-    }
   }
   .card{
     border-radius: 20px;

@@ -1,7 +1,7 @@
 <template>
   <div class="empty-content"></div>
     <div class="contact-bg mb-3">
-      <h2 class="contact-banner">聯絡我們</h2>
+      <h2 class="bg-banner">聯絡我們</h2>
     </div>
     <header class="container mt-3">
       <div aria-label="breadcrumb">
@@ -50,16 +50,6 @@
   .contact-bg{
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727421553168.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=YvVQxLiOos5GCVz7UepfTK2iBWxNKwFFBYig2cOna%2FTap7pY3jBGZVAi9KzbPl1xZHC4WLAVoBB%2BE2pv4Ti9Wab8%2FZTEHymPWVn%2Fk18qTKwWg0jt2BW5xiiPMYL9LlfmPAPWAEvhVUu%2BmUnWvMUY2CHDjzaZ9O89kQZWt0mJYK62hrtJqpSL%2FWnrDx9sTUhyHCeZfSDTFhFsNHPTYkqR%2FRjaDDJjrRV50%2BQq4H%2Bytcc0d582JNZhUkNkA6pKeeUoOXOoGBas2cNEYQDppCBDJsSsqgXB4ueCj0bvPHERpXBVpZNP35z1b5%2Fv5wGr6qTVJ0P0ZbVvqHzVBZsfaWivKw%3D%3D') no-repeat center center / cover;
     width: 100%;
-  }
-  .contact-banner{
-    padding: 250px;
-    border: 1px solid #fff7f7;
-    background: rgba(73, 70, 70, 0.5);
-    color: white;
-    text-align: center;
-    @media (max-width: 468px) {
-      padding: 100px;
-    }
   }
   .contact-card{
     border-top: 1px solid #000;

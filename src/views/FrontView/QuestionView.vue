@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="empty-content"></div>
-      <div class="quesiton-bg mb-3">
+      <div class="bg-banner mb-3">
         <h2 class="quesiton-banner">常見問題</h2>
       </div>
       <header class="container mt-3">
@@ -99,16 +99,6 @@
   .quesiton-bg{
   background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727402768143.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=pegcfHLYwlbHfIeG%2FN7vc003gK0PuNJso%2BFjFlZYqRb878AtjH0kNGpzR%2ByigZm9KzbNzyYDB7YyQSTwI%2B6vdsdr%2Fq0iKOh9vH5jiE62uHZDZYdr%2FLAXXYjtOC6kxSVXA6WTtqX9KdQxo0MNlGmz%2FR8dzDiVlzSb5QG8R9KbyNWFy5wzd4%2B8Q87tBqTQOyKNaPMNm1WcCw3DR5KR5NRXkW4YcPsBURaZOQwyaf0%2BNyxDYzJmbx%2BSHZqIK0T6I0K%2F8c%2FtpmAhJLACm3hCQjXq0g8eK6emHJVPM9mXMqoyFmLTNyEmP1to%2Fgrf4J%2FdMHQFrsjTUnHBIs1YJLsoN3A5sg%3D%3D') no-repeat center center / cover;
   width: 100%;
-  }
-  .quesiton-banner{
-    padding: 250px;
-    border: 1px solid #fff7f7;
-    background: rgba(73, 70, 70, 0.5);
-    color: white;
-    text-align: center;
-    @media (max-width: 468px) {
-      padding: 100px;
-    }
   }
   .quesiton{
     width: 100%;
