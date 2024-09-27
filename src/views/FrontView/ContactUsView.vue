@@ -16,7 +16,7 @@
       </div>
     </header>
     <main>
-      <div class="container pb-9">
+      <div class="container pb-lg-9">
         <div class="row">
           <div class="col-12 d-flex justify-content-center align-items-center">
             <ul class="contact-card fs-5">

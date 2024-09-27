@@ -16,7 +16,7 @@
           </ol>
         </div>
       </header>
-      <div class="container pb-9">
+      <div class="container pb-lg-9">
         <div class="quesiton-shadow">
           <div>
             <button class="quesiton quesiton-buttom
