@@ -101,7 +101,7 @@
   width: 100%;
   }
   .quesiton-banner{
-    padding: 200px;
+    padding: 250px;
     border: 1px solid #fff7f7;
     background: rgba(73, 70, 70, 0.5);
     color: white;
