@@ -1,4 +1,5 @@
 <template>
+  <NavbarComponents/>
   <div class="empty-content"></div>
   <section class="container mt-3 mb-lg-9">
     <div aria-label="breadcrumb">
@@ -35,7 +36,20 @@
       </div>
     </div>
   </section>
+  <FooterComponents />
 </template>
+
+<script>
+import NavbarComponents from '@/components/NavbarComponents.vue';
+import FooterComponents from '@/components/FooterComponents.vue';
+
+export default {
+  components: {
+    NavbarComponents,
+    FooterComponents,
+  },
+};
+</script>
 
 <style scoped lang="scss">
   .privacy-content{

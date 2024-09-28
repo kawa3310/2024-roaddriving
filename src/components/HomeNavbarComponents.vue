@@ -107,10 +107,6 @@ export default {
   mounted() {
     window.addEventListener('scroll', this.changeNavbarClass);
     this.backTop();
-    const navigation = document.querySelector('.navigation');
-    if (!navigation) {
-      this.navbarClass = ['bg-primary'];
-    }
   },
   unmounted() {
     window.removeEventListener('scroll', this.changeNavbarClass);
@@ -119,10 +115,5 @@ export default {
 </script>
 
 <style leng="scss" scoped>
-.dropdown-menu-end{
-  top: 160%;
-  right: -25%;
-  padding: 0 ;
-  border: 0;
-}
+@import '/src/assets/default/_navbar.scss';
 </style>

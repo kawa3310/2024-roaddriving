@@ -33,23 +33,25 @@ const routes = [
         path: 'payment',
         component: () => import('../views/FrontView/PaymentView.vue'),
       },
-      {
-        path: 'member',
-        component: () => import('../views/FrontView/UserMemberView.vue'),
-      },
-      {
-        path: 'order',
-        component: () => import('../views/FrontView/OrderView.vue'),
-      },
-      {
-        path: 'privacy',
-        component: () => import('../views/FrontView/PrivacyView.vue'),
-      },
     ],
+  },
+  {
+    path: '/privacy',
+    component: () => import('../views/FrontView/PrivacyView.vue'),
   },
   {
     path: '/login',
     component: () => import('../views/LoginView.vue'),
+    children: [
+      {
+        path: '/member',
+        component: () => import('../views/FrontView/UserMemberView.vue'),
+      },
+      {
+        path: '/order',
+        component: () => import('../views/FrontView/OrderView.vue'),
+      },
+    ],
   },
   {
     path: '/admin',
