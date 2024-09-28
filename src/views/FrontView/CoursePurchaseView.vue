@@ -3,7 +3,7 @@
     <div class="course-bg mb-3">
       <h2 class="bg-banner">課程內容</h2>
     </div>
-    <div class="container">
+    <div class="container navigation">
       <div aria-label="breadcrumb">
         <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
           <li class="breadcrumb-item">
@@ -15,66 +15,83 @@
         </ol>
       </div>
     </div>
-    <div class="navigation container">
-      <div class="text-center d-grid gap-7 my-lg-9 my-5">
-        <h2>安全行車知識</h2>
+    <div class="container my-lg-5 my-4">
+      <div class="text-center d-grid gap-7">
+        <h1>安全行車知識</h1>
         <h2>無論是車前檢查或者是起步前注意事項</h2>
         <h2>所有行車眉角一步一步教會你</h2>
       </div>
-      <div class="d-flex justify-content-center d-gird gap-5 traffic-safety my-5">
-        <div class="traffic" style="background-color: #EA6261;">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447839329.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=gaPuWeYoKNXIdPoKTzgTqPEhZhO5b%2FimBxu7XQ6dy4y8Bnq2%2BN4H3cm6CziCw9UaHikLiubQGaRr%2BQCsrqeZT107vd3x8QYnE%2BCIhPVqrH%2BLuE1PUOdFlgVkQLomnLwLyA6CdQ6U%2BI7ATAcW3LbwwX1SlztTpy8YrVHMHUjceDEz6srmhrdTLAE4PhmYBveHY1Wn%2FITM9%2FLdRDjkiZM2syo9QLx9baXW1SC2TCMi3CjeVLnYa3aiO6B2h9V0RFAhDk4Z9XGSTGVlMd8wKcLKRoZNH0HK8cw%2FDTpVfBClI2aa%2Bpm1CdgL4wib6%2F8ZcneDLVA%2FNk9fjCteF9STC0NVkQ%3D%3D" alt="traffic-img">
+    </div>
+    <div class="container my-lg-5 my-4">
+      <div class="row">
+        <div class="col-lg-3">
+          <div class="traffic1">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727511680048.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MbPpGThmJbwD%2FBqHJ7E9I6fBJXS4P0q8PRUO5PBJ4AxnUBQ8UxxYJ7ioDMEEgbBfbTNCke9Q9FTCeN7tntdLnU7rrTH3v%2FbdYQo%2Fitpi7hokI58Vcps0kS39ZH4a4xHNTMB%2Fln69GExo13Ov%2FZ3joBPzduZAC7hiMpRutsV0b22sV6mxd5jdzZBATThCTzCOKTHf238O7cjy98MvpByfN3BVcCrWHCcHP1CXXEGxirIF33bpA%2BMQR87x4PtmsIPHYjNOAf2f2lYeDwzTEs8McbFl%2BsNALBOm6vUUsQAniBQUXLSFi5FxiXa88%2BZThis4JgYAnolNQSQvc7rUcCvGGA%3D%3D" alt="traffic-img">
+          </div>
         </div>
-        <div class="traffic" style="background-color: #29c1af;">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447294202.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=crGv2jvnSnh%2FJLh2fmqHpOPPR9RH0QxJeEEZnquJW8fNuJUCYvKVM4FRnnOzImA6zQeYgNJcg%2B0tSab5VMDh9yX8GjkLbaEbS2k%2BbQt2qcLAaUH3oXD4o0tVJd1yx8sZk0DjkDH5%2BpRPD8njEWH1dkOhxMV8hxn9poAqJq0ErmQ8VxN2yJRp0cqLlgOK09zk%2FuiTnzY08j7vkyXCbsRpn8EGXcHciineAJ0gLkIgiYY1bnSoTmMLtMjEia%2F0jUIxmMpS%2BFBiIThLZU3GQjxGUkRtfeKTycjcgI8magPgFvfQjCUBrKNwup8BFpVZ3xxY9LNprBMsacBe1N428zUj5Q%3D%3D" alt="traffic-img">
+        <div class="col-lg-3">
+          <div class="traffic">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727511781414.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Gz759g6KcFupR86%2F7YceAaNn%2BnCtmuUVrRRgfrGfJKDiSG%2BvoRioJUv2EEEyOrhpA8sZLZu0m5tAu9aR53kY0kFTywyGbLLHY7hcBEhFO2%2BU0eHI3L%2BE6t7bo1PVzDsZQMgOvAz%2BnX6jgD5pgFDRSlHic6l%2BFTH2wcaHOMZRtuSbHlb9vgFvI7oJ4CtIQUlvLvMH73capk9S40nnKkbWQ3xIpfuQ7aNwyJoSmXeV3NrR8IKMeOcPgpTs8DlzUP9rjhMisLgX1%2FUfqzxFRN3wD25lDqhEWg257ccvYkWb%2FOi%2Bzyjqfnd8BmfZ44zwx8t6IPGTZxGuHF198t0eHaPCTw%3D%3D" alt="traffic-img">
+          </div>
         </div>
-        <div class="traffic" style="background-color: #FED295;">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447320816.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=co2N7wnGKDbSWNjP1WKYZXmMTC27NSJJPnV9YQ8T6OoxuGGRhuh30HS%2Fl6QqwDNmvilWZVQ2TQ861RzbeNaGEoK1hfPczTnr2e2amRuevUUrzEhCdPhxvjTnLuCNQ28nibdPW4UWQU8GG6hoiQm5ET%2Fw2NoMpo0Dw8mWWbhG0ZxRiYowbJWz1bXvfiEvOOGOplUc8Jr31QvrYka%2B%2BmeiSwn9smDoNUKODVmvpah2WHYCW2a8Cv2FA6CQ9j9AkrE4k6ICRYd3h7m4wYUZQfXZPQmifiX1weiRHnJqXKtJCMuVdkz8H2dNKdweDBgQp%2BVR8Y3e8JA4nE2e%2F8oACahYvg%3D%3D" alt="traffic-img">
+        <div class="col-lg-3">
+          <div class="traffic">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727512049373.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=kSgG6L6q3gXoysxetmhA7Iq6vZgeoGarWYCFDrGpfmgV9JmT31wyKJNI7ZpLwdx52iJW4bVRlqD1nf5wdXh4HfRTE59bHGqKH4F5mNJyi%2F5npWlhu7SaoeyWIa6K2kp5uVWeM2B188LeAwVmVtGlNZCmwZkwROGWSVLAkIS7s2Vrtjh4GzCnBfLEaX2TG62kb%2Fo66aCu5uPiYQ3V1R50FO0fL41CQo6hb%2FQ0AExzaKt2irHrTHFdvofoNjblwnaH3OlLqDXeVo%2FYqSvfa2DfzT0MONj%2Bx3%2Ft8ns1FXIjTz83SRqBs6mxGZ7tzfevjeNQoHcnw2vySghvtEQT5Em%2BzA%3D%3D" alt="traffic-img">
+          </div>
+        </div>
+        <div class="col-lg-3">
+          <div class="traffic">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727512378823.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jZnGcqWnDr1ZhEI9FABNQMGDZZ%2B6mJz%2FVqRwoDpjGAv3B3QhVJ%2B6l%2BAEdSX0w9ElLzLJcrS6%2BRcycYSk0e0lCSMCMic6CxqA8X6U4fym42hDF%2BJDPkYmPTfaexDbezNJZuiNJHU8B81UZQWi1nzBQNo5S1Z2ga%2Fn3z%2BxHTcaytijovZRVbmFaOmZcqRafhRmZ8CSV4sCgALx3q%2BXY4Ak1yfUhBN%2FxI45Og4o8HgVrbl7lL196dqE2JsSjcVZyKNkEBOOnMs1KeydjXwfCFkrIeUd%2BPkV5QiY43hjsPh37p2rHXEXqdIQrO6JU%2B9PaE5nF2S2VnqTZ%2FIGTUnsMaub%2FQ%3D%3D" alt="traffic-img">
+          </div>
         </div>
       </div>
+    </div>
+  </main>
+  <section class="my-lg-5 my-4">
+    <div class="container">
       <div class="row">
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975500350.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ll1yj1VvnhcdzltZ7Ko5fuhGdmV7IhEpMRjuUdi1bdMEMLCWCx9lwyErYAAyaNdjpTJwTtjRuYUzYtKVJ14qP6%2Fdm91CxAwFVWkzpJE4U8NjoomIfx%2FagDuANmcz7u%2Fz8u125jCKF6WZUt14Dc%2Bwq5xqWjIotz8sHdcd8bULI6TaugDIf3XiLU8ed2o2Y31LJgv%2B5hT8w13e7Q6Eu%2BkwB4fe6b0AafRzMfqgB7FdBNoX1FEb%2FU4n0xicTVKxYJqnEY5fl2Y3QV22liyswpbhLAYXQ16bMnvqLsRMcFGbuJkUsbZpF28KQTZk4g9c9bRdxE4jf9h%2BWSbO%2Brg0S2%2Fckg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p class="text-nowrap">行車前檢查</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975657362.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OwcjYS%2BQjchxvHGhDXYp%2F2St6fd%2BQ8xZmoCSTzLKLvZAMANBh2VFSy4Ohz5SWooa4K0CV%2BPIj74Is9csHeV%2BhWcFcXER3ERC7%2FATynjqto9RWFaZya4OY6DLAl%2BheqSPlTpy1YGnhKKi%2BAoPQ6PFH8dCMb%2BD%2FCgVDQ9O7Yw1jbxITPyZTyOGlweZRTF9rILoo5yWMuFRy7vHqvVxpQVhmcAwIlnVZiYs%2BWgEgvnchEgIeaeafyq74zjK9TAN%2FzlWO7JEqyzszRUddpP3YTTrc%2FVsC8T7lwzGkpN2p1k2iVLfd02fbpxGB7HYHV5mf14wnEonguYCltdH%2FHwWbmz8bQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p>行車知識</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975612101.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=bXyPFHcvNFXAz7j3Q67lsEOTOcxyZhgsMYNITmBkLieAoiRSsnmG0eW4BEdb0RkYo00BRY%2FxTuuXjikh79m1Uecd%2FMluAxo0RTrqvDHyqGt%2BsVDYbYqw8r34rHBpW8LoxGq428c4M9vk%2FBgrKqC%2BWccdJvVw47emZ25x8CxtzARu%2F8PCOx04UtG%2Fzibn7Dd4frL7W56Kp3MR7B0Bx5v66KRc%2FxsU%2BkSkaUtHdBJRtrx0Gx6dCleyRXLUIJ7Biz65HVx8rWHka0TFeeEraRhP49BgCuyAgpwY1NTaaGEZv0nbQd4bFwNncSrX9PLP5x0YZDhR94jPcli5S2MTNu9PfA%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p>路邊停車</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975632075.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mAC%2BjT3Qxj%2FIS0Z28xaqCtm68ekcJe6rXlXldkxyjO8janepsZxVblFl600Q%2Br7C%2F4oOc9KVCavIs%2B9KzSCLsjXlyIJp9WVjo7rqyUaPJxuyQE9Mkf8VX1OQLWaeP6CKJXvpE95ZfxsxwbQuaLOEFq%2FsqA4MIJHAi4sFU0Dtvh00cxjNAjtMnidLByJJzw2JkWH3dK%2BiK26RBhuc65%2BDCtXxaawZ%2Bgs6J9q89BRZ0X7JIl475WsXnbLEIUd%2BSzwNx7e%2FEoOzD%2FCDLfcruSB7zccoV3MA%2BZZwzex4TLYqGoOsBUdO0Va81vm1uz%2FOfLbTzcM9vaXluPRcOsjMk4S8Xg%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p>倒車入庫</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725975681482.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=k0ZAciNmWARkpmSmMA%2BpSXCLcBwNNBHQUbHQw0BtLIq%2BVPYsAJLwSCSsRnalAaA4G8veBnZBV5Nkt0AU%2FsKZRabiVZmY6rzWnGx8F1xI0ymbqjjeitKaiZA7STL%2FCXhfIr4LETseUWbQLQZX3vvW8r65JCS0eKQx4OhW2RpvPRk1EBcUVxWtMotdxPGxsut1RHCVGyEVpnXNMZlEcxd6T6bThMPIE0g0bKIYfIf9XgmF5tpeHPTslNVqBmoR27GLmiJGgssP%2FAw5kl%2FiRihvF3S3HGg%2F6RUY%2BJBsUFTpzBKSfjNQFG1SjC6kio2rWB3KTDwXEMNZ1%2F9JeJdMX%2FBpjQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p>市區實戰</p>
             </div>
           </div>
         </div>
-        <div class="col-lg-6 mb-lg-9 mb-3">
-          <div class="card border">
+        <div class="col-lg-6">
+          <div class="card mb-4">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726061210888.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=HBpRmTEpNWEbVaTdd4kEntRgtdjmWD%2BJUtUwhm4qDcIdD7fOiJDUdyMTO9xy3dVHNfbwXUgkBnMYNLvsMFpiPj232hvuzVPNWAFmXOY%2BSSuhuY09sGntZlmUf66Lq5Kyi7FjqbDTruM9oY3Ny8hG70M92Z1vp2qza6UKKEg4nJaSjil8j4CBcOcl0drPeTaBYuilBEj%2B63qYntoH5fymMBmrySDKT16U2iqyhXs8a8FaLuipnRYMedREawDmScsh0qazUNZ1sXHynR8chh%2BgPbrFlQJVOQF1vgOEb90ke2xqPXBTKHEUZjyPzoDXsgjwNe5NtXXQhcEuCIN0hUk8nQ%3D%3D" alt="course-img" class="card-img">
             <div class="card-title text-center">
               <p>山路實戰</p>
@@ -83,11 +100,11 @@
         </div>
       </div>
     </div>
-  </main>
-  <section class="hot-course my-lg-10 my-5">
+  </section>
+  <section class="hot-course my-lg-5 my-4">
     <div class="container">
-      <h2 class="text-center">熱門課程</h2>
-      <div class="row mt-lg-9 mt-4 justify-content-center">
+      <h2 class="text-center my-lg-5 my-4">熱門課程</h2>
+      <div class="row justify-content-center">
         <div class="col-lg-3 col-12 mb-5 me-lg-3">
           <div class="hot-card">
             <div class="hot-card-img">
@@ -149,7 +166,7 @@
       </div>
     </div>
   </section>
-  <section class="plan my-lg-10 mb-7">
+  <section class="plan my-lg-5 my-4">
     <div class="container">
       <h2>課程方案</h2>
       <div class="d-lg-flex d-md-flex d-none">
@@ -249,14 +266,6 @@
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727425651225.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jEK2G6%2BV3%2B3FA4KFRkuPCuzxQ4ZjZJYL96iPR4amAUtpnkblDekRszJfzyoxL7NUrK8ldX6XPlt3kr3Ji5DUPzWvaSBymPxUvrXfHnivSa4wcp313VZshI%2BKfHVLUHp8bTuaio5IVN7IKXgL2Ye5q%2FQ9VG1r8CIAIyvzNIEaFuErfajLVeL6U7WM6m8mRnnLehd93fIwOxZ8tRuaZDbbP9r9YBroI0hrPy2GrbVTL7bjlmOF0v4byWJC1LzGP%2FUig4644%2BPszsejJjq11n5zdYbUK3jdtHL79sviRFl8wUm%2F1bLv2JzIIEe1K3v4RkOkuOM53KoJbPVcVB0JPsn1PA%3D%3D') no-repeat center center / cover;
     width: 100%;
   }
-  .traffic{
-    width: 200px;
-    padding: 20px;
-    border-radius: 60%;
-    background-color: #f88383;
-    background-color: #29c1af;
-    background-color: #fce531;
-  }
   .card{
     border-radius: 20px;
     border: 0!important;
@@ -264,16 +273,15 @@
       width: 100%;
       height: 400px;
       position: relative;
-      border-radius: 20px;
       @media (max-width: 376px) {
         height: 250px;
       }
     }
     .card-title{
       position: absolute;
-      font-size: 3vw;
+      font-size: 2vw;
       margin: 0;
-      bottom: 45%;
+      top: 50%;
       left: 50%;
       transform: translate(-50%, 150%);
       color: #565555;
@@ -285,15 +293,11 @@
         font-size: 8vw;
       }
       p{
-        border: 1px solid #bec5c9;
         border-radius: 60px;
         padding: 8px 16px;
         background-color: #ffffff;
       }
     }
-  }
-  .hot-course{
-    margin: 120px 0;
   }
   .hot-logo{
     position: absolute;
