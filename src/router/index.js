@@ -36,13 +36,13 @@ const routes = [
     ],
   },
   {
-    path: '/privacy',
-    component: () => import('../views/FrontView/PrivacyView.vue'),
-  },
-  {
-    path: '/login',
-    component: () => import('../views/LoginView.vue'),
+    path: '/user',
+    component: () => import('../views/UserView.vue'),
     children: [
+      {
+        path: '/privacy',
+        component: () => import('../views/FrontView/PrivacyView.vue'),
+      },
       {
         path: '/member',
         component: () => import('../views/FrontView/UserMemberView.vue'),
@@ -52,6 +52,10 @@ const routes = [
         component: () => import('../views/FrontView/OrderView.vue'),
       },
     ],
+  },
+  {
+    path: '/login',
+    component: () => import('../views/LoginView.vue'),
   },
   {
     path: '/admin',

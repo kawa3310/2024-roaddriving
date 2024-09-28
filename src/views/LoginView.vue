@@ -1,6 +1,5 @@
 <template>
   <NavbarComponents/>
-  <RouterView/>
   <div class="empty-content"></div>
   <div class="container mt-3">
     <div aria-label="breadcrumb">
@@ -171,8 +170,8 @@ export default {
         this.forgotPassword = true;
         this.loginStates = false;
       } else {
-        this.forgotPassword = false;
         this.loginStates = true;
+        this.forgotPassword = false;
       }
     },
     registrationstates() {
