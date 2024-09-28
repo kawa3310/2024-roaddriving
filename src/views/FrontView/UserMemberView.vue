@@ -6,9 +6,9 @@
         <div class="row">
           <MemberCenterLayout>
             <template v-slot:breadcrumb>
-              <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" />
+              <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" class="mt-3"/>
             </template>
-            <div class="col-12 course-materials">
+            <div class="course-materials my-lg-0 my-3">
               <div class="border-0
               d-flex flex-column align-items-center justify-content-between">
                 <div class="w-100">
@@ -59,28 +59,8 @@ import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 export default {
   data() {
     return {
-      memberInfo: '',
-      reserve: '',
       pageBreadcrumbList: ['member', 'memberInfo'],
     };
-  },
-  methods: {
-    changeState() {
-      if (this.reserve !== true) {
-        this.reserve = true;
-        this.memberInfo = false;
-      } else {
-        this.reserve = true;
-      }
-    },
-    changeStates() {
-      if (this.memberInfo !== true) {
-        this.memberInfo = true;
-        this.reserve = false;
-      } else {
-        this.memberInfo = true;
-      }
-    },
   },
   components: {
     Breadcrumb,

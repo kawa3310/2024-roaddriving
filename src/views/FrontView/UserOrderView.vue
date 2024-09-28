@@ -1,18 +1,19 @@
 <template class="">
   <div class="empty-content"></div>
   <div>
-    <main class="py-8">
+    <main class="pb-8">
       <div class="container">
         <div class="row">
           <MemberCenterLayout>
             <template v-slot:breadcrumb>
-              <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" />
+              <Breadcrumb class="mt-3"
+              :page-breadcrumb-list="pageBreadcrumbList" />
             </template>
-            <div class="col-12 course-materials">
+            <div class="course-materials">
               <SideMenu :personal="personal" :reserve="reserve"  />
-              <div class="col-lg-12 col-12 course-materials">
+              <div class="course-materials">
                 <div>
-                  <div class="reservation-state d-flex justify-content-between px-5 mb-5">
+                  <div class="reservation-state d-flex justify-content-between px-5 my-lg-5 my-3">
                     <p>預約編號：ATR443213</p>
                     <p>預約日期：2024-09-12</p>
                   </div>
@@ -69,28 +70,8 @@ import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 export default {
   data() {
     return {
-      memberInfo: '',
-      reserve: '',
-      pageBreadcrumbList: ['member', 'memberInfo'],
+      pageBreadcrumbList: ['member', 'userReservation', 'userOrder'],
     };
-  },
-  methods: {
-    changeState() {
-      if (this.reserve !== true) {
-        this.reserve = true;
-        this.memberInfo = false;
-      } else {
-        this.reserve = true;
-      }
-    },
-    changeStates() {
-      if (this.memberInfo !== true) {
-        this.memberInfo = true;
-        this.reserve = false;
-      } else {
-        this.memberInfo = true;
-      }
-    },
   },
   components: {
     Breadcrumb,

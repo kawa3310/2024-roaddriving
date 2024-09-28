@@ -6,25 +6,25 @@
         <div class="row">
           <MemberCenterLayout>
             <template v-slot:breadcrumb>
-              <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" />
+              <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" class="mt-3" />
             </template>
-            <div class="col-12 course-materials">
+            <div class="course-materials my-lg-0 my-3">
               <ul class="nav nav-pills" id="pills-tab" role="tablist">
-                      <li class="col-4 nav-item" role="presentation">
-                        <a class="nav-link active" id="pills-home-tab"
-                        data-bs-toggle="pill" data-bs-target="#all-appointments" type="button"
-                        role="tab" aria-controls="pills-home" aria-selected="true">所有預約</a>
-                      </li>
-                      <li class="col-4 nav-item" role="presentation">
-                        <a class="nav-link" id="pills-profile-tab"
-                        data-bs-toggle="pill" data-bs-target="#appointed" type="button"
-                        role="tab" aria-controls="pills-profile" aria-selected="false">已預約</a>
-                      </li>
-                      <li class="col-4 nav-item" role="presentation">
-                        <a class="nav-link" id="pills-contact-tab"
-                        data-bs-toggle="pill" data-bs-target="#finished" type="button"
-                        role="tab" aria-controls="pills-contact" aria-selected="false">已完課</a>
-                      </li>
+                <li class="col-4 nav-item" role="presentation">
+                  <a class="nav-link active" id="pills-home-tab"
+                  data-bs-toggle="pill" data-bs-target="#all-appointments" type="button"
+                  role="tab" aria-controls="pills-home" aria-selected="true">所有預約</a>
+                </li>
+                <li class="col-4 nav-item" role="presentation">
+                  <a class="nav-link" id="pills-profile-tab"
+                  data-bs-toggle="pill" data-bs-target="#appointed" type="button"
+                  role="tab" aria-controls="pills-profile" aria-selected="false">已預約</a>
+                </li>
+                <li class="col-4 nav-item" role="presentation">
+                  <a class="nav-link" id="pills-contact-tab"
+                  data-bs-toggle="pill" data-bs-target="#finished" type="button"
+                  role="tab" aria-controls="pills-contact" aria-selected="false">已完課</a>
+                </li>
               </ul>
               <div class="tab-content d-flex flex-column align-items-center
               justify-content-between
@@ -132,28 +132,8 @@ import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 export default {
   data() {
     return {
-      memberInfo: '',
-      reserve: '',
-      pageBreadcrumbList: ['member', 'memberInfo'],
+      pageBreadcrumbList: ['member', 'userReservation'],
     };
-  },
-  methods: {
-    changeState() {
-      if (this.reserve !== true) {
-        this.reserve = true;
-        this.memberInfo = false;
-      } else {
-        this.reserve = true;
-      }
-    },
-    changeStates() {
-      if (this.memberInfo !== true) {
-        this.memberInfo = true;
-        this.reserve = false;
-      } else {
-        this.memberInfo = true;
-      }
-    },
   },
   components: {
     Breadcrumb,

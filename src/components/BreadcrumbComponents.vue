@@ -65,11 +65,11 @@ export default {
           path: '/member',
           name: '會員資料',
         },
-        bookingList: {
+        userReservation: {
           path: '/userReservation',
           name: '預約紀錄',
         },
-        bookingRecords: {
+        userOrder: {
           path: '/userOrder',
           name: '訂單詳細',
         },

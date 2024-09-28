@@ -4,7 +4,7 @@
     <main class="pb-8">
       <div class="container">
         <div class="row">
-          <SideMenu />
+          <SideMenu class="col-lg-3 col-12" />
           <div class="col-lg-9 col-12 course-materials">
             <slot></slot>
           </div>
