@@ -85,15 +85,15 @@
 export default {
   data() {
     return {
-      navbarClass: ['bg-white, py-md-3'],
+      navbarClass: ['bg-primary, py-md-3'],
     };
   },
   methods: {
     changeNavbarClass() {
       const windowY = window.scrollY;
-      const carousel = document.querySelector('.navigation');
+      const navigation = document.querySelector('.navigation');
 
-      if (windowY > carousel.offsetTop - 120) {
+      if (windowY > navigation.offsetTop - 120) {
         this.navbarClass = ['bg-primary'];
       } else {
         this.navbarClass = [''];
@@ -107,6 +107,10 @@ export default {
   mounted() {
     window.addEventListener('scroll', this.changeNavbarClass);
     this.backTop();
+    const navigation = document.querySelector('.navigation');
+    if (!navigation) {
+      this.navbarClass = ['bg-primary'];
+    }
   },
   unmounted() {
     window.removeEventListener('scroll', this.changeNavbarClass);

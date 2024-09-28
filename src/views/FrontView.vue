@@ -56,7 +56,8 @@
           </a>
         </li>
       </ul>
-      <span class="d-lg-block d-none text-light text-end my-7">隱私權政策</span>
+      <RouterLink class="nav-hover d-lg-block d-none
+      text-light text-end my-7" to="/privacy">隱私權政策</RouterLink>
       <p class="statement text-center mt-5">Copyright © 2024 road driving serivices.</p>
     </div>
   </footer>

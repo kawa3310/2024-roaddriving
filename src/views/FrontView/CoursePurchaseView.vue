@@ -21,6 +21,17 @@
         <h2>無論是車前檢查或者是起步前注意事項</h2>
         <h2>所有行車眉角一步一步教會你</h2>
       </div>
+      <div class="d-flex justify-content-center d-gird gap-5 traffic-safety my-5">
+        <div class="traffic" style="background-color: #EA6261;">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447839329.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=gaPuWeYoKNXIdPoKTzgTqPEhZhO5b%2FimBxu7XQ6dy4y8Bnq2%2BN4H3cm6CziCw9UaHikLiubQGaRr%2BQCsrqeZT107vd3x8QYnE%2BCIhPVqrH%2BLuE1PUOdFlgVkQLomnLwLyA6CdQ6U%2BI7ATAcW3LbwwX1SlztTpy8YrVHMHUjceDEz6srmhrdTLAE4PhmYBveHY1Wn%2FITM9%2FLdRDjkiZM2syo9QLx9baXW1SC2TCMi3CjeVLnYa3aiO6B2h9V0RFAhDk4Z9XGSTGVlMd8wKcLKRoZNH0HK8cw%2FDTpVfBClI2aa%2Bpm1CdgL4wib6%2F8ZcneDLVA%2FNk9fjCteF9STC0NVkQ%3D%3D" alt="traffic-img">
+        </div>
+        <div class="traffic" style="background-color: #29c1af;">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447294202.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=crGv2jvnSnh%2FJLh2fmqHpOPPR9RH0QxJeEEZnquJW8fNuJUCYvKVM4FRnnOzImA6zQeYgNJcg%2B0tSab5VMDh9yX8GjkLbaEbS2k%2BbQt2qcLAaUH3oXD4o0tVJd1yx8sZk0DjkDH5%2BpRPD8njEWH1dkOhxMV8hxn9poAqJq0ErmQ8VxN2yJRp0cqLlgOK09zk%2FuiTnzY08j7vkyXCbsRpn8EGXcHciineAJ0gLkIgiYY1bnSoTmMLtMjEia%2F0jUIxmMpS%2BFBiIThLZU3GQjxGUkRtfeKTycjcgI8magPgFvfQjCUBrKNwup8BFpVZ3xxY9LNprBMsacBe1N428zUj5Q%3D%3D" alt="traffic-img">
+        </div>
+        <div class="traffic" style="background-color: #FED295;">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727447320816.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=co2N7wnGKDbSWNjP1WKYZXmMTC27NSJJPnV9YQ8T6OoxuGGRhuh30HS%2Fl6QqwDNmvilWZVQ2TQ861RzbeNaGEoK1hfPczTnr2e2amRuevUUrzEhCdPhxvjTnLuCNQ28nibdPW4UWQU8GG6hoiQm5ET%2Fw2NoMpo0Dw8mWWbhG0ZxRiYowbJWz1bXvfiEvOOGOplUc8Jr31QvrYka%2B%2BmeiSwn9smDoNUKODVmvpah2WHYCW2a8Cv2FA6CQ9j9AkrE4k6ICRYd3h7m4wYUZQfXZPQmifiX1weiRHnJqXKtJCMuVdkz8H2dNKdweDBgQp%2BVR8Y3e8JA4nE2e%2F8oACahYvg%3D%3D" alt="traffic-img">
+        </div>
+      </div>
       <div class="row">
         <div class="col-lg-6 mb-lg-9 mb-3">
           <div class="card border">
@@ -237,6 +248,14 @@
   .course-bg{
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727425651225.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jEK2G6%2BV3%2B3FA4KFRkuPCuzxQ4ZjZJYL96iPR4amAUtpnkblDekRszJfzyoxL7NUrK8ldX6XPlt3kr3Ji5DUPzWvaSBymPxUvrXfHnivSa4wcp313VZshI%2BKfHVLUHp8bTuaio5IVN7IKXgL2Ye5q%2FQ9VG1r8CIAIyvzNIEaFuErfajLVeL6U7WM6m8mRnnLehd93fIwOxZ8tRuaZDbbP9r9YBroI0hrPy2GrbVTL7bjlmOF0v4byWJC1LzGP%2FUig4644%2BPszsejJjq11n5zdYbUK3jdtHL79sviRFl8wUm%2F1bLv2JzIIEe1K3v4RkOkuOM53KoJbPVcVB0JPsn1PA%3D%3D') no-repeat center center / cover;
     width: 100%;
+  }
+  .traffic{
+    width: 200px;
+    padding: 20px;
+    border-radius: 60%;
+    background-color: #f88383;
+    background-color: #29c1af;
+    background-color: #fce531;
   }
   .card{
     border-radius: 20px;
