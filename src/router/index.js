@@ -7,7 +7,6 @@ const routes = [
     children: [
       {
         path: 'home',
-        name: 'Home',
         component: () => import('../views/FrontView/HomeView.vue'),
       },
       {
@@ -41,6 +40,10 @@ const routes = [
       {
         path: 'order',
         component: () => import('../views/FrontView/OrderView.vue'),
+      },
+      {
+        path: 'privacy',
+        component: () => import('../views/FrontView/PrivacyView.vue'),
       },
     ],
   },
