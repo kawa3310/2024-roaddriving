@@ -48,8 +48,12 @@ const routes = [
         component: () => import('../views/FrontView/UserMemberView.vue'),
       },
       {
-        path: '/order',
-        component: () => import('../views/FrontView/OrderView.vue'),
+        path: '/userReservation',
+        component: () => import('../views/FrontView/UserReservationView.vue'),
+      },
+      {
+        path: '/userOrder',
+        component: () => import('../views/FrontView/UserOrderView.vue'),
       },
     ],
   },
