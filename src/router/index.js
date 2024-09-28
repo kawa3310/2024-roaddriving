@@ -6,7 +6,7 @@ const routes = [
     component: () => import('../views/FrontView.vue'),
     children: [
       {
-        path: 'home',
+        path: '',
         component: () => import('../views/FrontView/HomeView.vue'),
       },
       {

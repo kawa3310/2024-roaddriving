@@ -17,7 +17,7 @@
           7.21 9 5 9c-2.086 0-3.8 1.398-3.984 3.181A1 1 0 0 1 1 12z"/>
         </svg>
         會員資料</a>
-        <a href="#" id="v-pills-profile-tab" data-bs-toggle="pill"
+        <a id="v-pills-profile-tab" data-bs-toggle="pill"
         data-bs-target="#v-reserve" type="button" role="tab" @click="$emit('changeState')"
         aria-controls="v-pills-profile" aria-selected="false">
         <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-car-front-fill" viewBox="0 0 16 16">
