@@ -15,31 +15,33 @@
         </ol>
       </div>
     </div>
-    <div class="container my-lg-5 my-4">
+    <div class="container my-lg-9 my-4">
       <div class="text-center d-grid gap-7">
-        <h1>安全行車知識</h1>
+        <div class="text-primary pb-lg-8 pb-4">
+          <p class="main-title fs-1 fw-bold">安全行車知識</p>
+        </div>
         <h2>無論是車前檢查或者是起步前注意事項</h2>
         <h2>所有行車眉角一步一步教會你</h2>
       </div>
     </div>
-    <div class="container my-lg-5 my-4">
+    <div class="container my-lg-10 my-4">
       <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-3 mb-lg-0 mb-4">
           <div class="traffic1">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727511680048.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MbPpGThmJbwD%2FBqHJ7E9I6fBJXS4P0q8PRUO5PBJ4AxnUBQ8UxxYJ7ioDMEEgbBfbTNCke9Q9FTCeN7tntdLnU7rrTH3v%2FbdYQo%2Fitpi7hokI58Vcps0kS39ZH4a4xHNTMB%2Fln69GExo13Ov%2FZ3joBPzduZAC7hiMpRutsV0b22sV6mxd5jdzZBATThCTzCOKTHf238O7cjy98MvpByfN3BVcCrWHCcHP1CXXEGxirIF33bpA%2BMQR87x4PtmsIPHYjNOAf2f2lYeDwzTEs8McbFl%2BsNALBOm6vUUsQAniBQUXLSFi5FxiXa88%2BZThis4JgYAnolNQSQvc7rUcCvGGA%3D%3D" alt="traffic-img">
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mb-lg-0 mb-4">
           <div class="traffic">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727511781414.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Gz759g6KcFupR86%2F7YceAaNn%2BnCtmuUVrRRgfrGfJKDiSG%2BvoRioJUv2EEEyOrhpA8sZLZu0m5tAu9aR53kY0kFTywyGbLLHY7hcBEhFO2%2BU0eHI3L%2BE6t7bo1PVzDsZQMgOvAz%2BnX6jgD5pgFDRSlHic6l%2BFTH2wcaHOMZRtuSbHlb9vgFvI7oJ4CtIQUlvLvMH73capk9S40nnKkbWQ3xIpfuQ7aNwyJoSmXeV3NrR8IKMeOcPgpTs8DlzUP9rjhMisLgX1%2FUfqzxFRN3wD25lDqhEWg257ccvYkWb%2FOi%2Bzyjqfnd8BmfZ44zwx8t6IPGTZxGuHF198t0eHaPCTw%3D%3D" alt="traffic-img">
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mb-lg-0 mb-4">
           <div class="traffic">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727512049373.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=kSgG6L6q3gXoysxetmhA7Iq6vZgeoGarWYCFDrGpfmgV9JmT31wyKJNI7ZpLwdx52iJW4bVRlqD1nf5wdXh4HfRTE59bHGqKH4F5mNJyi%2F5npWlhu7SaoeyWIa6K2kp5uVWeM2B188LeAwVmVtGlNZCmwZkwROGWSVLAkIS7s2Vrtjh4GzCnBfLEaX2TG62kb%2Fo66aCu5uPiYQ3V1R50FO0fL41CQo6hb%2FQ0AExzaKt2irHrTHFdvofoNjblwnaH3OlLqDXeVo%2FYqSvfa2DfzT0MONj%2Bx3%2Ft8ns1FXIjTz83SRqBs6mxGZ7tzfevjeNQoHcnw2vySghvtEQT5Em%2BzA%3D%3D" alt="traffic-img">
           </div>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-3 mb-lg-0 mb-4">
           <div class="traffic">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727512378823.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jZnGcqWnDr1ZhEI9FABNQMGDZZ%2B6mJz%2FVqRwoDpjGAv3B3QhVJ%2B6l%2BAEdSX0w9ElLzLJcrS6%2BRcycYSk0e0lCSMCMic6CxqA8X6U4fym42hDF%2BJDPkYmPTfaexDbezNJZuiNJHU8B81UZQWi1nzBQNo5S1Z2ga%2Fn3z%2BxHTcaytijovZRVbmFaOmZcqRafhRmZ8CSV4sCgALx3q%2BXY4Ak1yfUhBN%2FxI45Og4o8HgVrbl7lL196dqE2JsSjcVZyKNkEBOOnMs1KeydjXwfCFkrIeUd%2BPkV5QiY43hjsPh37p2rHXEXqdIQrO6JU%2B9PaE5nF2S2VnqTZ%2FIGTUnsMaub%2FQ%3D%3D" alt="traffic-img">
           </div>
@@ -47,7 +49,7 @@
       </div>
     </div>
   </main>
-  <section class="my-lg-5 my-4">
+  <section class="my-lg-10 my-5">
     <div class="container">
       <div class="row">
         <div class="col-lg-6">
@@ -101,19 +103,21 @@
       </div>
     </div>
   </section>
-  <section class="hot-course my-lg-5 my-4">
+  <section class="hot-course my-lg-10 my-">
     <div class="container">
-      <h2 class="text-center my-lg-5 my-4">熱門課程</h2>
+      <div class="text-center text-primary pb-lg-8 pb-3 my-lg-5 my-4">
+        <p class="main-title fs-1 fw-bold">熱門課程</p>
+      </div>
       <div class="row justify-content-center">
         <div class="col-lg-3 col-12 mb-5 me-lg-3">
-          <div class="hot-card">
+          <div class="hot-card shadow">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D" alt="hot-cours-img">
             </div>
             <div class="hot-card-title">
               <span class="hot-course">課程一</span>
               <h6 class="pt-5">推薦給<span class="fs-6 text-success">初學者</span>的你</h6>
-              <div class="d-flex justify-content-between align-items-center p-4">
+              <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                 <span class="price">NT$ 4500</span>
                 <span class="d-flex align-items-center fw-bold">推薦指數：
                   <i class="bi bi-star-fill"></i>
@@ -124,7 +128,7 @@
           </div>
         </div>
         <div class="col-lg-3 col-12 mb-5 me-lg-3">
-          <div class="hot-card">
+          <div class="hot-card shadow">
             <div class="hot-logo"></div>
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132491711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Nz4OBEKkRB9nt5Lj81xYgORzqZ1C28tS%2B5iZxKyyfg09qC2slpI109QRP9BqEGlg6OCqi%2F3SCGCT1q0396IF0%2F6FjlQFd9U2kkJUi0i0QrDcXbcib1ecY1WAsmArrwsoFr%2BCHuyQ79Ij1%2BvSTfSzVEd%2Fl64%2BFWQJ9RJnd6B03sWk%2BU49Yd7AA7TLDvrirknBVAUPVPr9VQrZw3i4jW%2FVp93dUPgQ3AcCB9wx7EWIzJy04KLa%2B%2BxVXQUIZX%2FEyWKJ2nroN%2FnN7ZzIz5siIYMJcDtHYcOkPj6waqwwK2yqgWARkWHPuxax2iY%2BXBAVYXtYL%2BzD9LeLO8WV3iPa2bMYfw%3D%3D" alt="hot-cours-img">
@@ -132,7 +136,7 @@
             <div class="hot-card-title">
               <span class="hot-course">課程二</span>
               <h6 class="pt-5">開課至今最<span class="fs-6 text-danger">受歡迎</span>的課程！</h6>
-              <div class="d-flex justify-content-between align-items-center p-4">
+              <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                 <span class="price">NT$ 8500</span>
                 <span class="d-flex align-items-center fw-bold">推薦指數：
                   <i class="bi bi-star-fill"></i>
@@ -145,14 +149,14 @@
           </div>
         </div>
         <div class="col-lg-3 col-12">
-          <div class="hot-card">
+          <div class="hot-card shadow">
             <div class="hot-card-img">
               <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D" alt="hot-cours-img">
             </div>
             <div class="hot-card-title">
               <span class="hot-course">課程三</span>
               <h6 class="pt-5">推薦給想<span class="fs-6 text-primary">客製化</span>加強的你</h6>
-              <div class="d-flex justify-content-between align-items-center p-4">
+              <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                 <span class="price">NT$ 3000</span>
                 <span class="d-flex align-items-center fw-bold">推薦指數：
                   <i class="bi bi-star-fill"></i>
@@ -166,9 +170,11 @@
       </div>
     </div>
   </section>
-  <section class="plan my-lg-5 my-4">
+  <section class="plan my-lg-10 my-5">
     <div class="container">
-      <h2>課程方案</h2>
+      <div class="text-center text-primary pb-lg-8 pb-3 my-lg-5 my-4">
+        <p class="main-title fs-1 fw-bold">課程方案</p>
+      </div>
       <div class="d-lg-flex d-md-flex d-none">
         <table class="table mt-4 text-center table-bordered">
           <thead>
@@ -253,7 +259,8 @@
         </table>
       </div>
       <div class="d-flex justify-content-end mt-4">
-        <RouterLink class="btn btn-outline-danger d-flex align-items-center" to="/reservation">我要上課
+        <RouterLink class="btn btn-lg
+        btn-outline-danger d-flex align-items-center" to="/reservation">我要上課
           <i class="bi bi-chevron-double-right"></i>
         </RouterLink>
       </div>
@@ -279,22 +286,23 @@
     }
     .card-title{
       position: absolute;
-      font-size: 2vw;
+      font-size: 1.8vw;
       margin: 0;
-      top: 50%;
+      top: 40%;
       left: 50%;
       transform: translate(-50%, 150%);
       color: #565555;
       font-weight: 900;
       @media (max-width: 992px) {
-        font-size: 7vw;
+        font-size: 4vw;
       }
-      @media (max-width: 376px) {
-        font-size: 8vw;
+      @media (max-width: 768px) {
+        top: 30%;
+        font-size: 5vw;
       }
       p{
         border-radius: 60px;
-        padding: 8px 16px;
+        padding: 16px 20px;
         background-color: #ffffff;
       }
     }
@@ -304,8 +312,8 @@
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726142978878.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=iZGnbzjaDhronILtnC%2BG48C1w%2Bf%2FxZCQJdSvMNXLm8hE0Bznafply7uNr8dV8ZHBPpwBsARZilT5uZY05PXNzZqiyqXRd9ndRQe2X2rZSOcWj2YOFS%2FHk293PKqy0EWRL%2FKz0VOssNG0eHTor2pd9e0gZvnr2hwggnE%2FuKuzuG8QRNjjUXftCBblSWtVNF8MUKYNQKcv7yAIxI7WOl7unF0klr%2BsVPp1dK%2BP84eSWn75w%2FSZ50upYIUTYunWjKpoE5HNOVxDlO2sGfWC4zbXBVy%2BcwNbDno4R3g53R1SqP1fDzo241vTnx8ikc5cMBmOCV5bAGQvrpALhvqj0Spzpw%3D%3D') no-repeat center center / cover;
     height: 44px;
     width: 44px;
-    top: -10%;
-    left: -7%;
+    top: 0%;
+    left: 0%;
     transform: rotate(340deg);
     @media (max-width: 594px) {
       top: -10%;
@@ -316,7 +324,6 @@
     border-radius: 10px 10px 10px 10px;
     position: relative;
     background-color: #6BC3C0;
-    transition-duration: 0.3s;
   }
   .plan{
     position: relative;

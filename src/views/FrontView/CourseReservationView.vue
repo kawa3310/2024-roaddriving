@@ -1,5 +1,7 @@
 <template>
-  <div class="empty-content"></div>
+  <div class="course-bg mb-3">
+    <h2 class="bg-banner">課程內容</h2>
+  </div>
   <section class="container mt-3">
     <div aria-label="breadcrumb">
       <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
@@ -13,23 +15,25 @@
     </div>
   </section>
   <main class="navigation">
-    <div class="container my-lg-9 my-5">
-      <h1 class="text-center mb-lg-9 mb-4">開始預約</h1>
+    <div class="container my-lg-9 mt-5 mb-9">
+      <div class="text-center text-primary pb-8">
+        <p class="main-title fs-1 fw-bold">開始預約</p>
+      </div>
       <VForm v-slot="{ meta }" ref="form" @submit="sendOutOrder">
-          <div class="mb-lg-8">
-            <h2 class="text-center mb-lg-9 mb-4">1. 選擇課程</h2>
+          <div class="my-lg-10">
+            <h2 class="text-center my-lg-10 my-4">1. 選擇課程</h2>
             <div class="row d-flex flex-reverse justify-content-center">
               <div class="col-lg-4 col-md-6 d-lg-block d-md-block d-none">
-                <div id="hot-1" class="hot-card">
+                <div id="hot-1" class="hot-card shadow">
                   <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
                   <div>
                     <div class="hot-card-img">
                       <img :src="changeCourse.img" alt="hot-course-img">
                     </div>
                     <div class="hot-card-title">
-                      <span class="course-side">{{ changeCourse.title }}</span>
-                      <h6 class="pt-3">{{ changeCourse.title }}</h6>
-                      <div class="d-flex justify-content-between align-items-center p-4">
+                      <p class="hot-course">{{ changeCourse.title }}</p>
+                      <h4 class="fw-semibold pt-5">{{ changeCourse.title }}</h4>
+                      <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                         <span class="price">{{ changeCourse.price }}</span>
                         <span class="d-flex align-items-center fw-bold">推薦指數：
                           <p class="d-flex" v-html="changeCourse.start"></p>
@@ -42,7 +46,8 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-                <select v-model="courseData" name="title" as="select">
+                <select v-model="courseData" name="title" as="select" class="form-select w-100">
+                  <option value="" selected disabled>請選擇課程</option>
                   <template v-for="(course, index) in courseCard" :key="index.id">
                     <option
                     :value="course.id"
@@ -50,27 +55,27 @@
                   </template>
                 </select>
                 <div class="d-grid gap-4">
-                  <p class="my-3">課程內容：</p>
+                  <h5 class="my-3 fw-bold">課程內容：</h5>
                   <p>{{ changeCourse.content }}</p>
                   <p>{{ changeCourse.hours }}</p>
                 </div>
                 <div class="price text-end">{{ changeCourse.price }}</div>
               </div>
               <div class="d-lg-none d-md-none mt-3">
-                <div id="hot-1" class="hot-card">
+                <div id="hot-1" class="hot-card shadow">
                   <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
                   <div>
                     <div class="hot-card-img">
                       <img :src="changeCourse.img" alt="hot-course-img">
                     </div>
                     <div class="hot-card-title">
-                      <span class="course-side">{{ changeCourse.title }}</span>
-                      <h6 class="pt-3">{{ changeCourse.title }}</h6>
-                      <div class="d-flex justify-content-between align-items-center p-4">
-                        <span class="price">{{ changeCourse.price }}</span>
-                        <span class="d-flex align-items-center fw-bold">推薦指數：
+                      <span class="hot-course">{{ changeCourse.title }}</span>
+                      <h4 class="fw-semibold pt-5">{{ changeCourse.title }}</h4>
+                      <div class="d-flex justify-content-between align-items-center p-4 pb-5">
+                        <h6 class="price">{{ changeCourse.price }}</h6>
+                        <h6 class="d-flex align-items-center fw-bold">推薦指數：
                           <p class="d-flex" v-html="changeCourse.start"></p>
-                        </span>
+                        </h6>
                       </div>
                     </div>
                   </div>
@@ -78,8 +83,8 @@
               </div>
             </div>
           </div>
-          <div class="my-lg-9 my-5">
-            <h2 class="text-center mb-lg-9 mb-4">2. 選擇上課地區</h2>
+          <div class="my-lg-10 mt-5">
+            <h2 class="text-center my-lg-10 my-4">2. 選擇上課地區</h2>
             <div class="row">
               <div class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
               name="terms" type="radio"
@@ -87,67 +92,71 @@
                 <label class="business-card"
                 :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === teacherAreaData}">
                   <input type="radio" name="teacher-card" :value="teacher.id"
-                  :id="`teacher${teacher.id}`"
+                  :id="`teacher${teacher.id}`" placeholder=""
                   v-model="teacherAreaData" class="form-check-input">
                   <div class="teachers-img">
                     <img :src="teacher.img" alt="teacher" class="img">
                     <p class="area">{{ teacher.area }}</p>
                   </div>
                 </label>
-                <div class="text-center pt-4">
+                <div class="text-center pt-lg-4 pb-4">
                   <span>{{ teacher.name }} 教練</span>
                 </div>
               </div>
             </div>
           </div>
-          <section class="my-lg-9 my-5">
+          <section class="my-lg-10 mt-5">
             <div class="container">
-              <div class="row">
-                <p class="text-end text-danger mb-3">※需先預繳訂金 NT 1000 元，上課後補差價</p>
-                <div class="col-lg-6 mb-lg-0 mb-4">
-                  <div class="select-card bg-card p-3">
-                    <h2 class="text-center">3. 選擇日期 / 時段</h2>
-                    <div class="d-flex justify-content-center mt-4">
-                      <div class="w-50 mb-4 date">
+              <h2 class="text-center my-lg-10 my-4">3. 選擇日期 / 時段</h2>
+              <div class="row justify-content-center mb-5">
+                <div class="col-lg-7">
+                  <div class="select-card bg-card p-5">
+                    <div class="">
+                      <div class="mb-4 date">
                         <label class="d-block pb-2" for="due_date">年／月／日</label>
-                        <input type="date" value="2024-09-17" min="2024-09-17"
-                        max="2028-09-17" class="w-100 mb-4"/>
+                        <input type="date" value="2024-09-23" min="2024-09-23"
+                        max="2028-09-17" class="form-select mb-4 p-2"/>
                         <div class="border-top"></div>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-center d-grid gap-4">
-                      <label for="radio">
-                        <input type="radio" name="time" value="AM" checked />
+                    <div class="d-flex justify-content-between d-grid gap-4">
+                      <label for="am" class="form-check-label">
+                        <input type="radio" name="time" value="AM"
+                        checked="" class="form-check-input" id="am" />
                         上午時段（09:30 ~ 13:30）
                       </label>
-                      <label for="radio">
-                        <input type="radio" name="time" value="PM" />
+                      <label for="pm" class="form-check-label">
+                        <input type="radio" name="time" value="PM"
+                        id="pm" class="form-check-input" />
                         下午時段（15:30 ~ 20:30）
                       </label>
                     </div>
                   </div>
                 </div>
-                <div class="col-lg-6">
-                  <div class="select-card h-100 p-3 d-flex flex-column
-                  justify-content-between bg-card">
-                    <h2 class="text-center mb-lg-0 mb-4">4. 付款方式</h2>
-                    <div class="w-100">
-                      <div class="payment d-flex justify-content-center mb-lg-0 mb-4">
-                        <select class="w-50">
-                          <option value="信用卡">信用卡</option>
-                        </select>
+              </div>
+              <h2 class="text-center my-lg-10 mb-4">4. 付款方式</h2>
+                <div class="row justify-content-center">
+                  <div class="col-lg-7">
+                    <div class="select-card p-5 d-flex flex-column
+                    justify-content-between bg-card">
+                      <div>
+                        <div class="payment d-flex justify-content-center mb-lg-0 mb-4">
+                          <select class="form-select w-100 mb-4 p-2">
+                            <option value="信用卡">信用卡</option>
+                          </select>
+                        </div>
                       </div>
-                    </div>
-                    <div class="text-end">
-                      <span class="fw-semibold">NT$ 1000／預繳訂金</span>
+                      <div class="text-end">
+                        <span class="fw-semibold">NT$ 1000／預繳訂金</span>
+                      </div>
+                      <p class="text-end text-danger mt-3">※需先預繳訂金 NT 1000 元，上課後補差價</p>
                     </div>
                   </div>
                 </div>
-              </div>
             </div>
           </section>
-          <div class="d-flex justify-content-center mb-lg-9">
-            <button type="submit" class="btn btn btn-danger px-4 text-white"
+          <div class="d-flex justify-content-center mb-lg-9 mt-4">
+            <button type="submit" class="btn btn-lg btn-danger px-4 text-white"
             :disabled="!meta.valid">立刻預約</button>
           </div>
       </VForm>
@@ -256,6 +265,15 @@ export default {
 </script>
 
 <style lang="scss">
+  .main-title{
+    @media (max-width: 375px) {
+      &::before{
+        left: 35%;
+        bottom: -30%;
+        position: absolute;
+      }
+    }
+  }
   .bg-card{
     background-color: #f0efef;
     border-radius: 10px;
@@ -274,26 +292,14 @@ export default {
     left: 2%;
     transform: rotate(340deg);
   }
-  .hot-card-title{
-    .course-side{
-      position: absolute;
-      font-size: 10px;
-      top: 3%;
-      left: 2%;
-      border: 1px solid #93463f;
-      background-color: #db7369;
-      color: white;
-      border-radius: 20px;
-      padding: 5px;
-    }
-  }
   form{
   padding: 20px;
   }
   .teachers-img{
     position: relative;
     .img{
-      opacity: 0.7;
+      opacity: 0.3;
+      transition-duration: 0.2s;
     }
     .area{
       position: absolute;
@@ -301,6 +307,7 @@ export default {
       left: 50%;
       transform: translate(-50%, -50%);
       font-size: 4vw;
+      font-weight: 800;
       color: #444040;
       padding: 0 20px;
       opacity: 3;

@@ -1,3 +1,15 @@
+.main-title{
+  position: relative;
+    &::before{
+      content: "";
+      width: 100px;
+      border-bottom: 8px solid #F6E6AF;
+      border-radius: 50px;
+      left: 46%;
+      bottom: -30%;
+      position: absolute;
+  }
+}
 .situation-item{
   position: relative;
   span{
@@ -34,20 +46,18 @@
 
 .hot-card-title{
   text-align: center;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.1));
   border-radius: 10px 10px 10px 10px;
   background-color: #fff;
   position: relative;
   .hot-course{
     position: absolute;
     font-size: 10px;
-    bottom: -10%;
+    top: 3%;
     left: 2%;
-    border: 1px solid #93463f;
     background-color: #db7369;
     color: white;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
   }
   span{
     font-size: 14px;

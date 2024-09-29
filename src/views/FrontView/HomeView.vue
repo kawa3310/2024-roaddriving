@@ -629,18 +629,6 @@ export default {
   .banner2-title{
     padding: 160px 0 86px 0;
   }
-  .main-title{
-    position: relative;
-      &::before{
-        content: "";
-        width: 100px;
-        border-bottom: 8px solid #F6E6AF;
-        border-radius: 50px;
-        left: 46%;
-        bottom: -30%;
-        position: absolute;
-    }
-  }
   .carousel-img{
     height: 360px;
     border-radius: 16px;
