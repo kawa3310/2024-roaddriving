@@ -63,9 +63,9 @@
         <h5 class="text-center py-3">立即註冊</h5>
         <div class="d-flex justify-content-center d-grid gap-3">
           <p>已經有帳號了？</p>
-          <RouterLink to="/contact">
+          <a @click="registrationstates">
             登入
-          </RouterLink>
+          </a>
         </div>
         <VForm ref="form" v-slot="{ errors }">
           <div class="mb-3">
@@ -141,7 +141,7 @@
           </div>
           <div class="d-flex justify-content-between d-grid gap-3 mb-3">
             <p class="text-muted" @click="registrationstates">沒收到驗證碼嗎？</p>
-            <a href="#">重新發送</a>
+            <a @click="getcertified">重新發送</a>
             </div>
         </div>
       </div>
