@@ -104,15 +104,20 @@
     text-align: start;
     padding: 30px 30px 30px 50px;
     border: 1px solid #f2f0f0;
+    @media (max-width: 375px) {
+      padding-left: 15px;
+    }
   }
   .quesiton-buttom{
     position: relative;
     background-color: #fff;
     font-size: 24px;
+    @media (max-width: 375px) {
+      font-size: 20px;
+    }
     &::after{
       content: "\F13A";
       font-family: 'bootstrap-icons';
-      margin-left: 10px;
       font-size: 1.5rem;
       position: absolute;
       right: 5%;
@@ -137,5 +142,8 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
+    @media (max-width: 375px) {
+      font-size: 16px;
+    }
   }
 </style>
