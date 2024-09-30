@@ -3,18 +3,7 @@
     <div class="quesiton-bg mb-3">
       <h2 class="bg-banner">常見問題</h2>
     </div>
-    <header class="navigation container mt-3">
-      <div aria-label="breadcrumb">
-        <ol class="breadcrumb px-0 mb-5 py-2 fs-7 justify-content-start">
-          <li class="breadcrumb-item">
-            <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
-          </li>
-          <li class="breadcrumb-item">
-            <RouterLink class="fw-bol" to="/question">常見問題</RouterLink>
-          </li>
-        </ol>
-      </div>
-    </header>
+      <Breadcrumb class="navigation container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
     <div class="container pb-lg-9">
       <div class="quesiton-shadow">
         <div>
@@ -93,6 +82,21 @@
     </div>
   </div>
 </template>
+
+<script>
+import Breadcrumb from '@/components/BreadcrumbComponents.vue';
+
+export default {
+  data() {
+    return {
+      pageBreadcrumbList: ['question'],
+    };
+  },
+  components: {
+    Breadcrumb,
+  },
+};
+</script>
 
 <style scoped lang="scss">
   .quesiton-bg{

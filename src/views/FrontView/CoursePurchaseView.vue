@@ -3,18 +3,7 @@
     <div class="course-bg mb-3">
       <h2 class="bg-banner">課程內容</h2>
     </div>
-    <div class="container navigation">
-      <div aria-label="breadcrumb">
-        <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
-          <li class="breadcrumb-item">
-            <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
-          </li>
-          <li class="breadcrumb-item">
-            <RouterLink class="d-flex align-items-center" to="/purchase">購買課程</RouterLink>
-          </li>
-        </ol>
-      </div>
-    </div>
+    <Breadcrumb class="navigation container" :page-breadcrumb-list="pageBreadcrumbList"/>
     <div class="container my-lg-9 my-4">
       <div class="text-center d-grid gap-7">
         <div class="text-primary pb-lg-8 pb-4">
@@ -267,6 +256,21 @@
     </div>
   </section>
 </template>
+
+<script>
+import Breadcrumb from '@/components/BreadcrumbComponents.vue';
+
+export default {
+  data() {
+    return {
+      pageBreadcrumbList: ['purchase'],
+    };
+  },
+  components: {
+    Breadcrumb,
+  },
+};
+</script>
 
 <style lang="scss">
   .course-bg{

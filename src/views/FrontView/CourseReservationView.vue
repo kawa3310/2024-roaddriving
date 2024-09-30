@@ -2,19 +2,8 @@
   <div class="reservation-bg mb-3">
     <h2 class="bg-banner">預約報名</h2>
   </div>
-  <section class="container mt-3">
-    <div aria-label="breadcrumb">
-      <ol class="breadcrumb px-0 mb-0 py-2 fs-7 justify-content-start">
-        <li class="breadcrumb-item">
-          <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
-        </li>
-        <li class="breadcrumb-item">
-          <RouterLink class="d-flex align-items-center" to="/reservation">預約報名</RouterLink>
-        </li>
-      </ol>
-    </div>
-  </section>
-  <main class="navigation">
+  <Breadcrumb class="navigation container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
+  <main>
     <div class="container my-lg-9 mt-5 mb-9">
       <div class="text-center text-primary pb-8">
         <p class="main-title fs-1 fw-bold">開始預約</p>
@@ -165,6 +154,8 @@
 </template>
 
 <script>
+import Breadcrumb from '@/components/BreadcrumbComponents.vue';
+
 export default {
   data() {
     return {
@@ -230,6 +221,7 @@ export default {
           tel: '',
         },
       },
+      pageBreadcrumbList: ['reservation'],
     };
   },
   methods: {
@@ -260,6 +252,9 @@ export default {
       const dateTime = new Date(this.emitVoucher.due_date * 1000).toISOString().split('T');
       [this.due_date] = dateTime;
     },
+  },
+  components: {
+    Breadcrumb,
   },
 };
 </script>

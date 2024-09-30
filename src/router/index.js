@@ -18,10 +18,6 @@ const routes = [
         component: () => import('../views/FrontView/CourseReservationView.vue'),
       },
       {
-        path: 'checkout',
-        component: () => import('../views/FrontView/CheckOutView.vue'),
-      },
-      {
         path: 'question',
         component: () => import('../views/FrontView/QuestionView.vue'),
       },
@@ -29,16 +25,20 @@ const routes = [
         path: 'contact',
         component: () => import('../views/FrontView/ContactUsView.vue'),
       },
-      {
-        path: 'payment',
-        component: () => import('../views/FrontView/PaymentView.vue'),
-      },
     ],
   },
   {
     path: '/user',
     component: () => import('../views/UserView.vue'),
     children: [
+      {
+        path: '/checkout',
+        component: () => import('../views/FrontView/CheckOutView.vue'),
+      },
+      {
+        path: '/payment',
+        component: () => import('../views/FrontView/PaymentView.vue'),
+      },
       {
         path: '/privacy',
         component: () => import('../views/FrontView/PrivacyView.vue'),

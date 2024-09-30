@@ -2,19 +2,8 @@
     <div class="contact-bg mb-3">
       <h2 class="bg-banner">聯絡我們</h2>
     </div>
-    <header class="container mt-3">
-      <div aria-label="breadcrumb">
-        <ol class="breadcrumb px-0 mb-5 py-2 fs-7 justify-content-start">
-          <li class="breadcrumb-item">
-            <RouterLink class="text-muted" :to="`/`">首頁</RouterLink>
-          </li>
-          <li class="breadcrumb-item">
-            <RouterLink class="fw-bol" to="/contact">聯絡我們</RouterLink>
-          </li>
-        </ol>
-      </div>
-    </header>
-    <main class="navigation">
+    <Breadcrumb class="navigation container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
+    <main>
       <div class="container pb-lg-9">
         <div class="row">
           <div class="col-12 d-flex justify-content-center align-items-center">
@@ -44,6 +33,21 @@
       </div>
     </main>
 </template>
+
+<script>
+import Breadcrumb from '@/components/BreadcrumbComponents.vue';
+
+export default {
+  data() {
+    return {
+      pageBreadcrumbList: ['contact'],
+    };
+  },
+  components: {
+    Breadcrumb,
+  },
+};
+</script>
 
 <style scoped lang="scss">
   .contact-bg{
