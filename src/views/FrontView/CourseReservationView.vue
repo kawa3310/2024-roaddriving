@@ -1,6 +1,6 @@
 <template>
-  <div class="course-bg mb-3">
-    <h2 class="bg-banner">課程內容</h2>
+  <div class="reservation-bg mb-3">
+    <h2 class="bg-banner">預約報名</h2>
   </div>
   <section class="container mt-3">
     <div aria-label="breadcrumb">
@@ -273,6 +273,10 @@ export default {
         position: absolute;
       }
     }
+  }
+  .reservation-bg{
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727699785736.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AZzRJrQbv7lUBDBeNY35Y2X%2FxyQBspe1n3RCJCUNUJ0h1NtMqpihwcgAmTf6%2BLo7IB8LJyZJA7w7S4K2q49sw431fePgAzVDk0P9nl%2BJscnjjTGrbTKjDcU0o6OfylHNy2xfiU1KqC9JDfG3wueOrLZfhNpHV5DIrWPRpjNJUnBvDyAWlhaQxxvJkZgN2mcVCnrzOD%2BGYfiPCmt1DNGx6TMAMK69A3tDFNVwpMNYo078pYELh0qFo%2FR%2Fzl27XubMy160CyZvXC04NsSgDjIMYWXDMzHWTXaWAxIxs8Y0ddKFkYVWP7rG7bwKir%2BC5lgt3N5lXIYHFHotUU164WiuPA%3D%3D') no-repeat center bottom / cover;
+    width: 100%;
   }
   .bg-card{
     background-color: #f0efef;
