@@ -62,8 +62,26 @@ const routes = [
     component: () => import('../views/LoginView.vue'),
   },
   {
+    path: '/AdminLogin',
+    component: () => import('../views/AdminLogin.vue'),
+  },
+  {
     path: '/admin',
     component: () => import('../views/AdminView.vue'),
+    children: [
+      {
+        path: '/products',
+        component: () => import('../views/Background/AdminProductsView.vue'),
+      },
+      {
+        path: '/order',
+        component: () => import('../views/Background/AdminOrderView.vue'),
+      },
+      {
+        path: '/accounts',
+        component: () => import('../views/Background/AdminAccountsView.vue'),
+      },
+    ],
   },
   {
     path: '/:pathMatch(.*)*',

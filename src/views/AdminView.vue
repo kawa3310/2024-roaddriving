@@ -1,13 +1,14 @@
 <template>
-  <h1>This is About page.</h1>
-  <RouterLink to="/">Home</RouterLink> |
-  <RouterLink to="/about">About</RouterLink>
+  <AdminNavbar />
+  <RouterView/>
 </template>
 
 <script>
+import AdminNavbar from '@/components/AdminNavbarComponents.vue';
+
 export default {
+  components: {
+    AdminNavbar,
+  },
 };
 </script>
-
-<style scoped>
-</style>
