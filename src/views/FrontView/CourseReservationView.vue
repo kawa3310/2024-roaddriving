@@ -17,13 +17,13 @@
                   <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
                   <div>
                     <div class="hot-card-img">
-                      <img :src="changeCourse.img" alt="hot-course-img">
+                      <img :src="changeCourse.imageUrl" alt="hot-course-img">
                     </div>
                     <div class="hot-card-title">
                       <p class="hot-course">{{ changeCourse.title }}</p>
                       <h4 class="fw-semibold pt-5">{{ changeCourse.title }}</h4>
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
-                        <span class="price">{{ changeCourse.price }}</span>
+                        <span class="price">NT$ {{ changeCourse.price }}</span>
                         <span class="d-flex align-items-center fw-bold">推薦指數：
                           <p class="d-flex" v-html="changeCourse.start"></p>
                         </span>
@@ -48,20 +48,20 @@
                   <p>{{ changeCourse.content }}</p>
                   <p>{{ changeCourse.hours }}</p>
                 </div>
-                <div class="price text-end">{{ changeCourse.price }}</div>
+                <div class="price text-end">$NT {{ changeCourse.price }}</div>
               </div>
               <div class="d-lg-none d-md-none mt-3">
                 <div id="hot-1" class="hot-card shadow">
                   <div v-if="changeCourse.title === '課程二'" class="hot-logo"></div>
                   <div>
                     <div class="hot-card-img">
-                      <img :src="changeCourse.img" alt="hot-course-img">
+                      <img :src="changeCourse.imageUrl" alt="hot-course-img">
                     </div>
                     <div class="hot-card-title">
                       <span class="hot-course">{{ changeCourse.title }}</span>
                       <h4 class="fw-semibold pt-5">{{ changeCourse.title }}</h4>
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
-                        <h6 class="price">{{ changeCourse.price }}</h6>
+                        <h6 class="price">$NT {{ changeCourse.price }}</h6>
                         <h6 class="d-flex align-items-center fw-bold">推薦指數：
                           <p class="d-flex" v-html="changeCourse.start"></p>
                         </h6>
@@ -154,8 +154,11 @@
 </template>
 
 <script>
+import axios from 'axios';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
+import Swal from 'sweetalert2';
 
+const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
@@ -163,36 +166,6 @@ export default {
       teacherAreaData: '',
       due_date: '',
       courseCard: [
-        {
-          id: 1,
-          title: '課程一',
-          text: '推薦給初學者的你',
-          price: 'NT$ 4500',
-          start: '<i class="bi bi-star-fill"><i class="bi bi-star-fill">',
-          content: '安全行車知識、路邊停車、倒車入庫、市郊區。',
-          hours: '共一堂，每堂 4 小時',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
-        },
-        {
-          id: 2,
-          title: '課程二',
-          text: '開課至今最受歡迎的課程！',
-          price: 'NT$ 8500',
-          start: '<i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>',
-          content: '安全行車知識、路邊停車、倒車入庫、市郊區、高速公路、山路過彎。',
-          hours: '共三堂，分為三天上課。分別為 2 小時/堂、3 小時/堂、4 小時/堂',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132491711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Nz4OBEKkRB9nt5Lj81xYgORzqZ1C28tS%2B5iZxKyyfg09qC2slpI109QRP9BqEGlg6OCqi%2F3SCGCT1q0396IF0%2F6FjlQFd9U2kkJUi0i0QrDcXbcib1ecY1WAsmArrwsoFr%2BCHuyQ79Ij1%2BvSTfSzVEd%2Fl64%2BFWQJ9RJnd6B03sWk%2BU49Yd7AA7TLDvrirknBVAUPVPr9VQrZw3i4jW%2FVp93dUPgQ3AcCB9wx7EWIzJy04KLa%2B%2BxVXQUIZX%2FEyWKJ2nroN%2FnN7ZzIz5siIYMJcDtHYcOkPj6waqwwK2yqgWARkWHPuxax2iY%2BXBAVYXtYL%2BzD9LeLO8WV3iPa2bMYfw%3D%3D',
-        },
-        {
-          id: 3,
-          title: '課程三',
-          text: '推薦給想客製化加強的你',
-          price: 'NT$ 3000',
-          start: '<i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i>',
-          content: '路邊停車、倒車入庫、高速公路、山路過彎四項中擇三項教學',
-          hours: '共一堂，每堂 2.5 小時',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D',
-        },
       ],
       teacherData: [
         {
@@ -225,6 +198,22 @@ export default {
     };
   },
   methods: {
+    getCourseData() {
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/products/All`)
+        .then((res) => {
+          this.courseCard = res.data.products;
+        })
+        .catch((error) => {
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: error.response.data.message,
+          });
+        });
+    },
     sendOutOrder() {
       this.$router.push('/checkout');
     },
@@ -234,11 +223,11 @@ export default {
       const defaultCourseData = {
         title: '課程一',
         text: '推薦給初學者的你',
-        price: 'NT$ 4500',
+        price: '4500',
         start: '<i class="bi bi-star-fill"><i class="bi bi-star-fill">',
         content: '安全行車知識、路邊停車、倒車入庫、市郊區。',
         hours: '共一堂，每堂 4 小時',
-        img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
+        imageUrl: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
       };
       const courseData = this.courseCard.filter((course) => course.id === this.courseData);
       return courseData[0] || defaultCourseData;
@@ -255,6 +244,9 @@ export default {
   },
   components: {
     Breadcrumb,
+  },
+  mounted() {
+    this.getCourseData();
   },
 };
 </script>

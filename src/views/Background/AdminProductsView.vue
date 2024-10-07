@@ -36,8 +36,8 @@
         <tbody>
           <tr v-for="item in products" :key="item.id" class="tr">
             <td>{{ item.title }}</td>
-            <td>{{ item.category }}</td>
-            <td>{{ item.num }}小時</td>
+            <td>{{ item.is_enabled }}</td>
+            <td>{{ item.unit }}</td>
             <td>{{ item.price }}</td>
             <td>{{ item.description }}</td>
             <td>{{ item.content }}</td>
