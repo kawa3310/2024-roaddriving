@@ -82,10 +82,6 @@ export default {
       axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/products`)
         .then((res) => {
           this.products = res.data.products;
-          console.log(this.products);
-        })
-        .catch((err) => {
-          console.log(err);
         });
     },
   },

@@ -61,9 +61,6 @@ export default {
           const { token, expired } = res.data;
           document.cookie = `drivingToken=${token}; expires = ${new Date(expired)}; path=/`;
           this.$router.push('/products');
-        })
-        .catch(() => {
-          alert('登入失敗');
         });
     },
   },
