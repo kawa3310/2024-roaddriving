@@ -1,50 +1,52 @@
 <template>
   <div class="container px-6">
-    <div class="text-end mt-4">
-      <button type="button"
-      class="btn btn-outline-secondary">
-        建立新的產品
+    <div class="mt-9">
+      <h4 class="mb-9">課程方案</h4>
+      <button type="button" class="btn fs-4 plus" @click="modelOpen">
+        <i class="bi bi-plus-circle"></i>
       </button>
     </div>
     <div class="admin-table">
-      <table class="table mt-4">
+      <table class="table mt-4 table-bordered">
         <thead>
-          <tr>
-            <th width="">
+          <tr class="tr">
+            <th width="5">
               方案
             </th>
-            <th>堂數</th>
-            <th width="">
+            <th width="5">堂數</th>
+            <th width="5">
               1堂
             </th>
-            <th width="">
+            <th width="5">
               價格
             </th>
-            <th width="">
+            <th width="5">
               標語
             </th>
-            <th>
+            <th width="60">
               內容
             </th>
-            <th>推薦指數</th>
-            <th>圖片</th>
-            <th width="" class="text-center">
+            <th width="5">推薦指數</th>
+            <th width="5">圖片</th>
+            <th width="5">
               編輯
             </th>
           </tr>
         </thead>
         <tbody>
-          <tr v-for="item in products" :key="item.id" class="">
+          <tr v-for="item in products" :key="item.id" class="tr">
             <td>{{ item.title }}</td>
             <td>{{ item.category }}</td>
             <td>{{ item.num }}小時</td>
             <td>{{ item.price }}</td>
             <td>{{ item.description }}</td>
             <td>{{ item.content }}</td>
-            <td class="d-flex justify-content-center align-items-center mt-1">
-              <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+            <td>
+              <div class="d-flex justify-content-center pt-1">
+                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+              </div>
             </td>
-            <td width="60">
+            <td>
               <img :src="item.imageUrl" alt="img">
             </td>
             <td>
@@ -68,13 +70,16 @@
 
 <script>
 import axios from 'axios';
-import ProductModal from '@/components/ProductModalComponents.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
+      prodModal: null,
       products: [],
+      tempProducts: {
+        imagesUrl: [],
+      },
     };
   },
   methods: {
@@ -88,21 +93,29 @@ export default {
   mounted() {
     this.getData();
   },
-  components: [
-    ProductModal,
-  ],
 };
 </script>
 
 <style lang="scss">
+  .plus{
+    border: 0;
+    &:hover{
+      color: #5CAADF;
+    }
+  }
   .admin-table{
-    align-items: center;
+    color: #1E60A5;
+    text-align: center;
     .table{
-      border: 0!important;
-      td{
-        margin: 0;
-        padding: 16px;
-        align-items: center;
+      border: 1px solid #565555;
+      .tr{
+        th{
+          background-color: #857b7b;
+          color: #fff;
+        }
+        td{
+          vertical-align: middle;
+        }
       }
     }
   }
