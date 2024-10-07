@@ -63,9 +63,9 @@
         <h5 class="text-center py-3">立即註冊</h5>
         <div class="d-flex justify-content-center d-grid gap-3">
           <p>已經有帳號了？</p>
-          <a @click="registrationstates">
+          <RouterLink to="/userReservation">
             登入
-          </a>
+          </RouterLink>
         </div>
         <VForm ref="form" v-slot="{ errors }">
           <div class="mb-3">
@@ -140,8 +140,8 @@
             @click="forgotpassword">確認</button>
           </div>
           <div class="d-flex justify-content-between d-grid gap-3 mb-3">
-            <p class="text-muted" @click="registrationstates">沒收到驗證碼嗎？</p>
-            <a @click="getcertified">重新發送</a>
+            <p class="text-muted">沒收到驗證碼嗎？</p>
+            <a @click="getResend">重新發送</a>
             </div>
         </div>
       </div>
@@ -151,6 +151,7 @@
 </template>
 
 <script>
+import Swal from 'sweetalert2';
 import NavbarComponents from '@/components/NavbarComponents.vue';
 import FooterComponents from '@/components/FooterComponents.vue';
 
@@ -169,6 +170,8 @@ export default {
       if (this.forgotPassword !== true) {
         this.forgotPassword = true;
         this.loginStates = false;
+        this.enteremail = true;
+        this.certified = false;
       } else {
         this.loginStates = true;
         this.forgotPassword = false;
@@ -187,9 +190,37 @@ export default {
       if (this.certified !== true) {
         this.certified = true;
         this.enteremail = false;
+        Swal.fire({
+          toast: true,
+          position: 'top-end',
+          icon: 'success',
+          showConfirmButton: false,
+          timer: 2500,
+          title: '已發送驗證碼至信箱',
+        });
       } else {
         this.enteremail = true;
         this.certified = false;
+      }
+      Swal.fire({
+        toast: true,
+        position: 'top-end',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 2500,
+        title: '已發送驗證碼至信箱',
+      });
+    },
+    getResend() {
+      if (this.certified !== false) {
+        Swal.fire({
+          toast: true,
+          position: 'top-end',
+          icon: 'success',
+          showConfirmButton: false,
+          timer: 2500,
+          title: '已重新發送驗證碼至信箱',
+        });
       }
     },
   },
