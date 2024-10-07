@@ -20,33 +20,55 @@
     <div class="login d-flex justify-content-center mt-5">
       <div class="registration-form">
         <h5 class="text-center py-4">管理員登入</h5>
-        <VForm ref="form" v-slot="{ errors }">
+        <form id="form" @submit.prevent="login">
           <div class="mb-4">
-            <label for="email" class="form-label">電子信箱</label>
-            <VField id="email" name="email" type="email" class="form-control"
-            placeholder="輸入電子信箱"
-            :class="{ 'is-invalid': errors['email'] }"
-            rules="email|required">
-            </VField>
-            <ErrorMessage name="email" class="invalid-feedback"></ErrorMessage>
+            <label for="username" class="form-label">電子信箱</label>
+            <input id="username" name="email" type="email" class="form-control"
+            v-model="user.username"
+            placeholder="輸入電子信箱"/>
           </div>
           <div class="mb-4">
-            <label for="email" class="form-label">密碼</label>
-            <VField ref="password" name="密碼" type="text"
-            rules="required|min:9|max:10" class="form-control"
-            placeholder="輸入密碼"
-            :class="{ 'is-invalid': errors['密碼'] }">
-            </VField>
-            <ErrorMessage name="密碼" class="invalid-feedback"></ErrorMessage>
+            <label for="password" class="form-label">密碼</label>
+            <input id="password" name="密碼" type="password" class="form-control"
+            placeholder="輸入密碼" v-model="user.password">
           </div>
           <div class="d-flex justify-content-center align-items-center py-4">
-            <RouterLink to="/member" class="btn btn-outline-dark px-8">登入</RouterLink>
+            <button type="submit" class="btn btn-outline-dark px-8">登入</button>
           </div>
-        </VForm>
+        </form>
       </div>
     </div>
   </div>
 </template>
+
+<script>
+import axios from 'axios';
+
+const { VITE_URL } = import.meta.env;
+export default {
+  data() {
+    return {
+      user: {
+        username: '',
+        password: '',
+      },
+    };
+  },
+  methods: {
+    login() {
+      axios.post(`${VITE_URL}/admin/signin`, this.user)
+        .then((res) => {
+          const { token, expired } = res.data;
+          document.cookie = `drivingToken=${token}; expires = ${new Date(expired)}; path=/`;
+          this.$router.push('/products');
+        })
+        .catch(() => {
+          alert('登入失敗');
+        });
+    },
+  },
+};
+</script>
 
 <style scoped lang="scss">
   .logo-box{

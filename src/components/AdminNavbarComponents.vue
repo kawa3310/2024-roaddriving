@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid d-flex justify-content-around">
       <RouterLink class="navbar-brand text-white
-        d-flex align-items-center fw-bold fs-3 d-grid gap-2" to="/">
+        d-flex align-items-center fw-bold fs-3 d-grid gap-2" to="/products">
           <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180377010.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=CrvuyoINRFF8s%2BmbJ4CChhjRwC0pPEqk1uqzAuOCzrgsFtjA58P7HAzuLW0azYNsZMTKgkYVMfkYhYvDg2RQxKVh%2F7UmnCLHgIVmDgxlS%2BjZ2F5mTmQYCODXSwAZd22JZstU1UPLWaug0pLYunx52pcTKYdxMg4PNinS%2FbnxS3vlT7UnBCjNZV5bkf4kR5zSFTKC4N2vdlqrNDzlC%2BxUHqpcAWjxSqh3ydZJ6yOdPnxTlbUVb5YcDra4ymLgS8KQ7kdB%2BZE4Vj7PDqcDevKBsiXzGKU3xvYBPupfxf9qYub%2FgkCWq3WNNtSZ84b62zJ8g%2Fi1Nl8VXpv2DTsXRkWPNg%3D%3D
           " alt="logo-sm">
         南南道路駕駛</RouterLink>
