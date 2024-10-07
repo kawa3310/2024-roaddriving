@@ -9,16 +9,16 @@
           <div class="col-12 d-flex justify-content-center align-items-center">
             <ul class="contact-card fs-5">
               <li class="d-flex align-items-center d-grid gap-3">
-                <i class="bi bi-smartwatch fs-1"></i>
+                <i class="bi bi-smartwatch"></i>
                 <p class="fw-bolder">上課時間：</p>
                 週一至週日 09：30 ～20：30</li>
               <li class="d-flex align-items-center d-grid gap-3">
-                <i class="bi bi-headset fs-1"></i>
+                <i class="bi bi-headset"></i>
                 <p class="fw-bolder">聯絡電話：</p>
                 <a href="tel:+07-4569477">07-456-9477</a>
               </li>
               <li class="d-flex align-items-center d-grid gap-3">
-                <i class="bi bi-envelope fs-1"></i>
+                <i class="bi bi-envelope"></i>
                 <p class="fw-bolder">聯絡信箱：</p>
                 <a href="mailto:roaddriving@gmail.com">
                   roaddriving@gmail.com
@@ -62,5 +62,18 @@ export default {
     gap: 24px;
     padding-top: 24px;
     margin: 24px 0;
+    li{
+      font-size: 24px;
+    }
+    @media (max-width : 768px) {
+      li{
+        font-size: 20px;
+      }
+    }
+    @media (max-width : 576px) {
+      li{
+        font-size: 14px;
+      }
+    }
   }
 </style>
