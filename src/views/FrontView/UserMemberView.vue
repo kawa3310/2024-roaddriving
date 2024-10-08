@@ -8,7 +8,7 @@
             <template v-slot:breadcrumb>
               <Breadcrumb :page-breadcrumb-list="pageBreadcrumbList" class="mt-3"/>
             </template>
-            <div class="course-materials my-lg-0 my-3">
+            <div class="course-materials my-lg-0 my-9">
               <div class="border-0
               d-flex flex-column align-items-center justify-content-between">
                 <div class="w-100">
