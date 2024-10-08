@@ -1,6 +1,6 @@
 <template>
   <div class="empty-content"></div>
-  <div>
+  <div class="body">
     <main class="pb-8">
       <div class="container">
         <div class="row">
@@ -12,10 +12,11 @@
               <div class="border-0
               d-flex flex-column align-items-center justify-content-between">
                 <div class="w-100">
-                  <ul>
+                  <ul class="mb-4">
                     <li class="col-4 nav-item" role="presentation">
                       <a class="nav-link active"
                       type="button">會員資料</a>
+                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1728390628124.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=D80aq0vl2qR3O2GMby3%2FG7opcHAKAkrQlKO9shZ6o3h0tcv5mM6al8f3HNNkt98tWs6o3%2Ft3RlKXyAdiJEEMsMwZaFvARFAIqFJsUs%2FwDqh2%2Fh1wL2iTk1PEL6AiKo9ebN0Q85zAtf7dfC0BvWkQn%2FgrD3yrpNUhN3M8fwoIg1pN1kPGIpeVUPxYO%2FtJ0YdXbQSiBxlQN2FI2%2Ba%2FyZXq1VOZLVuwJ15APS0a59IN67TpjRD%2FqsF7B2bRDtSp9hM%2FZjximMEJDkXAJmhCoZhhV0zy5dGsQQWFew0yobxk6yP2YWZHUcAONklhx1mUHw0exJ5%2BGYh4RnLAuhiSxH7vDw%3D%3D" alt="icon" class="carIcon">
                     </li>
                   </ul>
                   <div class="tab-content d-flex justify-content-start pt-5">
@@ -71,65 +72,34 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .side{
-    background-color: #f3f1f1;
+.course-materials{
+  .nav-link{
+    text-align: center;
+    border: 1px solid #e2e2e3;
+    background-color: #fff;
     border-radius: 10px;
-    padding: 48px 48px 48px 24px;
-    text-align: start;
-    .side-menu{
-      font-size: 16px;
-      gap: 24px;
-      .active{
-        font-weight: 500;
-      }
-    }
+    padding: 20px 0px;
+    color: rgb(106, 106, 106);
+    font-size: 20px;
   }
-  .information-table{
-    th, td{
-      border: 0;
-    }
-    td{
-      text-align: start;
-    }
-    .th{
-      padding-bottom: 48px;
-      position: relative;
-      &::after{
-        position: absolute;
-        content: "";
-        width: 15%;
-        height: 50px;
-        bottom: 55%;
-        right: 42%;
-        border-bottom: 1px solid #848383;
-      }
-    }
-  }
-  .course-materials{
-    .nav-link{
-      text-align: center;
-      border: 1px solid #848383;
-      border-radius: 10px;
-      padding: 16px 0;
-      color: black;
-    }
-    li .active{
-      background-color: #948c8c;
-    }
-  }
-  .tab-content{
-    height: 600px;
-    border: 1px solid #848383;
-    border-radius: 10px;
+  ul{
     display: flex;
-    justify-content: center;
-    .table{
-      background-color: #1f1919;
-      a{
-        color: #1E60A5;
-        text-decoration: underline;
-        text-underline-offset: 2px;
+    justify-content: space-between;
+    li{
+      position: relative;
+      width: 30%;
+      .active{
+        background-color: #5CAADF;
+        color: #fff;
       }
     }
+    .carIcon{
+      position: absolute;
+      width: 40px;
+      height: 30px;
+      top: -30px;
+      transform: rotateY(180deg) rotate(-15deg);
+    }
   }
+}
 </style>

@@ -89,3 +89,41 @@
     padding: 100px;
   }
 }
+
+.body{
+  background-color: #F6F7F9;
+}
+
+.information-table{
+  th, td{
+    border: 0;
+  }
+  td{
+    text-align: start;
+  }
+  .th{
+    padding-bottom: 48px;
+    position: relative;
+    &::after{
+      position: absolute;
+      content: "";
+      width: 15%;
+      height: 50px;
+      bottom: 55%;
+      right: 42%;
+      border-bottom: 1px solid #848383;
+    }
+  }
+}
+
+.tab-content{
+  background-color: #fff;
+    .order-routerLink{
+      color: #1E60A5;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+      &:hover{
+        color: #59a4f4;
+      }
+    }
+}

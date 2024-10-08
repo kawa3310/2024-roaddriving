@@ -1,10 +1,10 @@
 <template>
   <div class="col-3">
-    <div class="side ">
+    <div class="side">
       <div class="side-menu nav flex-column nav-pills me-3 active"
       id="v-pills-tab" role="tablist"
       aria-orientation="vertical">
-        <p class="fs-6 fw-bold active mb-2">我的帳戶</p>
+        <p class="fs-6 fw-bold mb-2">我的帳戶</p>
 
         <RouterLink to="/member">
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-person-vcard" viewBox="0 0 16 16">
@@ -56,17 +56,25 @@ export default {
 </script>
 
 <style scoped lang="scss">
-  .side{
-    background-color: #f3f1f1;
-    border-radius: 10px;
-    padding: 48px 48px 48px 24px;
-    text-align: start;
-    .side-menu{
-      font-size: 16px;
-      gap: 24px;
-      .active{
-        font-weight: 500;
+.side{
+  border: 1px solid #e2e2e3;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 48px 48px 48px 24px;
+  text-align: start;
+  .side-menu{
+    font-size: 16px;
+    gap: 24px;
+    .active{
+      font-weight: 500;
+      color: #000000;
+    }
+    a{
+      color: #6A6A6A;
+      &:hover{
+        color: #000000;
       }
     }
   }
+}
 </style>
