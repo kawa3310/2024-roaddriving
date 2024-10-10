@@ -223,11 +223,15 @@ export default {
       }
     }
     .carIcon{
+      display: none;
       position: absolute;
       width: 40px;
       height: 30px;
       top: -30px;
       transform: rotateY(180deg) rotate(-15deg);
+    }
+    & .nav-link.active + .carIcon{
+      display: flex;
     }
   }
 }
