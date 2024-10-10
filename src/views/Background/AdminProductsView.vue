@@ -44,7 +44,17 @@
             <td>{{ item.content }}</td>
             <td>
               <div class="d-flex justify-content-center pt-1">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <div v-if="item.title === '課程三'">
+                  <i class="bi bi-star-fill"></i>
+                </div>
+                <div v-if="item.title === '課程二'">
+                  <div v-for="index in starData" :key="index.num" class="d-flex">
+                    <i v-for="star in index.reta"
+                    :key="star" class="bi bi-star-fill"></i>
+                  </div>
+                </div>
               </div>
             </td>
             <td>
@@ -80,6 +90,12 @@ export default {
     return {
       prodModal: null,
       products: [],
+      starData: [
+        {
+          name: '',
+          reta: 2,
+        },
+      ],
       tempProducts: {
         imagesUrl: [],
       },
