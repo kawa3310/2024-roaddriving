@@ -1,4 +1,5 @@
 <template>
+  <Loading :active="isloading" :z-index="1060"/>
   <div class="container px-6">
     <div class="mt-9">
       <h4 class="mb-9">課程方案</h4>
@@ -70,6 +71,8 @@
 
 <script>
 import axios from 'axios';
+import 'vue-loading-overlay/dist/css/index.css';
+import Loading from 'vue-loading-overlay';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
@@ -80,18 +83,24 @@ export default {
       tempProducts: {
         imagesUrl: [],
       },
+      isloading: false,
     };
   },
   methods: {
     getData() {
+      this.isloading = true;
       axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/products`)
         .then((res) => {
           this.products = res.data.products;
+          this.isloading = false;
         });
     },
   },
   mounted() {
     this.getData();
+  },
+  components: {
+    Loading,
   },
 };
 </script>

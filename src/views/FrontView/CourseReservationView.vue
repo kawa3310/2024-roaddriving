@@ -1,4 +1,5 @@
 <template>
+  <Loading :active="isloading" :z-index="1060"/>
   <div class="reservation-bg mb-3">
     <h2 class="bg-banner">預約報名</h2>
   </div>
@@ -25,7 +26,17 @@
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                         <span class="price">NT$ {{ changeCourse.price }}</span>
                         <span class="d-flex align-items-center fw-bold">推薦指數：
-                          <p class="d-flex" v-html="changeCourse.start"></p>
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <div v-if="changeCourse.title === '課程三'">
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <div v-if="changeCourse.title === '課程二'">
+                            <div v-for="item in starData" :key="item.num" class="d-flex">
+                              <i v-for="star in item.reta"
+                              :key="star" class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
                         </span>
                       </div>
                     </div>
@@ -62,9 +73,19 @@
                       <h4 class="fw-semibold pt-5">{{ changeCourse.title }}</h4>
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                         <h6 class="price">$NT {{ changeCourse.price }}</h6>
-                        <h6 class="d-flex align-items-center fw-bold">推薦指數：
-                          <p class="d-flex" v-html="changeCourse.start"></p>
-                        </h6>
+                        <span class="d-flex align-items-center fw-bold">推薦指數：
+                          <i class="bi bi-star-fill"></i>
+                          <i class="bi bi-star-fill"></i>
+                          <div v-if="changeCourse.title === '課程三'">
+                            <i class="bi bi-star-fill"></i>
+                          </div>
+                          <div v-if="changeCourse.title === '課程二'">
+                            <div v-for="item in starData" :key="item.num" class="d-flex">
+                              <i v-for="star in item.reta"
+                              :key="star" class="bi bi-star-fill"></i>
+                            </div>
+                          </div>
+                        </span>
                       </div>
                     </div>
                   </div>
@@ -155,14 +176,16 @@
 
 <script>
 import axios from 'axios';
-import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 import Swal from 'sweetalert2';
+import 'vue-loading-overlay/dist/css/index.css';
+import Loading from 'vue-loading-overlay';
+import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
-      courseData: '',
+      courseData: '-O8bHmvb-SauLw7a86bW',
       teacherAreaData: '',
       due_date: '',
       courseCard: [
@@ -187,6 +210,12 @@ export default {
           img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D',
         },
       ],
+      starData: [
+        {
+          name: '',
+          reta: 2,
+        },
+      ],
       form: {
         user: {
           name: '',
@@ -194,14 +223,17 @@ export default {
           tel: '',
         },
       },
+      isloading: false,
       pageBreadcrumbList: ['reservation'],
     };
   },
   methods: {
     getCourseData() {
+      this.isloading = true;
       axios.get(`${VITE_URL}/api/${VITE_PATH}/products/All`)
         .then((res) => {
           this.courseCard = res.data.products;
+          this.isloading = false;
         })
         .catch((error) => {
           Swal.fire({
@@ -221,13 +253,13 @@ export default {
   computed: {
     changeCourse() {
       const defaultCourseData = {
-        title: '課程一',
-        text: '推薦給初學者的你',
-        price: '4500',
+        title: '',
+        text: '',
+        price: '',
         start: '<i class="bi bi-star-fill"><i class="bi bi-star-fill">',
-        content: '安全行車知識、路邊停車、倒車入庫、市郊區。',
-        hours: '共一堂，每堂 4 小時',
-        imageUrl: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D',
+        content: '',
+        hours: '',
+        imageUrl: '',
       };
       const courseData = this.courseCard.filter((course) => course.id === this.courseData);
       return courseData[0] || defaultCourseData;
@@ -244,6 +276,7 @@ export default {
   },
   components: {
     Breadcrumb,
+    Loading,
   },
   mounted() {
     this.getCourseData();
