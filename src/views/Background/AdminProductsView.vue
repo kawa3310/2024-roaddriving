@@ -76,6 +76,47 @@
         </tbody>
       </table>
     </div>
+    <div class="mt-9">
+      <h4 class="mb-9">師資</h4>
+      <button type="button" class="btn fs-4 plus" @click="modelOpen">
+        <i class="bi bi-plus-circle"></i>
+      </button>
+    </div>
+    <div class="admin-table">
+      <table class="table mt-4 table-bordered">
+        <thead>
+          <tr class="tr">
+            <th width="70">
+              教練名單
+            </th>
+            <th width="10">地區</th>
+            <th width="10">照片</th>
+            <th width="10">
+              編輯
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr v-for="item in teacherData" :key="item.id" class="tr">
+            <td>{{ item.title }}</td>
+            <td>{{ item.description }}</td>
+            <td><img :src="item.imageUrl" alt="teacherImg"></td>
+            <td>
+              <div class="btn-group">
+                <button type="button" class="btn btn-outline-primary btn-sm"
+                >
+                  編輯
+                </button>
+                <button type="button" class="btn btn-outline-danger btn-sm"
+                >
+                  刪除
+                </button>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
@@ -89,13 +130,16 @@ export default {
   data() {
     return {
       prodModal: null,
+      catchData: [],
       products: [],
+      teacherData: [],
       starData: [
         {
           name: '',
           reta: 2,
         },
       ],
+      teacherAreaData: '',
       tempProducts: {
         imagesUrl: [],
       },
@@ -107,9 +151,23 @@ export default {
       this.isloading = true;
       axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/products`)
         .then((res) => {
-          this.products = res.data.products;
+          this.catchData = res.data.products;
           this.isloading = false;
+          this.filterData(this.catchData);
         });
+    },
+    filterData(data) {
+      const filterTeacher = [];
+      const filterProducts = [];
+      data.forEach((item) => {
+        if (item.category === '地區') {
+          filterTeacher.push(item);
+          this.teacherData = filterTeacher;
+        } else if (item.category === '課程') {
+          filterProducts.push(item);
+          this.products = filterProducts;
+        }
+      });
     },
   },
   mounted() {

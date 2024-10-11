@@ -24,6 +24,7 @@ export default {
         .then(() => {
           axios.defaults.headers.common.Authorization = token;
           this.checkSuccess = true;
+          console.log(token);
         }).catch(() => {
           this.$router.push('/AdminLogin');
         });

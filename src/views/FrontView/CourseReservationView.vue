@@ -105,12 +105,12 @@
                   :id="`teacher${teacher.id}`" placeholder=""
                   v-model="teacherAreaData" class="form-check-input">
                   <div class="teachers-img">
-                    <img :src="teacher.img" alt="teacher" class="img">
-                    <p class="area">{{ teacher.area }}</p>
+                    <img :src="teacher.imageUrl" alt="teacher" class="img">
+                    <p class="area">{{ teacher.description }}</p>
                   </div>
                 </label>
                 <div class="text-center pt-lg-4 pb-4">
-                  <span>{{ teacher.name }} 教練</span>
+                  <span>{{ teacher.title }} 教練</span>
                 </div>
               </div>
             </div>
@@ -190,26 +190,8 @@ export default {
       due_date: '',
       courseCard: [
       ],
-      teacherData: [
-        {
-          id: 1,
-          name: '吳三寶',
-          area: '北',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D',
-        },
-        {
-          id: 2,
-          name: '郝安銓',
-          area: '中',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181044785.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sy9N8e1n8zeM%2FHGv%2Bba0cc4fdRQ4EW%2B8G6dFyY6f0vIVkKKzz12QVjdoengkHBsYVjUInnv1cGnHmzkkbzPrSDu%2FVJwx4oO7NyoSjJu6S%2FHC9sm1V0OAwUgdXURCumCItfG4NDLd%2Fm8Lc7%2FlgbQk0ep9yU7A0E4Wai9sOYkLpqIBy6Ec4DpAVCi7rnCWqaaRnXQjnsLWkD6flqFHRjfXBipdQxD%2FARCBZ7wlwJ9GWRcemMdbl8ctpqAJscGKSgfuA%2FnuVvGZhQiLvg%2B%2FVvZtO0jHWm9JzkkyAtCyZiKzgTxg28ogWueFtMf%2BNQ6DAbTzwiFwdvMRM5VOwAg%2BqZWykw%3D%3D',
-        },
-        {
-          id: 3,
-          name: '甄卉葶',
-          area: '南',
-          img: 'https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D',
-        },
-      ],
+      products: [],
+      teacherData: [],
       starData: [
         {
           name: '',
@@ -232,7 +214,8 @@ export default {
       this.isloading = true;
       axios.get(`${VITE_URL}/api/${VITE_PATH}/products/All`)
         .then((res) => {
-          this.courseCard = res.data.products;
+          this.products = res.data.products;
+          this.filterData(this.products);
           this.isloading = false;
         })
         .catch((error) => {
@@ -245,6 +228,19 @@ export default {
             title: error.response.data.message,
           });
         });
+    },
+    filterData(data) {
+      const filterTeacher = [];
+      const filterProducts = [];
+      data.forEach((item) => {
+        if (item.category === '地區') {
+          filterTeacher.push(item);
+          this.teacherData = filterTeacher;
+        } else if (item.category === '課程') {
+          filterProducts.push(item);
+          this.courseCard = filterProducts;
+        }
+      });
     },
     sendOutOrder() {
       this.$router.push('/checkout');
