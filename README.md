@@ -2,11 +2,14 @@
 ## 專案說明
 ### roaddriving是一款能提供線上預約道路駕訓課程服務的作品
 
-### pc版
+
+### pc版瀏覽圖
 ![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.jpg?raw=true)
 
-### mobilia
+
+### mobilia版瀏覽圖
 ![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/mobilia%E7%89%88.jpg?raw=true)
+
 
 
 
@@ -16,19 +19,28 @@ Node.js 版本建議為：18.17.1 以上
 
 以下將會引導你如何安裝此專案到你的電腦上。
 
+
+
+
 ### 取得專案
 
 ```bash
 git clone https://github.com/kawa3310/2024-roaddriving.git
 ```
 
+
+
 ### 運行專案
 npm run serve
+
+
 
 ### 開啟專案
 ### 在瀏覽器網址列輸入以下即可看到畫面
 
 https://kawa3310.github.io/2024-roaddriving/#/
+
+
 
 ### 專案技術
 
@@ -38,11 +50,16 @@ https://kawa3310.github.io/2024-roaddriving/#/
 - axios (^1.6.5)
 - bootstrap (^5.3.2)
 
+
+
 ### 第三方服務
 - swiper: "^8.0.0",
 - sweetalert2": "^11.14.1",
 - vee-validate": "^4.13.2",
 - vue-loading-overlay,
+
+
+
 
 ## 資料夾結構
 - `.vscode`：Visual Studio Code 的設定檔
