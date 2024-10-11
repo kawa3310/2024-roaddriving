@@ -30,33 +30,34 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 
 
 ### 運行專案
->npm run serve
+```npm run serve```
 
 
 
 ### 開啟專案
 ### 在瀏覽器網址列輸入以下即可看到畫面
 
-https://kawa3310.github.io/2024-roaddriving/#/
+```https://kawa3310.github.io/2024-roaddriving/#/```
 
 
 
 ### 專案技術
 
-- vue (^3.3.11)
+```- vue (^3.3.11)
 - @vitejs/plugin-vue (^4.5.2)
 - vue-router (^4.2.5)
 - axios (^1.6.5)
 - bootstrap (^5.3.2)
-
+```
 
 
 ### 第三方服務
+```
 - swiper: "^8.0.0",
 - sweetalert2": "^11.14.1",
 - vee-validate": "^4.13.2",
 - vue-loading-overlay,
-
+```
 
 
 
