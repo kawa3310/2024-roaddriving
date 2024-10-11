@@ -21,7 +21,7 @@ Node.js 版本建議為：18.17.1 以上
 
 
 
-### 取得專案
+## 取得專案
 
 ```bash
 git clone https://github.com/kawa3310/2024-roaddriving.git
@@ -29,19 +29,19 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 
 
 
-### 運行專案
+## 運行專案
 ```npm run serve```
 
 
 
-### 開啟專案
-## 在瀏覽器網址列輸入以下即可看到畫面
+## 開啟專案
+### 在瀏覽器網址列輸入以下即可看到畫面
 
 (https://kawa3310.github.io/2024-roaddriving/#/)
 
 
 
-### 專案技術
+## 專案技術
 
 ```- vue (^3.3.11)
 - @vitejs/plugin-vue (^4.5.2)
@@ -51,7 +51,7 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 ```
 
 
-### 第三方服務
+## 第三方服務
 ```
 - swiper: "^8.0.0",
 - sweetalert2": "^11.14.1",
