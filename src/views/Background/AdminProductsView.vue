@@ -37,24 +37,15 @@
         <tbody>
           <tr v-for="item in products" :key="item.id" class="tr">
             <td>{{ item.title }}</td>
-            <td>{{ item.is_enabled }}</td>
+            <td>{{ item.lesson }}</td>
             <td>{{ item.unit }}</td>
             <td>{{ item.price }}</td>
             <td>{{ item.description }}</td>
             <td>{{ item.content }}</td>
             <td>
               <div class="d-flex justify-content-center pt-1">
-                <i class="bi bi-star-fill"></i>
-                <i class="bi bi-star-fill"></i>
-                <div v-if="item.title === '課程三'">
-                  <i class="bi bi-star-fill"></i>
-                </div>
-                <div v-if="item.title === '課程二'">
-                  <div v-for="index in starData" :key="index.num" class="d-flex">
-                    <i v-for="star in index.reta"
-                    :key="star" class="bi bi-star-fill"></i>
-                  </div>
-                </div>
+                <i v-for="star in item.stars"
+                :key="star" class="bi bi-star-fill"></i>
               </div>
             </td>
             <td>
@@ -63,6 +54,7 @@
             <td>
               <div class="btn-group">
                 <button type="button" class="btn btn-outline-primary btn-sm"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"
                 >
                   編輯
                 </button>
@@ -104,6 +96,7 @@
             <td>
               <div class="btn-group">
                 <button type="button" class="btn btn-outline-primary btn-sm"
+                data-bs-toggle="modal" data-bs-target="#exampleModal"
                 >
                   編輯
                 </button>
@@ -118,6 +111,49 @@
       </table>
     </div>
   </div>
+  <!-- Modal -->
+<div class="modal fade" id="exampleModal"
+tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-xl">
+      <div class="modal-content border-0">
+        <div class="modal-header bg-dark text-white">
+          <h5 id="productModalLabel" class="modal-title">
+            <span >新增產品</span>
+            <span >編輯產品</span>
+          </h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"
+          aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-3">
+              <div class="mb-3">
+                <label for="imageUrl" class="form-label">主要圖片</label>
+                <input id="imageUrl" type="text"
+                class="form-control"
+                  placeholder="請輸入圖片連結">
+                </div>
+                <div class="mb-3">
+                  <label for="file" class="form-label">上傳圖片
+                    <i class="fas fa-spinner fa-spin"></i>
+                  </label>
+                  <input type="file" class="form-control mb-4" id="file" ref="fileInput"
+                  @change="uploadPhotos"/>
+                </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
+            取消
+          </button>
+          <button type="button" class="btn btn-primary">
+            確認
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
 </template>
 
 <script>
@@ -133,12 +169,6 @@ export default {
       catchData: [],
       products: [],
       teacherData: [],
-      starData: [
-        {
-          name: '',
-          reta: 2,
-        },
-      ],
       teacherAreaData: '',
       tempProducts: {
         imagesUrl: [],
@@ -153,6 +183,7 @@ export default {
         .then((res) => {
           this.catchData = res.data.products;
           this.isloading = false;
+          console.log(this.catchData);
           this.filterData(this.catchData);
         });
     },

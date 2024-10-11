@@ -26,16 +26,9 @@
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                         <span class="price">NT$ {{ changeCourse.price }}</span>
                         <span class="d-flex align-items-center fw-bold">推薦指數：
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <div v-if="changeCourse.title === '課程三'">
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <div v-if="changeCourse.title === '課程二'">
-                            <div v-for="item in starData" :key="item.num" class="d-flex">
-                              <i v-for="star in item.reta"
-                              :key="star" class="bi bi-star-fill"></i>
-                            </div>
+                          <div class="d-flex justify-content-center pt-1">
+                            <i v-for="star in changeCourse.stars"
+                            :key="star" class="bi bi-star-fill"></i>
                           </div>
                         </span>
                       </div>
@@ -74,16 +67,9 @@
                       <div class="d-flex justify-content-between align-items-center p-4 pb-5">
                         <h6 class="price">$NT {{ changeCourse.price }}</h6>
                         <span class="d-flex align-items-center fw-bold">推薦指數：
-                          <i class="bi bi-star-fill"></i>
-                          <i class="bi bi-star-fill"></i>
-                          <div v-if="changeCourse.title === '課程三'">
-                            <i class="bi bi-star-fill"></i>
-                          </div>
-                          <div v-if="changeCourse.title === '課程二'">
-                            <div v-for="item in starData" :key="item.num" class="d-flex">
-                              <i v-for="star in item.reta"
-                              :key="star" class="bi bi-star-fill"></i>
-                            </div>
+                          <div class="d-flex justify-content-center pt-1">
+                            <i v-for="star in changeCourse.stars"
+                            :key="star" class="bi bi-star-fill"></i>
                           </div>
                         </span>
                       </div>
@@ -185,19 +171,13 @@ const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
-      courseData: '-O8bHmvb-SauLw7a86bW',
+      courseData: '-O8uWyxkwFrCVqMWH7hz',
       teacherAreaData: '',
       due_date: '',
       courseCard: [
       ],
       products: [],
       teacherData: [],
-      starData: [
-        {
-          name: '',
-          reta: 2,
-        },
-      ],
       form: {
         user: {
           name: '',
