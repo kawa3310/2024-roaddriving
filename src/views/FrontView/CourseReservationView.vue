@@ -92,7 +92,7 @@
                   v-model="teacherAreaData" class="form-check-input">
                   <div class="teachers-img">
                     <img :src="teacher.imageUrl" alt="teacher" class="img">
-                    <p class="area">{{ teacher.description }}</p>
+                    <p class="area">{{ teacher.area }}</p>
                   </div>
                 </label>
                 <div class="text-center pt-lg-4 pb-4">

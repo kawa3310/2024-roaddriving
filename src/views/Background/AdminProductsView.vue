@@ -91,7 +91,7 @@
         <tbody>
           <tr v-for="item in teacherData" :key="item.id" class="tr">
             <td>{{ item.title }}</td>
-            <td>{{ item.description }}</td>
+            <td>{{ item.area }}</td>
             <td><img :src="item.imageUrl" alt="teacherImg"></td>
             <td>
               <div class="btn-group">
