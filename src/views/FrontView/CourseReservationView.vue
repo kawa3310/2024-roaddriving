@@ -9,7 +9,7 @@
       <div class="text-center text-primary pb-8">
         <p class="main-title fs-1 fw-bold">開始預約</p>
       </div>
-      <VForm v-slot="{ meta }" ref="form" @submit="addCart(form.address)">
+      <VForm v-slot="{ meta }" ref="form" @submit="addCart(form)">
           <div class="my-lg-10">
             <h2 class="text-center my-lg-10 my-4">1. 選擇課程</h2>
             <div class="row d-flex flex-reverse justify-content-center">
