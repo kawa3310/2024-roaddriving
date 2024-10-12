@@ -9,7 +9,7 @@
       <div class="text-center text-primary pb-8">
         <p class="main-title fs-1 fw-bold">開始預約</p>
       </div>
-      <VForm v-slot="{ meta }" ref="form" @submit="addCart(form)">
+      <VForm v-slot="{ meta }" ref="form" @submit="addCart()">
           <div class="my-lg-10">
             <h2 class="text-center my-lg-10 my-4">1. 選擇課程</h2>
             <div class="row d-flex flex-reverse justify-content-center">
@@ -39,7 +39,7 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-                <select v-model="form.course"
+                <select v-model="form.product_id"
                 name="title" as="select" class="form-select w-100">
                   <option value="" selected disabled>請選擇課程</option>
                   <template v-for="(course, index) in courseCard" :key="index.id">
@@ -120,12 +120,13 @@
                     <div class="d-flex justify-content-between d-grid gap-4">
                       <label for="am" class="form-check-label">
                         <input type="radio" name="time" value="AM"
-                        checked="" class="form-check-input" id="am"/>
+                        checked="" class="form-check-input" id="am" v-model="form.time"/>
                         上午時段（09:30 ~ 13:30）
                       </label>
                       <label for="pm" class="form-check-label">
                         <input type="radio" name="time" value="PM"
-                        id="pm" class="form-check-input" />
+                        id="pm" class="form-check-input"
+                        v-model="form.time"/>
                         下午時段（15:30 ~ 20:30）
                       </label>
                     </div>
@@ -139,7 +140,7 @@
                     justify-content-between bg-card">
                       <div>
                         <div class="payment d-flex justify-content-center mb-lg-0 mb-4">
-                          <select class="form-select w-100 mb-4 p-2">
+                          <select class="form-select w-100 mb-4 p-2" v-model="form.payment">
                             <option value="信用卡">信用卡</option>
                           </select>
                         </div>
@@ -173,15 +174,18 @@ const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
-      courseData: '-O8uWyxkwFrCVqMWH7hz',
       due_date: '',
       courseCard: [
       ],
       products: [],
       teacherData: [],
       form: {
-        course: '',
+        product_id: '-O8uWyxkwFrCVqMWH7hz',
         address: '',
+        date: '',
+        time: '',
+        payment: '信用卡',
+        qty: 1,
       },
       isloading: false,
       pageBreadcrumbList: ['reservation'],
@@ -223,12 +227,8 @@ export default {
     sendOutOrder() {
       this.$router.push('/checkout');
     },
-    addCart(id) {
-      const cart = {
-        product_id: id,
-        qty: 1,
-      };
-      axios.post(`${VITE_URL}/api/${VITE_PATH}/cart`, { data: cart })
+    addCart() {
+      axios.post(`${VITE_URL}/api/${VITE_PATH}/cart`, { data: this.form })
         .then(() => {
           Swal.fire({
             toast: true,
@@ -262,7 +262,8 @@ export default {
         hours: '',
         imageUrl: '',
       };
-      const courseData = this.courseCard.filter((course) => course.id === this.courseData);
+      const courseData = this.courseCard.filter((course) => course.id
+      === this.form.product_id);
       return courseData[0] || defaultCourseData;
     },
     clickAreaCardData() {
