@@ -109,6 +109,15 @@
           </tr>
         </tbody>
       </table>
+      <nav class="py-5 d-flex flex-column
+      align-items-center" aria-label="...">
+        <ul class="pagination pagination-sm">
+          <li class="page-item active" aria-current="page">
+            <a href="#" class="d-flex align-items-center">1
+              <i class="bi bi-caret-right-fill ms-3"></i></a>
+          </li>
+        </ul>
+      </nav>
     </div>
   </div>
   <!-- Modal -->
@@ -160,6 +169,7 @@ tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 import axios from 'axios';
 import 'vue-loading-overlay/dist/css/index.css';
 import Loading from 'vue-loading-overlay';
+import Swal from 'sweetalert2';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
@@ -184,6 +194,17 @@ export default {
           this.catchData = res.data.products;
           this.isloading = false;
           this.filterData(this.catchData);
+        })
+        .catch((err) => {
+          this.isloading = false;
+          Swal.fire({
+            toast: true,
+            position: 'center',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
         });
     },
     filterData(data) {
