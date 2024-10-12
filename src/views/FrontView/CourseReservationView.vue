@@ -9,7 +9,7 @@
       <div class="text-center text-primary pb-8">
         <p class="main-title fs-1 fw-bold">開始預約</p>
       </div>
-      <VForm v-slot="{ meta }" ref="form" @submit="sendOutOrder">
+      <VForm v-slot="{ meta }" ref="form" @submit="addCart(form.address)">
           <div class="my-lg-10">
             <h2 class="text-center my-lg-10 my-4">1. 選擇課程</h2>
             <div class="row d-flex flex-reverse justify-content-center">
@@ -39,7 +39,8 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-                <select v-model="courseData" name="title" as="select" class="form-select w-100">
+                <select v-model="form.course"
+                name="title" as="select" class="form-select w-100">
                   <option value="" selected disabled>請選擇課程</option>
                   <template v-for="(course, index) in courseCard" :key="index.id">
                     <option
@@ -86,10 +87,11 @@
               name="terms" type="radio"
               :value="true" :unchecked-value="false">
                 <label class="business-card"
-                :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === teacherAreaData}">
-                  <input type="radio" name="teacher-card" :value="teacher.id"
+                :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === form.address}">
+                  <input type="radio" name="teacher-card"
+                  v-model="form.address" :value="teacher.id"
                   :id="`teacher${teacher.id}`" placeholder=""
-                  v-model="teacherAreaData" class="form-check-input">
+                  class="form-check-input">
                   <div class="teachers-img">
                     <img :src="teacher.imageUrl" alt="teacher" class="img">
                     <p class="area">{{ teacher.area }}</p>
@@ -111,14 +113,14 @@
                       <div class="mb-4 date">
                         <label class="d-block pb-2" for="due_date">年／月／日</label>
                         <input type="date" value="2024-09-23" min="2024-09-23"
-                        max="2028-09-17" class="form-select mb-4 p-2"/>
+                        max="2028-09-17" class="form-select mb-4 p-2" v-model="form.date"/>
                         <div class="border-top"></div>
                       </div>
                     </div>
                     <div class="d-flex justify-content-between d-grid gap-4">
                       <label for="am" class="form-check-label">
                         <input type="radio" name="time" value="AM"
-                        checked="" class="form-check-input" id="am" />
+                        checked="" class="form-check-input" id="am"/>
                         上午時段（09:30 ~ 13:30）
                       </label>
                       <label for="pm" class="form-check-label">
@@ -172,18 +174,14 @@ export default {
   data() {
     return {
       courseData: '-O8uWyxkwFrCVqMWH7hz',
-      teacherAreaData: '',
       due_date: '',
       courseCard: [
       ],
       products: [],
       teacherData: [],
       form: {
-        user: {
-          name: '',
-          address: '',
-          tel: '',
-        },
+        course: '',
+        address: '',
       },
       isloading: false,
       pageBreadcrumbList: ['reservation'],
@@ -224,6 +222,33 @@ export default {
     },
     sendOutOrder() {
       this.$router.push('/checkout');
+    },
+    addCart(id) {
+      const cart = {
+        product_id: id,
+        qty: 1,
+      };
+      axios.post(`${VITE_URL}/api/${VITE_PATH}/cart`, { data: cart })
+        .then(() => {
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'success',
+            title: '已加入購物車',
+          });
+        })
+        .catch((error) => {
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: error.response.data.message,
+          });
+        });
     },
   },
   computed: {

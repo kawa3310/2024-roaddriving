@@ -183,7 +183,6 @@ export default {
         .then((res) => {
           this.catchData = res.data.products;
           this.isloading = false;
-          console.log(this.catchData);
           this.filterData(this.catchData);
         });
     },
