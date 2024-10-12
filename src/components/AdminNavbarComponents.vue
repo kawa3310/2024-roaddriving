@@ -31,21 +31,57 @@
               </RouterLink>
             </li>
             <li class="d-lg-none nav-item">
-              <RouterLink to="/login">
-                登出
-              </RouterLink>
+              <a href="#" class="nav-hover" @click.prevent="loginOut">登出</a>
             </li>
           </ul>
         </div>
       </div>
       <div class="d-lg-flex d-none">
-        <RouterLink to="/login" class="nav-hover">
-          登出
-        </RouterLink>
+        <a href="#" class="nav-hover" @click.prevent="loginOut">登出</a>
       </div>
     </div>
   </nav>
 </template>
+
+<script>
+import axios from 'axios';
+import Swal from 'sweetalert2';
+
+const { VITE_URL } = import.meta.env;
+export default {
+  data() {
+    return {
+    };
+  },
+  methods: {
+    loginOut() {
+      axios.post(`${VITE_URL}/logout`)
+        .then(() => {
+          document.cookie = 'drivingToken=; expires=Thu, 18 Dec 2003 12:00:00 UTC; path=/natural/dist;';
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'success',
+            title: '已登出',
+          });
+          this.$router.push('/AdminLogin');
+        })
+        .catch((err) => {
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
+        });
+    },
+  },
+};
+</script>
 
 <style>
   @import '/src/assets/default/_navbar.scss';

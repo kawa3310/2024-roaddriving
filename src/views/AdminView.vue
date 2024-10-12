@@ -5,6 +5,7 @@
 
 <script>
 import axios from 'axios';
+import Swal from 'sweetalert2';
 import AdminNavbar from '@/components/AdminNavbarComponents.vue';
 
 const { VITE_URL } = import.meta.env;
@@ -23,8 +24,24 @@ export default {
       axios.post(`${VITE_URL}/api/user/check`, {}, config)
         .then(() => {
           axios.defaults.headers.common.Authorization = token;
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'success',
+            title: '已登入',
+          });
           this.checkSuccess = true;
-        }).catch(() => {
+        }).catch((err) => {
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
           this.$router.push('/AdminLogin');
         });
     },
@@ -33,7 +50,7 @@ export default {
     AdminNavbar,
   },
   mounted() {
-    const token = document.cookie.replace(/(?:(?:^|.*;\s*)kawaToken\s*=\s*([^;]*).*$)|^.*$/, '$1');
+    const token = document.cookie.replace(/(?:(?:^|.*;\s*)drivingToken\s*=\s*([^;]*).*$)|^.*$/, '$1');
     axios.defaults.headers.common.Authorization = token;
     this.checkSignIn();
   },
