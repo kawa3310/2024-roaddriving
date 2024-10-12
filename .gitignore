@@ -26,4 +26,3 @@ dist-ssr
 .env
 ._*/*
 ._*
-.eslintrc.cjs
