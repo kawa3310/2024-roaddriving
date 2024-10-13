@@ -39,15 +39,15 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-                <select v-model="form.product_id"
-                name="title" as="select" class="form-select w-100">
+                <VField v-model="form.product_id" name="field"
+                as="select" class="form-select w-100">
                   <option value="" selected disabled>請選擇課程</option>
                   <template v-for="(course, index) in courseCard" :key="index.id">
                     <option
                     :value="course.id"
                     :id="`course${course.id}`">{{ course.title }}</option>
                   </template>
-                </select>
+                </VField>
                 <div class="d-grid gap-4">
                   <h5 class="my-3 fw-bold">課程內容：</h5>
                   <p>{{ changeCourse.content }}</p>
@@ -83,12 +83,12 @@
           <div class="my-lg-10 mt-5">
             <h2 class="text-center my-lg-10 my-4">2. 選擇上課地區</h2>
             <div class="row">
-              <div class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
-              name="terms" type="radio"
+              <Field class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
+              name="terms" type="radio" as="radio"
               :value="true" :unchecked-value="false">
                 <label class="business-card"
                 :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === form.address}">
-                  <input type="radio" name="teacher-card"
+                  <input type="radio" as="radio" name="teacher-card"
                   v-model="form.address" :value="teacher.id"
                   :id="`teacher${teacher.id}`" placeholder=""
                   class="form-check-input">
@@ -100,7 +100,7 @@
                 <div class="text-center pt-lg-4 pb-4">
                   <span>{{ teacher.title }} 教練</span>
                 </div>
-              </div>
+              </Field>
             </div>
           </div>
           <section class="my-lg-10 mt-5">
@@ -183,7 +183,7 @@ export default {
         product_id: '-O8uWyxkwFrCVqMWH7hz',
         address: '',
         date: '',
-        time: '',
+        time: 'am',
         payment: '信用卡',
         qty: 1,
       },
@@ -228,27 +228,39 @@ export default {
       this.$router.push('/checkout');
     },
     addCart() {
-      axios.post(`${VITE_URL}/api/${VITE_PATH}/cart`, { data: this.form })
-        .then(() => {
-          Swal.fire({
-            toast: true,
-            position: 'top-end',
-            showConfirmButton: false,
-            timer: 1500,
-            icon: 'success',
-            title: '已加入購物車',
+      if (this.form.product_id && this.form.address && this.form.date && this.form.time !== '') {
+        axios.post(`${VITE_URL}/api/${VITE_PATH}/cart`, { data: this.form })
+          .then(() => {
+            Swal.fire({
+              toast: true,
+              position: 'top-end',
+              showConfirmButton: false,
+              timer: 1500,
+              icon: 'success',
+              title: '已加入購物車',
+            });
+            this.sendOutOrder();
+          })
+          .catch((error) => {
+            Swal.fire({
+              toast: true,
+              position: 'top-end',
+              showConfirmButton: false,
+              timer: 1500,
+              icon: 'error',
+              title: error.response.data.message,
+            });
           });
-        })
-        .catch((error) => {
-          Swal.fire({
-            toast: true,
-            position: 'top-end',
-            showConfirmButton: false,
-            timer: 1500,
-            icon: 'error',
-            title: error.response.data.message,
-          });
+      } else {
+        Swal.fire({
+          toast: true,
+          position: 'top-end',
+          showConfirmButton: false,
+          timer: 1500,
+          icon: 'error',
+          title: '請確實填寫預約表單',
         });
+      }
     },
   },
   computed: {

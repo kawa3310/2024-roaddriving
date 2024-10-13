@@ -95,6 +95,9 @@ const router = createRouter({
   history: createWebHashHistory(),
   linkActiveClass: 'active',
   routes,
+  scrollBehavior() {
+    return { top: 0 }; // 每次切換頁面時滾動到最上面
+  },
 });
 
 export default router;
