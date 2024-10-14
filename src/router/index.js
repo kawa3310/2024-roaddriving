@@ -36,7 +36,7 @@ const routes = [
         component: () => import('../views/FrontView/CheckOutView.vue'),
       },
       {
-        path: '/payment',
+        path: '/payment/:id',
         component: () => import('../views/FrontView/PaymentView.vue'),
       },
       {

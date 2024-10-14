@@ -1,4 +1,5 @@
 <template>
+  <Loading :active="isloading" :z-index="1060"/>
   <div class="empty-content"></div>
   <Breadcrumb class="container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
   <div class="container">
@@ -6,26 +7,26 @@
       <div class="col-6 order-table">
         <h2 class="text-center my-5">預約成功</h2>
         <div class="text-center">
-          <p class="fs-4 text-danger">預約編號：ATR443213</p>
+          <p class="fs-4 text-danger">預約編號：{{ order?.id }}</p>
           <div class="order_block mb-lg-8 my-8">
             <table class="table">
               <caption class="order-caption caption-top text-center border-bottom">預定資訊</caption>
-              <tbody>
+              <tbody v-for="item in order?.products" :key="item.id">
                 <tr>
                   <th scope="row">方案</th>
-                  <td scope="row"> 課程一</td>
+                  <td scope="row">{{ item.product.title }}</td>
                 </tr>
                 <tr>
                   <th>上課地區</th>
-                  <td>台中</td>
+                  <td>{{ item?.address }}</td>
                 </tr>
                 <tr>
                   <th>時段</th>
-                  <td>下午(15:30 ~ 20:30)</td>
+                  <td>{{ item?.time }}</td>
                 </tr>
                 <tr>
                   <th>總金額</th>
-                  <td>NT $4500</td>
+                  <td>NT ${{ item?.total }}</td>
                 </tr>
               </tbody>
             </table>
@@ -42,17 +43,51 @@
 </template>
 
 <script>
+import axios from 'axios';
+import Loading from 'vue-loading-overlay';
+import Swal from 'sweetalert2';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
+const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
+      orderId: '',
+      order: {},
       pageBreadcrumbList: ['purchase', 'payment'],
+      isloading: false,
     };
+  },
+  methods: {
+    getOrder() {
+      this.orderId = this.$route.params.id;
+      this.isloading = true;
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/order/${this.orderId}`)
+        .then((res) => {
+          this.isloading = false;
+          this.order = res.data.order;
+        })
+        .catch((err) => {
+          this.isloading = false;
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
+        });
+    },
   },
   components: {
     Breadcrumb,
+    Loading,
   },
+  mounted() {
+    this.getOrder();
+  },
+
 };
 </script>
 

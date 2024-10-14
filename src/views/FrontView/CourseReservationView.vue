@@ -39,7 +39,7 @@
               <div class="col-lg-4 col-md-6 bg-card
               select-card d-flex flex-column justify-content-between
               p-5">
-                <VField v-model="form.product_id" name="field"
+                <select v-model="form.product_id" name="field"
                 as="select" class="form-select w-100">
                   <option value="" selected disabled>請選擇課程</option>
                   <template v-for="(course, index) in courseCard" :key="index.id">
@@ -47,7 +47,7 @@
                     :value="course.id"
                     :id="`course${course.id}`">{{ course.title }}</option>
                   </template>
-                </VField>
+                </select>
                 <div class="d-grid gap-4">
                   <h5 class="my-3 fw-bold">課程內容：</h5>
                   <p>{{ changeCourse.content }}</p>
@@ -83,7 +83,7 @@
           <div class="my-lg-10 mt-5">
             <h2 class="text-center my-lg-10 my-4">2. 選擇上課地區</h2>
             <div class="row">
-              <Field class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
+              <div class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
               name="terms" type="radio" as="radio"
               :value="true" :unchecked-value="false">
                 <label class="business-card"
@@ -100,7 +100,7 @@
                 <div class="text-center pt-lg-4 pb-4">
                   <span>{{ teacher.title }} 教練</span>
                 </div>
-              </Field>
+              </div>
             </div>
           </div>
           <section class="my-lg-10 mt-5">
@@ -119,13 +119,15 @@
                     </div>
                     <div class="d-flex justify-content-between d-grid gap-4">
                       <label for="am" class="form-check-label">
-                        <input type="radio" name="time" value="AM"
-                        checked="" class="form-check-input" id="am" v-model="form.time"/>
+                        <input type="radio" name="time"
+                        checked="" class="form-check-input" id="am"
+                        value="上午時段（09:30 ~ 13:30）" v-model="form.time"/>
                         上午時段（09:30 ~ 13:30）
                       </label>
                       <label for="pm" class="form-check-label">
-                        <input type="radio" name="time" value="PM"
+                        <input type="radio" name="time"
                         id="pm" class="form-check-input"
+                        value="下午時段（15:30 ~ 20:30）"
                         v-model="form.time"/>
                         下午時段（15:30 ~ 20:30）
                       </label>
@@ -183,7 +185,7 @@ export default {
         product_id: '-O8uWyxkwFrCVqMWH7hz',
         address: '',
         date: '',
-        time: 'am',
+        time: '',
         payment: '信用卡',
         qty: 1,
       },
@@ -237,7 +239,7 @@ export default {
               showConfirmButton: false,
               timer: 1500,
               icon: 'success',
-              title: '已加入購物車',
+              title: '已成功填寫預約表單',
             });
             this.sendOutOrder();
           })
