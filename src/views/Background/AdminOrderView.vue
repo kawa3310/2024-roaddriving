@@ -58,7 +58,7 @@
                   編輯
                 </button>
                 <button type="button" class="btn btn-outline-danger btn-sm"
-                @click="delOrder">
+                @click="delOrder(order)">
                   刪除
                 </button>
               </div>
@@ -176,7 +176,7 @@ export default {
             title: '編輯成功',
           });
         })
-        .catch((err) => {
+        .catch(() => {
           this.isloading = false;
           Swal.fire({
             toast: true,
@@ -184,14 +184,14 @@ export default {
             showConfirmButton: false,
             timer: 1500,
             icon: 'error',
-            title: err.response.data.message,
+            title: '編輯失敗',
           });
         });
     },
-    delOrder() {
+    delOrder(order) {
       this.isNew = true;
       this.isloading = true;
-      axios.delete(`${VITE_URL}/api/${VITE_PATH}/admin/order/${this.orderData.id}`)
+      axios.delete(`${VITE_URL}/api/${VITE_PATH}/admin/order/${order.id}`)
         .then(() => {
           this.isNew = false;
           this.isloading = false;

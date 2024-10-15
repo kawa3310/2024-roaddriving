@@ -33,6 +33,7 @@ export default {
             title: '已登入',
           });
           this.checkSuccess = true;
+          console.log(token);
         }).catch((err) => {
           Swal.fire({
             toast: true,
