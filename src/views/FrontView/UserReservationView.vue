@@ -61,11 +61,10 @@
                 </div>
                 <div id="appointed" class="tab-pane fade order-table w-75">
                   <div class="d-flex flex-column justify-content-center">
-                    <div class="py-3 border-top border-bottom"
-                    v-for="order in orderData" :key="order.id">
-                      <div class="row"
+                    <template v-for="order in orderData" :key="order.id">
+                      <div v-if="!order.is_paid" class="py-3 border-top border-bottom">
+                        <div class="row"
                       v-for="item in order.products" :key="item.id">
-                        <template v-if="order.is_paid">
                           <div class="col-12 col-md-4">
                             <img :src="item.product.imageUrl"
                             alt="商品圖片" class="rounded-2 bg-body-secondary">
@@ -83,43 +82,40 @@
                               </div>
                             </div>
                           </div>
-                        </template>
+                        </div>
                       </div>
-                    </div>
+                    </template>
                   </div>
                 </div>
                 <div id="finished" class="tab-pane fade order-table w-75">
                   <div class="d-flex flex-column justify-content-center">
-                    <div class="py-3 border-top border-bottom">
-                      <div class="row">
-                        <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132491711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Nz4OBEKkRB9nt5Lj81xYgORzqZ1C28tS%2B5iZxKyyfg09qC2slpI109QRP9BqEGlg6OCqi%2F3SCGCT1q0396IF0%2F6FjlQFd9U2kkJUi0i0QrDcXbcib1ecY1WAsmArrwsoFr%2BCHuyQ79Ij1%2BvSTfSzVEd%2Fl64%2BFWQJ9RJnd6B03sWk%2BU49Yd7AA7TLDvrirknBVAUPVPr9VQrZw3i4jW%2FVp93dUPgQ3AcCB9wx7EWIzJy04KLa%2B%2BxVXQUIZX%2FEyWKJ2nroN%2FnN7ZzIz5siIYMJcDtHYcOkPj6waqwwK2yqgWARkWHPuxax2iY%2BXBAVYXtYL%2BzD9LeLO8WV3iPa2bMYfw%3D%3D"
-                          alt="商品圖片" class="rounded-2 bg-body-secondary">
-                        </div>
-                        <div class="col-12 col-md-8">
-                          <div class="p-4">
-                            <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程二</h6>
-                              <p>預約編號：ATR443213</p>
-                              <p>預約狀態：已完課</p>
-                            </div>
-                            <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
+                    <template v-for="order in orderData" :key="order.id">
+                      <div v-if="order.is_paid" class="py-3 border-top border-bottom">
+                        <div class="row"
+                      v-for="item in order.products" :key="item.id">
+                          <div class="col-12 col-md-4">
+                            <img :src="item.product.imageUrl"
+                            alt="商品圖片" class="rounded-2 bg-body-secondary">
+                          </div>
+                          <div class="col-12 col-md-8">
+                            <div class="p-4">
+                              <div class="d-flex flex-column d-grid gap-3">
+                                <h6>{{ item.product.title }}</h6>
+                                <p>預約編號：{{ order.id }}</p>
+                                <p>預約狀態：{{ order.is_paid ? '已完課' : '未完課' }}</p>
+                              </div>
+                              <div class="text-end">
+                                <RouterLink class="order-routerLink"
+                                to="/userOrder">看詳細</RouterLink>
+                              </div>
                             </div>
                           </div>
                         </div>
                       </div>
-                    </div>
+                    </template>
                   </div>
                 </div>
-                <nav class="py-5 d-flex flex-column " aria-label="...">
-                  <ul class="pagination pagination-sm">
-                    <li class="page-item active" aria-current="page">
-                      <a href="#" class="d-flex align-items-center">1
-                        <i class="bi bi-caret-right-fill ms-3"></i></a>
-                    </li>
-                  </ul>
-                </nav>
+                <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
               </div>
             </div>
           </MemberCenterLayout>
@@ -132,8 +128,11 @@
 <script>
 import axios from 'axios';
 import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/css/index.css';
 import Swal from 'sweetalert2';
+
 import MemberCenterLayout from '@/layout/MemberCenterLayout.vue';
+import PaginationModal from '@/components/PaginationModal.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
@@ -141,18 +140,20 @@ export default {
   data() {
     return {
       orderData: {},
+      pagination: {},
+      pages: {},
       pageBreadcrumbList: ['member', 'userReservation'],
       isloading: false,
     };
   },
   methods: {
-    getOrder() {
+    getOrder(page = 1) {
       this.isloading = true;
-      axios.get(`${VITE_URL}/api/${VITE_PATH}/orders`)
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/orders?page=${page}`)
         .then((res) => {
           this.isloading = false;
           this.orderData = res.data.orders;
-          console.log(this.orderData);
+          this.pages = res.data.pagination;
         })
         .catch((err) => {
           this.isloading = false;
@@ -170,6 +171,7 @@ export default {
   components: {
     Breadcrumb,
     MemberCenterLayout,
+    PaginationModal,
     Loading,
   },
   mounted() {

@@ -109,15 +109,7 @@
           </tr>
         </tbody>
       </table>
-      <nav class="py-5 d-flex flex-column
-      align-items-center" aria-label="...">
-        <ul class="pagination pagination-sm">
-          <li class="page-item active" aria-current="page">
-            <a href="#" class="d-flex align-items-center">1
-              <i class="bi bi-caret-right-fill ms-3"></i></a>
-          </li>
-        </ul>
-      </nav>
+      <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
     </div>
   </div>
   <!-- Modal -->
@@ -171,6 +163,8 @@ import 'vue-loading-overlay/dist/css/index.css';
 import Loading from 'vue-loading-overlay';
 import Swal from 'sweetalert2';
 
+import PaginationModal from '@/components/PaginationModal.vue';
+
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
@@ -180,18 +174,18 @@ export default {
       products: [],
       teacherData: [],
       teacherAreaData: '',
-      tempProducts: {
-        imagesUrl: [],
-      },
+      pagination: {},
+      pages: {},
       isloading: false,
     };
   },
   methods: {
-    getData() {
+    getData(page = 1) {
       this.isloading = true;
-      axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/products`)
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/products?page=${page}`)
         .then((res) => {
           this.catchData = res.data.products;
+          this.pages = res.data.pagination;
           this.isloading = false;
           this.filterData(this.catchData);
         })
@@ -225,6 +219,7 @@ export default {
     this.getData();
   },
   components: {
+    PaginationModal,
     Loading,
   },
 };

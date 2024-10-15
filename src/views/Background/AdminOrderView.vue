@@ -66,15 +66,7 @@
           </tr>
         </tbody>
       </table>
-      <nav class="py-5 d-flex flex-column
-      align-items-center" aria-label="...">
-        <ul class="pagination pagination-sm">
-          <li class="page-item active" aria-current="page">
-            <a href="#" class="d-flex align-items-center">1
-              <i class="bi bi-caret-right-fill ms-3"></i></a>
-          </li>
-        </ul>
-      </nav>
+      <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
       <div class="modal fade" id="orderModal"
         tabindex="-1" aria-labelledby="orderModal" aria-hidden="true">
         <div class="modal-dialog modal-xl">
@@ -127,21 +119,26 @@ import Swal from 'sweetalert2';
 import 'vue-loading-overlay/dist/css/index.css';
 import Loading from 'vue-loading-overlay';
 
+import PaginationModal from '@/components/PaginationModal.vue';
+
 const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
       orderData: {},
+      pagination: {},
+      pages: {},
       isloading: false,
       isNew: false,
     };
   },
   methods: {
-    getOrders() {
+    getOrders(page = 1) {
       this.isloading = true;
-      axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/orders`)
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/admin/orders?page=${page}`)
         .then((res) => {
           this.orderData = res.data.orders;
+          this.pages = res.data.pagination;
           this.isloading = false;
         })
         .catch((err) => {
@@ -222,6 +219,7 @@ export default {
     this.getOrders();
   },
   components: {
+    PaginationModal,
     Loading,
   },
 };
