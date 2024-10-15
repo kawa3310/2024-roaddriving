@@ -10,7 +10,8 @@
           <p class="fs-4 text-danger">預約編號：{{ order?.id }}</p>
           <div class="order_block mb-lg-8 my-8">
             <table class="table">
-              <caption class="order-caption caption-top text-center border-bottom">預定資訊</caption>
+              <caption class="order-caption caption-top text-center border-bottom
+              fw-normal">預定資訊</caption>
               <tbody v-for="item in order?.products" :key="item.id">
                 <tr>
                   <th scope="row">方案</th>
@@ -18,7 +19,9 @@
                 </tr>
                 <tr>
                   <th>上課地區</th>
-                  <td>{{ item?.address }}</td>
+                  <td v-if="item.address === '吳三寶'">北部</td>
+                  <td v-if="item.address === '郝安銓'">中部</td>
+                  <td v-if="item.address === '甄卉葶'">南部</td>
                 </tr>
                 <tr>
                   <th>時段</th>

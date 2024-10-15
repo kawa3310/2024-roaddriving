@@ -89,7 +89,7 @@
                 <label class="business-card"
                 :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === form.address}">
                   <input type="radio" as="radio" name="teacher-card"
-                  v-model="form.address" :value="teacher.id"
+                  v-model="form.address" :value="teacher.title"
                   :id="`teacher${teacher.id}`" placeholder=""
                   class="form-check-input">
                   <div class="teachers-img">
@@ -120,7 +120,7 @@
                     <div class="d-flex justify-content-between d-grid gap-4">
                       <label for="am" class="form-check-label">
                         <input type="radio" name="time"
-                        checked="" class="form-check-input" id="am"
+                        class="form-check-input" id="am"
                         value="上午時段（09:30 ~ 13:30）" v-model="form.time"/>
                         上午時段（09:30 ~ 13:30）
                       </label>
@@ -185,7 +185,7 @@ export default {
         product_id: '-O8uWyxkwFrCVqMWH7hz',
         address: '',
         date: '',
-        time: '',
+        time: '上午時段（09:30 ~ 13:30）',
         payment: '信用卡',
         qty: 1,
       },

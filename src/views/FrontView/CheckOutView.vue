@@ -30,7 +30,9 @@
                   </tr>
                   <tr>
                     <th scope="row">上課地區</th>
-                    <td>{{ cart.address }}</td>
+                    <td v-if="cart.address === '吳三寶'">北部</td>
+                    <td v-if="cart.address === '郝安銓'">中部</td>
+                    <td v-if="cart.address === '甄卉葶'">南部</td>
                   </tr>
                   <tr>
                     <th scope="row">授課老師</th>
