@@ -87,7 +87,7 @@
               name="terms" type="radio" as="radio"
               :value="true" :unchecked-value="false">
                 <label class="business-card"
-                :for="`teacher${teacher.id}`" :class="{'selected': teacher.id === form.address}">
+                :for="`teacher${teacher.id}`" :class="{'selected': teacher.title === form.address}">
                   <input type="radio" as="radio" name="teacher-card"
                   v-model="form.address" :value="teacher.title"
                   :id="`teacher${teacher.id}`" placeholder=""
