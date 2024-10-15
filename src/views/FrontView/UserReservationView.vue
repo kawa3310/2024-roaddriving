@@ -1,4 +1,5 @@
 <template>
+  <Loading :active="isloading" :z-index="1060"/>
   <div class="empty-content"></div>
   <div class="body">
     <main class="pb-8">
@@ -34,58 +35,20 @@
               pt-5">
                 <div id="all-appointments" class="tab-pane fade show active order-table w-75">
                   <div class="d-flex flex-column justify-content-center">
-                    <div class="py-3 border-top border-bottom">
-                      <div class="row">
+                    <div class="py-3 border-top border-bottom"
+                    v-for="order in orderData" :key="order.id">
+                      <div class="row"
+                      v-for="item in order.products" :key="item.id">
                         <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132491711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Nz4OBEKkRB9nt5Lj81xYgORzqZ1C28tS%2B5iZxKyyfg09qC2slpI109QRP9BqEGlg6OCqi%2F3SCGCT1q0396IF0%2F6FjlQFd9U2kkJUi0i0QrDcXbcib1ecY1WAsmArrwsoFr%2BCHuyQ79Ij1%2BvSTfSzVEd%2Fl64%2BFWQJ9RJnd6B03sWk%2BU49Yd7AA7TLDvrirknBVAUPVPr9VQrZw3i4jW%2FVp93dUPgQ3AcCB9wx7EWIzJy04KLa%2B%2BxVXQUIZX%2FEyWKJ2nroN%2FnN7ZzIz5siIYMJcDtHYcOkPj6waqwwK2yqgWARkWHPuxax2iY%2BXBAVYXtYL%2BzD9LeLO8WV3iPa2bMYfw%3D%3D"
+                          <img :src="item.product.imageUrl"
                           alt="商品圖片" class="rounded-2 bg-body-secondary">
                         </div>
                         <div class="col-12 col-md-8">
                           <div class="p-4">
                             <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程二</h6>
-                              <p>預約編號：ATR443213</p>
-                              <p>預約狀態：已完課</p>
-                            </div>
-                            <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-3">
-                      <div class="row">
-                        <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D"
-                          alt="商品圖片" class="rounded-2 bg-body-secondary">
-                        </div>
-                        <div class="col-12 col-md-8">
-                          <div class="p-4">
-                            <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程一</h6>
-                              <p>預約編號：BGA56523</p>
-                              <p>預約狀態：未開課</p>
-                            </div>
-                            <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-3 border-top border-bottom">
-                      <div class="row">
-                        <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D"
-                          alt="商品圖片" class="rounded-2 bg-body-secondary">
-                        </div>
-                        <div class="col-12 col-md-8">
-                          <div class="p-4">
-                            <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程三</h6>
-                              <p>預約編號：JHU78913</p>
-                              <p>預約狀態：未開課</p>
+                              <h6>{{ item.product.title }}</h6>
+                              <p>預約編號：{{ order.id }}</p>
+                              <p>預約狀態：{{ order.is_paid ? '已完課' : '未完課' }}</p>
                             </div>
                             <div class="text-end">
                               <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
@@ -98,44 +61,29 @@
                 </div>
                 <div id="appointed" class="tab-pane fade order-table w-75">
                   <div class="d-flex flex-column justify-content-center">
-                    <div class="py-3 border-top border-bottom">
-                      <div class="row">
-                        <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D"
-                          alt="商品圖片" class="rounded-2 bg-body-secondary">
-                        </div>
-                        <div class="col-12 col-md-8">
-                          <div class="p-4">
-                            <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程一</h6>
-                              <p>預約編號：BGA56523</p>
-                              <p>預約狀態：未開課</p>
-                            </div>
-                            <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
+                    <div class="py-3 border-top border-bottom"
+                    v-for="order in orderData" :key="order.id">
+                      <div class="row"
+                      v-for="item in order.products" :key="item.id">
+                        <template v-if="order.is_paid">
+                          <div class="col-12 col-md-4">
+                            <img :src="item.product.imageUrl"
+                            alt="商品圖片" class="rounded-2 bg-body-secondary">
+                          </div>
+                          <div class="col-12 col-md-8">
+                            <div class="p-4">
+                              <div class="d-flex flex-column d-grid gap-3">
+                                <h6>{{ item.product.title }}</h6>
+                                <p>預約編號：{{ order.id }}</p>
+                                <p>預約狀態：{{ order.is_paid ? '已完課' : '未完課' }}</p>
+                              </div>
+                              <div class="text-end">
+                                <RouterLink class="order-routerLink"
+                                to="/userOrder">看詳細</RouterLink>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="py-3 border-top border-bottom">
-                      <div class="row">
-                        <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D"
-                          alt="商品圖片" class="rounded-2 bg-body-secondary">
-                        </div>
-                        <div class="col-12 col-md-8">
-                          <div class="p-4">
-                            <div class="d-flex flex-column d-grid gap-3">
-                              <h6>課程三</h6>
-                              <p>預約編號：JHU78913</p>
-                              <p>預約狀態：未開課</p>
-                            </div>
-                            <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
-                            </div>
-                          </div>
-                        </div>
+                        </template>
                       </div>
                     </div>
                   </div>
@@ -182,19 +130,50 @@
 </template>
 
 <script>
-
+import axios from 'axios';
+import Loading from 'vue-loading-overlay';
+import Swal from 'sweetalert2';
 import MemberCenterLayout from '@/layout/MemberCenterLayout.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
+const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
+      orderData: {},
       pageBreadcrumbList: ['member', 'userReservation'],
+      isloading: false,
     };
+  },
+  methods: {
+    getOrder() {
+      this.isloading = true;
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/orders`)
+        .then((res) => {
+          this.isloading = false;
+          this.orderData = res.data.orders;
+          console.log(this.orderData);
+        })
+        .catch((err) => {
+          this.isloading = false;
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
+        });
+    },
   },
   components: {
     Breadcrumb,
     MemberCenterLayout,
+    Loading,
+  },
+  mounted() {
+    this.getOrder();
   },
 };
 
