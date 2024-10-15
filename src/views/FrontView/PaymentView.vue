@@ -8,8 +8,8 @@
         <h2 class="text-center my-5">預約成功</h2>
         <div class="text-center">
           <p class="fs-4 text-danger">預約編號：{{ order?.id }}</p>
-          <div class="order_block mb-lg-8 my-8">
-            <table class="table">
+          <div class="mb-lg-8 my-8 shadow-lg">
+            <table class="table order-table">
               <caption class="order-caption caption-top text-center border-bottom
               fw-normal">預定資訊</caption>
               <tbody v-for="item in order?.products" :key="item.id">

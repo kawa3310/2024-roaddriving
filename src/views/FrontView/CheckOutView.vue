@@ -6,11 +6,11 @@
       <div class="row">
         <div class="col-12 d-flex flex-column justify-content-center align-items-center">
           <div class="order-table table-bg">
-            <h2 class=" text-center my-5">預約資訊</h2>
+            <h2 class="text-center my-5">預約資訊</h2>
             <div v-for="(cart, index) in cartData" :key="cart.id">
               <h4 v-if="cartData !== 0" class=" my-4">
                 第<span class=" text-danger">{{ index+1 }}</span>筆</h4>
-              <table class="table mb-3">
+              <table class="table shadow mb-3">
                 <tbody>
                   <tr>
                     <th width="30%" scope="row">方案</th>
@@ -52,21 +52,21 @@
                   </tr>
                 </tbody>
               </table>
-            <table class="table my-lg-8" key="cart.id">
-              <tbody>
-                <tr>
-                  <th width="50%" scope="row">付款方式</th>
-                  <th scope="row">訂金</th>
-                  <th scope="row">餘額</th>
-                </tr>
-                <tr>
-                  <td>信用卡</td>
-                  <td>NT $1000</td>
-                  <td>NT ${{ cart.total - 1000 }}</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
+              <table class="table my-lg-8 shadow-sm" key="cart.id">
+                <tbody>
+                  <tr>
+                    <th width="50%" scope="row">付款方式</th>
+                    <th scope="row">訂金</th>
+                    <th scope="row">餘額</th>
+                  </tr>
+                  <tr>
+                    <td>信用卡</td>
+                    <td>NT $1000</td>
+                    <td>NT ${{ cart.total - 1000 }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
             <p class="text-end text-danger">※預約課程並選擇日期時段後本站將與您電聯後確認實際上課時間</p>
             <div class="d-flex justify-content-between py-8">
               <RouterLink :to="`/reservation`"
@@ -170,5 +170,8 @@ export default {
     th{
     background-color: #f3f0f0;
     }
+  }
+  .captionl{
+    text-align: center;
   }
 </style>
