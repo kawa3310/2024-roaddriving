@@ -51,7 +51,8 @@
                               <p>預約狀態：{{ order.is_paid ? '已完課' : '未完課' }}</p>
                             </div>
                             <div class="text-end">
-                              <RouterLink class="order-routerLink" to="/userOrder">看詳細</RouterLink>
+                              <RouterLink class="order-routerLink" :to="`/userOrder/${order.id}`"
+                              >看詳細</RouterLink>
                             </div>
                           </div>
                         </div>
@@ -78,7 +79,7 @@
                               </div>
                               <div class="text-end">
                                 <RouterLink class="order-routerLink"
-                                to="/userOrder">看詳細</RouterLink>
+                                :to="`/userOrder/${order.id}`">看詳細</RouterLink>
                               </div>
                             </div>
                           </div>
@@ -106,7 +107,7 @@
                               </div>
                               <div class="text-end">
                                 <RouterLink class="order-routerLink"
-                                to="/userOrder">看詳細</RouterLink>
+                                :to="`/userOrder/${order.id}`">看詳細</RouterLink>
                               </div>
                             </div>
                           </div>
@@ -115,7 +116,7 @@
                     </template>
                   </div>
                 </div>
-                <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
+                <PaginationModal :pages="pages" @emit-Pages="getOrder"></PaginationModal>
               </div>
             </div>
           </MemberCenterLayout>
@@ -168,14 +169,22 @@ export default {
         });
     },
   },
+  mounted() {
+    this.getOrder();
+  },
   components: {
     Breadcrumb,
     MemberCenterLayout,
     PaginationModal,
     Loading,
   },
-  mounted() {
-    this.getOrder();
+  watch: {
+    '$route.query': {
+      handler() {
+        this.getOrder();
+      },
+      deep: true,
+    },
   },
 };
 

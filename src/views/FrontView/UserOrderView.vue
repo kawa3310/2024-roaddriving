@@ -1,4 +1,5 @@
 <template>
+  <Loading :active="isloading" :z-index="1060"/>
   <div class="empty-content"></div>
   <div class="body">
     <main class="pb-8">
@@ -9,19 +10,18 @@
               <Breadcrumb class="mt-3"
               :page-breadcrumb-list="pageBreadcrumbList" />
             </template>
-            <div class="course-materials">
-              <SideMenu :personal="personal" :reserve="reserve"  />
-              <div>
+            <div class="course-materials"  v-if="orderData.products">
+              <div v-for="order in orderData.products" :key="order.id">
                 <div class="mt-4 mt-lg-0">
                   <div class="reservation-state my-lg-5 my-3">
-                    <p>預約編號：ATR443213</p>
-                    <p>預約日期：2024-09-12</p>
+                    <p>預約編號：{{ orderData.id }}</p>
+                    <p>預約日期：{{ date(orderData.create_at) }}</p>
                   </div>
                   <div class="order mt-4 mt-lg-0">
                     <div class="py-3">
                       <div class="row">
                         <div class="col-12 col-md-4">
-                          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D"
+                          <img :src="order.product?.imageUrl"
                           alt="商品圖片" class="rounded-2 bg-body-secondary">
                         </div>
                         <div class="col-12 col-md-8">
@@ -33,7 +33,7 @@
                                     <p>預約方案</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>課程一</p>
+                                    <p>{{ order.product?.title }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -41,7 +41,7 @@
                                     <p>預約方案</p>
                                   </div>
                                   <div class="col-lg-9 col-6">
-                                    <p>安全行車知識、路邊停車、倒車入庫、市郊區。</p>
+                                    <p>{{ order.product?.content }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -49,7 +49,7 @@
                                     <p>總堂數</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>1堂</p>
+                                    <p>{{ order.product?.lesson }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -57,7 +57,7 @@
                                     <p>時數</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>4小時</p>
+                                    <p>{{ order.product?.unit }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -65,7 +65,9 @@
                                     <p>地區</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>台中</p>
+                                    <p v-if="order.address === '吳三寶'">北部</p>
+                                    <p v-if="order.address === '郝安銓'">中部</p>
+                                    <p v-if="order.address === '甄卉葶'">南部</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -73,7 +75,7 @@
                                     <p>授課老師</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>郝安銓 教練</p>
+                                    <p>{{ order.address }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -81,7 +83,7 @@
                                     <p>日期</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>2024/09/23</p>
+                                    <p>{{ order.date }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -89,7 +91,7 @@
                                     <p>時段</p>
                                   </div>
                                   <div class="col-lg-9 col-6">
-                                    <p>下午（15:30 ~ 20:30）</p>
+                                    <p>{{ order.time }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -97,7 +99,7 @@
                                     <p>付款方式</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>信用卡</p>
+                                    <p>{{ order.payment }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -105,7 +107,7 @@
                                     <p>已繳金額</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>NT $1000</p>
+                                    <p>NT $ 1000</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -113,7 +115,7 @@
                                     <p>未繳金額</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>NT $3500</p>
+                                    <p>NT $ {{ order.product?.price - 1000 }}</p>
                                   </div>
                                 </div>
                                 <div class="row mb-4">
@@ -121,11 +123,12 @@
                                     <p>訂單狀態：</p>
                                   </div>
                                   <div class="col-lg-3 col-6">
-                                    <p>未完課</p>
+                                    <p>{{ orderData.is_paid ? '已完課' : '未完課' }}</p>
                                   </div>
                                 </div>
                                 <p class="text-end fw-bold pt-9">總金額
-                                  <span class="ps-3">NT$ 4500</span></p>
+                                  <span class="ps-3">NT $ {{ orderData.total }}</span>
+                                </p>
                               </div>
                             </div>
                           </div>
@@ -144,18 +147,56 @@
 </template>
 
 <script>
+import axios from 'axios';
+import Swal from 'sweetalert2';
+import Loading from 'vue-loading-overlay';
+import 'vue-loading-overlay/dist/css/index.css';
+
 import MemberCenterLayout from '@/layout/MemberCenterLayout.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
+const { VITE_URL, VITE_PATH } = import.meta.env;
 export default {
   data() {
     return {
+      orderData: {},
       pageBreadcrumbList: ['member', 'userReservation', 'userOrder'],
+      isloading: false,
     };
+  },
+  methods: {
+    getOrder() {
+      const { id } = this.$route.params;
+      this.isloading = true;
+      axios.get(`${VITE_URL}/api/${VITE_PATH}/order/${id}`)
+        .then((res) => {
+          this.isloading = false;
+          this.orderData = res.data.order;
+        })
+        .catch((error) => {
+          this.isloading = false;
+          Swal.fire({
+            toast: true,
+            position: 'top-end',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: error.response.data.message,
+          });
+        });
+    },
+    date(time) {
+      const localDate = new Date(time * 1000);
+      return localDate.toLocaleDateString();
+    },
+  },
+  mounted() {
+    this.getOrder();
   },
   components: {
     Breadcrumb,
     MemberCenterLayout,
+    Loading,
   },
 };
 
@@ -175,9 +216,9 @@ export default {
     &::after{
       position: absolute;
       content: "";
-      width: 90%;
+      width: 100%;
       bottom: -20%;
-      left: 5%;
+      left: 0%;
       border-bottom: 1px solid #d7d4d4;
       padding-bottom: 10px;
     }
