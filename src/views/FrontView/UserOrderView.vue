@@ -1,5 +1,7 @@
 <template>
-  <Loading :active="isloading" :z-index="1060"/>
+  <Loading :active="isloading" :z-index="1060">
+    <LoadingSvg/>
+  </Loading>
   <div class="empty-content"></div>
   <div class="body">
     <main class="pb-8">
@@ -150,8 +152,8 @@
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import Loading from 'vue-loading-overlay';
-import 'vue-loading-overlay/dist/css/index.css';
 
+import LoadingSvg from '@/loading/LoadingSvg.vue';
 import MemberCenterLayout from '@/layout/MemberCenterLayout.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
@@ -197,6 +199,7 @@ export default {
     Breadcrumb,
     MemberCenterLayout,
     Loading,
+    LoadingSvg,
   },
 };
 

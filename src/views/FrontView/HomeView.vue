@@ -1,4 +1,7 @@
 <template>
+  <Loading :active="isloading" :z-index="1060">
+    <LoadingSvg/>
+  </Loading>
   <div class="banner">
     <div class="container">
       <div class="d-flex justify-content-center align-items-center">
@@ -595,15 +598,27 @@
 </template>
 
 <script>
+import Loading from 'vue-loading-overlay';
+
+import LoadingSvg from '@/loading/LoadingSvg.vue';
 import HomeSwiper from '@/components/SwiperComponents.vue';
 
 export default {
   data() {
     return {
+      isloading: false,
     };
+  },
+  mounted() {
+    this.isloading = true;
+    setTimeout(() => {
+      this.isloading = false;
+    }, 2000);
   },
   components: {
     HomeSwiper,
+    Loading,
+    LoadingSvg,
   },
 };
 </script>

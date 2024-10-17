@@ -1,5 +1,7 @@
 <template>
-    <Loading :active="isloading" :z-index="1060"/>
+  <Loading :active="isloading" :z-index="1060">
+    <LoadingSvg/>
+  </Loading>
   <div class="container px-6">
     <div class="mt-9">
       <h4 class="mb-9">已預約</h4>
@@ -116,9 +118,9 @@
 <script>
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import 'vue-loading-overlay/dist/css/index.css';
 import Loading from 'vue-loading-overlay';
 
+import LoadingSvg from '@/loading/LoadingSvg.vue';
 import PaginationModal from '@/components/PaginationModal.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
@@ -221,6 +223,7 @@ export default {
   components: {
     PaginationModal,
     Loading,
+    LoadingSvg,
   },
 };
 </script>

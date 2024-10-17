@@ -1,5 +1,7 @@
 <template>
-  <Loading :active="isloading" :z-index="1060"/>
+  <Loading :active="isloading" :z-index="1060">
+    <LoadingSvg/>
+  </Loading>
   <div class="empty-content"></div>
   <Breadcrumb class="container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
   <div class="container">
@@ -49,6 +51,8 @@
 import axios from 'axios';
 import Loading from 'vue-loading-overlay';
 import Swal from 'sweetalert2';
+
+import LoadingSvg from '@/loading/LoadingSvg.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
@@ -86,6 +90,7 @@ export default {
   components: {
     Breadcrumb,
     Loading,
+    LoadingSvg,
   },
   mounted() {
     this.getOrder();

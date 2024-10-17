@@ -1,5 +1,7 @@
 <template>
-  <Loading :active="isloading" :z-index="1060"/>
+  <Loading :active="isloading" :z-index="1060">
+    <LoadingSvg/>
+  </Loading>
   <div class="reservation-bg mb-3">
     <h2 class="bg-banner">預約報名</h2>
   </div>
@@ -168,8 +170,9 @@
 <script>
 import axios from 'axios';
 import Swal from 'sweetalert2';
-import 'vue-loading-overlay/dist/css/index.css';
 import Loading from 'vue-loading-overlay';
+
+import LoadingSvg from '@/loading/LoadingSvg.vue';
 import Breadcrumb from '@/components/BreadcrumbComponents.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
@@ -293,6 +296,7 @@ export default {
   components: {
     Breadcrumb,
     Loading,
+    LoadingSvg,
   },
   mounted() {
     this.getCourseData();
@@ -301,15 +305,6 @@ export default {
 </script>
 
 <style lang="scss">
-  .main-title{
-    @media (max-width: 375px) {
-      &::before{
-        left: 35%;
-        bottom: -30%;
-        position: absolute;
-      }
-    }
-  }
   .reservation-bg{
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727699785736.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AZzRJrQbv7lUBDBeNY35Y2X%2FxyQBspe1n3RCJCUNUJ0h1NtMqpihwcgAmTf6%2BLo7IB8LJyZJA7w7S4K2q49sw431fePgAzVDk0P9nl%2BJscnjjTGrbTKjDcU0o6OfylHNy2xfiU1KqC9JDfG3wueOrLZfhNpHV5DIrWPRpjNJUnBvDyAWlhaQxxvJkZgN2mcVCnrzOD%2BGYfiPCmt1DNGx6TMAMK69A3tDFNVwpMNYo078pYELh0qFo%2FR%2Fzl27XubMy160CyZvXC04NsSgDjIMYWXDMzHWTXaWAxIxs8Y0ddKFkYVWP7rG7bwKir%2BC5lgt3N5lXIYHFHotUU164WiuPA%3D%3D') no-repeat center bottom / cover;
     width: 100%;
