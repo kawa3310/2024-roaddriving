@@ -10,8 +10,7 @@
 
 
 ### mobilia版瀏覽圖
-![image]([https://github.com/kawa3310/2024-roaddriving/blob/main/public/mobilia%E7%89%88.jpg?raw=true](https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1729304130714.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Xm%2FjN6c%2BbDpkMdBi1XAOykHwPasSSS8%2Byi1K41TvgF1hfvk6gqw405xw%2BpY6QMMIx67vITFjTDjcQNjHiHrfltLTq6fQOflSu9zoKL7LXc8aqkEKpw%2FUTD4g90xdoY0G%2B3PHM71ULtJbMgVF95JXW3Ja%2F8c5JmN%2BG09k%2BLU87mpcr09ULHcFzktfWtfZ27ghHQ9aj8PNvpBYyf8Vj%2BZBBrD91Lg7sKHAWMMCedZjGdm99Y3yr2OdbwGCTX6jW8%2Fyy8ByBkJ9tmdsv2D0wWyfKpiGGgeH1lpGqBue234MvV20zEQJh5qd6n%2FR6icnw2GNj1OUg1J%2BAA0RDJvaP07JcA%3D%3D))
-
+![image]([https://github.com/kawa3310/2024-roaddriving/blob/main/public/mobilia%E7%89%88.jpg?raw=true](https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1729304130714.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Xm%2FjN6c%2BbDpkMdBi1XAOykHwPasSSS8%2Byi1K41TvgF1hfvk6gqw405xw%2BpY6QMMIx67vITFjTDjcQNjHiHrfltLTq6fQOflSu9zoKL7LXc8aqkEKpw%2FUTD4g90xdoY0G%2B3PHM71ULtJbMgVF95JXW3Ja%2F8c5JmN%2BG09k%2BLU87mpcr09ULHcFzktfWtfZ27ghHQ9aj8PNvpBYyf8Vj%2BZBBrD91Lg7sKHAWMMCedZjGdm99Y3yr2OdbwGCTX6jW8%2Fyy8ByBkJ9tmdsv2D0wWyfKpiGGgeH1lpGqBue234MvV20zEQJh5qd6n%2FR6icnw2GNj1OUg1J%2BAA0RDJvaP07JcA%3D%3D)
 
 
 Node.js 版本建議為：18.17.1 以上
