@@ -5,11 +5,10 @@
 ## 瀏覽專案
 以下為  [專案DEMO][1]、[Yahoo][2]、[MSN][3] 三個網站的比較內容。
 
+[1]: <https://kawa3310.github.io/2024-roaddriving/#/> "專案DEMO"
 [2]: <https://tw.yahoo.com/?p=us> "Yahoo 首頁"
 [3]: <https://www.msn.com/zh-tw> "MSN 首頁"
 
- [專案DEMO][1]
-[1]: <https://kawa3310.github.io/2024-roaddriving/#/> "專案DEMO"
 
 ### pc版瀏覽圖
 ![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.jpg?raw=true)
