@@ -268,14 +268,6 @@ export default {
       pageBreadcrumbList: ['purchase'],
     };
   },
-  methods: {
-    scrollToCourse() {
-      const element = document.getElementById('course-section');
-      if (element) {
-        element.scrollIntoView({ behavior: 'smooth' });
-      }
-    },
-  },
   components: {
     Breadcrumb,
   },
