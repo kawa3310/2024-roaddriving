@@ -5,7 +5,6 @@
 ## 瀏覽專案
 以下為 [專案DEMO][1]、[Yahoo][2]、[MSN][3] 三個網站的比較內容。
 
-[1]: <https://www.google.com.tw/> "Google 搜尋"
 [2]: <https://tw.yahoo.com/?p=us> "Yahoo 首頁"
 [3]: <https://www.msn.com/zh-tw> "MSN 首頁"
 [1]: <https://kawa3310.github.io/2024-roaddriving/#/> "專案DEMO"
