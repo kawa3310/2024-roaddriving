@@ -1,5 +1,10 @@
 ## 南南道路駕訓（roaddriving）
 
+####南南道路駕訓是能一款提供北中南道路駕訓服務的預約平台，課程使用者可以透過瀏覽課程方案、師資來選擇最適合自己的課程方案。透過這個平台希望讓所有剛拿到駕照的新手們得到專業的知識技巧後不必再畏懼成為馬路三寶。
+
+## 專案DEMO
+
+(https://kawa3310.github.io/2024-roaddriving/#/)
 
 ### pc版瀏覽圖
 ![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.jpg?raw=true)
@@ -29,13 +34,6 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 
 ## 運行專案
 ```npm run serve```
-
-
-
-## 開啟專案
-在瀏覽器網址列輸入以下即可看到畫面
-
-(https://kawa3310.github.io/2024-roaddriving/#/)
 
 
 
