@@ -63,9 +63,9 @@
         <h5 class="text-center py-3">立即註冊</h5>
         <div class="d-flex justify-content-center d-grid gap-3">
           <p>已經有帳號了？</p>
-          <RouterLink to="/userReservation">
+          <a @click="registrationstates">
             登入
-          </RouterLink>
+          </a>
         </div>
         <VForm ref="form" v-slot="{ errors }">
           <div class="mb-3">
@@ -100,7 +100,7 @@
             <ErrorMessage name="密碼" class="invalid-feedback"></ErrorMessage>
           </div>
           <div class="d-flex justify-content-center align-items-center py-4">
-            <a class="btn btn-outline-dark px-8" @click="registrationstates">註冊</a>
+            <a class="btn btn-outline-dark px-8" @click="getRaccount">註冊</a>
           </div>
         </VForm>
       </div>
@@ -185,6 +185,17 @@ export default {
         this.loginStates = true;
         this.registrationStates = false;
       }
+    },
+    getRaccount() {
+      Swal.fire({
+        toast: true,
+        position: 'top-end',
+        icon: 'success',
+        showConfirmButton: false,
+        timer: 2500,
+        title: '註冊成功',
+      });
+      this.registrationstates();
     },
     getcertified() {
       if (this.certified !== true) {
