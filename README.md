@@ -39,24 +39,22 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 
 ## 資料夾結構
 ```
-- roaddriving.vscode  ###### This is an <h6> tag
-- `dist`：打包後的檔案
-- `public`：公開的靜態檔案
-- `src`：專案的程式碼
-  - `assets`：靜態檔案
-  - `components`：元件
-  - `router`：路由
-  - `store`：狀態管理
-  - `views`：頁面
-  - `App.vue`：根元件
-  - `main.js`：進入點
-- `.env.example`：環境變數範本
-- `.eslintrc.js`：ESLint 設定檔
-- `.gitignore`：Git 忽略檔案
-- `.nvmrc`：Node.js 版本
-- `index.html`：進入點 HTML
-- `package-lock.json`：套件版本鎖定
-- `package.json`：專案資訊
-- `README.md`：專案說明
-- `vite.config.js`：Vite 設定檔
+- roaddriving.vscode                  /  南南道路駕訓 
+- `dist`                              /  打包後的檔案
+- `public`                            /  圖片資源文件
+- `src`                               /  存放專案的程式碼
+  - `assets`                          /  scss設定檔
+  - `components`                      /  共用元件
+  - `router`                          /  路由          
+  - `views`                           /  頁面    
+  - `App.vue`                         /  根元件  
+  - `main.js`                         /  js
+- `.env.example`                      /  環境變數範本
+- `.eslintrc.js`                      /  ESLint 設定檔
+- `.gitignore`                        /  Git 忽略檔
+- `index.html`                        /  HTML   
+- `package-lock.json`                 /  套件版本鎖定  
+- `package.json`                      /  專案資訊  
+- `README.md`                         /  專案說明
+- `vite.config.js`                    /  Vite 設定檔
 ```
