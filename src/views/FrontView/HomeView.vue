@@ -640,7 +640,7 @@ export default {
 <style lang="scss" scoped>
 
   .banner{
-    background: url('https://github.com/kawa3310/2024-roaddriving/blob/main/public/Banner.jpg?raw=true') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1729328983725.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=UJS39ufK3dy51OwkpSIf7G34d6RzhZOAN1esE2vJntBJVDQMC3pgWcg2VXOgeK1Vf89EG%2FYxrzY%2BkObP7I9EIAUb4OjE2Q6g6dL%2B0CJImduDnSIsedI%2BaVgxKEsrJOOwceK3FzMSFFoij6M%2Ba4kKmtTMztPXCKmEp1TeAoPLl9AdZsgMvjz2dkTFf1wTjurtJXTEIOwiRcAdvvl3%2Fg%2F7Vrz0ifEzro1Afc9RL67hPTIr0e2CJ7L8o5aUyDdUTt0BlpZGEkHbuhsF5enWisTAWuHyAMw4IZtwgWqe8b0HSE4rtLZ6dG%2BRTXX02Zq4BNRFR4ySkGVAot1X%2BnLy8Pevtg%3D%3D') no-repeat center center / cover;
     width: 100%;
     padding: 173px 0;
     .banner-title{
