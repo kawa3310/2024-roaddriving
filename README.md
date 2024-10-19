@@ -7,7 +7,7 @@
 
 ![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.jpg?raw=true)
 
-##Node.js 版本
+## Node.js 版本
 Node.js 版本建議為：18.17.1 以上
 
 ## 取得專案
@@ -38,6 +38,7 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 
 
 ## 資料夾結構
+```
 - `roaddriving.vscode`   #南南道路駕訓
 - `dist`：打包後的檔案
 - `public`：公開的靜態檔案
@@ -58,3 +59,4 @@ git clone https://github.com/kawa3310/2024-roaddriving.git
 - `package.json`：專案資訊
 - `README.md`：專案說明
 - `vite.config.js`：Vite 設定檔
+```
