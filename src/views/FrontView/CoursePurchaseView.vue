@@ -177,7 +177,7 @@
               </tr>
             </thead>
             <tbody>
-              <tr class="course-style">
+              <tr>
                 <th scope="row">課程一</th>
                 <td>1</td>
                 <td>4小時</td>
@@ -185,7 +185,7 @@
                 <td>安全行車知識、路邊停車、倒車入庫
                   <br>實際上路：<span class="text-pink">市郊區</span></td>
               </tr>
-              <tr class="course-style">
+              <tr>
                 <div class="medal d-lg-flex d-md-flex d-none"></div>
                 <th scope="row">課程二</th>
                 <td>3</td>
@@ -195,7 +195,7 @@
                 <td>安全行車知識、路邊停車、倒車入庫
                   <br>實際上路：<span class="text-pink">市郊區、高速公路、山路過彎</span></td>
               </tr>
-              <tr class="course-style">
+              <tr>
                 <th scope="row">課程三</th>
                 <td>1</td>
                 <td>2.5小時</td>
@@ -386,9 +386,5 @@ export default {
         color: #ffffff;
       }
     }
-  }
-  .course-style{
-    background-color: yellow;
-    transition: background-color 0.5s ease;
   }
 </style>
