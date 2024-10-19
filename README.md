@@ -5,7 +5,7 @@
 ## 瀏覽專案
 [專案DEMO](https://kawa3310.github.io/2024-roaddriving/#/)
 
-![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.jpg?raw=true)
+![image](https://github.com/kawa3310/2024-roaddriving/blob/main/public/pc%E7%89%88.png?raw=true)
 
 ## Node.js 版本
 Node.js 版本建議為：18.17.1 以上
