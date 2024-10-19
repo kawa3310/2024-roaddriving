@@ -9,7 +9,7 @@
   <main>
     <div class="container my-lg-9 mt-5 mb-9">
       <div class="text-center text-primary pb-8">
-        <p class="main-title fs-1 fw-bold">開始預約</p>
+        <p class="main-title fs-1 fw-bold" data-aos="fade-up">開始預約</p>
       </div>
       <VForm v-slot="{ meta }" ref="form" @submit="addCart()">
           <div class="my-lg-10">
