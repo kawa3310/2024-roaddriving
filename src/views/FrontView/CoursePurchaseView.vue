@@ -93,13 +93,13 @@
         </div>
       </div>
     </section>
-    <section class="hot-course my-lg-10 my-">
+    <section class="hot-course my-lg-10 my-5">
       <div class="container">
         <div class="text-center text-primary pb-lg-8 pb-3 my-lg-5 my-4">
           <p class="main-title fs-1 fw-bold">熱門課程</p>
         </div>
           <div class="row justify-content-center">
-            <div class="col-lg-3 col-12 mb-5 me-lg-3">
+            <div class="col-lg-3 col-12 mb-5 me-lg-3 course-box">
                 <div class="hot-card shadow">
                   <div class="hot-card-img">
                     <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726062500498.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=rAQXVb60pbAs%2FdZcqGASdoK3NPwyriCa3zlmqkwIYOmJhA%2FGBhWCSV4PyNMysWIO2geaJ70KW6Up1PvU2tlRNFPIBka1GCPY7PBm7fgucw3prJvKEw2%2FMAfo0JjY54yD3lBR2tF%2BgnoOJfXvHgStK5ryOYa5QJrytXfVXqFELVRuq%2FWZ3Bk%2FVjHl6syFQOFYvEEapZHx%2Fycu4%2Baxd1T4ljwbvN1i1o8YWMfxfDWUprWDCq%2BILN4DfE7ql4Jnel8%2FV%2FJybpeVYiFn8O2AnV7CVik5kCCQ9nkkpJnruwYOjpWHA2Glgh3bTvOBGLcbmwNhoqAec5m1ynU39QRTyRwCFw%3D%3D" alt="hot-cours-img">
@@ -117,7 +117,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-12 mb-5 me-lg-3">
+            <div class="col-lg-3 col-12 mb-5 me-lg-3 course-box">
                 <div class="hot-card shadow">
                   <div class="hot-logo"></div>
                   <div class="hot-card-img">
@@ -138,7 +138,7 @@
                   </div>
                 </div>
             </div>
-            <div class="col-lg-3 col-12">
+            <div class="col-lg-3 col-12 course-box">
                 <div class="hot-card shadow">
                   <div class="hot-card-img">
                     <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1726132467692.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=mrmXZ3GzWLorlqmUfwqlj%2FPJir5S%2FqTcrP3%2FazZF791h5nEt2iUI74Kyblf4PWaRv2NilEGrFPrTDwiHfrxmE6%2FhXEFo7OI1%2BW%2BAsV9QXhJ3WCATjTK6loW%2BxWQFNA0i5NmPJKtHBythECkwOYfet5Q%2BwQ7DlGdaCd4eByI45HX5AoUwnp7IrkuRmqV2JXwFI8M0uF1z9YVOvYXTRFYLy40HYEKL4nxMP44jkiAhnebIbCWtd%2FVmx%2FBrIpTfxUOVLyf%2BOD0JsvKdOPxQicJ8aYGl0lYG51HimNKcdIGPDiPVXcKZNh5p0uvRiQFzfh8wrIqYqqC76APYOidG4sq8rw%3D%3D" alt="hot-cours-img">
@@ -326,14 +326,16 @@ export default {
       left: -3%;
     }
   }
-  .hot-card{
-    border-radius: 10px 10px 10px 10px;
-    position: relative;
-    background-color: #6BC3C0;
-    transition: .1s;
-    &:hover {
-        transform: scale(1.05);
-      }
+  .course-box{
+    .hot-card{
+      border-radius: 10px 10px 10px 10px;
+      position: relative;
+      background-color: #6BC3C0;
+      transition: .1s;
+      &:hover {
+          transform: scale(1.05);
+        }
+    }
   }
   .plan{
     position: relative;
