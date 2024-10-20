@@ -18,7 +18,7 @@
     <section class="navigation">
       <div class="container">
         <div class="text-center text-primary mt-8 mt-lg-9 mb-9">
-          <p class="main-title fs-1 fw-bold" data-aos="fade-up">
+          <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
             你害怕的是什麼
           </p>
         </div>
@@ -94,17 +94,18 @@
             </li>
           </ul>
         </div>
-        <HomeSwiper class="d-lg-block d-md-block d-none" data-aos="flip-down"></HomeSwiper>
+        <HomeSwiper class="d-lg-block d-md-block d-none" data-aos="flip-down"
+        data-aos-delay="100"></HomeSwiper>
       </div>
     </section>
-    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="100">
+    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="200">
       <div class="container">
         <div class="banner-word pt-9 d-lg-block d-md-block d-none">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="banner2-title fs-1 fw-bol text-end text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
         </div>
-        <div class="banner-word banner2-title d-lg-none d-md-none text-center">
+        <div class="banner-word banner2-title d-lg-none d-md-none text-center" data-aos-delay="200">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="fs-1 fw-bold text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
@@ -114,12 +115,12 @@
     <main class="main pt-lg-9 py-8">
       <div class="container">
         <div class="text-center text-primary pb-7 pb-lg-9">
-          <p class="main-title fs-1 fw-bold" data-aos="fade-up">
+          <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
             一對一指導
           </p>
         </div>
         <div class="row" data-aos="flip-left"
-          data-aos-duration="200" data-aos-easing="ease-in-sine">
+          data-aos-duration="300" data-aos-easing="ease-in-sine">
           <ul class="col-12 col-lg-4 d-grid gap-3 gap-lg-4 my-3 mb-lg-9">
             <li>
               <img src="https://github.com/kawa3310/2024-roaddriving/blob/main/public/%E4%B8%80%E5%B0%8D%E4%B8%80%E6%8C%87%E5%B0%8E%2001.jpg?raw=true" alt="carousel" class="carousel-img">
@@ -174,7 +175,7 @@
       <div class="carousel-feature">
         <div class="container">
           <div class="feature-sm d-lg-none">
-            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left">
+            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left" data-aos-delay="100">
               <li class="card-img">
                 <span class="problem rotate">這些都不是問題!</span>
                 <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
@@ -187,7 +188,7 @@
                 <p>掌握不到停車的訣竅讓你頭好痛?</p>
               </li>
             </ul>
-            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-right">
+            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-right" data-aos-delay="100">
               <li class="card-img">
                 <span class="straightway rotate">立即預約</span>
                 <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
@@ -199,7 +200,7 @@
                 <p>上班族朝九晚五</p>
               </li>
             </ul>
-            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left">
+            <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left" data-aos-delay="100">
               <li class="card-img">
                 <span class="complete rotate">內容最完整</span>
                 <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
@@ -215,8 +216,9 @@
           <div class="feature-pc d-lg-block d-none">
             <div class="d-flex flex-column justify-content-center">
               <div class="feature-card d-flex
-              justify-content-center align-items-center d-grid gap-3">
-                <div class="feature-top" data-aos="fade-down">
+              justify-content-center align-items-center d-grid gap-3"
+              data-aos="fade-down" data-aos-delay="100">
+                <div class="feature-top">
                   <div class="card-img">
                     <span class="problem rotate">這些都不是問題!</span>
                     <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
@@ -232,7 +234,7 @@
               </div>
               <ul class="feature-card d-flex justify-content-between d-grid gap-lg-3 mt-5">
                 <li class="d-flex justify-content-center align-items-center"
-                data-aos="fade-right">
+                data-aos="fade-right" data-aos-delay="100">
                   <div class="text-white text-end fw-normal d-grid gap-3 pe-3">
                     <p>時間有限</p>
                     <p>工作排班制休假不固定</p>
@@ -247,7 +249,7 @@
                   </div>
                 </li>
                 <li class="d-flex justify-content-center align-items-center"
-                data-aos="fade-left">
+                data-aos="fade-left" data-aos-delay="100">
                   <div>
                     <div class="card-img">
                       <span class="complete rotate">內容最完整</span>
@@ -271,7 +273,7 @@
       <div class="container">
         <div class="teachers-sm d-lg-none d-md-none">
           <div class="text-center text-primary pb-4 pb-lg-8">
-            <p class="main-title fs-1 fw-bold" data-aos="fade-up">
+            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
               北中南最優秀的師資
             </p>
           </div>
@@ -398,7 +400,7 @@
         </div>
         <div class="teachers-pc d-lg-block d-md-block d-none">
           <div class="text-center text-primary pb-4">
-            <p class="main-title fs-1 fw-bold" data-aos="fade-up">
+            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
               北中南最優秀的師資
             </p>
           </div>
@@ -527,7 +529,8 @@
     </section>
     <section class="textbook mt-8">
       <div class="text-center text-primary py-7 py-lg-9">
-        <p class="main-title fs-1 fw-bold text-center" data-aos="fade-up">上課使用車種</p>
+        <p class="main-title fs-1 fw-bold text-center"
+        data-aos="fade-up" data-aos-delay="100">上課使用車種</p>
       </div>
       <div class="textbook-sm container d-lg-none mt-4">
         <div class="pt-7">
@@ -567,7 +570,7 @@
             <div class="container">
             <div class="d-flex">
               <div class="position-relative pb-9">
-                <div class="d-flex justify-content-center" data-aos="zoom-in">
+                <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="100">
                     <div class="textbook-card bg-white">
                       <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725611300231.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=V430yT8eMALqA%2Fhf7FXv9ksTdfNFHV0X6f7%2FDhfBfRQD0BlgWpU%2F2tAwHouPf4el9HrWpnpL3wVQHw%2BV7mTDRHOr%2BOOk2xZb%2BdGZCa88jD08muJ0EgYbBkhVzGgs45KwcFvH6DSpyKBNxlIfVgCeC%2FdSUOeaE1lrIAhTi%2BFEGxcvc4MWc%2FR7fxlIgl6A1MQmIq4%2FyloEZmS1cQ1CpP2OnPrzzoaguRiXec4L%2Bd9O8gogAiHJzb3SzXgnnIonb1ccU8Hzcw96ajQZPf9Ne9cYJ8HIjMjcEQle6Qk13vsFF5gu%2FwRSCcWb%2FMOojks0S7XhHMVOwXbmTBEa7m71f4PYHw%3D%3D" alt="textbook-car" class="card-img">
                     </div>
@@ -645,7 +648,10 @@ export default {
     padding: 173px 0;
     .banner-title{
       h2{
-        font-size: 5vw;
+        font-size: 4.9vw;
+        @media (max-width: 468px ) {
+          font-size: 7vw;
+        }
       }
     }
   }

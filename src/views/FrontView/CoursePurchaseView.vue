@@ -166,9 +166,9 @@
     <section class="plan my-lg-10 my-5">
       <div class="container">
         <div class="text-center text-primary pb-lg-8 pb-3 my-lg-5 my-4">
-          <p class="main-title fs-1 fw-bold" data-aos="fade-up">課程方案</p>
+          <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">課程方案</p>
         </div>
-        <div data-aos="flip-down">
+        <div data-aos="flip-down" data-aos-delay="300">
           <div class="d-lg-flex d-md-flex d-none">
             <table class="table mt-4 text-center table-bordered">
               <thead>
