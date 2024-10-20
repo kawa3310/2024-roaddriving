@@ -17,7 +17,7 @@
     </div>
     <section class="navigation">
       <div class="container">
-        <div class="text-center text-primary mt-5 mt-lg-9 mb-9">
+        <div class="text-center text-primary mt-8 mt-lg-9 mb-9">
           <p class="main-title fs-1 fw-bold" data-aos="fade-up">
             你害怕的是什麼
           </p>
@@ -97,7 +97,7 @@
         <HomeSwiper class="d-lg-block d-md-block d-none" data-aos="flip-down"></HomeSwiper>
       </div>
     </section>
-    <div class="banner2 mt-7" data-aos="zoom-in" data-aos-delay="100">
+    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="100">
       <div class="container">
         <div class="banner-word pt-9 d-lg-block d-md-block d-none">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
@@ -111,7 +111,7 @@
         </div>
       </div>
     </div>
-    <main class="main pt-lg-9 py-7">
+    <main class="main pt-lg-9 py-8">
       <div class="container">
         <div class="text-center text-primary pb-7 pb-lg-9">
           <p class="main-title fs-1 fw-bold" data-aos="fade-up">
@@ -165,10 +165,10 @@
         </div>
       </div>
     </main>
-    <section class="tips my-lg-9 mt-7">
+    <section class="tips my-lg-9 mt-8">
       <div class="container">
         <div class="text-center text-primary pb-8">
-          <p class="main-title fs-1 fw-bold" data-aos="fade-up">課程特色</p>
+          <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">課程特色</p>
         </div>
       </div>
       <div class="carousel-feature">
@@ -267,7 +267,7 @@
         </div>
       </div>
     </section>
-    <section class="teachers py-lg-9 pb-7">
+    <section class="teachers py-lg-9">
       <div class="container">
         <div class="teachers-sm d-lg-none d-md-none">
           <div class="text-center text-primary pb-4 pb-lg-8">
@@ -279,7 +279,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
             </div>
-            <div class="mt-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-right" data-aos-delay="100">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
@@ -319,7 +319,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-primary text-white fs-4 fw-bold">中部</button>
             </div>
-            <div class="mt-5" data-aos="fade-left" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-left" data-aos-delay="100">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-blue">
@@ -359,7 +359,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">南部</button>
             </div>
-            <div class="mt-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-right" data-aos-delay="100">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
@@ -525,7 +525,7 @@
         </div>
       </div>
     </section>
-    <section class="textbook mt-7">
+    <section class="textbook mt-8">
       <div class="text-center text-primary py-7 py-lg-9">
         <p class="main-title fs-1 fw-bold text-center" data-aos="fade-up">上課使用車種</p>
       </div>
