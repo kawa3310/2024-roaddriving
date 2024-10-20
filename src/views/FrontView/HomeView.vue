@@ -98,14 +98,14 @@
         data-aos-delay="100"></HomeSwiper>
       </div>
     </section>
-    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="200">
+    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="300">
       <div class="container">
         <div class="banner-word pt-9 d-lg-block d-md-block d-none">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="banner2-title fs-1 fw-bol text-end text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
         </div>
-        <div class="banner-word banner2-title d-lg-none d-md-none text-center" data-aos-delay="200">
+        <div class="banner-word banner2-title d-lg-none d-md-none text-center" data-aos-delay="300">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="fs-1 fw-bold text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
@@ -120,7 +120,7 @@
           </p>
         </div>
         <div class="row" data-aos="flip-left"
-          data-aos-duration="300" data-aos-easing="ease-in-sine">
+          data-aos-duration="500" data-aos-easing="ease-in-sine">
           <ul class="col-12 col-lg-4 d-grid gap-3 gap-lg-4 my-3 mb-lg-9">
             <li>
               <img src="https://github.com/kawa3310/2024-roaddriving/blob/main/public/%E4%B8%80%E5%B0%8D%E4%B8%80%E6%8C%87%E5%B0%8E%2001.jpg?raw=true" alt="carousel" class="carousel-img">
