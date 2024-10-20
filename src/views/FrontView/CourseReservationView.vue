@@ -119,7 +119,8 @@
                         <div class="border-top"></div>
                       </div>
                     </div>
-                    <div class="d-flex justify-content-between d-grid gap-4">
+                    <div class="d-flex justify-content-between  flex-lg-row
+                    flex-column d-grid gap-4">
                       <label for="am" class="form-check-label">
                         <input type="radio" name="time"
                         class="form-check-input" id="am"

@@ -187,7 +187,7 @@
                   <td>4小時</td>
                   <td class="fw-medium">NT $4500</td>
                   <td>安全行車知識、路邊停車、倒車入庫
-                    <br>實際上路：<span class="text-pink">市郊區</span></td>
+                    <br>實際上路：<span class="text-tomato">市郊區</span></td>
                 </tr>
                 <tr>
                   <div class="medal d-lg-flex d-md-flex d-none"></div>
@@ -197,7 +197,7 @@
                     3 小時/堂、4 小時/堂</td>
                   <td class="fw-medium">NT $8500</td>
                   <td>安全行車知識、路邊停車、倒車入庫
-                    <br>實際上路：<span class="text-pink">市郊區、高速公路、山路過彎</span></td>
+                    <br>實際上路：<span class="text-tomato">市郊區、高速公路、山路過彎</span></td>
                 </tr>
                 <tr>
                   <th scope="row">課程三</th>
@@ -205,7 +205,7 @@
                   <td>2.5小時</td>
                   <td class="fw-medium">NT $3000</td>
                   <td>路邊停車、倒車入庫、高速公路、山路過彎
-                    <br><span class="text-pink">四項中擇三項教學</span></td>
+                    <br><span class="text-tomato">四項中擇三項教學</span></td>
                 </tr>
               </tbody>
             </table>
@@ -243,11 +243,11 @@
                 <tr class="course-style">
                   <th scope="row">內容</th>
                   <td>安全行車知識、路邊停車、倒車入庫
-                    實際上路：<span class="text-pink">市郊區。</span></td>
+                    實際上路：<span class="text-tomato">市郊區。</span></td>
                   <td>安全行車知識、路邊停車、倒車入庫
-                    實際上路：<span class="text-pink">市郊區、高速公路、山路過彎。</span></td>
+                    實際上路：<span class="text-tomato">市郊區、高速公路、山路過彎。</span></td>
                   <td>路邊停車、倒車入庫、高速公路、山路過彎。<br/>
-                    <span class="text-pink">四項中擇三項教學</span></td>
+                    <span class="text-tomato">四項中擇三項教學</span></td>
                 </tr>
               </tbody>
             </table>
@@ -284,6 +284,13 @@ export default {
   .course-bg{
     background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727425651225.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jEK2G6%2BV3%2B3FA4KFRkuPCuzxQ4ZjZJYL96iPR4amAUtpnkblDekRszJfzyoxL7NUrK8ldX6XPlt3kr3Ji5DUPzWvaSBymPxUvrXfHnivSa4wcp313VZshI%2BKfHVLUHp8bTuaio5IVN7IKXgL2Ye5q%2FQ9VG1r8CIAIyvzNIEaFuErfajLVeL6U7WM6m8mRnnLehd93fIwOxZ8tRuaZDbbP9r9YBroI0hrPy2GrbVTL7bjlmOF0v4byWJC1LzGP%2FUig4644%2BPszsejJjq11n5zdYbUK3jdtHL79sviRFl8wUm%2F1bLv2JzIIEe1K3v4RkOkuOM53KoJbPVcVB0JPsn1PA%3D%3D') no-repeat center center / cover;
     width: 100%;
+  }
+  .main-title{
+    @media (max-width: 375px) {
+      &::before{
+        left: 37%;
+      }
+    }
   }
   .card{
     border-radius: 20px;
@@ -386,5 +393,8 @@ export default {
         color: #ffffff;
       }
     }
+  }
+  .text-tomato{
+    color: #E96463;
   }
 </style>
