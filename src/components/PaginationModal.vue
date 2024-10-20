@@ -15,7 +15,7 @@
         @click.prevent="updatePage(page)">{{ page }}
         </a>
       </li>
-      <li class="page-item" :class="{ disabled: !pages.has_next }">
+      <li class="page-item" :class="{ disabled: !pages.has_next }" v-if="has_next">
         <a href="#"
         aria-label="Next" @click.prevent="updatePage(pages.current_page + 1)">
           <i class="bi bi-caret-right-fill ms-3"></i></a>
