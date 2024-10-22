@@ -8,12 +8,12 @@
   <Breadcrumb class="navigation container mt-3" :page-breadcrumb-list="pageBreadcrumbList"/>
   <main>
     <div class="container my-lg-9 mt-5 mb-9">
-      <div class="text-center text-primary pb-8">
+      <div class="text-center text-primary">
         <p class="main-title fs-1 fw-bold" data-aos="fade-up">開始預約</p>
       </div>
       <VForm v-slot="{ meta }" ref="form" @submit="addCart()">
           <div class="my-lg-10">
-            <h2 class="text-center my-lg-10 my-4">1. 選擇課程</h2>
+            <h2 class="text-center my-lg-10 mt-7 mb-4">1. 選擇課程</h2>
             <div class="row d-flex flex-reverse justify-content-center">
               <div class="col-lg-4 col-md-6 d-lg-block d-md-block d-none">
                 <div id="hot-1" class="hot-card shadow">
@@ -82,8 +82,8 @@
               </div>
             </div>
           </div>
-          <div class="my-lg-10 mt-5">
-            <h2 class="text-center my-lg-10 my-4">2. 選擇上課地區</h2>
+          <div class="my-lg-10">
+            <h2 class="text-center my-lg-10 mt-9 mb-4">2. 選擇上課地區</h2>
             <div class="row">
               <div class="col-lg-4" v-for="(teacher) in teacherData" :key="teacher.id"
               name="terms" type="radio" as="radio"
@@ -105,16 +105,16 @@
               </div>
             </div>
           </div>
-          <section class="my-lg-10 mt-5">
+          <section class="my-lg-10">
             <div class="container">
-              <h2 class="text-center my-lg-10 my-4">3. 選擇日期 / 時段</h2>
+              <h2 class="text-center my-lg-10 mt-9 mb-4">3. 選擇日期 / 時段</h2>
               <div class="row justify-content-center mb-5">
                 <div class="col-lg-7">
                   <div class="select-card bg-card p-5">
                     <div class="">
                       <div class="mb-4 date">
                         <label class="d-block pb-2" for="due_date">年／月／日</label>
-                        <input type="date" value="2024-09-23" min="2024-09-23"
+                        <input type="date" id="due_date"
                         max="2028-09-17" class="form-select mb-4 p-2" v-model="form.date"/>
                         <div class="border-top"></div>
                       </div>
@@ -138,7 +138,7 @@
                   </div>
                 </div>
               </div>
-              <h2 class="text-center my-lg-10 mb-4">4. 付款方式</h2>
+              <h2 class="text-center my-lg-10 mt-9 mb-4">4. 付款方式</h2>
                 <div class="row justify-content-center">
                   <div class="col-lg-7">
                     <div class="select-card p-5 d-flex flex-column

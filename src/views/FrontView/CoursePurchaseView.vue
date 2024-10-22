@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="overflow-hidden">
     <main>
       <div class="course-bg mb-3">
         <h2 class="bg-banner">課程內容</h2>

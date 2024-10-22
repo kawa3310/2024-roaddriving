@@ -273,7 +273,7 @@
       <div class="container">
         <div class="teachers-sm d-lg-none d-md-none">
           <div class="text-center text-primary pb-4 pb-lg-8">
-            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
+            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="200">
               北中南最優秀的師資
             </p>
           </div>
@@ -281,7 +281,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
             </div>
-            <div class="mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-right" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
@@ -321,7 +321,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-primary text-white fs-4 fw-bold">中部</button>
             </div>
-            <div class="mt-2" data-aos="fade-left" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-left" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-blue">
@@ -361,7 +361,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">南部</button>
             </div>
-            <div class="mt-2" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-2" data-aos="fade-right" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
@@ -400,7 +400,7 @@
         </div>
         <div class="teachers-pc d-lg-block d-md-block d-none">
           <div class="text-center text-primary pb-4">
-            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="100">
+            <p class="main-title fs-1 fw-bold" data-aos="fade-up" data-aos-delay="200">
               北中南最優秀的師資
             </p>
           </div>
@@ -408,7 +408,7 @@
             <div class="area pt-8">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">北部</button>
             </div>
-            <div class="mt-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-5" data-aos="fade-right" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
@@ -448,7 +448,7 @@
             <div class="area pt-8 text-end">
               <button type="button" class="btn btn-primary text-white fs-4 fw-bold">中部</button>
             </div>
-            <div class="mt-5" data-aos="fade-left" data-aos-delay="100">
+            <div class="mt-5" data-aos="fade-left" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="col-4 teachers-body pt-4">
                   <div class="d-flex justify-content-center">
@@ -488,7 +488,7 @@
             <div class="area pt-8 pb-4">
               <button type="button" class="btn btn-secondary fs-4 fw-bold">南部</button>
             </div>
-            <div class="mt-5" data-aos="fade-right" data-aos-delay="100">
+            <div class="mt-5" data-aos="fade-right" data-aos-delay="200">
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
@@ -534,27 +534,27 @@
       </div>
       <div class="textbook-sm container d-lg-none mt-4">
         <div class="pt-7">
-          <div class="py-3" data-aos="zoom-in">
+          <div class="py-3" data-aos="zoom-in" data-aos-delay="200">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181077626.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JG17zc0oAag%2F8uCYeWU945y%2FWLoawYGKhS90erH5f45xXLUBjWTAMIj9XFE3nquKR6SlZo7YAd3tbKTdQ%2FRTlrq59rRHZB8IXSuPAXFo7OTUbhPeAlwDQHZ06R%2BuGgipoPFDROHiymvGQS8NBD%2BpQhlIL%2FjE9pPWIHcqkYKsxOJR07fv2RC88LuoAeWzB1g9t8rx5D4wk7Z5kxuDBddCHRPCNz1B5StLMhw7sCCjC%2Fp9yYDkQk93WVIuiukPud2%2FnPdYN8s0bvh40Rz2nFydAjviwOoY65hbEDyWcneiyyKu2HOVxAXjE9H1abFXkhwJaAmNTv8C4%2BSHYOZJlQMtBQ%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <p class="fw-medium">Honda HR-V</p>
             </div>
           </div>
-          <div class="py-3" data-aos="zoom-in-up">
+          <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625497932.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sfg64VSxfZzaPdofM0W2vP5iOURwzMFOCtAM22e6Zuq4g3nRAvfJ3e9bI1O%2B3q5lxUTbdLdjn%2FxFPx0yVXROHe6F0Ilj72WqbYDK9xFoz7DCBp0%2FH6iTsAxOcXZRdMRknzxdN1tZtyoh5qqpv29agHpuCwg%2FWHwmu7ukEmnE3HIGiOHMXu1b1UNzVWBwuHGoMt7578%2BjhplqksfguAQI0pz%2FknQuaj5dfZSK82qNeMH0Wdmvx1J7qauYXb43NkkstPOMumb7fy%2F5Mw7ZRH3DPNlIMfB2FrM5EgPAH5F05X4hS5OT98mG8gcfP6RaKyFuoTI7mqUdCWIi1LSTSR0UCw%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>每款車輛搭配副駕駛座煞車</p>
             </div>
           </div>
-          <div class="py-3" data-aos="zoom-in-up">
+          <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625716596.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=q8TPbkasrAEaZ0hryGGampcOEdTjpbsQGjF9YtO9bCMj8ErTwwdw5a0S%2BToGqHchehHLKFyJmMvpkRV6E6Jo4j4MtUV%2Feo5%2FEPKLhNbn4IGPYZYFEa0fleonHs8qq5g7e1p7%2B6n3wRGPSS2pH26MgjXHFkYtvzu0BBuxeD%2BYgjPBv7r%2B6m9k%2Fl3CUYgKXavO0QCBfmjTMQWdFUe3SBz84Ayfaax6Wns%2F%2F9oyBIkI55ujD38vIx%2B62%2FxGmmPWI7TXBdfvS7EeSuduH3xi7xZ41kPaRgVGjSL0FM06AMwj%2F3DlRrEedcZQ1SRlAhymETH4V0viIA9IOqbiu5ft0z0GXg%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>車輛搭載 ACC 車道置中</p>
             </div>
           </div>
-          <div class="py-3" data-aos="zoom-in-up">
+          <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
             <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181148069.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jjEP26BrdWaZ%2BhgeUCnT%2FqFMf2VxIb%2BLgxDQPIDYgl8uAnULdt9RHeiggASzOoUgpGwj%2BuomqDJiXquN03ird4mLLTi5Q7aR%2FjnDhp9B%2BiSYazzzsD16jIf3boJo60wl%2BXsYL9eThUQSVCffrw0AlDEHKXQ%2BcT%2Fpim%2B0rBjX5TaGX4MpuyvAykfnWQVEI9cMXxBdbDXW9e1v%2FEneD4Kqay9%2B%2BFQYPuDWtvAB2E1LRXTtm%2B3Ri7%2BXn2x5xrGbZTVPLuz5uJ18%2FgYYspG4LtKkFnn234EbwehpuVZn3ePwDXAvgqSlfrnuGzFcuB01SJagg4yqakc7Q36k5vPzzk%2BX3A%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
@@ -570,7 +570,7 @@
             <div class="container">
             <div class="d-flex">
               <div class="position-relative pb-9">
-                <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+                <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="300">
                     <div class="textbook-card bg-white">
                       <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725611300231.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=V430yT8eMALqA%2Fhf7FXv9ksTdfNFHV0X6f7%2FDhfBfRQD0BlgWpU%2F2tAwHouPf4el9HrWpnpL3wVQHw%2BV7mTDRHOr%2BOOk2xZb%2BdGZCa88jD08muJ0EgYbBkhVzGgs45KwcFvH6DSpyKBNxlIfVgCeC%2FdSUOeaE1lrIAhTi%2BFEGxcvc4MWc%2FR7fxlIgl6A1MQmIq4%2FyloEZmS1cQ1CpP2OnPrzzoaguRiXec4L%2Bd9O8gogAiHJzb3SzXgnnIonb1ccU8Hzcw96ajQZPf9Ne9cYJ8HIjMjcEQle6Qk13vsFF5gu%2FwRSCcWb%2FMOojks0S7XhHMVOwXbmTBEa7m71f4PYHw%3D%3D" alt="textbook-car" class="card-img">
                     </div>
