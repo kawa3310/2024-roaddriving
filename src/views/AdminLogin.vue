@@ -43,6 +43,7 @@
 
 <script>
 import axios from 'axios';
+import Swal from 'sweetalert2';
 
 const { VITE_URL } = import.meta.env;
 export default {
@@ -61,6 +62,16 @@ export default {
           const { token, expired } = res.data;
           document.cookie = `drivingToken=${token}; expires = ${new Date(expired)}; path=/`;
           this.$router.push('/products');
+        })
+        .catch((err) => {
+          Swal.fire({
+            toast: true,
+            position: 'center',
+            showConfirmButton: false,
+            timer: 1500,
+            icon: 'error',
+            title: err.response.data.message,
+          });
         });
     },
   },
