@@ -9,11 +9,11 @@
         <i class="bi bi-caret-left-fill me-3" aria-hidden="true"></i>
       </a>
       </li>
-      <li class="text-light" :class="{ pagesNav: page === pages.current_page
+      <li class="text-light pagesNav" :class="{ pagesNav: page === pages.current_page
       }" v-for="page in pages.total_pages" :key="page + 123">
-        <a href="#"
+        <p href="#"
         @click.prevent="updatePage(page)">{{ page }}
-        </a>
+        </p>
       </li>
       <li class="page-item" :class="{ disabled: !pages.has_next }" v-if="has_next">
         <a href="#"
