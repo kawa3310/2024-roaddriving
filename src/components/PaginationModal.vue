@@ -15,7 +15,8 @@
         @click.prevent="updatePage(page)">{{ page }}
         </p>
       </li>
-      <li class="page-item" :class="{ disabled: !pages.has_next }" v-if="has_next">
+      <li v-if="pages?.has_next?.length > 0"
+        class="page-item" :class="{ disabled: !pages.has_next }" >
         <a href="#"
         aria-label="Next" @click.prevent="updatePage(pages.current_page + 1)">
           <i class="bi bi-caret-right-fill ms-3"></i></a>
@@ -26,6 +27,11 @@
 
 <script>
 export default {
+  data() {
+    return {
+
+    };
+  },
   props: ['pages'],
   methods: {
     updatePage(page) {
