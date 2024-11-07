@@ -1,6 +1,6 @@
 <template>
-<div ref="courseModal" class="modal fade" id="courseModal"
-tabindex="-1" aria-labelledby="courseModal" aria-hidden="true">
+  <div ref="courseModal" class="modal fade" id="courseModal"
+  tabindex="-1" aria-labelledby="courseModal" aria-hidden="true">
   <div class="modal-dialog modal-xl">
       <div class="modal-content border-0">
         <div class="modal-header bg-dark text-white">
