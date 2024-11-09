@@ -108,7 +108,7 @@
                 <button type="button" class="btn btn-outline-danger btn-sm"
                 @click="openModel('dele', 'products', item)">
                   刪除
-              </button>
+                </button>
               </div>
             </td>
           </tr>

@@ -55,12 +55,11 @@
             <td>
               <div class="btn-group">
                 <button type="button" class="btn btn-outline-primary btn-sm"
-                data-bs-toggle="modal" data-bs-target="#orderModal"
-                >
-                  編輯
+                @click="openModel('look', order)">
+                  查看
                 </button>
                 <button type="button" class="btn btn-outline-danger btn-sm"
-                @click="delOrder(order)">
+                @click="openModel('dele', order)">
                   刪除
                 </button>
               </div>
@@ -69,48 +68,10 @@
         </tbody>
       </table>
       <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
-      <div class="modal fade" id="orderModal"
-        tabindex="-1" aria-labelledby="orderModal" aria-hidden="true">
-        <div class="modal-dialog modal-xl">
-              <div class="modal-content border-0">
-                <div class="modal-header bg-dark text-white">
-                  <h5 id="productModalLabel" class="modal-title">
-                    <span >新增產品</span>
-                    <span >編輯產品</span>
-                  </h5>
-                  <button type="button" class="btn-close" data-bs-dismiss="modal"
-                  aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                  <div class="row">
-                    <div class="col-3">
-                      <div class="mb-3">
-                        <label for="imageUrl" class="form-label">主要圖片</label>
-                        <input id="imageUrl" type="text"
-                        class="form-control"
-                          placeholder="請輸入圖片連結">
-                        </div>
-                        <div class="mb-3">
-                          <label for="file" class="form-label">上傳圖片
-                            <i class="fas fa-spinner fa-spin"></i>
-                          </label>
-                          <input type="file" class="form-control mb-4" id="file" ref="fileInput"
-                          @change="uploadPhotos"/>
-                        </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="modal-footer">
-                  <button type="button" class="btn btn-outline-secondary" data-bs-dismiss="modal">
-                    取消
-                  </button>
-                  <button type="button" class="btn btn-primary">
-                    確認
-                  </button>
-                </div>
-              </div>
-        </div>
-      </div>
+      <OrderModal :temp-Order="tempOrder" ref="orderModal"
+      @add-Order-States="addOrderStates"/>
+      <DelProductModal :temp-products="tempOrder" @del-item="delOrder" ref="deModal">
+      </DelProductModal>
     </div>
   </div>
 </template>
@@ -121,6 +82,8 @@ import Swal from 'sweetalert2';
 import Loading from 'vue-loading-overlay';
 
 import LoadingSvg from '@/loading/LoadingSvg.vue';
+import OrderModal from '@/components/AdminOrderComponents.vue';
+import DelProductModal from '@/components/DelProductModal.vue';
 import PaginationModal from '@/components/PaginationModal.vue';
 
 const { VITE_URL, VITE_PATH } = import.meta.env;
@@ -128,6 +91,7 @@ export default {
   data() {
     return {
       orderData: {},
+      tempOrder: {},
       pagination: {},
       pages: {},
       isloading: false,
@@ -142,6 +106,7 @@ export default {
           this.orderData = res.data.orders;
           this.pages = res.data.pagination;
           this.isloading = false;
+          console.log(res);
         })
         .catch((err) => {
           this.isloading = false;
@@ -187,10 +152,10 @@ export default {
           });
         });
     },
-    delOrder(order) {
+    delOrder() {
       this.isNew = true;
       this.isloading = true;
-      axios.delete(`${VITE_URL}/api/${VITE_PATH}/admin/order/${order.id}`)
+      axios.delete(`${VITE_URL}/api/${VITE_PATH}/admin/order/${this.tempOrder.id}`)
         .then(() => {
           this.isNew = false;
           this.isloading = false;
@@ -216,11 +181,26 @@ export default {
           });
         });
     },
+    openModel(states, item) {
+      this.isNew = true;
+      if (states === 'look') {
+        this.isNew = false;
+        this.tempOrder = { ...item };
+        console.log(this.tempOrder);
+        this.$refs.orderModal.modelOpen();
+      } else if (states === 'dele') {
+        this.tempOrder = { ...item };
+        console.log(this.tempOrder);
+        this.$refs.deModal.modelOpen();
+      }
+    },
   },
   mounted() {
     this.getOrders();
   },
   components: {
+    OrderModal,
+    DelProductModal,
     PaginationModal,
     Loading,
     LoadingSvg,
