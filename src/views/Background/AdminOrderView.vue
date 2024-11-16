@@ -106,7 +106,6 @@ export default {
           this.orderData = res.data.orders;
           this.pages = res.data.pagination;
           this.isloading = false;
-          console.log(res);
         })
         .catch((err) => {
           this.isloading = false;
@@ -186,11 +185,9 @@ export default {
       if (states === 'look') {
         this.isNew = false;
         this.tempOrder = { ...item };
-        console.log(this.tempOrder);
         this.$refs.orderModal.modelOpen();
       } else if (states === 'dele') {
         this.tempOrder = { ...item };
-        console.log(this.tempOrder);
         this.$refs.deModal.modelOpen();
       }
     },
