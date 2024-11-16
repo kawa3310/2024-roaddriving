@@ -129,11 +129,23 @@
           <h5 class="text-center py-3">輸入驗證碼</h5>
           <p class="text-center">已透過Email將驗證碼傳送至您的的信箱</p>
           <div class="code-box">
-            <div class="code-item"></div>
-            <div class="code-item"></div>
-            <div class="code-item"></div>
-            <div class="code-item"></div>
-            <input type="text" class="code-input" maxlength="4">
+            <div
+              v-for="(item, index) in codeItems"
+              :key="index"
+              class="code-item"
+              :class="{ active: index === activeIndex }"
+            >
+              {{ item }}
+            </div>
+            <input
+              type="text"
+              class="code-input"
+              v-model="code"
+              @focus="handleFocus"
+              @blur="handleBlur"
+              @input="handleInput"
+              maxlength="4"
+            />
           </div>
           <div class="d-flex justify-content-center align-items-center py-4">
             <button type="submit" class="btn btn-outline-dark px-8"
@@ -163,6 +175,9 @@ export default {
       forgotPassword: false,
       enteremail: true,
       certified: false,
+      code: '',
+      codeItems: ['', '', '', ''],
+      activeIndex: 0,
     };
   },
   methods: {
@@ -234,10 +249,32 @@ export default {
         });
       }
     },
+    handleFocus() {
+      this.updateActiveIndex();
+    },
+    handleBlur() {
+      this.activeIndex = 0;
+    },
+    handleInput() {
+      this.updateCodeItems();
+      this.updateActiveIndex();
+    },
+    updateCodeItems() {
+      const inputValue = this.code;
+      this.codeItems = inputValue.split('').concat(['', '', '', '']).slice(0, 4);
+    },
+    updateActiveIndex() {
+      this.activeIndex = this.code.length;
+    },
   },
   components: {
     NavbarComponents,
     FooterComponents,
+  },
+  watch: {
+    code() {
+      this.updateCodeItems();
+    },
   },
 };
 </script>
