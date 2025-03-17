@@ -4,24 +4,24 @@
       <div class="d-flex justify-content-start justify-content-lg-between
       align-items-center d-grid gap-3 mb-4">
         <div class="d-flex justify-content-start align-items-center">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180420751.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=GklhkUuD6Ur0vIqY3rnQGa2woUnl2YWwQrXQ3CUCcK0tRg5lPWMjfs9VEUYJZqM9K3TDbAbxNbhknJ7zMaGzz2M1S95XsS96SFuURt1vw3845%2FDqnoUjEq6iiLsg%2B72inxrCArwo%2Bmp5ip1riXIEShkQ8r2QpULNM51xQwFLbBNw3B%2BLJmG89FG2T2Axr58x1L7pvpoNV8rjn%2FedHU%2BigKM8SQduZAL7D%2Fatp9gh1y%2FgF4T%2FCFiCtyxshmZppWf62zbJgeVMIk7zU4%2B3nEhplM03JgSwMvdulqBcukvdmNx%2Fv5wYGiL5hk5WLr9OicksGsVN9dI9l0wodblATub%2B0A%3D%3D" class="footer-logo" alt="footer-logo">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742216815747.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=HblAbBrp0zB0g5wws7tbPC8X%2BixQRh39P%2Bf%2B24MxyPdYI0JfnhQGoz4UJtT9WtSWGnrOJlcPoXAwQBKuhmE4Cj1LvYhC%2FWBg0XmRUUMyU44mG04%2FjeqedjOrweGwQr5fPpWYczsa01ZUJTcczW%2BZ0vdHMpGblCvys7lPH36QIoy414QmnsjMjIUghDJh3oMgXVROL3MzGSREVHfmH9ejOGHmHIXkMKzk7PamFHyHp1jUTFUCb0Kd9elXgEniViC7pkerh57HL7bK%2Bio0zkPUO8sWBln6zIdM88uOUMirqWzr%2BHKGmvBkkXJ1ykZNsX%2FR%2BDeEl3HMT%2Bz8RrQUEwI%2B%2BQ%3D%3D" class="footer-logo" alt="footer-logo">
           <h2 class="text-primary ps-lg-3 ps-2">南南道路駕訓</h2>
         </div>
         <ul class="community d-lg-flex
         d-none justify-content-center align-items-center d-grid gap-3 pt-3">
           <li>
             <a href="#">
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193180155.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=XMYtEjBF4Y7Z1LArnwmSBlIsW7qvsz1%2BLeMreMI5I%2BvwtXgjrfporGbIqStTFurDyiguSgAMOKdCTODWYwQDEw5cdP%2B6DcZ%2BSLgDeFOK%2Fi%2Fz422ODfKyE4%2BDCJyczoAxkMCucKRMI525qQhuMw6GYkfa7Q33t%2BdTBGLMsCdmY%2B66P8hmSeq9F%2Fg5AxH08nyuU0Kc3Hcv2Y2AHZIKwcAXNL3%2Ft6GAGEMCqKL%2FxdOvs1ou4HIxbBU1CnxZF9FnrlzVoNPDQGcQN%2Bo52B5q4cgBI53dpU6JzBQYp0td%2BguC%2F1%2BlCuZHdqLjcE%2B43wIuQbeV8778QZ4Fw65k0330YJSLxQ%3D%3D" alt="facebook-icon" class="community-icon">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217242746.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=BKbJhOK4okqwPBo68eiY6NakXVmz2bCelDqJIgKLXMfKUvw82gCoTj0rraBYRZc5C9UU98l0pIhvnWG4DKeBc8J%2FpThrnycgdi4zke4n4UDQTijXz7PpwDrzT9L%2Fdf2jIWMB%2BGoW3nFDqNmzn8uKvx4rts5DEsT00Lz1CjKbH7huYYkQhBXSDTCJu8kSDqzzx21O05K6WiGWC05Q4FRsfqmgiWiOfz2aFKjmkQBdGEVDWLI6hpB8I9QPIukeNFm6%2BwaGjvffsPa6qOG4jzqFMMZvCqIymnMxVNm6qRMGdMhRzKlIZKy7fsZDAvfRk8zw8aAlMxI%2Fe%2FZvDlRRmb6lcQ%3D%3D" alt="facebook-icon" class="community-icon">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193204073.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=flSD9%2Fw1I255ysDeYznpTlqUsiZemABYGJJ9GupAFfqThKP%2FWKXPh%2F01NX6ad4ILQUrWQAI3k46VgSwWLVJJ%2Bd2OMwW0eoun4z7YnsCK7f78rA1ct14o%2Bpg9AOKWhENEtd1I960wb0YbK5HxA%2F%2FJnarUEidH6phJ4%2Bkdd4G%2BSm7iqLjFbi2pUCzYLcoZ%2Buzt5H%2B1MyMPgQ8IosbyASHpcC94pyUj5%2BvoK%2FtugYFZUkZYx3QCIjNBjbyeI%2B1trF3aKl3Q8Po2%2FBh%2BGbbVAKTsFQoA%2FB%2BscvosQ8aiAu2k2oYY463HEX807K8%2FKfgiQmpk%2BJkrTLbklIJpcMFFqftuZg%3D%3D" alt="instagram-icon" class="community-icon">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217404993.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=WyHGA7ilH7FYWXtu0HtWsTSYseNLeNc6c8%2FNQh2c4gVExv73jOkUh7u7G3rgdGqa0Jo9A8Z0atZoM%2FzCuz7QJJgfh7E%2BSereHLe9vr%2F8nMJjn36gMopIUf5%2Feze%2BAHUJC6GPAMJO9RXPoDdnGBNYIkRW6O%2B5kBFzeLbtqOGL6GxQHJDULRTkFXjTvr%2FTamBlbkKiMuBoApdqtgFoW101f%2B3pQqmbWk2Hdro1%2F49gHF5oIGnVmxRo20TsQWXnzNJoW%2F6%2BZkYRAtG4a73C6mDBMnxCA8shSGTm7k8emc6Df%2FPABI%2Fg9Rwh9dU9Q7jyklXadNLCM8fFfu2jNL1UCTJqyQ%3D%3D" alt="instagram-icon" class="community-icon">
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193225623.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=SaarVV82Nzp41uF0gTADC2zwIDTV2iV4882wZIx3StPDApMoT56pLBlp%2BOEk%2FSCUmAgVuZNvf3k9ZsdmAnu1Z%2Bs4CMrMGl3ORQfpacxSa73b0x6s3Ihn3grw4uV0PF9KzmWubni0OW8aQE%2F7nEkj0e5KcqqRu%2BHtMGKUTUzChSW1caMP93wxBVyufOyfrvINMnqIFBphXvlkCGHuOLn%2FXqo2for9mGuAOXOzQsBqIBAKX3wmCku5B8p2mobvNvYee2Qvxj4plubVLFSnEm9B4HvAMfT%2BZEf08osTvUmYtSFOVIZ6TBJDzCUfoAu4SWjF9112tLkL2B%2FPGZXaspVqPw%3D%3D" alt="twitter-icon" class="community-icon">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217321107.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=pwWnheHElOADefaiCJcU6PNHlaME4vgxfpHChNnrFniJJ1R%2FlZmqvMMB6J%2BWbz36W4jBSEraLoOQeO9hDPFalYX8C4Hz7k41wHxElcQTN1vkw68qi4oExxlU7Lo5SiVZ%2BzyUJNCT6T%2FtSTPSjGmKZDmGjwtWNt8fuaxcCXVZUZ94RxwgE8opypiVoz5MorZAKUQr9Wdyo8pP1%2B28Vmh2YGSEXq8TshgTGE5prct7bWnIJka0Rmatyh1s9JP2j5pINX0TTMyGBzaWW27UnYQXx7%2BTE10V%2F3wgqAtEC0mR30Y%2B5kB%2Bfod0aZ8Prg1uKTSWAmtPtvr4ygCm%2F0K7OBP85Q%3D%3D" alt="twitter-icon" class="community-icon">
             </a>
           </li>
         </ul>
@@ -40,17 +40,17 @@
       justify-content-center align-items-center d-grid gap-3 pt-3">
         <li>
           <a href="#">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193180155.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=XMYtEjBF4Y7Z1LArnwmSBlIsW7qvsz1%2BLeMreMI5I%2BvwtXgjrfporGbIqStTFurDyiguSgAMOKdCTODWYwQDEw5cdP%2B6DcZ%2BSLgDeFOK%2Fi%2Fz422ODfKyE4%2BDCJyczoAxkMCucKRMI525qQhuMw6GYkfa7Q33t%2BdTBGLMsCdmY%2B66P8hmSeq9F%2Fg5AxH08nyuU0Kc3Hcv2Y2AHZIKwcAXNL3%2Ft6GAGEMCqKL%2FxdOvs1ou4HIxbBU1CnxZF9FnrlzVoNPDQGcQN%2Bo52B5q4cgBI53dpU6JzBQYp0td%2BguC%2F1%2BlCuZHdqLjcE%2B43wIuQbeV8778QZ4Fw65k0330YJSLxQ%3D%3D" alt="facebook-icon" class="community-icon">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217242746.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=BKbJhOK4okqwPBo68eiY6NakXVmz2bCelDqJIgKLXMfKUvw82gCoTj0rraBYRZc5C9UU98l0pIhvnWG4DKeBc8J%2FpThrnycgdi4zke4n4UDQTijXz7PpwDrzT9L%2Fdf2jIWMB%2BGoW3nFDqNmzn8uKvx4rts5DEsT00Lz1CjKbH7huYYkQhBXSDTCJu8kSDqzzx21O05K6WiGWC05Q4FRsfqmgiWiOfz2aFKjmkQBdGEVDWLI6hpB8I9QPIukeNFm6%2BwaGjvffsPa6qOG4jzqFMMZvCqIymnMxVNm6qRMGdMhRzKlIZKy7fsZDAvfRk8zw8aAlMxI%2Fe%2FZvDlRRmb6lcQ%3D%3D" alt="facebook-icon" class="community-icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193204073.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=flSD9%2Fw1I255ysDeYznpTlqUsiZemABYGJJ9GupAFfqThKP%2FWKXPh%2F01NX6ad4ILQUrWQAI3k46VgSwWLVJJ%2Bd2OMwW0eoun4z7YnsCK7f78rA1ct14o%2Bpg9AOKWhENEtd1I960wb0YbK5HxA%2F%2FJnarUEidH6phJ4%2Bkdd4G%2BSm7iqLjFbi2pUCzYLcoZ%2Buzt5H%2B1MyMPgQ8IosbyASHpcC94pyUj5%2BvoK%2FtugYFZUkZYx3QCIjNBjbyeI%2B1trF3aKl3Q8Po2%2FBh%2BGbbVAKTsFQoA%2FB%2BscvosQ8aiAu2k2oYY463HEX807K8%2FKfgiQmpk%2BJkrTLbklIJpcMFFqftuZg%3D%3D" alt="instagram-icon" class="community-icon">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217404993.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=WyHGA7ilH7FYWXtu0HtWsTSYseNLeNc6c8%2FNQh2c4gVExv73jOkUh7u7G3rgdGqa0Jo9A8Z0atZoM%2FzCuz7QJJgfh7E%2BSereHLe9vr%2F8nMJjn36gMopIUf5%2Feze%2BAHUJC6GPAMJO9RXPoDdnGBNYIkRW6O%2B5kBFzeLbtqOGL6GxQHJDULRTkFXjTvr%2FTamBlbkKiMuBoApdqtgFoW101f%2B3pQqmbWk2Hdro1%2F49gHF5oIGnVmxRo20TsQWXnzNJoW%2F6%2BZkYRAtG4a73C6mDBMnxCA8shSGTm7k8emc6Df%2FPABI%2Fg9Rwh9dU9Q7jyklXadNLCM8fFfu2jNL1UCTJqyQ%3D%3D" alt="instagram-icon" class="community-icon">
           </a>
         </li>
         <li>
           <a href="#">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725193225623.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=SaarVV82Nzp41uF0gTADC2zwIDTV2iV4882wZIx3StPDApMoT56pLBlp%2BOEk%2FSCUmAgVuZNvf3k9ZsdmAnu1Z%2Bs4CMrMGl3ORQfpacxSa73b0x6s3Ihn3grw4uV0PF9KzmWubni0OW8aQE%2F7nEkj0e5KcqqRu%2BHtMGKUTUzChSW1caMP93wxBVyufOyfrvINMnqIFBphXvlkCGHuOLn%2FXqo2for9mGuAOXOzQsBqIBAKX3wmCku5B8p2mobvNvYee2Qvxj4plubVLFSnEm9B4HvAMfT%2BZEf08osTvUmYtSFOVIZ6TBJDzCUfoAu4SWjF9112tLkL2B%2FPGZXaspVqPw%3D%3D" alt="twitter-icon" class="community-icon">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742217321107.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=pwWnheHElOADefaiCJcU6PNHlaME4vgxfpHChNnrFniJJ1R%2FlZmqvMMB6J%2BWbz36W4jBSEraLoOQeO9hDPFalYX8C4Hz7k41wHxElcQTN1vkw68qi4oExxlU7Lo5SiVZ%2BzyUJNCT6T%2FtSTPSjGmKZDmGjwtWNt8fuaxcCXVZUZ94RxwgE8opypiVoz5MorZAKUQr9Wdyo8pP1%2B28Vmh2YGSEXq8TshgTGE5prct7bWnIJka0Rmatyh1s9JP2j5pINX0TTMyGBzaWW27UnYQXx7%2BTE10V%2F3wgqAtEC0mR30Y%2B5kB%2Bfod0aZ8Prg1uKTSWAmtPtvr4ygCm%2F0K7OBP85Q%3D%3D" alt="twitter-icon" class="community-icon">
           </a>
         </li>
       </ul>

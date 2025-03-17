@@ -27,7 +27,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>01</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180627238.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=pwc3d1xBc1aw9U%2BbU8hHeLL6ibHWQbPvseEtO7hQsZgeTJrNj1hUKLblvA0ZEUlHYDr%2BMMXKhtrUrxsTLtNBQNM8FxJGoB7jzxjZtUtj04YCss6Sd7qNvb24W8xuFK6xm7dUAD8o76BPifs5pC7Ma%2BgCiG9Lig2Lo%2Fqq1E%2FM7yg2F44zaDPCYx2empFqLpxPHn7ST2ASOQ6eHOUh2c67%2BBrSG%2Fogvj9q6UB5QC6w%2BwjJUtxDnZztXWJK9D8hpxdq7curxR0ozdA%2FN%2F2eYYJ%2BWrbcnrTTpauU7XoFqVDEewh%2FAb3pQ57%2BxbYPFpCY2JHQqga7PbHIUx%2B0QjEE4wwzzQ%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218942343.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=BVp%2B5Fjk%2FqL8ca1CgvN5DeuS5KbxfGlaLhHWWVPsUJm0pX1W1zkb68OHBWALLIc0eybNM0s0%2BOMrHNIbyDb1VC2hRs2xQ5mACcM3fNT%2BNJIDbAYC2LvfkZeyGDWOoMa%2F%2FJtgUJTxvNApsHg41HuJkCR0aLwdVpd3j26jzVU9DzS6mm9HAO9KEzxULAhKkj%2FRgApoGSqVaLlWxc4%2FxyiXrwxcG%2BhJjXFQvwET1rxT1V1BQnhC2R6jIvU8zMN%2BKOcckr3YE86%2FW6UV8JMAVZSgspE7AsQMunES%2FNYc03jXgpSYgE8HXnQopDfsS6IGASL5Ov7WFCv1lwRDRuSJ7I6seA%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>不會抓車距 ?</h5>
@@ -37,7 +37,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>02</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180654119.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OV5j1zOf4DM%2Bs2SWKL8K3XGGKIZ9IEOM8Qfyy4smQpyfjp4aY16y0OyuplkRdyCz4LQ4rIQ%2FYik%2BUwAHMzqAQz5fUz4QbrCfld1vluTVYZ%2BnL964ZplwDebdgyL879ZSa3IEZTM1H50%2BghkRUUiK%2F4L%2FDLR9Vi2QsPbPX2Mghb9nxLKc3Yu%2FuHGLBHOYMs8xK6wthRk3y09qLxAQA8xOFIzetYnVIAA1FYNmrt0sc2eXj%2FfWLRNxWvY%2BNgYwUBp%2FbkyVgWsEAxmk%2BUnszYMmCXREMwXnyzjI%2FqWV3KpzalZBK9jedRBH04SbD7bOLB4FLrzA3JhEFjEMn3mlmcciyQ%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218974443.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=EpDdhmtLkaltU49i0a9wNlpecl6svC64dYDlaqkQZYsTXy7rQVdYf2aPGdipNP5LpPJum4B0kslBCLbXHGvNbzOEm%2BA4VdtL6%2Fl28BHTvjb7nka9VAAk8xrI37sr1EYTYmDInItsheVVCVGisD3GVO90n%2F1MvPIKwpgdTbp88Wbw7e3QMvdn1MHB65ObGpTzsKWwGA%2BY0LI%2FzlKnqXsq1mQkXPKFE1demyWbruOpMMo9SdMdZh2d0tZGLB%2Fe%2BblbY%2FHonR9RHttEIdRgYKpW2X4Ajnd%2BusdjdqG%2BvClBb9nDup0f87l9gOokkUSkYRbYS8KdCVIgLmCCBhi53kuZoA%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>不會路邊停車 ?</h5>
@@ -47,7 +47,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>03</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725688273094.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JCROyXT7bmaIeIffsVXh2nsWtSZghl5XfIEf6lCvy%2B55wfAQ%2BP3DQBmEv1sWsh6%2BFx9IluN6Q7st7e8DA0SjLhvoSbSDPTIB%2FCg2d6usKyy0nNXYN9F87PXNEq71nG2HrIdJeyHGbAMuFkTjqy%2F%2BQXXagmksxxpVRUSivUIy%2FFN43xHWjTrXc68EqjF8rENq7SHU1orYxE5AJ93mbcksIbidfmj2mQu%2Bc9erDg0Ik9p5cSlwGKjX%2F9sMzLnJLqxmmb08gxH2%2FsOVApGdz37O1Hu3I7sTMDmhAUSSR2j3hbJ4A4KjKL%2B2Dcs0CgBXPTgUXeqkrh3aNU8WmdqfPWtbIw%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218989788.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=i%2FCaXoAXmtoxaxqXKofSkdcB48kvXajP4J8I5fu1hekJ6dzWXIde6W%2BuvkXT7X6gSerfKIDmdzEi3fGY9Eg1opYPixMZySfuZhD3G5ZHmV1c9QKt6k%2BbQxtyhLcbcqhQM%2FrDbHlBcsrnQIxsmvEMWwZIawsPnXmh8qvzeor9dBhNoUyLb6elCagSv%2BXf3n5f1Ulia5gJg8d2oh%2BF813ieWaBmoUxGw2HFR5OFV5TqlaPL%2BOStz0xY3ExBjtPIt1viOLT7RgnbE3C3hLWuFUD%2BHG8pnIp1baDVrbXsIG%2FZpqL35mIjgAGoIJiBOexeGcZ4pprJnbP%2BPeXANfWoT8tUA%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>不會變換車道 ?</h5>
@@ -57,7 +57,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>04</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180717725.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=YXUzCzEDoZlZX%2FpDhv4Zw3WNy2YZtVG51Wg%2BnWbqRNvY706c29IuDHkAt2vQvE6OnuWpvpf9B3VZipW%2FY%2BaymRZ7fkXwMyXcRyvd737DTzRhFW%2B9KF%2FWHIdP8XtpR0Tf9ZzFRinBCTcQ0IGK0Qxi%2FHAUeajaAyaVXHq%2FC6P4sJJzCCI%2F11UDWp2ferOPP44fyakfVTMg2q0PBAqUmcB58nQs4iSXb2ARnwsHQlP7zg2HGdkYV9l%2BUfsm9xmupfdma2ksBiHYNcOVm1Pd%2Fwbr6CpOvR7IW0DVSGMCxf6ZB7M71QW7a2ejS3gqAxR0m8PYaj%2B66Df2R6oefqjsXDY9zA%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219013792.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=IYth7rga%2FJHCpNUIMLlCSwijIyhsqDrRwDHFCPvLWOSswFx8GgInSFrRN7K%2Fiqhm5n%2Bc536vXsjC74bYNpOiotqob7c%2FfEzZcm5qzg6mDNHmgaI9rclEGdHZ921zOuifGaZ5jpZNEJPqIiggMCO%2B1gEesDGIRfeR2qC3%2FsmI2uoOyO8%2ByEaShkzUjSdoJAQ00oH1nYHvn8yCWeakaKlfKCx64QgtaW4xC%2FoShoAIrrplYEWVYdq4U1VAcHvax4rjASw72fOhngPQT0MZr%2BakOimEGN1BEc5p0n%2F8aOvp8Ym%2FP4Slh4Z8Ju66fwlKxKktFzoNFZDPI4Yp0HPhXEG6EQ%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>不敢上高速公路 ?</h5>
@@ -67,7 +67,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>05</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180744282.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MSqX6zM%2BmzPdXM5FMzWGQ%2F9cGXNqUOHUzzwTiW2kJI%2FEj7ZONGBmkupFt7wUSaTnLJPfy1FY6PICga%2FKokLjEOMkyG3KlXgDnadaYR81rfcDexs%2FaA9SaQ3xuwb3%2BNjyRuTGqGjGmoYcmi%2FKgvtquevGjtTor5MTsIMIFJ853LuyetpwJvUkF2NBBM6PV697IvUrY90N8D3peaLmJE93d39x94O7tdZKu8fdvIiCA3bQ4fcclsEIO%2BJKhu5Ot3zaDRk4UJ3Zcrpj4hDbjcvFKJrbbjLQLDd9TIQuJxcWdundcQ6zfihi0leyhz5lTYm9WvujhIiDINKEnmBvNnWdTg%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219030088.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=KcKm3BdCuRFiaQ6ISrdgCwQbiYeG5kBxM42xjGO67nxEUt7Mg4ilBMKQxvSrFwcpLlRVbST9H40o8mr66gMzBY5iGKAg4Xias0hrq%2BR%2FyUTWNiCqlnM1ULWVljMU%2BqlHwRoxGt1tEuryzO69af2VRxNDC0MrDs8tshQjVCxefF2y%2Fu8jURfjrHhbixv%2BGwB9FxRCGqkx8e0xWNjPjwob%2Fdf4GeJYNQolptZwrJzhBcT5%2B%2BfH%2FAOjMxHCR%2Fn8dv6gCNCJN48p4yxkMsC%2Bacj5uZqFgDi9HrPwkxy%2FRzXuMsAuD%2BK2qhIJtLJEi3JqxQTqrNMz5DntY8%2FXGHHve%2Bao9w%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>不敢開山路 ?</h5>
@@ -77,7 +77,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>06</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180760925.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AOoQmcST%2BsTWOJ%2Fu8Q5DNCooIt%2BadsMQcfVJ1Oj47LyQYADhCX9ZApSMd3PYpqVlf1RcQohluol6%2BQVUaJ%2BFarvokk%2FJtNBGXjziOZ6ZNqYnybBYbl6xdsdQTulitoEMMlniGf44xmpY5bbxygnJlraLOwiKxBKM4KeEjOSES0ZhmzgXub0HjORF3rp9vFULhOJVoRhJEvXBjLH5m6mOh6U1VQR2V%2FdZ8Qf5%2B5ZQ6D%2FhqWOTklE%2FA6ozMULveQ466Ag2J5m65NWBWpA467CGmddFYOeNJbhiD4%2F0SWeWEzBBXwTH%2Fzms9Rdpoz6EJHNyxBcdLpr9bC20XVo%2B5tyw1g%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219170401.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=d2%2BkKGrKHwje3vYQ3yWIS2ITtIemXUARU7A5xsChvVKyyzjUV%2BX0WDwzF4PdRcEeEjHg2v%2BfQ6mbg7Y0im6s09nHuROhyv%2BMtjL0sHb%2BFI3jLLvHc1TGptxYPiRch6f3c8RBjxt1FenBXaHMMeyHlnDs1lu9ywDV8fkOXtzrVbliZG%2FF8ljwr6TOvosixMueA2Tf2xLgtduTn8P%2BIpC4ENaThPbpaRpVZwMARLWaDQyBDJZmvsLsUa7sXFyFzk5FD8Y%2Fd5%2Bb3LoJgn%2BwVOVqz%2FjarqzDn66nVrSOtvtGRW24fXWGoaR6bTXHBqwgN4TbNdotgDQ9cj68yerA9pSMaA%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>擔心開的不好被戰鬥邀請 ?</h5>
@@ -87,7 +87,7 @@
           data-aos-delay="100">
             <li class="situation-item d-flex justify-content-center">
               <span>07</span>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180804234.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=UPTEOgDp9Ydl1HRtTq2m64t5V%2B0jlP00A6qekPr93DsH4%2B1NPC22jetVtrKnUhefP%2F5b0GjI%2BVtrQeD1VsvRB5z9M9IQl9L0Rqr6WGrkQQ0JzF%2BMwdsWMq1QWDOpe5S4vPHNXiLOTmV13DofhtajcX8SelhkSRZcd0fmv5jconTKL1MtjpwcvI4FLWBWI7dYCCaFRyxAYuSXeCP3G5YTPA9Lyp5FUz8QxJvV1zmxGr91zo6eJVaCAzsCA6%2Fh%2BoNXKx1fg2bUzpr9qED4H%2F6xi6Ea9e2Xh5o1lR5gDAvtFLYIJ6LPnWJ5NFoVBm2ex%2BukaduedRlhgpd6Mz4ld3snWg%3D%3D" alt="situation" class="situation-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219066887.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=fO0STfDOjuwK0D84ipnNvs6Q%2BA3mLI45PIjSOt09nORxqM6sx7QIqCxlbMs08hUnxcqqUz3jZwaXyh3YJ%2Fx4qOyibfiSrBPy6xWPDw4pimFZ3qJ1WocVxkt0XqZR26gzwiGdaYAgxo%2BS96uZ7p3aFkJ96qTpMlfPf6BJIhZKGiKooVT1PNFJk36LCCdc0hYO7Awt3ahzDM2FydcoCrlS2FMdlKqg62OG4hlXjiBshImAaegkaRGrRQctuEICRmMAnCjO%2BnQ5rugLtRzqa5dhgA%2FegWBxsdfmL%2BNiBziy1T85CFggH3IRm4qgxcDwAv6T%2BZfKmhWCyMgFfcCsTQQcbg%3D%3D" alt="situation" class="situation-img">
             </li>
             <li class="text-center">
               <h5>擔心旁邊有人碎碎念 ?</h5>
@@ -98,14 +98,14 @@
         data-aos-delay="100"></HomeSwiper>
       </div>
     </section>
-    <div class="banner2 mt-8" data-aos="zoom-in" data-aos-delay="300">
+    <div class="banner2 mt-8" data-aos="zoom-in" >
       <div class="container">
         <div class="banner-word pt-9 d-lg-block d-md-block d-none">
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="banner2-title fs-1 fw-bol text-end text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
         </div>
-        <div class="banner-word banner2-title d-lg-none d-md-none text-center" data-aos-delay="300">
+        <div class="banner-word banner2-title d-lg-none d-md-none text-center" >
           <p class="fs-1 fw-bold text-white">不用怕!</p>
           <p class="fs-1 fw-bold text-white">
             我們<span class="text-info px-2">手把手</span>教會你!</p>
@@ -129,25 +129,25 @@
           </ul>
           <ul class="col-12 col-lg-4 d-grid gap-3 gap-lg-4 my-3 mb-lg-9">
             <li>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180856099.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=FiUboeylHhHRWESTDLGdDhBhQZaYC6e551i9V9cGzllN%2FFVOsmiet4MpUCJocUhaY8vaaFJWX%2FKOLDfmdxDCU5IMDrw9JMcm7dRt3xvQBuKWZg3%2BiMfP%2BTN4S5w835fdu9qU3JMYpCVUX7BL9BgxQuLPeANrod0cAIm6f%2B%2FYYkUfPufqJ%2FlEGXij5ZM4339vZzJDROO%2FCgQ89cS8v3yamD%2Fz1XuCS0Owy85%2F7zIa626ua38OInOy%2BgrubewYmi9AqYvnxJqoXkzbP4FL4KhoqflfRo2302MoQBa6qcHkT1d6t%2BPGDZk8LiVZaPyVMMCgQMbDjxaEJobVNS71WC4LCw%3D%3D" alt="carousel" class="carousel-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742220349322.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=hZe0s%2FZ6tjXeb3OGMau%2B7ala%2FWbmV1q8ECl9szop%2Bj93NF%2F9k%2Fq0dYDklz6CaiuXM6xEVo9oe8DT4lcB%2F3NIF5nUyE1N6G6thWsL3WDEYD5tKHZP8mqU%2BBE7evLsRuvk917YrxbvhQZWd6tplIUKymCUuJbNs%2Fi8qti4LyZadHpRBFg8sjxRDS%2FESpK%2Fq%2BNbSz0jng8BSz%2B8gdNpuFJeglVMiEurdnXpwlJ%2BOWYLQ9oV7QUMik5CurzJRONKFTdp6%2F3Oe69cl21aUMDxZYf%2BTCv4hYLB8P82wOHug51vzKyM4iRSQGz6R%2FlJb%2BSGt7vAl5w23R%2FdD9ZRfHEUeYQa%2FQ%3D%3D" alt="carousel" class="carousel-img">
             </li>
             <li class="text-center"><h2>很快的高速公路</h2></li>
           </ul>
           <ul class="col-12 col-lg-4 d-grid gap-3 my-3 mb-lg-9">
             <li>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180898178.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Eyc6ktvITVfvTF8BSXNRExs9TecQcP0ReE%2BNaZzuYv9Cfpwf%2F5Qp5K4DHfUDKMK9NUEhE9vW87mC1cMMMxAEYU1GcciFUFJPeaT47SoCZUxNUa5o%2FfgavuTcam4SsmNylZ1TrYvNJyMoL3GmiycEdW%2FxQxzyA7%2B5X7JDtOJa12gynmL1UdFfoOkdhNx65KlpB6KXauG32w8E7m2rRZpiUUnz8Re8cbilWdEPq8TbtNt1GOTGGlQaAP3JaqN5bjQ4dBv3BruZ5tzpxMycN2eW9IVb5zAHPD%2BlWmAd8izeQ7d8NXzQT4nnIzll%2B42AqdPFmrTF0Lk4Z%2BmU8RJFtN7hYA%3D%3D" alt="carousel" class="carousel-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742220384963.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=S%2FgbZYZw444T2cm82b4d4qIS9PfDVvD6lI%2BiTZerZdwlppau80O4FmZ8dcgUNxZbv9O2lT8a%2BYBt3DO32XSkk%2BmoKOKxB5CHJ%2BpYf9nmRrh%2BrMW9Z0%2FjT6KHQPKvzrf9RYpas3TCoBT5UpNqwIh1hl%2FlUKniSE2QyURjNqx2BD0GkyZealWXJzyqrmcLfjKExaDQkTEUELro9OXH5uU5U6cFdJFhrzJRGMjmeC17QwcjtUmjW6JJUauT%2FiPNkzLzl1f%2BkxO5M7AjtlASD8dpAvMDyCQ2Ft0ZOA0wA8RFwaxn7rCSTRzMksM%2FmTMK7X%2FBjhhR2lvN4tyxwBtxptjaJA%3D%3D" alt="carousel" class="carousel-img">
             </li>
             <li class="text-center"><h2>蜿蜒崎嶇的山路</h2></li>
           </ul>
           <ul class="col-12 col-lg-4 d-grid gap-3 gap-lg-4 my-3 mb-lg-9">
             <li>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725366278045.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ffLeFMh%2FLaKmySQ5epvw84i4Ic0e6eXNfcYVUH%2Fd0ngznBugXTfOpS4N43niDA61U5TYMmSBzpl63w4EPGWj%2F%2B77FmyUAqFYSNeWkU8LAcTE0ajRWGE8mZKjW7k8p%2F8feAxaCHktE1EqtXjANr%2Byc8On1jHRTbXChUn1kQw1NM0uefNEGR5hO7QNLhj5wq%2BJ5DCx%2FsqLkXZUujy%2FhbQx%2BVllbLu844SKsGtmxY78%2F5MzmU9%2BO84Uf%2By8hGLkCRNc0Cx%2BZh3gmhMyqoD1HvvGEPSoHiaFfo%2B2W3nTsQxG%2BdsmNnslcRx0iNZwVSSOzBbLUIZJUVwaRlCfIUIbycQWeQ%3D%3D" alt="carousel" class="carousel-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742220407603.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Nno%2BQIdIPnsde%2BQ8KzukHP8cSLBI4PgYrqaeLl3ALFKwUG%2B7tzGPsiIhAJIoGJMNkwI8k5yQi%2Btd3WUVm3EckxftbWhA8Znl%2BG9iSe%2FpggZqxMWWGdJwWZWu00NR2AXytILgnjSAJYUzaBcymPunIPi0BlofUfWm32csRGyht5oNdds7FbMqRjUxsdZnVo0iA5i7ijq6c6oBXSEBTR3cVpyhPzd9NsYopBbTiUtzNORsxBJJFwbc9WQtPWlhwb9ExBuPQOrYDuWFHxCNVk2AYBHrlLw4XszIE1NNzS5REa8ptbuooz7nNR0XUjIr2SUTTpyh9CwRLqYtKSW3HovCZA%3D%3D" alt="carousel" class="carousel-img">
             </li>
             <li class="text-center"><h2>路邊停車大魔王</h2></li>
           </ul>
           <ul class="col-12 col-lg-4 d-grid gap-3 gap-lg-4 my-3 mb-lg-9">
             <li>
-              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725366870154.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ecD7c1mgHLneiFIEwrFI8RshcJs1H%2F6wMi2mHUUoAmB5hXRZIcZy1W8B16vhlgd86%2BL9TTRxv5lY4naMUe8VPIfH4JdiYLyHwQm74kHRWyEkDIFqD8vbs9QQTgOlNhfDL3QTsxT6RMINF8BUN0kAhxoovD6t3xxma85xenvg9dcuZX1b1z905227bxOWK1eHfGDjBZdiPY7pb1aEasqq%2FgI50jEvQ%2BntASCbDg0CW%2Fqt6gbED0kQp42NQRhCNvWphUn4fzGKCiU6Zv6QDjeMUvEwkIpQfKgju9jnmgArHZSTygO%2BfNvtzncgCzhRkV30SoaZSMgRQwk1iOyOuYw9Gw%3D%3D" alt="carousel" class="carousel-img">
+              <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742220452624.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=fWE%2Fw2GuZ5HxjRw2%2FUf6oQEcdD0w4ztB5tTgWyL9A8%2FA2BNgFi2B79pW16HwfWf18I7Nafh0qKvu%2FXstn6Y5Ic5lwR%2FPQR%2BfDCbg6zU9KDNtcoVKa7jH11A4iYnF1oE9i5E1%2FXBD9H1MH9ASk7pro%2BBZFvC%2Fz7GlWL2un%2FKeRyHTtUoA33rJv0u7HbomwIF5anLCWwFHcP2YYzHn%2BHacZ%2Fw81d0HrbhOnPmLIvl7rzCYAodM%2FpQN6Zj5y%2FKibhERiphnQBvHHhEGCvN5L7dApW6nIcIitATf3PSKWbsXX7YSWLB11bwcCnREKkPQw9VgxAP8BE7xltFrzClhdEQ5%2FQ%3D%3D" alt="carousel" class="carousel-img">
             </li>
             <li class="text-center"><h2>倒車入庫二魔王</h2></li>
           </ul>
@@ -178,7 +178,7 @@
             <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left" data-aos-delay="100">
               <li class="card-img">
                 <span class="problem rotate">這些都不是問題!</span>
-                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
+                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222043426.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Gjri%2FI9Wu5%2BORbRDhjN11P2G152iDdBIHOYhD%2B6rRQ8m4oShUqj3245yyyrIiniWZb2S%2FveLy3TH3xhsMNVWNIXzAez0H7RCi3ScGAH6B%2B2b8FPk%2BllgHiBrUngA8zVmbc8cXqkmVaUTrUlqggy32JgDb9Y4HMJhC92fk1HRR2CMPH3Dl8PqrxGyVF24vkbd80LYkoYsteqpwjeZbMg7DlOmhhKo1UR9qUfDwf59KPDvqu4QNvsi5LvyG07JETnqvK14nkbPgElzBM40r1QT7Q3UvWITqwK3DvgeCuTcz2dhKnWV%2B%2BhSdLvQJUsHLXEuBU6Hr56rBAhn5hws6b0Qpw%3D%3D" alt="feature">
               </li>
               <li><h3 class="fw-bold text-center">教練一對一細心教學</h3></li>
               <li class="text-center text-white fw-normal d-grid gap-2">
@@ -191,7 +191,7 @@
             <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-right" data-aos-delay="100">
               <li class="card-img">
                 <span class="straightway rotate">立即預約</span>
-                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
+                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222108843.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=RwXd1xw4%2BYn0%2B0dzhBRn5hblvhbcrOfRWbfPvwXZ6j0thYH5L1oR%2FIRs2loGnVSSErXBKZHFyerDgFRnU17Vhp9XVOTOT3aaO9SWgrpc4nA1u0zIkw6qS0ntORp1rn51nczEnZSfGuVTfO%2BqgYOkH%2Fl107eMmrEc2M%2Bcz3oLhkT1rv13WKY2pw%2F2fJLMIHvW9R2WT%2FBlPOJxos5iWr5Mn8CSwE2prrUiF1xLH%2FyeecVQAyFPIFNNVDvxrjYlVLlhOls13VTUJCuFaSCKAu0%2BTE%2Fe1jpe%2FLBIZeXU0xnEHHlGHTdUlEHQKbnhUJamDDy0DNcVMOBg3A4dKOixgi8G%2Bg%3D%3D" alt="feature">
               </li>
               <li><h3 class="fw-bold text-center">彈性的上課時間</h3></li>
               <li class="text-center text-white fw-normal d-grid gap-2">
@@ -203,7 +203,7 @@
             <ul class="feature-card d-grid gap-3 py-7" data-aos="fade-left" data-aos-delay="100">
               <li class="card-img">
                 <span class="complete rotate">內容最完整</span>
-                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
+                <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222122711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=nwmiAOIsQoaglmXxGsv%2B1fJdyVhYp7CM2kTzjZUK1VqkaxbtChrRXh%2BDmqPWDTKzBN4hd1oRb%2FEWqzsb%2FuxDmnr%2FsijcaMnU7hc94sGUm2eP5r5FK8gEe3DuiUazdw%2BDOJr42AmECxzhbo1yLgPEQccgnJlTPwp0IPaackxkwexSm5awBqhTmSF44ArpOrS5wGgD32Fc3TYSz7qXj7GijeHumTuJeOyWN0Yat7ss5ugXVYEhOCkZQa1LcseXXLzCXwe%2FN4Q8%2Ff4H8ECzMt5l7T1%2BsKOeidsDul5HEfH4itPfBL%2FEb%2FdZVOKGUIjn%2B0JXqa%2BIVEhq%2FGI7lmb2P4PzgQ%3D%3D" alt="feature">
               </li>
               <li><h3 class="fw-bold text-center">客製化課程</h3></li>
               <li class="text-center text-white fw-normal d-grid gap-2">
@@ -221,7 +221,7 @@
                 <div class="feature-top">
                   <div class="card-img">
                     <span class="problem rotate">這些都不是問題!</span>
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180929544.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JVmVQUkZmpTViCaXd%2BZnfqdww0rWbWT%2BWwt8dK%2BN2McjrQoO%2B4lj26cE7X6AG6ShiNBh6w%2F4LNe2pF7uH8tC3E2tECmk0VfDjSU8NfhUdc7W1e%2BCADiadP7FJf7fI7x1kadehA7moVuUdyrOA7mob8i5ZbhMmNcC7qkQLUwv2eQZPNf4MD%2BU06iz5CltoRaKRTCOwPdMNBpua%2BFlBlSv2n29enWa819ImtT3T0qehAw3YYblKEAfTb84oq5LOJ34BU5LOgMOA%2BQgD9Np%2FC0J2J34GYR1Q0oD0L9eZRYC3g7xtdEsDq%2BJu1rQtS%2BY%2FYTGNTYdZVgs%2FXfcx%2B3jstgQag%3D%3D" alt="feature">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222186346.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Lvl00VJsSlk2XiCVn0ARqqu6EAN8V9aoMlPZnP4CnKRs0xJIkMNwvE3JbRnWZymw%2F9ldckPcHvP%2Bh65zoWdtd2j95F2PZSCkXtC7WsRtm9e8tBpXhicLKLPh56vhKhhoyN2YN1hakF%2F6McUhJCf2gJMOMuZ9w%2Bqn91KHsMPR55oyZ1Ijsw2zfcSMN5sAb%2F1SH23gIt%2BNng6HH5llqtO%2FWOp1j7WffcsupJRAnWBgsEK3TbORwySPr%2BjoH1pBpZ9bRo7L2pK0UPi%2Fs7v%2BWTEHiOUN8qszBl45uv9QpU9Wuhf8TcO8XRTiLPzdtaHMfN%2FvO3OoPny39kEPosYnseag5A%3D%3D" alt="feature">
                   </div>
                   <h3 class="fw-bold text-center pt-3">教練一對一細心教學</h3>
                 </div>
@@ -243,7 +243,7 @@
                   <div class="pyramid">
                     <div class="card-img">
                       <span class="straightway rotate">立即預約</span>
-                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180956787.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OJjlo8kiL%2F2H4eveDxEEYuITnPrCrTZfW%2B8MndZXpQcFUc%2BIBwKXZwnkcVCGFvIFFQ3kFl%2BDSdieQGXIYzBboI0MvJXt0lVOFX0m4Vy%2BdrJruRGqJ0xX9Iptt2uuSIk4Wq3A99anVA%2FQf9VFxDF7QotHyrURh0BJ0aQqmWsNVO8yHKe2OuPdD45bn8%2FvMZ46u9dsjhnNWRHxJiz6x3XNbMuGho55VMSGuMKG285uhTKs0EHhTJ2iXjxUJHmvzsojCHMxESuB1RiYpPwNLyCm%2BOEC1ZSTCPEpdLjSBhex0sYgpEJ9%2BgK6LuTLfcuiTcuTeLtiYCUaBMwRc5v%2BWpRmvg%3D%3D" alt="feature">
+                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222172557.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=YkGIPBJ%2BU6VmM2DeRRmTMXHD9euNeTj1sVNeC%2BIBqqg97G50jQVyU%2B%2FXhDVCYCV1UUNsIfBjW7EIXICmIf4SGLCl4olFEFlOb7BKIalDo7zA164U6FpHscViXTDZi63Y2SSbbY8QX3ik%2Bg9vIVCzUWkVCl%2BmTdMbTlt1zd2aSaAlioy3uuZLbk2almROklgSIEkgKTkKKW2eC%2FebG1b4cR4Jx5kR853Y9J3BvL%2BVwu0QaVd8Y9Mev0vaxXlhsotjg1KYvJ%2FFAAPECMId2DWYXKtxk4QTWcR2z71S7NVirphxxsSI%2FrjLkVH4T0XgRGCA2iYIb6Seg3SfNuPSex0zGA%3D%3D" alt="feature">
                     </div>
                     <h3 class="fw-bold text-center pt-3">彈性的上課時間</h3>
                   </div>
@@ -253,7 +253,7 @@
                   <div>
                     <div class="card-img">
                       <span class="complete rotate">內容最完整</span>
-                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180986228.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AzioSbDAlckkgWTDJmr5sho0ywY6XR6lH54CWB%2Ftm9Ic2yRECNoWAhnu6k3FCVAZAw6lnhutQXYXe9flWu%2BxX7VkgC3F6KyzCCl2iovVUs4WJ%2BZgb2Mgl%2FuHmpfLMec9L8Jcd1NOFNuFuZvX3AF0%2BvCuvCx%2FC5%2BRkwk4JkIO4hg9WUS3%2B92Vg34%2Fc3VPPBlsZBHcFeg%2F6h8eqNN1SKMlen3jK6YNFbbBi6Jgd0PQPruZ64DW5t%2BjogidaJyODFtlxOuZS32SetAs36a6qH63LlUG4lKZ8ppLyWiePMlxri8jdi4FBZLsSXMVB467kVTLm2%2FUs2Ia6e4URe9YiszZew%3D%3D" alt="feature">
+                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222122711.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=nwmiAOIsQoaglmXxGsv%2B1fJdyVhYp7CM2kTzjZUK1VqkaxbtChrRXh%2BDmqPWDTKzBN4hd1oRb%2FEWqzsb%2FuxDmnr%2FsijcaMnU7hc94sGUm2eP5r5FK8gEe3DuiUazdw%2BDOJr42AmECxzhbo1yLgPEQccgnJlTPwp0IPaackxkwexSm5awBqhTmSF44ArpOrS5wGgD32Fc3TYSz7qXj7GijeHumTuJeOyWN0Yat7ss5ugXVYEhOCkZQa1LcseXXLzCXwe%2FN4Q8%2Ff4H8ECzMt5l7T1%2BsKOeidsDul5HEfH4itPfBL%2FEb%2FdZVOKGUIjn%2B0JXqa%2BIVEhq%2FGI7lmb2P4PzgQ%3D%3D" alt="feature">
                     </div>
                     <h3 class="fw-bold text-center pt-3">客製化課程</h3>
                   </div>
@@ -285,7 +285,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215342143.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=QJUX1ymX3DqdO4MW%2FWQ2rDL12Q5R9WXmW%2FR31Odlv%2FacdzDbE63SHkcF5tecmDAPLns2p6Ii6ejGXyJ%2BQW22TkbMddqDfbEboGLIr5fyj0tgYKE8HSVF9f3DEpYIrOMprRgA1Z5ZhwoTwbdQI2s7Bixc8pknTWwo1Tp3GsSJRp2KGh1bp8nbKQU4MLjdgnxhubH34FrJeeSnWA8dWjzBTLxV3Lj9%2FlTLPERBBswO%2BdVpfmaYF7zpwI3gSePDNSFGco9Lux0NXYNKBPyXwxGLh8wSUo%2F%2BUQKqwmI09OykBtwjNmpzj8DnK%2FoRDmCSRR50ip8Ri2AAVI%2Bie60C6pmL7g%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="teachers-body pt-4">
@@ -325,7 +325,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-blue">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181044785.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sy9N8e1n8zeM%2FHGv%2Bba0cc4fdRQ4EW%2B8G6dFyY6f0vIVkKKzz12QVjdoengkHBsYVjUInnv1cGnHmzkkbzPrSDu%2FVJwx4oO7NyoSjJu6S%2FHC9sm1V0OAwUgdXURCumCItfG4NDLd%2Fm8Lc7%2FlgbQk0ep9yU7A0E4Wai9sOYkLpqIBy6Ec4DpAVCi7rnCWqaaRnXQjnsLWkD6flqFHRjfXBipdQxD%2FARCBZ7wlwJ9GWRcemMdbl8ctpqAJscGKSgfuA%2FnuVvGZhQiLvg%2B%2FVvZtO0jHWm9JzkkyAtCyZiKzgTxg28ogWueFtMf%2BNQ6DAbTzwiFwdvMRM5VOwAg%2BqZWykw%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215333622.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Idacn99XxmH%2Blr7ZPY02nVGevC6fUwzw2PJTI1aXbhoMoc5RpEdagDcjnJoUKec2Wx4E33U4eXlO4qVAA3kMidnnBWBIl1PyT5eKByQYx955uSb%2B913x9M2BZSZx4P1x0N4dsMNqyLf0%2BT0UhKaWIxTJHGtfJ0q0bu%2F2k8pZ6xiVmlYP3ZeqN8LkBL4jeum343weROIU76Lh46LY0DlrSXV%2BbLUi%2BQ%2B3UY5%2BbblnWulMS5PEKwyUGvB%2B0U0Z5VpD%2FbCdSMTDYPh89c1TjRa1ZRr%2Faiu0To6lKpyE%2B4k5AfMgKwKUWd2dJCiwwHzfb%2BcJc9XjqXRAa7WFZANvAGVa5w%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="teachers-body  d-lg-none d-md-none pt-4">
@@ -365,7 +365,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215324062.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Hy3TGxrUq9lF%2FsxMXlDYF6qCOePSBE9VI3AzdqBUD4FTl40AnqiHsy4bTCFvKbZeV5qniQyNzMRRV%2FR03vNxBGJJQ4VU7shleqi5%2FZujl6UqCAOJ9Y6DdZ%2FBBeZD4Eh9TLevr8sizLPUbdTlJQCBDW8XG6KHHRbci%2BXsUpa%2FvwSXVt1nRHOQc0amCf8jSMP35nmh8%2FjRUQVRl0qaQP2z58kSQ5qlahy5JcSwp2veromtoMtOHVopzySSUclTVf2L5LDXd0subLbvUBeJzNSkmy99bLJpNo2SDC6V%2BQC5InyE22iW%2B%2BKKzmkzx9HWPNl%2BBDimNWcYXeYlS7x%2BsPg8IQ%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="teachers-body d-lg-none d-md-none pt-4">
@@ -412,7 +412,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181000114.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=ULspeUkNFmbPwqvNkURLO2xc09xiKJKUlgDzPwtks5lpt6ckLZQcXj8O%2Fy%2Be7UjGWrn28if9SdDKC3xAfO3nFNc%2F7ft9sqE%2BJpfDaV4z%2F8RNq40V5%2F6gpJqVbH4QUuOnZr5kg36H2g5mpn0np1gTld8TEiWUo08XuDqilA7FYIzfBv2X2YtJYyg4T7o2nsejqtsgQCTgjrP8e9k3y1p2TFuu%2F557fyyy8KMgu64218YbBf0efZkOR6%2BDXTDsggeSdlUB3sxeUPi7xAcWkQVkUM4eerLAUB0%2BXUKc%2Flkm15N3Cbnxth%2Btzhj%2FWGkcCYTPW5mVYWSE%2F2oAhB0KKu2Q9w%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215342143.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=QJUX1ymX3DqdO4MW%2FWQ2rDL12Q5R9WXmW%2FR31Odlv%2FacdzDbE63SHkcF5tecmDAPLns2p6Ii6ejGXyJ%2BQW22TkbMddqDfbEboGLIr5fyj0tgYKE8HSVF9f3DEpYIrOMprRgA1Z5ZhwoTwbdQI2s7Bixc8pknTWwo1Tp3GsSJRp2KGh1bp8nbKQU4MLjdgnxhubH34FrJeeSnWA8dWjzBTLxV3Lj9%2FlTLPERBBswO%2BdVpfmaYF7zpwI3gSePDNSFGco9Lux0NXYNKBPyXwxGLh8wSUo%2F%2BUQKqwmI09OykBtwjNmpzj8DnK%2FoRDmCSRR50ip8Ri2AAVI%2Bie60C6pmL7g%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="col-4 teachers-body pt-4">
@@ -478,7 +478,7 @@
                 </div>
                 <div class="col-7 teachers-img">
                   <div class="bg-blue">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181044785.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sy9N8e1n8zeM%2FHGv%2Bba0cc4fdRQ4EW%2B8G6dFyY6f0vIVkKKzz12QVjdoengkHBsYVjUInnv1cGnHmzkkbzPrSDu%2FVJwx4oO7NyoSjJu6S%2FHC9sm1V0OAwUgdXURCumCItfG4NDLd%2Fm8Lc7%2FlgbQk0ep9yU7A0E4Wai9sOYkLpqIBy6Ec4DpAVCi7rnCWqaaRnXQjnsLWkD6flqFHRjfXBipdQxD%2FARCBZ7wlwJ9GWRcemMdbl8ctpqAJscGKSgfuA%2FnuVvGZhQiLvg%2B%2FVvZtO0jHWm9JzkkyAtCyZiKzgTxg28ogWueFtMf%2BNQ6DAbTzwiFwdvMRM5VOwAg%2BqZWykw%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215333622.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Idacn99XxmH%2Blr7ZPY02nVGevC6fUwzw2PJTI1aXbhoMoc5RpEdagDcjnJoUKec2Wx4E33U4eXlO4qVAA3kMidnnBWBIl1PyT5eKByQYx955uSb%2B913x9M2BZSZx4P1x0N4dsMNqyLf0%2BT0UhKaWIxTJHGtfJ0q0bu%2F2k8pZ6xiVmlYP3ZeqN8LkBL4jeum343weROIU76Lh46LY0DlrSXV%2BbLUi%2BQ%2B3UY5%2BbblnWulMS5PEKwyUGvB%2B0U0Z5VpD%2FbCdSMTDYPh89c1TjRa1ZRr%2Faiu0To6lKpyE%2B4k5AfMgKwKUWd2dJCiwwHzfb%2BcJc9XjqXRAa7WFZANvAGVa5w%3D%3D" alt="teacher">
                   </div>
                 </div>
               </div>
@@ -492,7 +492,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181024527.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Ei13M0Q3AEd7DeG5o%2Bc%2FVa1eQ63u9li%2BjaImCzVcU6DIcJRk6UDYPQQJsL%2B27xhXyqKlsl4qBlJLWiSna8Qq1aL3zTiPYfJqB8A1MCW2xKygD3kqb51RbzCJ97%2BL%2BMLanpTSgiRLltXa0lelX8JwiVUlPNE8Mwm%2FB7SC7s315bs0XdFhttfzGXtsCHCd6GGA2L13jQZtzetvZPq3Op21wJeIlTqEJLkEr3464PhypbOOS3U5CHTL5Hgy%2Bal5ScZd4sFGmz0TUZs%2FDtdtpngB1n5uEmaqBKbzYzJExzJijfor1OAv%2BPCEdm56GmVF5sXs8hJXu1zw0eHP0ywBArrnjg%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215324062.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Hy3TGxrUq9lF%2FsxMXlDYF6qCOePSBE9VI3AzdqBUD4FTl40AnqiHsy4bTCFvKbZeV5qniQyNzMRRV%2FR03vNxBGJJQ4VU7shleqi5%2FZujl6UqCAOJ9Y6DdZ%2FBBeZD4Eh9TLevr8sizLPUbdTlJQCBDW8XG6KHHRbci%2BXsUpa%2FvwSXVt1nRHOQc0amCf8jSMP35nmh8%2FjRUQVRl0qaQP2z58kSQ5qlahy5JcSwp2veromtoMtOHVopzySSUclTVf2L5LDXd0subLbvUBeJzNSkmy99bLJpNo2SDC6V%2BQC5InyE22iW%2B%2BKKzmkzx9HWPNl%2BBDimNWcYXeYlS7x%2BsPg8IQ%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="col-4 teachers-body pt-4">
@@ -535,27 +535,27 @@
       <div class="textbook-sm container d-lg-none mt-4">
         <div class="pt-7">
           <div class="py-3" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181077626.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JG17zc0oAag%2F8uCYeWU945y%2FWLoawYGKhS90erH5f45xXLUBjWTAMIj9XFE3nquKR6SlZo7YAd3tbKTdQ%2FRTlrq59rRHZB8IXSuPAXFo7OTUbhPeAlwDQHZ06R%2BuGgipoPFDROHiymvGQS8NBD%2BpQhlIL%2FjE9pPWIHcqkYKsxOJR07fv2RC88LuoAeWzB1g9t8rx5D4wk7Z5kxuDBddCHRPCNz1B5StLMhw7sCCjC%2Fp9yYDkQk93WVIuiukPud2%2FnPdYN8s0bvh40Rz2nFydAjviwOoY65hbEDyWcneiyyKu2HOVxAXjE9H1abFXkhwJaAmNTv8C4%2BSHYOZJlQMtBQ%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222553006.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=qApELMKfDb0eZ1%2Fvifem5LrNZQIPUtZk%2Bl5RmJrHniEv6HBsiO6KslaLD0%2BmkI%2Bwf3ocKjbYoBFe3tVLOMqVny0Gy4RaDbX%2F1NcSxo50wyHngJ6DrT%2BX%2FDk3J9Koj6XAp7rhI%2FBGwjP2vXJQpX26Vllp5jMvJxnmf%2BgHTL3j2%2FIjJ1usPhJbXMQsHlXNfDlY82Pt%2BArmKN1y6Fj5fh0wlq7txi%2Be7VxKyav8kp8TB47zHln%2F4MMweIMpfNV22XmGR5Z1Jwl3Aix1B9Gy5yRjjjs92jFRbp1KxVEPKD%2BbogvZG4M0NdG7joN%2FLOcfjzuE%2FvBjO1Z9wNA9kFTpBA18CA%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <p class="fw-medium">Honda HR-V</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625497932.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sfg64VSxfZzaPdofM0W2vP5iOURwzMFOCtAM22e6Zuq4g3nRAvfJ3e9bI1O%2B3q5lxUTbdLdjn%2FxFPx0yVXROHe6F0Ilj72WqbYDK9xFoz7DCBp0%2FH6iTsAxOcXZRdMRknzxdN1tZtyoh5qqpv29agHpuCwg%2FWHwmu7ukEmnE3HIGiOHMXu1b1UNzVWBwuHGoMt7578%2BjhplqksfguAQI0pz%2FknQuaj5dfZSK82qNeMH0Wdmvx1J7qauYXb43NkkstPOMumb7fy%2F5Mw7ZRH3DPNlIMfB2FrM5EgPAH5F05X4hS5OT98mG8gcfP6RaKyFuoTI7mqUdCWIi1LSTSR0UCw%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222623507.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=MU6C7zDDkYUMDryxrdggf8BpWP8AQh4YJM%2F0x6hMHmyHCqLhPmNxYhzXfgUQtGe%2F5Wht1W0ohoHPhR9bWIc1C%2B5WPUZ0pmN1HfQifFt3A2i4tnC4O8rTJ1HeroE%2FFzval6RxhpTPCbrQz8GZxBT%2Ba%2FEQQSwrBlLN%2BDyFp8osqhs3WuPebNPh1L3We3gpX4iEE9U3QnxaDozE1hLZ7wRoP%2FTuGfKelAwiJnmLJmkWbC%2BDPew%2B9fTjlLDZUW9r%2BkHf5AW8kmg39ngtkrc5NBZo70xG6BeKUvzt1xsyDYJS3eM3dfbcUPMV3wJ8HMSelZ2%2BjJOgZ299eS24yRjOJZjJTw%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>每款車輛搭配副駕駛座煞車</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625716596.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=q8TPbkasrAEaZ0hryGGampcOEdTjpbsQGjF9YtO9bCMj8ErTwwdw5a0S%2BToGqHchehHLKFyJmMvpkRV6E6Jo4j4MtUV%2Feo5%2FEPKLhNbn4IGPYZYFEa0fleonHs8qq5g7e1p7%2B6n3wRGPSS2pH26MgjXHFkYtvzu0BBuxeD%2BYgjPBv7r%2B6m9k%2Fl3CUYgKXavO0QCBfmjTMQWdFUe3SBz84Ayfaax6Wns%2F%2F9oyBIkI55ujD38vIx%2B62%2FxGmmPWI7TXBdfvS7EeSuduH3xi7xZ41kPaRgVGjSL0FM06AMwj%2F3DlRrEedcZQ1SRlAhymETH4V0viIA9IOqbiu5ft0z0GXg%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>車輛搭載 ACC 車道置中</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181148069.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jjEP26BrdWaZ%2BhgeUCnT%2FqFMf2VxIb%2BLgxDQPIDYgl8uAnULdt9RHeiggASzOoUgpGwj%2BuomqDJiXquN03ird4mLLTi5Q7aR%2FjnDhp9B%2BiSYazzzsD16jIf3boJo60wl%2BXsYL9eThUQSVCffrw0AlDEHKXQ%2BcT%2Fpim%2B0rBjX5TaGX4MpuyvAykfnWQVEI9cMXxBdbDXW9e1v%2FEneD4Kqay9%2B%2BFQYPuDWtvAB2E1LRXTtm%2B3Ri7%2BXn2x5xrGbZTVPLuz5uJ18%2FgYYspG4LtKkFnn234EbwehpuVZn3ePwDXAvgqSlfrnuGzFcuB01SJagg4yqakc7Q36k5vPzzk%2BX3A%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>倒車顯影</p>
@@ -572,13 +572,13 @@
               <div class="position-relative pb-9">
                 <div class="d-flex justify-content-center" data-aos="zoom-in" data-aos-delay="300">
                     <div class="textbook-card bg-white">
-                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725611300231.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=V430yT8eMALqA%2Fhf7FXv9ksTdfNFHV0X6f7%2FDhfBfRQD0BlgWpU%2F2tAwHouPf4el9HrWpnpL3wVQHw%2BV7mTDRHOr%2BOOk2xZb%2BdGZCa88jD08muJ0EgYbBkhVzGgs45KwcFvH6DSpyKBNxlIfVgCeC%2FdSUOeaE1lrIAhTi%2BFEGxcvc4MWc%2FR7fxlIgl6A1MQmIq4%2FyloEZmS1cQ1CpP2OnPrzzoaguRiXec4L%2Bd9O8gogAiHJzb3SzXgnnIonb1ccU8Hzcw96ajQZPf9Ne9cYJ8HIjMjcEQle6Qk13vsFF5gu%2FwRSCcWb%2FMOojks0S7XhHMVOwXbmTBEa7m71f4PYHw%3D%3D" alt="textbook-car" class="card-img">
+                      <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222553006.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=qApELMKfDb0eZ1%2Fvifem5LrNZQIPUtZk%2Bl5RmJrHniEv6HBsiO6KslaLD0%2BmkI%2Bwf3ocKjbYoBFe3tVLOMqVny0Gy4RaDbX%2F1NcSxo50wyHngJ6DrT%2BX%2FDk3J9Koj6XAp7rhI%2FBGwjP2vXJQpX26Vllp5jMvJxnmf%2BgHTL3j2%2FIjJ1usPhJbXMQsHlXNfDlY82Pt%2BArmKN1y6Fj5fh0wlq7txi%2Be7VxKyav8kp8TB47zHln%2F4MMweIMpfNV22XmGR5Z1Jwl3Aix1B9Gy5yRjjjs92jFRbp1KxVEPKD%2BbogvZG4M0NdG7joN%2FLOcfjzuE%2FvBjO1Z9wNA9kFTpBA18CA%3D%3D" alt="textbook-car" class="card-img">
                     </div>
                   </div>
                   <div class="row pt-7">
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625497932.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=Sfg64VSxfZzaPdofM0W2vP5iOURwzMFOCtAM22e6Zuq4g3nRAvfJ3e9bI1O%2B3q5lxUTbdLdjn%2FxFPx0yVXROHe6F0Ilj72WqbYDK9xFoz7DCBp0%2FH6iTsAxOcXZRdMRknzxdN1tZtyoh5qqpv29agHpuCwg%2FWHwmu7ukEmnE3HIGiOHMXu1b1UNzVWBwuHGoMt7578%2BjhplqksfguAQI0pz%2FknQuaj5dfZSK82qNeMH0Wdmvx1J7qauYXb43NkkstPOMumb7fy%2F5Mw7ZRH3DPNlIMfB2FrM5EgPAH5F05X4hS5OT98mG8gcfP6RaKyFuoTI7mqUdCWIi1LSTSR0UCw%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222623507.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=MU6C7zDDkYUMDryxrdggf8BpWP8AQh4YJM%2F0x6hMHmyHCqLhPmNxYhzXfgUQtGe%2F5Wht1W0ohoHPhR9bWIc1C%2B5WPUZ0pmN1HfQifFt3A2i4tnC4O8rTJ1HeroE%2FFzval6RxhpTPCbrQz8GZxBT%2Ba%2FEQQSwrBlLN%2BDyFp8osqhs3WuPebNPh1L3We3gpX4iEE9U3QnxaDozE1hLZ7wRoP%2FTuGfKelAwiJnmLJmkWbC%2BDPew%2B9fTjlLDZUW9r%2BkHf5AW8kmg39ngtkrc5NBZo70xG6BeKUvzt1xsyDYJS3eM3dfbcUPMV3wJ8HMSelZ2%2BjJOgZ299eS24yRjOJZjJTw%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>每款車輛搭配副駕駛座煞車</p>
@@ -587,7 +587,7 @@
                     </div>
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725625716596.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=q8TPbkasrAEaZ0hryGGampcOEdTjpbsQGjF9YtO9bCMj8ErTwwdw5a0S%2BToGqHchehHLKFyJmMvpkRV6E6Jo4j4MtUV%2Feo5%2FEPKLhNbn4IGPYZYFEa0fleonHs8qq5g7e1p7%2B6n3wRGPSS2pH26MgjXHFkYtvzu0BBuxeD%2BYgjPBv7r%2B6m9k%2Fl3CUYgKXavO0QCBfmjTMQWdFUe3SBz84Ayfaax6Wns%2F%2F9oyBIkI55ujD38vIx%2B62%2FxGmmPWI7TXBdfvS7EeSuduH3xi7xZ41kPaRgVGjSL0FM06AMwj%2F3DlRrEedcZQ1SRlAhymETH4V0viIA9IOqbiu5ft0z0GXg%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>車輛搭載 ACC / 車道置中</p>
@@ -596,7 +596,7 @@
                     </div>
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181148069.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=jjEP26BrdWaZ%2BhgeUCnT%2FqFMf2VxIb%2BLgxDQPIDYgl8uAnULdt9RHeiggASzOoUgpGwj%2BuomqDJiXquN03ird4mLLTi5Q7aR%2FjnDhp9B%2BiSYazzzsD16jIf3boJo60wl%2BXsYL9eThUQSVCffrw0AlDEHKXQ%2BcT%2Fpim%2B0rBjX5TaGX4MpuyvAykfnWQVEI9cMXxBdbDXW9e1v%2FEneD4Kqay9%2B%2BFQYPuDWtvAB2E1LRXTtm%2B3Ri7%2BXn2x5xrGbZTVPLuz5uJ18%2FgYYspG4LtKkFnn234EbwehpuVZn3ePwDXAvgqSlfrnuGzFcuB01SJagg4yqakc7Q36k5vPzzk%2BX3A%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>倒車顯影</p>
@@ -643,7 +643,7 @@ export default {
 <style lang="scss" scoped>
 
   .banner{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1729328983725.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=UJS39ufK3dy51OwkpSIf7G34d6RzhZOAN1esE2vJntBJVDQMC3pgWcg2VXOgeK1Vf89EG%2FYxrzY%2BkObP7I9EIAUb4OjE2Q6g6dL%2B0CJImduDnSIsedI%2BaVgxKEsrJOOwceK3FzMSFFoij6M%2Ba4kKmtTMztPXCKmEp1TeAoPLl9AdZsgMvjz2dkTFf1wTjurtJXTEIOwiRcAdvvl3%2Fg%2F7Vrz0ifEzro1Afc9RL67hPTIr0e2CJ7L8o5aUyDdUTt0BlpZGEkHbuhsF5enWisTAWuHyAMw4IZtwgWqe8b0HSE4rtLZ6dG%2BRTXX02Zq4BNRFR4ySkGVAot1X%2BnLy8Pevtg%3D%3D') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215383027.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=lnHjrYysXkxGgv1JN0u8PW%2B42kvFiHxJ0qRSbenfDgD6QON8SnF9lIew%2BZJWIeaFWB4EPkLUOFr8uTBwWh2ZOXZ5w1rWZpIjfV2KKkSKaj8vtlF8obM39ndwXsoCQWwfG2C1anH18yn9cXGtKlDuHFE1cMAxu1sL5kNFJ73qAEDQVqD8BhcPgbbzD16AiWOvn6J1OL%2B2xd%2BgpBuYnfH0%2BrceItrAjC36InxeEhmDWpFFLhetOL4szKgMT907TEoFsThwm5%2F3X%2Fsp3imUnsKfWaeXqrOj9BWChpdfOzZyen7dcdiSxzHzyGHp%2Fqn4KevyebQhr097GnYHkSwlv%2B6dCQ%3D%3D') no-repeat center center / cover;
     width: 100%;
     padding: 173px 0;
     .banner-title{
@@ -656,7 +656,7 @@ export default {
     }
   }
   .banner2{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725347170911.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=nRB5Gha%2BcqVusHB51s99Hmg%2FE77qtWlMrM3Mt0Y29lpT%2FFCI%2BrkXa2mEVdtEGHIJyKWRKp1IE3lxSe2utmPy6sM6n1SPAhndtHsy19avYLk74Um9dDLP2FtYW6HfZ55piwOMBUYz52qODUXSslMzeBpD0ba3K9%2Fpvc1AsAyt%2FQeDDofC3BY8Le%2BrppWhRGeWUPPEdmUADAf7a7FZoFz4Eei3U6E8SiwsTbKhOpsBTHhD1Q5a54bgiQh3HTxfQNQ1zkfjufY6OpztNtwE1rmgUV86grnC%2BiS64b%2BSKbFsYttwMZ0JaI4HE9Q8flqTBlrqxg1Euzvyzm2TrpRMtMBteA%3D%3D') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219612831.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=ZZKH43RCo3mFTF9JCQp3QIc46v8QGCRVmghXX2pLZg9InZ%2F4IbsayuMv2XMAKDwCswWh4PNHZKD1GtSWNc%2FhgQHp222x3Fpoq%2FSOSMN2JndeBOCkg6cBKnERw8W74AopmsBagLorBjAYIQpNqi2blCCr%2B3%2F7yexOPzyanX4Cd63advfy1GiYQca1j6tNb%2F5Zv6p%2BxVc9nXX5ijYrzavbppGk20kcSyLkApdvhq18qSrGfa1xYm2m5%2BcoU0VhH0yq%2BUW5VDGNSY1qNTYeGRShGPm21JjNn7NBsij5o0R9cva7i%2FF0MXKEtE82LuY3mpHjTEorg9EbaxoTN5maSn11Cw%3D%3D') no-repeat center center / cover;
     width: 100%;
   }
   .banner-word{
@@ -733,7 +733,7 @@ export default {
     &::before{
       content: "";
       position: absolute;
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725457534402.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=dsoti3GD4I300gaDrBc%2BwBb5NDvj2wnSYWqMYBGafXZU9RSyIg9uvc0TQB3rrS%2FQPHOL7sJzRUqqKBsXVFC8Hp5i%2BOw06HWjn3A1eNtX1bLtnMp2IGInKNvWd5MfXie0jWeDtsaRpjS27WUJ6nSphi6gVhkjRrTnSdEcF5nFcaYHZNgYchKcvzTptDf5AT2oKYjGjI4KmJRAn8jGiAWUpGP%2Bhndc1VQogxA%2Fr6KHmo7ZOTGM2%2FP4uPZQV8NNyfTlSRvYqyJY5gUv%2BA2tOFwc4Uiii9JzEZeReVkaOZcEAfJUlQhQLZd%2Bkq%2BMXa1FYb8ZmxI4kw6lI76%2F6TnJoiZIAg%3D%3D') no-repeat bottom center / 100% 100%;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222472827.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=nCjp%2BWXQhUtD0KpNd8TJqLzsmHb%2Fu3pfgl68RXxhS7evMnRlbDzboWyVitBruR%2Bev5%2B8WU1uyWYoOghmqvenYmL8t3NzfRK%2Bi9u4efWbrvPSzzyvxWSTtX3jbwGr4vv5YmI%2FsxXRUEnZ3POpiipODTX7k3cvnoqb6D24IjlvQEo7LwMY5p3P8MUCnJ5F39F0PpndokqyBbjbW%2B2flIpBl4NJktKg%2BQSW5hjkgnxIvmCfs9Gv5YuqmXL4WYnAwqCeq75u1uoQOG7zNe4XBz0duO7zHs92BcQMskhj0XXeBkGtBCC0B7oCS8uJZHlYBrjMFXrl2Q2N6rStRBXOyoNTKg%3D%3D') no-repeat bottom center / 100% 100%;
       width: 80%;
       height: 83%;
       bottom: 0%;
@@ -750,7 +750,7 @@ export default {
     &::before{
       content: "";
       position: absolute;
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725457559562.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=THwU6x01t94Tk%2Bo0NxFyWB6vPqECVO57oX0TgcEgGalaUt1j0eYt%2BNAM1dURw8JH9d4GmR7YQvK%2FkhT3CnZAoVJw83Pj%2FkK3KdIak5bmhv0B66GkP44cjHCqSwu8MxzeS1UV9vBuTgiUfuJxJFa0aZj0kI1HXYUT%2F7anfg7Al%2B3wYHKconsJmvso%2FrGQ2nuvM1zbm6NG6YTrq%2BKawX7BUzfq1MsjSXUWsAeiDTlEUiO8ortCnFfa%2BY3zAsL2HmJktXyfy2etSC%2B1LtJT2%2BbsK1EN0vUV0%2B%2FrDyAOi9%2Bp5IcDCT%2BIL4Y%2BEzNQqkxo2bnPORlpnSjuDFUiB7dohNTWmg%3D%3D') no-repeat bottom center / 100% 100%;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223029512.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Cohkw1CxtzKilYXOcx9eqgZhFGnu0nXTO1%2FG1%2F1z9CSzZohlEOGXjs6L7xjbMV%2ByuxAAx7P3mWttHQ9iwwWHDuun76lxq3tcCASqyjngfmKu7lESTCzO0qQNAVNIdkIl2g4cr4ujwsGJF9Ozz71o7QFntKf5pXxpJ2LgnG2%2FLk7G8aMGyc4mY8ByxiALAJzjEj87mt9itWEtPLFA2MWe4pPq9GIGuEfcG0%2B0Up8wVUuqG7HuyDwlg0nRvxcvkabgmtyEnyh5Y%2BGSzkD4P1YTpYyvOIwADNQvWMyQYFqjyqaRe2H9yM%2FPNsxAq%2Fm8o1n9adFocnYsNiwGgeHuEAQIlg%3D%3D') no-repeat bottom center / 100% 100%;
       width: 80%;
       height: 83%;
       bottom: 0%;
@@ -784,7 +784,7 @@ export default {
     &::before{
       position: absolute;
       content: "";
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725181185428.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OteIVLcUQiZj1fNdjz9qJ493nkSvpaIZBQuEmHw4GR6VTlw79Wt5orZn%2BMGDVwyNDBZC0ID2q3ovftqhV%2FIdYyTWwEC%2FJibEUv3ATSXp6p1isF6sZ%2FNVFqK0h345t%2FL8wOzkc14CPfhk7qkqVlVFLGHY8MGSNy4JPVZvGcI2Qp41674sXxaBgfvea3v2I6MBlI0rUKOUTySqFJrYRIbeePZE7AIrgApaLzYlHDEUy9n92KENscE5%2FI2MmsENmtFevyVdJV9NUQ9i6IPlpxFAbmTo2ZlLrGBgiJ%2Ft0COsRg%2BHg7AxiIjqO%2BaWjyBUmrdUWvU6Ahqaa44i5yI%2FhytVRg%3D%3D') no-repeat top left / 100% 100%;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222511308.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=QgYDTqfqXpSyvj%2FtxXMoR5v9GdT%2BlLBxSydyy36VXUNqOSGgs36IIokjBWrfpMe58E5Rw%2FKjv6ZamXDtpOLKYSoZcv08fJA6bQoZ016uQ8knqIcFG6RgNdZmVu3mDVlmRlKGMrS2vJwZ%2BTVfWuxwuFo%2FRAo6WC505TB06LLa1LNW91OK4NEuB44Xu0IBDlB2GgsJuHqd1W67bD0wfnEBiSL1iReYLZwbVflgy6b78F%2FZ8XQWG5JRsJjWo7q9%2BRlo8YkWs4szqcUJw%2Fdq%2BLZsf0trMu9gnqcWlfQy07L0la25UNmlu4pJFdJQ1FftVH61KOEfYgIoj%2F841JJBAJnKbQ%3D%3D') no-repeat top left / 100% 100%;
       width: 100%;
       height: 1045px;
       top: 5%;
@@ -822,7 +822,7 @@ export default {
       position: relative;
       background-color: transparent;
       width: 100%;
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725452499118.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=lxXd04mtxBC0bY86rZ879mpKp950HQ0R7J8%2FY9SZOzFoYIy7elQs6RLDI32enwGcpZzX85B29dWLPAW01oDLr%2F1gpIi%2F6BGaOZEWAdSLnKxwck%2FizRZZmyvgVnC4kqDJ2bGtvo4lh5H1c3QyOfijrIU7awPtf9%2Fwtc1tvBBX1YfqGGHrpz94pY%2B1xL5tz97yh2EXFUh8wnH%2Be5JnXM1oiBGHMBCxzU9gSDMrAho%2F3vnNVtuEgMIfYMqwutB1rwuSYcbcSdVvhPN7qpwu0%2F3TYTnfweRuQ%2BXoz5lX2%2FNHawnnBDeEk9%2BcEvOGBUmmpNbYDNtbpCSBoi1CBRSiBgbK0w%3D%3D') no-repeat top left / 100% 100%;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223150747.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=p69ZzCdzmubQaZtubBgYsv4CLlVNrIRaGAk7myM5wBWo7O9qG9lIQOiGABwWt%2B0bSjU%2F85JGE%2B9UmHOT7jWmCK9AfoTD9%2Flynh%2Br%2BairizYOy5KRdEXU3a93WskZ8kRjwDenlcE0cunKGoS9s%2Fyu6QSSt2zbryZEpxb9HOI3OM6DSbzl0wZoILn8hJzfCaZoJD8O77TrZved53tY18fkA%2BsJepVw36NBbbk9cI0SljaRGVmgA8oj%2FuTMhnHEtpaLIssjEw7fLyV8Iov2V6mTbsC5OqbpRQJ%2BsJ3rodVcS45PKszEE7naGHY68PvkUrYaN%2Ft3dwLnxFmItW64CFzNoA%3D%3D') no-repeat top left / 100% 100%;
       padding: 80px 0;
       .feature-top{
         margin-left: 250px;
@@ -837,7 +837,7 @@ export default {
     position: relative;
       &::before{
         content: "";
-        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725886459407.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=aHPbXSaX1lSxH8MoFsODyyA6rkfja0DKuSL0b%2FdsCXdYOfT0o6oCgOo5yHh0B0l63aHz538VzjRAM40AfU6Z8WbAsavfSkdO55904ItYfbxOINd9Pi1j%2Bb0%2BUclHF6TBZUj1fyRwW4SLRoYyJaibu%2BPqvXM%2B9cHtRJPc%2BCGqMflVhGYmP1J2zGVDCzWV3Hk%2Bc9HHb77BCOX92d5bXIdIV5jMZiwVPk3rfXBIWzuIM9CHITQVr%2BN8bEVuMnHuGkU7KbWylz5HfU6NkYYq4oSNl%2BdVPcHMrUZ%2FD%2FGFBhKhAVr%2Bw5hR0a3nt6D%2BpiQ3jgMLsXBeWdmW6NjLlrR4akxnqw%3D%3D') no-repeat center center / contain;
+        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223189647.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=aZlTInSRGA6XQYPM7EfXCwQwO0u1rfD3kptEpRyqUVjLzv6A8M5mGbWsUjECJWFr6ntdcYpDjt5oUbwA6UNlaXnFrX8WZNyOYo2U0Q5E3rnq8nmsk2ndLtkViyvD3TNYscf1NH%2B1qDPlKvzWfjqb%2FHdyEPXlJqJxOUbYGwodsgLVR6Y%2FRI4OU8EpnsJevKFAyEfT0g5lReESfZPce6P2To6BQpkjui8iVOlfelNzYLffy0DDvwbCaZnTAKy6mVZHMNA6nJjetzynJ5voYIAqQvxOnHZJ%2FUXEzTjCrnKRy8VmaInyg7ol3Pl9PB6hgvWhRZOJuZiBtieZZg0ojCv06Q%3D%3D') no-repeat center center / contain;
         width: 75%;
         height: 100%;
         left: 90%;
@@ -847,7 +847,7 @@ export default {
       }
       &::after{
         content: "";
-        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725886459407.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=aHPbXSaX1lSxH8MoFsODyyA6rkfja0DKuSL0b%2FdsCXdYOfT0o6oCgOo5yHh0B0l63aHz538VzjRAM40AfU6Z8WbAsavfSkdO55904ItYfbxOINd9Pi1j%2Bb0%2BUclHF6TBZUj1fyRwW4SLRoYyJaibu%2BPqvXM%2B9cHtRJPc%2BCGqMflVhGYmP1J2zGVDCzWV3Hk%2Bc9HHb77BCOX92d5bXIdIV5jMZiwVPk3rfXBIWzuIM9CHITQVr%2BN8bEVuMnHuGkU7KbWylz5HfU6NkYYq4oSNl%2BdVPcHMrUZ%2FD%2FGFBhKhAVr%2Bw5hR0a3nt6D%2BpiQ3jgMLsXBeWdmW6NjLlrR4akxnqw%3D%3D') no-repeat center center / contain;
+        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223189647.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=aZlTInSRGA6XQYPM7EfXCwQwO0u1rfD3kptEpRyqUVjLzv6A8M5mGbWsUjECJWFr6ntdcYpDjt5oUbwA6UNlaXnFrX8WZNyOYo2U0Q5E3rnq8nmsk2ndLtkViyvD3TNYscf1NH%2B1qDPlKvzWfjqb%2FHdyEPXlJqJxOUbYGwodsgLVR6Y%2FRI4OU8EpnsJevKFAyEfT0g5lReESfZPce6P2To6BQpkjui8iVOlfelNzYLffy0DDvwbCaZnTAKy6mVZHMNA6nJjetzynJ5voYIAqQvxOnHZJ%2FUXEzTjCrnKRy8VmaInyg7ol3Pl9PB6hgvWhRZOJuZiBtieZZg0ojCv06Q%3D%3D') no-repeat center center / contain;
         width: 75%;
         height: 100%;
         right: 90%;
@@ -860,7 +860,7 @@ export default {
       position: relative;
       &::after{
         content: "";
-        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725886459407.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=aHPbXSaX1lSxH8MoFsODyyA6rkfja0DKuSL0b%2FdsCXdYOfT0o6oCgOo5yHh0B0l63aHz538VzjRAM40AfU6Z8WbAsavfSkdO55904ItYfbxOINd9Pi1j%2Bb0%2BUclHF6TBZUj1fyRwW4SLRoYyJaibu%2BPqvXM%2B9cHtRJPc%2BCGqMflVhGYmP1J2zGVDCzWV3Hk%2Bc9HHb77BCOX92d5bXIdIV5jMZiwVPk3rfXBIWzuIM9CHITQVr%2BN8bEVuMnHuGkU7KbWylz5HfU6NkYYq4oSNl%2BdVPcHMrUZ%2FD%2FGFBhKhAVr%2Bw5hR0a3nt6D%2BpiQ3jgMLsXBeWdmW6NjLlrR4akxnqw%3D%3D') no-repeat center center / contain;
+        background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223189647.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=aZlTInSRGA6XQYPM7EfXCwQwO0u1rfD3kptEpRyqUVjLzv6A8M5mGbWsUjECJWFr6ntdcYpDjt5oUbwA6UNlaXnFrX8WZNyOYo2U0Q5E3rnq8nmsk2ndLtkViyvD3TNYscf1NH%2B1qDPlKvzWfjqb%2FHdyEPXlJqJxOUbYGwodsgLVR6Y%2FRI4OU8EpnsJevKFAyEfT0g5lReESfZPce6P2To6BQpkjui8iVOlfelNzYLffy0DDvwbCaZnTAKy6mVZHMNA6nJjetzynJ5voYIAqQvxOnHZJ%2FUXEzTjCrnKRy8VmaInyg7ol3Pl9PB6hgvWhRZOJuZiBtieZZg0ojCv06Q%3D%3D') no-repeat center center / contain;
         width: 85%;
         height: 100%;
         left: 101%;
@@ -883,7 +883,7 @@ export default {
     }
     }
     .banner2{
-      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725347170911.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=nRB5Gha%2BcqVusHB51s99Hmg%2FE77qtWlMrM3Mt0Y29lpT%2FFCI%2BrkXa2mEVdtEGHIJyKWRKp1IE3lxSe2utmPy6sM6n1SPAhndtHsy19avYLk74Um9dDLP2FtYW6HfZ55piwOMBUYz52qODUXSslMzeBpD0ba3K9%2Fpvc1AsAyt%2FQeDDofC3BY8Le%2BrppWhRGeWUPPEdmUADAf7a7FZoFz4Eei3U6E8SiwsTbKhOpsBTHhD1Q5a54bgiQh3HTxfQNQ1zkfjufY6OpztNtwE1rmgUV86grnC%2BiS64b%2BSKbFsYttwMZ0JaI4HE9Q8flqTBlrqxg1Euzvyzm2TrpRMtMBteA%3D%3D') no-repeat center center / cover;
+      background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1742223515784.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=O1dWwPrsoaLC2LI5varGwKKGmek%2B2ihQnH3DiTOe7LiKzv%2FYx8%2F6DvERXSxocZZ9QGHRIGrv5CT%2F3zJr6%2BIaP%2BkQP8ygqe%2FKtg%2FMH3DaKKCv%2FPLPUYEI3T9nr%2FYO6bRk3dWpaxR8PQytXqdpIcYR2SzlRcebHv9kMhOBICR34pBByd0zFLoxsmmr6CF5%2FKsqYrry%2BLDbiJeH7c4ws15netTssVWMZ48H8UF5NY7BS%2F5fK8PEgjaggCZBqRejsdfuriazbUVxB4kvqIT%2BON5uDV3hc2fAVUyQ%2B93hKsQ9yDbHNFrwaDI61HM2gq%2F7l6p1PoOcexPCZZnz2OHhxegvIA%3D%3D') no-repeat center center / cover;
       border-radius: 8px;
     }
     .banner2-title{

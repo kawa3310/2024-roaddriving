@@ -100,7 +100,7 @@ export default {
 
 <style scoped lang="scss">
   .quesiton-bg{
-  background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727402768143.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=pegcfHLYwlbHfIeG%2FN7vc003gK0PuNJso%2BFjFlZYqRb878AtjH0kNGpzR%2ByigZm9KzbNzyYDB7YyQSTwI%2B6vdsdr%2Fq0iKOh9vH5jiE62uHZDZYdr%2FLAXXYjtOC6kxSVXA6WTtqX9KdQxo0MNlGmz%2FR8dzDiVlzSb5QG8R9KbyNWFy5wzd4%2B8Q87tBqTQOyKNaPMNm1WcCw3DR5KR5NRXkW4YcPsBURaZOQwyaf0%2BNyxDYzJmbx%2BSHZqIK0T6I0K%2F8c%2FtpmAhJLACm3hCQjXq0g8eK6emHJVPM9mXMqoyFmLTNyEmP1to%2Fgrf4J%2FdMHQFrsjTUnHBIs1YJLsoN3A5sg%3D%3D') no-repeat center center / cover;
+  background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223680790.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=U1fglrKWfU3N6%2B0df7wGMb7i%2F5nREOCm4J6st7FzrmhPlfOnWH8nGbJMdKpEXk7G%2B6aAdM%2BqIeH5xKxms495lrO3KnYDiqKCRTrRpqcA6Zwk1sSsMZuRLg6Gv1QZSUDKbNIeBAc121QbZAk2XE9rKUmjDcgqLx9naweL6aE86iCQ7WX9aIXRl%2FMzDuv38Px0jZ8CmElX4a%2F2AFR2REA5oDu%2FmzDSR8VAOPA4IKhWLWNjCytBehyktTUuPYyu8YqfvHuis0UkotNR1mTatc1yauuAv%2BbMDq83g2AubHpaFyeBPgJQwcv2lEyJVAICFbfkfHP4%2FvyYotfgK8vDikuXCw%3D%3D') no-repeat center center / cover;
   width: 100%;
   }
   .quesiton{

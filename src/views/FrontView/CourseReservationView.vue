@@ -314,7 +314,7 @@ export default {
   }
 }
   .reservation-bg{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727699785736.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AZzRJrQbv7lUBDBeNY35Y2X%2FxyQBspe1n3RCJCUNUJ0h1NtMqpihwcgAmTf6%2BLo7IB8LJyZJA7w7S4K2q49sw431fePgAzVDk0P9nl%2BJscnjjTGrbTKjDcU0o6OfylHNy2xfiU1KqC9JDfG3wueOrLZfhNpHV5DIrWPRpjNJUnBvDyAWlhaQxxvJkZgN2mcVCnrzOD%2BGYfiPCmt1DNGx6TMAMK69A3tDFNVwpMNYo078pYELh0qFo%2FR%2Fzl27XubMy160CyZvXC04NsSgDjIMYWXDMzHWTXaWAxIxs8Y0ddKFkYVWP7rG7bwKir%2BC5lgt3N5lXIYHFHotUU164WiuPA%3D%3D') no-repeat center bottom / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223784926.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Ar0QS%2Fz2QkjY8OiQPMuOsFQoCIHgsGmH3%2BdJuZ0ryL0R6D34F3hDIlrB2TDwRFpUsJ3UrvVJ%2FrEHEE%2BQb4VBuZJ%2Fa6bsk9xizYxCRoeqw7tfHTmTshk5wizEK3v98jaZ87hXoYCq4FdLmkqBL6zKnNIfzm%2B92rpTFN5dy15QFMhy7GcGIhYZ2TH6Db7wo0jKwpZyM2PxQIRHTIOjZIabplXEvGtimQYnR9dqatul5zva5ghuI4qRju0OpS7qUTJXXpU1hQPWGxxm3BiNasSvzipJ%2FqkulDivYRyEnnd9qu46%2BE2KbKHk%2Bx%2BGa0j800Xjl53ic7pq8z5jth0DXDXBfw%3D%3D') no-repeat center bottom / cover;
     width: 100%;
   }
   .bg-card{

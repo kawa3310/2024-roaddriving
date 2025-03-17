@@ -51,7 +51,7 @@ export default {
 
 <style scoped lang="scss">
   .contact-bg{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1727421553168.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=YvVQxLiOos5GCVz7UepfTK2iBWxNKwFFBYig2cOna%2FTap7pY3jBGZVAi9KzbPl1xZHC4WLAVoBB%2BE2pv4Ti9Wab8%2FZTEHymPWVn%2Fk18qTKwWg0jt2BW5xiiPMYL9LlfmPAPWAEvhVUu%2BmUnWvMUY2CHDjzaZ9O89kQZWt0mJYK62hrtJqpSL%2FWnrDx9sTUhyHCeZfSDTFhFsNHPTYkqR%2FRjaDDJjrRV50%2BQq4H%2Bytcc0d582JNZhUkNkA6pKeeUoOXOoGBas2cNEYQDppCBDJsSsqgXB4ueCj0bvPHERpXBVpZNP35z1b5%2Fv5wGr6qTVJ0P0ZbVvqHzVBZsfaWivKw%3D%3D') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223617589.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=XmJpUR%2FlUNwpfwX%2BR7VTL2gO6in2Wr3z%2FPZJm7Qn1ln%2FRYCn9NJuQ%2BYy0Hx2TA1k%2F9rdOX6SMNFkiwVXXxB12Sp8V9q39GEmXomAHw1GNI%2FPrfzOtCE8QCH%2F1yfVggqmeddU0UL%2FG%2FElXwCkKVQLVGLELAVygJXkG8gy9NaQHuq7NgUL0PwVVc1Hbba155xyJ5oiL3wgY1kP2GCkfHbUXYl2HOf%2Bg2QBr0R8G77a8noCbpD5%2BN4TKLaNpA8fV9ep64wox4IzMv1%2F2GtDWzZgG9ROYC4gbN7YDx3KGTjU82qU36CD%2BOL9DA7cOKwlGQcatf2ENGoUI1osTfHU1%2FxRJQ%3D%3D') no-repeat center center / cover;
     width: 100%;
   }
   .contact-card{

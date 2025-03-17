@@ -13,7 +13,7 @@
     <swiper-slide>
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180627238.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=pwc3d1xBc1aw9U%2BbU8hHeLL6ibHWQbPvseEtO7hQsZgeTJrNj1hUKLblvA0ZEUlHYDr%2BMMXKhtrUrxsTLtNBQNM8FxJGoB7jzxjZtUtj04YCss6Sd7qNvb24W8xuFK6xm7dUAD8o76BPifs5pC7Ma%2BgCiG9Lig2Lo%2Fqq1E%2FM7yg2F44zaDPCYx2empFqLpxPHn7ST2ASOQ6eHOUh2c67%2BBrSG%2Fogvj9q6UB5QC6w%2BwjJUtxDnZztXWJK9D8hpxdq7curxR0ozdA%2FN%2F2eYYJ%2BWrbcnrTTpauU7XoFqVDEewh%2FAb3pQ57%2BxbYPFpCY2JHQqga7PbHIUx%2B0QjEE4wwzzQ%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218942343.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=BVp%2B5Fjk%2FqL8ca1CgvN5DeuS5KbxfGlaLhHWWVPsUJm0pX1W1zkb68OHBWALLIc0eybNM0s0%2BOMrHNIbyDb1VC2hRs2xQ5mACcM3fNT%2BNJIDbAYC2LvfkZeyGDWOoMa%2F%2FJtgUJTxvNApsHg41HuJkCR0aLwdVpd3j26jzVU9DzS6mm9HAO9KEzxULAhKkj%2FRgApoGSqVaLlWxc4%2FxyiXrwxcG%2BhJjXFQvwET1rxT1V1BQnhC2R6jIvU8zMN%2BKOcckr3YE86%2FW6UV8JMAVZSgspE7AsQMunES%2FNYc03jXgpSYgE8HXnQopDfsS6IGASL5Ov7WFCv1lwRDRuSJ7I6seA%3D%3D" alt="situation" class="situation-img">
           <span>01</span>
         </div>
         <div class="text-center">
@@ -25,7 +25,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>02</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180654119.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=OV5j1zOf4DM%2Bs2SWKL8K3XGGKIZ9IEOM8Qfyy4smQpyfjp4aY16y0OyuplkRdyCz4LQ4rIQ%2FYik%2BUwAHMzqAQz5fUz4QbrCfld1vluTVYZ%2BnL964ZplwDebdgyL879ZSa3IEZTM1H50%2BghkRUUiK%2F4L%2FDLR9Vi2QsPbPX2Mghb9nxLKc3Yu%2FuHGLBHOYMs8xK6wthRk3y09qLxAQA8xOFIzetYnVIAA1FYNmrt0sc2eXj%2FfWLRNxWvY%2BNgYwUBp%2FbkyVgWsEAxmk%2BUnszYMmCXREMwXnyzjI%2FqWV3KpzalZBK9jedRBH04SbD7bOLB4FLrzA3JhEFjEMn3mlmcciyQ%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218974443.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=EpDdhmtLkaltU49i0a9wNlpecl6svC64dYDlaqkQZYsTXy7rQVdYf2aPGdipNP5LpPJum4B0kslBCLbXHGvNbzOEm%2BA4VdtL6%2Fl28BHTvjb7nka9VAAk8xrI37sr1EYTYmDInItsheVVCVGisD3GVO90n%2F1MvPIKwpgdTbp88Wbw7e3QMvdn1MHB65ObGpTzsKWwGA%2BY0LI%2FzlKnqXsq1mQkXPKFE1demyWbruOpMMo9SdMdZh2d0tZGLB%2Fe%2BblbY%2FHonR9RHttEIdRgYKpW2X4Ajnd%2BusdjdqG%2BvClBb9nDup0f87l9gOokkUSkYRbYS8KdCVIgLmCCBhi53kuZoA%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">不會路邊停車 ?</h5>
@@ -36,7 +36,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>03</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725688273094.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=JCROyXT7bmaIeIffsVXh2nsWtSZghl5XfIEf6lCvy%2B55wfAQ%2BP3DQBmEv1sWsh6%2BFx9IluN6Q7st7e8DA0SjLhvoSbSDPTIB%2FCg2d6usKyy0nNXYN9F87PXNEq71nG2HrIdJeyHGbAMuFkTjqy%2F%2BQXXagmksxxpVRUSivUIy%2FFN43xHWjTrXc68EqjF8rENq7SHU1orYxE5AJ93mbcksIbidfmj2mQu%2Bc9erDg0Ik9p5cSlwGKjX%2F9sMzLnJLqxmmb08gxH2%2FsOVApGdz37O1Hu3I7sTMDmhAUSSR2j3hbJ4A4KjKL%2B2Dcs0CgBXPTgUXeqkrh3aNU8WmdqfPWtbIw%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218989788.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=i%2FCaXoAXmtoxaxqXKofSkdcB48kvXajP4J8I5fu1hekJ6dzWXIde6W%2BuvkXT7X6gSerfKIDmdzEi3fGY9Eg1opYPixMZySfuZhD3G5ZHmV1c9QKt6k%2BbQxtyhLcbcqhQM%2FrDbHlBcsrnQIxsmvEMWwZIawsPnXmh8qvzeor9dBhNoUyLb6elCagSv%2BXf3n5f1Ulia5gJg8d2oh%2BF813ieWaBmoUxGw2HFR5OFV5TqlaPL%2BOStz0xY3ExBjtPIt1viOLT7RgnbE3C3hLWuFUD%2BHG8pnIp1baDVrbXsIG%2FZpqL35mIjgAGoIJiBOexeGcZ4pprJnbP%2BPeXANfWoT8tUA%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">不會變換車道 ?</h5>
@@ -47,7 +47,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>04</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180717725.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=YXUzCzEDoZlZX%2FpDhv4Zw3WNy2YZtVG51Wg%2BnWbqRNvY706c29IuDHkAt2vQvE6OnuWpvpf9B3VZipW%2FY%2BaymRZ7fkXwMyXcRyvd737DTzRhFW%2B9KF%2FWHIdP8XtpR0Tf9ZzFRinBCTcQ0IGK0Qxi%2FHAUeajaAyaVXHq%2FC6P4sJJzCCI%2F11UDWp2ferOPP44fyakfVTMg2q0PBAqUmcB58nQs4iSXb2ARnwsHQlP7zg2HGdkYV9l%2BUfsm9xmupfdma2ksBiHYNcOVm1Pd%2Fwbr6CpOvR7IW0DVSGMCxf6ZB7M71QW7a2ejS3gqAxR0m8PYaj%2B66Df2R6oefqjsXDY9zA%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219013792.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=IYth7rga%2FJHCpNUIMLlCSwijIyhsqDrRwDHFCPvLWOSswFx8GgInSFrRN7K%2Fiqhm5n%2Bc536vXsjC74bYNpOiotqob7c%2FfEzZcm5qzg6mDNHmgaI9rclEGdHZ921zOuifGaZ5jpZNEJPqIiggMCO%2B1gEesDGIRfeR2qC3%2FsmI2uoOyO8%2ByEaShkzUjSdoJAQ00oH1nYHvn8yCWeakaKlfKCx64QgtaW4xC%2FoShoAIrrplYEWVYdq4U1VAcHvax4rjASw72fOhngPQT0MZr%2BakOimEGN1BEc5p0n%2F8aOvp8Ym%2FP4Slh4Z8Ju66fwlKxKktFzoNFZDPI4Yp0HPhXEG6EQ%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">不敢上高速公路 ?</h5>
@@ -58,7 +58,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>05</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180744282.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=MSqX6zM%2BmzPdXM5FMzWGQ%2F9cGXNqUOHUzzwTiW2kJI%2FEj7ZONGBmkupFt7wUSaTnLJPfy1FY6PICga%2FKokLjEOMkyG3KlXgDnadaYR81rfcDexs%2FaA9SaQ3xuwb3%2BNjyRuTGqGjGmoYcmi%2FKgvtquevGjtTor5MTsIMIFJ853LuyetpwJvUkF2NBBM6PV697IvUrY90N8D3peaLmJE93d39x94O7tdZKu8fdvIiCA3bQ4fcclsEIO%2BJKhu5Ot3zaDRk4UJ3Zcrpj4hDbjcvFKJrbbjLQLDd9TIQuJxcWdundcQ6zfihi0leyhz5lTYm9WvujhIiDINKEnmBvNnWdTg%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219030088.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=KcKm3BdCuRFiaQ6ISrdgCwQbiYeG5kBxM42xjGO67nxEUt7Mg4ilBMKQxvSrFwcpLlRVbST9H40o8mr66gMzBY5iGKAg4Xias0hrq%2BR%2FyUTWNiCqlnM1ULWVljMU%2BqlHwRoxGt1tEuryzO69af2VRxNDC0MrDs8tshQjVCxefF2y%2Fu8jURfjrHhbixv%2BGwB9FxRCGqkx8e0xWNjPjwob%2Fdf4GeJYNQolptZwrJzhBcT5%2B%2BfH%2FAOjMxHCR%2Fn8dv6gCNCJN48p4yxkMsC%2Bacj5uZqFgDi9HrPwkxy%2FRzXuMsAuD%2BK2qhIJtLJEi3JqxQTqrNMz5DntY8%2FXGHHve%2Bao9w%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">不敢開山路 ?</h5>
@@ -69,7 +69,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>06</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180760925.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=AOoQmcST%2BsTWOJ%2Fu8Q5DNCooIt%2BadsMQcfVJ1Oj47LyQYADhCX9ZApSMd3PYpqVlf1RcQohluol6%2BQVUaJ%2BFarvokk%2FJtNBGXjziOZ6ZNqYnybBYbl6xdsdQTulitoEMMlniGf44xmpY5bbxygnJlraLOwiKxBKM4KeEjOSES0ZhmzgXub0HjORF3rp9vFULhOJVoRhJEvXBjLH5m6mOh6U1VQR2V%2FdZ8Qf5%2B5ZQ6D%2FhqWOTklE%2FA6ozMULveQ466Ag2J5m65NWBWpA467CGmddFYOeNJbhiD4%2F0SWeWEzBBXwTH%2Fzms9Rdpoz6EJHNyxBcdLpr9bC20XVo%2B5tyw1g%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219170401.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=d2%2BkKGrKHwje3vYQ3yWIS2ITtIemXUARU7A5xsChvVKyyzjUV%2BX0WDwzF4PdRcEeEjHg2v%2BfQ6mbg7Y0im6s09nHuROhyv%2BMtjL0sHb%2BFI3jLLvHc1TGptxYPiRch6f3c8RBjxt1FenBXaHMMeyHlnDs1lu9ywDV8fkOXtzrVbliZG%2FF8ljwr6TOvosixMueA2Tf2xLgtduTn8P%2BIpC4ENaThPbpaRpVZwMARLWaDQyBDJZmvsLsUa7sXFyFzk5FD8Y%2Fd5%2Bb3LoJgn%2BwVOVqz%2FjarqzDn66nVrSOtvtGRW24fXWGoaR6bTXHBqwgN4TbNdotgDQ9cj68yerA9pSMaA%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">擔心開的不好被戰鬥邀請 ?</h5>
@@ -80,7 +80,7 @@
       <div class="situation-group d-grid gap-7">
         <div class="situation-item d-flex justify-content-center">
           <span>07</span>
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180804234.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=UPTEOgDp9Ydl1HRtTq2m64t5V%2B0jlP00A6qekPr93DsH4%2B1NPC22jetVtrKnUhefP%2F5b0GjI%2BVtrQeD1VsvRB5z9M9IQl9L0Rqr6WGrkQQ0JzF%2BMwdsWMq1QWDOpe5S4vPHNXiLOTmV13DofhtajcX8SelhkSRZcd0fmv5jconTKL1MtjpwcvI4FLWBWI7dYCCaFRyxAYuSXeCP3G5YTPA9Lyp5FUz8QxJvV1zmxGr91zo6eJVaCAzsCA6%2Fh%2BoNXKx1fg2bUzpr9qED4H%2F6xi6Ea9e2Xh5o1lR5gDAvtFLYIJ6LPnWJ5NFoVBm2ex%2BukaduedRlhgpd6Mz4ld3snWg%3D%3D" alt="situation" class="situation-img">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742219066887.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=fO0STfDOjuwK0D84ipnNvs6Q%2BA3mLI45PIjSOt09nORxqM6sx7QIqCxlbMs08hUnxcqqUz3jZwaXyh3YJ%2Fx4qOyibfiSrBPy6xWPDw4pimFZ3qJ1WocVxkt0XqZR26gzwiGdaYAgxo%2BS96uZ7p3aFkJ96qTpMlfPf6BJIhZKGiKooVT1PNFJk36LCCdc0hYO7Awt3ahzDM2FydcoCrlS2FMdlKqg62OG4hlXjiBshImAaegkaRGrRQctuEICRmMAnCjO%2BnQ5rugLtRzqa5dhgA%2FegWBxsdfmL%2BNiBziy1T85CFggH3IRm4qgxcDwAv6T%2BZfKmhWCyMgFfcCsTQQcbg%3D%3D" alt="situation" class="situation-img">
         </div>
         <div class="text-center">
           <h5 class="fw-bold">擔心旁邊有人碎碎念 ?</h5>
