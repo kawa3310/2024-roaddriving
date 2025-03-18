@@ -25,15 +25,15 @@
                         <tbody>
                           <tr>
                             <th class="th">姓名</th>
-                            <td>陳xx</td>
+                            <td>劉學車</td>
                           </tr>
                           <tr>
                             <th class="th">聯絡電話</th>
-                            <td>0924568092</td>
+                            <td>0933768912</td>
                           </tr>
                           <tr>
                             <th class="th">帳號</th>
-                            <td>roun@gmail.com</td>
+                            <td>carman@gamil.com</td>
                           </tr>
                           <tr>
                             <th class="th">密碼</th>

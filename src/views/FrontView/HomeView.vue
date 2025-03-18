@@ -492,7 +492,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742260420380.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=VVnvxRcaW56z%2FY7Ng%2FRum0QfBH6xBDxIAq%2B5DAaVVgqc6O8q3LNZeK2GgBRAms6w0uSjqRZ95c4HpebDQzbEKSeCEUoYYx41LZEc8ojABmZ2gIDL71fjKiK3%2BWMwt9etyESdKhFocfBB%2F1FV%2BWwrS3AgW0b3hg1c8ZtP%2Fm0qQN%2Fp%2BhkIgJmBtbOVU0JUsomOYpFfJ%2FwyiNcAxkO%2FO05CU0UuMD4ZS2FZTO2k1mHN1V8uux3Um2BE4znGESxrf3iqzwG8F7NjUJUQAWDV8yWHLQkjURQ6rQ3iziA2CUM68x77dI%2BtmEP9IwTJCbagyGoihRl9MBueV0WQLQUqsMuEeQ%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215324062.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Hy3TGxrUq9lF%2FsxMXlDYF6qCOePSBE9VI3AzdqBUD4FTl40AnqiHsy4bTCFvKbZeV5qniQyNzMRRV%2FR03vNxBGJJQ4VU7shleqi5%2FZujl6UqCAOJ9Y6DdZ%2FBBeZD4Eh9TLevr8sizLPUbdTlJQCBDW8XG6KHHRbci%2BXsUpa%2FvwSXVt1nRHOQc0amCf8jSMP35nmh8%2FjRUQVRl0qaQP2z58kSQ5qlahy5JcSwp2veromtoMtOHVopzySSUclTVf2L5LDXd0subLbvUBeJzNSkmy99bLJpNo2SDC6V%2BQC5InyE22iW%2B%2BKKzmkzx9HWPNl%2BBDimNWcYXeYlS7x%2BsPg8IQ%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="col-4 teachers-body pt-4">
@@ -535,27 +535,27 @@
       <div class="textbook-sm container d-lg-none mt-4">
         <div class="pt-7">
           <div class="py-3" data-aos="zoom-in" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222553006.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=qApELMKfDb0eZ1%2Fvifem5LrNZQIPUtZk%2Bl5RmJrHniEv6HBsiO6KslaLD0%2BmkI%2Bwf3ocKjbYoBFe3tVLOMqVny0Gy4RaDbX%2F1NcSxo50wyHngJ6DrT%2BX%2FDk3J9Koj6XAp7rhI%2FBGwjP2vXJQpX26Vllp5jMvJxnmf%2BgHTL3j2%2FIjJ1usPhJbXMQsHlXNfDlY82Pt%2BArmKN1y6Fj5fh0wlq7txi%2Be7VxKyav8kp8TB47zHln%2F4MMweIMpfNV22XmGR5Z1Jwl3Aix1B9Gy5yRjjjs92jFRbp1KxVEPKD%2BbogvZG4M0NdG7joN%2FLOcfjzuE%2FvBjO1Z9wNA9kFTpBA18CA%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264582134.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=RFTsdyrNyy9fY3JnmkZ6qpAbwhxr%2BD9nDyBXShgyxikHkuIUC52iYl0romFbGWRbq3afnzw1htA5A1RBR9mZozWqBQ5pI4yaChnSi8yCy2J28oy1XhhOcfcxPzLbGFA7ChPpYh4JN2g%2FzZCl%2BByeaQxyS53vHDoGvjQMMGhVZW03utCsaDK0XvA34wYHCgUKajTKo6Qwp6tS4MVBcGdbZkkrPJDGHjy5tlY5wKJnTKKfWjshIR3DliDKMNX5c2Y3Pnn1PpA6x5srcNleagse%2Br3FfvZ5xNFF7dlK5hgR%2FQBxXe0IyeE%2FTOnzR1yT3FzDRkclv3bfHTYegE8tE6V2mg%3D%3D">
             <div class="d-flex justify-content-center py-3">
               <p class="fw-medium">Honda HR-V</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222623507.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=MU6C7zDDkYUMDryxrdggf8BpWP8AQh4YJM%2F0x6hMHmyHCqLhPmNxYhzXfgUQtGe%2F5Wht1W0ohoHPhR9bWIc1C%2B5WPUZ0pmN1HfQifFt3A2i4tnC4O8rTJ1HeroE%2FFzval6RxhpTPCbrQz8GZxBT%2Ba%2FEQQSwrBlLN%2BDyFp8osqhs3WuPebNPh1L3We3gpX4iEE9U3QnxaDozE1hLZ7wRoP%2FTuGfKelAwiJnmLJmkWbC%2BDPew%2B9fTjlLDZUW9r%2BkHf5AW8kmg39ngtkrc5NBZo70xG6BeKUvzt1xsyDYJS3eM3dfbcUPMV3wJ8HMSelZ2%2BjJOgZ299eS24yRjOJZjJTw%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264428719.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=g6O3vbr9hd24qZR%2BzJHMZeG%2Fb3W7avjRKeMEmSkYk9flufkM2G3m8qCYf3PkuY4gKfGxqhJBc%2F5GmotvxDIW5WJnaxK2chn4lO0%2FofiY6HHa3RIoPw1FQZiNYOUIPfBJEDSD3AttQeorxiAGaFsYZJjtTDmZs4J0gakzlOnLJNZ%2FV1PSXTTBgyh00Sg8bWhmkUNanPJ5hs3vGZNxW09z3diRiOD0MrrGT%2BBbWE5U6YwfHa7hu6cAg%2BxyDREfIpo%2FLyzgpes6YyI%2FOBs4GXt%2Bqhbrh3oLYEDTTgmEjSiFcMpJHfyQL7g%2FW04iuHrUKa5XibxiZhdPZwwnwfRTYo4%2FJA%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>每款車輛搭配副駕駛座煞車</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264407998.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=ViQ3VXHeCicnxMLa6CXJXxxfy%2BFw9bJrnXZAk1aPTG2pozngpYPKArYQCP1IzNeIjFyAO2zP04O99s0p%2F8FM7TcP4MgkmWwuA6k3wGUvAHWv7zcnv%2FeOLm8HqPog8Yj%2F%2FJSY0mHOnjMtBXEtx2JfvJbDttbc3fl%2FVyAOB5htJ7b4SJQG1vh4QueRTQ7xKm1Xk%2F5RlA8ar%2FNK7TylvSCq%2F2WhiilQAX3OuT2aEbXcwlTkID9fZWWUVYWel315n7uILGhJb%2FB2r9uEM9XFYrk5pJUU7zxYbmp6UQw%2FY3BhZwwrsgaFay9QdtgMXMvRjyXaOOTYxj%2Fg38sGff0Ff1TEKA%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>車輛搭載 ACC 車道置中</p>
             </div>
           </div>
           <div class="py-3" data-aos="zoom-in-up" data-aos-delay="200">
-            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="textbook-car-img">
+            <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264362436.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=WfiT%2FFm%2Fm3%2BqCvtTxlajACyK1Xa5%2Bmpy10f9TolwrVYCjusr9ZisXgN5TM5M%2F%2FxAsxmrnHu2WVCSpxIScNPGmcLWigSugdP%2B5zS%2BivigU7Qe5nV%2Bqm2KgFtCwBF9eEIRazANqGi0wkQVBJpUHP0dZ%2BBD96Ab4ty9lcxgfspb6OgyKAVLBK3i2c6yirIz2eqtWoy2IZ1KhqW5xtn3Rnx%2FhUbX%2FQtdMyFx6xtYtv2GLx587hwKwrdtPcYSrBAeq6iCMCKXGQzi7bUz%2B0aMvmbYOf0M7R4fC4OlMoLLN9xASKvlmlCCs97cdqZVr6YiCExbaB3A49mw7Gp9%2FwYW9yj9Ew%3D%3D" alt="textbook-car" class="textbook-car-img">
             <div class="d-flex justify-content-center py-3">
               <div class="car-icon"></div>
               <p>倒車顯影</p>
@@ -578,7 +578,7 @@
                   <div class="row pt-7">
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222623507.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=MU6C7zDDkYUMDryxrdggf8BpWP8AQh4YJM%2F0x6hMHmyHCqLhPmNxYhzXfgUQtGe%2F5Wht1W0ohoHPhR9bWIc1C%2B5WPUZ0pmN1HfQifFt3A2i4tnC4O8rTJ1HeroE%2FFzval6RxhpTPCbrQz8GZxBT%2Ba%2FEQQSwrBlLN%2BDyFp8osqhs3WuPebNPh1L3We3gpX4iEE9U3QnxaDozE1hLZ7wRoP%2FTuGfKelAwiJnmLJmkWbC%2BDPew%2B9fTjlLDZUW9r%2BkHf5AW8kmg39ngtkrc5NBZo70xG6BeKUvzt1xsyDYJS3eM3dfbcUPMV3wJ8HMSelZ2%2BjJOgZ299eS24yRjOJZjJTw%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264428719.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=g6O3vbr9hd24qZR%2BzJHMZeG%2Fb3W7avjRKeMEmSkYk9flufkM2G3m8qCYf3PkuY4gKfGxqhJBc%2F5GmotvxDIW5WJnaxK2chn4lO0%2FofiY6HHa3RIoPw1FQZiNYOUIPfBJEDSD3AttQeorxiAGaFsYZJjtTDmZs4J0gakzlOnLJNZ%2FV1PSXTTBgyh00Sg8bWhmkUNanPJ5hs3vGZNxW09z3diRiOD0MrrGT%2BBbWE5U6YwfHa7hu6cAg%2BxyDREfIpo%2FLyzgpes6YyI%2FOBs4GXt%2Bqhbrh3oLYEDTTgmEjSiFcMpJHfyQL7g%2FW04iuHrUKa5XibxiZhdPZwwnwfRTYo4%2FJA%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>每款車輛搭配副駕駛座煞車</p>
@@ -587,7 +587,7 @@
                     </div>
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264407998.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=ViQ3VXHeCicnxMLa6CXJXxxfy%2BFw9bJrnXZAk1aPTG2pozngpYPKArYQCP1IzNeIjFyAO2zP04O99s0p%2F8FM7TcP4MgkmWwuA6k3wGUvAHWv7zcnv%2FeOLm8HqPog8Yj%2F%2FJSY0mHOnjMtBXEtx2JfvJbDttbc3fl%2FVyAOB5htJ7b4SJQG1vh4QueRTQ7xKm1Xk%2F5RlA8ar%2FNK7TylvSCq%2F2WhiilQAX3OuT2aEbXcwlTkID9fZWWUVYWel315n7uILGhJb%2FB2r9uEM9XFYrk5pJUU7zxYbmp6UQw%2FY3BhZwwrsgaFay9QdtgMXMvRjyXaOOTYxj%2Fg38sGff0Ff1TEKA%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>車輛搭載 ACC / 車道置中</p>
@@ -596,7 +596,7 @@
                     </div>
                     <div class="col-4" data-aos="zoom-in-up">
                       <div class="card">
-                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742222651478.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=atUulah1Gzk1bOrHBAWnfh%2BsWoWqfYp2k3u6FHAffEHgN87mA23X5D47QKmCz%2BleISOENcN2RrMJmZUshAxhYgiuxpFOZMDFMtesnKMj0M8KAl%2B9Iu%2Bh5XXEtjIObvMf7A7943Hfe1ljM43CyuLcWG9m4IFREWRUGfmVgJc1oIk4Ozovf57FKlRfSwVBXAP3bhbh3%2BYRYrSzzvdinz7TLG8AdKKiEktS9Ftwwy%2BKVgT%2FvQ3CVUwyYIgnHTzQ5xGcWlfD3yuxUYoWIXZ6DktN2yKP3R1J4SvjYby3h6EMm6vqEDz1TDmDKG1lDCP5nTduowMJg4AP3zYvaTrXqUr7Vg%3D%3D" alt="textbook-car" class="card-img">
+                        <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742264362436.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=WfiT%2FFm%2Fm3%2BqCvtTxlajACyK1Xa5%2Bmpy10f9TolwrVYCjusr9ZisXgN5TM5M%2F%2FxAsxmrnHu2WVCSpxIScNPGmcLWigSugdP%2B5zS%2BivigU7Qe5nV%2Bqm2KgFtCwBF9eEIRazANqGi0wkQVBJpUHP0dZ%2BBD96Ab4ty9lcxgfspb6OgyKAVLBK3i2c6yirIz2eqtWoy2IZ1KhqW5xtn3Rnx%2FhUbX%2FQtdMyFx6xtYtv2GLx587hwKwrdtPcYSrBAeq6iCMCKXGQzi7bUz%2B0aMvmbYOf0M7R4fC4OlMoLLN9xASKvlmlCCs97cdqZVr6YiCExbaB3A49mw7Gp9%2FwYW9yj9Ew%3D%3D" alt="textbook-car" class="card-img">
                         <div class="card-body d-flex justify-content-center">
                           <div class="car-icon"></div>
                           <p>倒車顯影</p>
