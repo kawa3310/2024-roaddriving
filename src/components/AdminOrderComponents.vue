@@ -130,6 +130,8 @@ export default {
     },
     modalClose() {
       this.orderModal.hide();
+      document.body.focus();
+      document.activeElement.blur();
     },
     date(time) {
       const localDate = new Date(time * 1000);

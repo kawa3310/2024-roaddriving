@@ -492,7 +492,7 @@
               <div class="row justify-content-center align-items-center">
                 <div class="col-7 teachers-img">
                   <div class="bg-yellow">
-                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215324062.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Hy3TGxrUq9lF%2FsxMXlDYF6qCOePSBE9VI3AzdqBUD4FTl40AnqiHsy4bTCFvKbZeV5qniQyNzMRRV%2FR03vNxBGJJQ4VU7shleqi5%2FZujl6UqCAOJ9Y6DdZ%2FBBeZD4Eh9TLevr8sizLPUbdTlJQCBDW8XG6KHHRbci%2BXsUpa%2FvwSXVt1nRHOQc0amCf8jSMP35nmh8%2FjRUQVRl0qaQP2z58kSQ5qlahy5JcSwp2veromtoMtOHVopzySSUclTVf2L5LDXd0subLbvUBeJzNSkmy99bLJpNo2SDC6V%2BQC5InyE22iW%2B%2BKKzmkzx9HWPNl%2BBDimNWcYXeYlS7x%2BsPg8IQ%3D%3D" alt="teacher">
+                    <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742260420380.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=VVnvxRcaW56z%2FY7Ng%2FRum0QfBH6xBDxIAq%2B5DAaVVgqc6O8q3LNZeK2GgBRAms6w0uSjqRZ95c4HpebDQzbEKSeCEUoYYx41LZEc8ojABmZ2gIDL71fjKiK3%2BWMwt9etyESdKhFocfBB%2F1FV%2BWwrS3AgW0b3hg1c8ZtP%2Fm0qQN%2Fp%2BhkIgJmBtbOVU0JUsomOYpFfJ%2FwyiNcAxkO%2FO05CU0UuMD4ZS2FZTO2k1mHN1V8uux3Um2BE4znGESxrf3iqzwG8F7NjUJUQAWDV8yWHLQkjURQ6rQ3iziA2CUM68x77dI%2BtmEP9IwTJCbagyGoihRl9MBueV0WQLQUqsMuEeQ%3D%3D" alt="teacher">
                   </div>
                 </div>
                 <div class="col-4 teachers-body pt-4">

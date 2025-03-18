@@ -70,7 +70,7 @@
       <PaginationModal :pages="pages" @emit-Pages="getOrders"></PaginationModal>
       <OrderModal :temp-Order="tempOrder" ref="orderModal"
       @add-Order-States="addOrderStates"/>
-      <DelProductModal :temp-products="tempOrder" @del-item="delOrder" ref="deModal">
+      <DelProductModal :temp-products="tempOrder" @del-item="delOrder" ref="delModal">
       </DelProductModal>
     </div>
   </div>
@@ -167,6 +167,9 @@ export default {
             icon: 'success',
             title: '刪除成功',
           });
+
+          // 確保 Modal 在 API 成功後才關閉
+          this.$refs.delModal.modalClose();
         })
         .catch((err) => {
           this.isloading = false;
@@ -188,7 +191,7 @@ export default {
         this.$refs.orderModal.modelOpen();
       } else if (states === 'dele') {
         this.tempOrder = { ...item };
-        this.$refs.deModal.modelOpen();
+        this.$refs.delModal.modelOpen();
       }
     },
   },

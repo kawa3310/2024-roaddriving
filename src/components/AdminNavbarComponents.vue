@@ -2,15 +2,15 @@
   <nav class="navbar navbar-expand-lg bg-primary">
     <div class="container-fluid d-flex justify-content-around">
       <RouterLink class="navbar-brand text-white
-        d-flex align-items-center fw-bold fs-3 d-grid gap-2" to="/products">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725180377010.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=CrvuyoINRFF8s%2BmbJ4CChhjRwC0pPEqk1uqzAuOCzrgsFtjA58P7HAzuLW0azYNsZMTKgkYVMfkYhYvDg2RQxKVh%2F7UmnCLHgIVmDgxlS%2BjZ2F5mTmQYCODXSwAZd22JZstU1UPLWaug0pLYunx52pcTKYdxMg4PNinS%2FbnxS3vlT7UnBCjNZV5bkf4kR5zSFTKC4N2vdlqrNDzlC%2BxUHqpcAWjxSqh3ydZJ6yOdPnxTlbUVb5YcDra4ymLgS8KQ7kdB%2BZE4Vj7PDqcDevKBsiXzGKU3xvYBPupfxf9qYub%2FgkCWq3WNNtSZ84b62zJ8g%2Fi1Nl8VXpv2DTsXRkWPNg%3D%3D
-          " alt="logo-sm">
+        d-flex align-items-center fw-bold fs-3 d-grid gap-2" to="/">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218008577.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=lMTBXrRdKVm8LKkT8bMJ7E1nKISVeM2pWLC%2F%2FB74jmjFOPKfT99%2FvmH3NFwO5nC36H17PE1BbyoI6NOuXPRaOV5weyy6xB0mWE1iFWj3MiPBZ4I66SsYVtiQwqkhBt3Cvok8uuPbFVKwIm%2BoMeeKaKcMCuD%2BsF%2B4gpE3Gy%2FZOHiqclZSZPizq5NnXEPPtaC0aH5h2UvT2qvcDnikY4X9l3uHsvwtkgc8CJ3VZDDql8rrYHdyzdqBdcPhCs28g1NVVA%2FYROZLnYLZM3XAYkxoGC7JJpOwdN1o1VPbcs4eeCuICkxJIHP1M7v%2FY0%2F%2FudHPnFKValAE7PDyIyc4kuIx5A%3D%3D
+          " alt="logo-sm" class="logo-sm">
         南南道路駕駛</RouterLink>
       <div class="dropdown">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
         data-bs-target="#navbarNavAltMarkup"
         aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/reirei/1725246017460.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742169600&Signature=pGmK%2FgSnuPV4iYVfzC3tfdxqjKKcod4oillqZknFexNrWZYjbFFrtu9bugwoaWBMwVX1hw9EN%2ByfREXFk1CKpCU2%2BAfbMQK%2FcGmJy37kQNbDiq48h4%2BgrMxPnVSnop8DtgZkwGg9UmHNgccipVk%2FR5Hq3HIx8kdhPeLTgpPD8CzlGO2RW0LiXEpilduyqmu3jcr%2BAIv3ePIHwQg7TMV%2FZIc0Q02h5f4J3mYRpTs6mqsqQ7LPwIpX6SBHdyLZOaNtTp%2BfDmm0IChAOnJ2ghev4JWgREQZoVsGeFj8%2Fhz3tt3OqIsZ2C91GRri1GbFeuPQZuLKt7YxaTMpvtaYF5ngMA%3D%3D" alt="hanburger">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742218833828.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=ZrXy9anAxUM6ykA%2BQEq9p7O3mI1O1ATlAM77Y9b1OhzFxV39Whqu1v0S98Ntp%2FFv4zNB4Q%2BNk6iM6tmgaXcnqxCjqDr0WcEc%2BWd0s3yEFw%2BnpNQcnb5lhi4jcICIXHymIqjN203ByddUs7%2FNpzWzJfo%2BkZO0rBiybiCA%2BaRhx%2FdGFUVy4rvFqJm05swVSl8GhQmMTjxGhPUcsjdYu3UJNAsn6uq5RANlNgl1MA5hrziiFj51E9Ibd9BqyhCbaeiR%2FcdN%2Ba8YDMAmYBLin30%2F0AVhAADDYIDZgSOqreItNi0WW%2BoIRAaUHEGuyNySn%2FCelY5ryWiblR986CWO%2FWgOgA%3D%3D" alt="hanburger">
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <ul class="navbar-nav admin-item">

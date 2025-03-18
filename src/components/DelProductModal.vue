@@ -46,6 +46,8 @@ export default {
     },
     modalClose() {
       this.delModal.hide();
+      document.body.focus();
+      document.activeElement.blur();
     },
   },
   mounted() {
