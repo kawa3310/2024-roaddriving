@@ -282,7 +282,7 @@ export default {
 
 <style lang="scss">
   .course-bg{
-    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223893088.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=kk4TLtMyTMQ5ZjdYwGPmcJvXXspr6dR6kbXRBHacItI4FuZFSEDfh5rOTMfwEvMb0b6ZPeB9pTsZRS73ZdlVh4m4IPqYqkVhKb8tkBmmdRLJJFi5eUCWJHGHhGbvBAIJLfmwg8o5MIowAp45b%2BrrKuDNvcNW%2FlD0obnHZpPcD1HdG5mhR0MAZaT%2FnwI8Dv9Zau932rZLHNOz2Ebqr6EKZ7D484eSzXP%2BwI1dN7cEXaGSWxOACbW97O1JCleDC4iYMm97JEP2NTKeci4RBgVl7jyFnRwF6GraNBZlL4rbCx22pdk7FxlKQHiLK%2FVBmQ9iYwZEwiWuqz8w2Wz12pxP0w%3D%3D') no-repeat center center / cover;
+    background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742303957364.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742515200&Signature=DPdWZ8hvICRU34TBe21HAXPjg6p%2FnntLwYb8PwTUmwOO%2Bhh%2Bi9HOrCm35MQCWuMw5KWenIkWFwKIY9lDK4xtxHyvhW78hyAsRUrRjaVkAK8ziDKevSh6d1aCwcqUddZPW%2B93lAXNDDDBWfRoYafWguM5qsNV60KKLNDSkJNhrWfLaPrjgJojSUfjjViKfw9J8%2BJ3eUKlsiX7as5OFcaafe5Nz5CT1KgkU5aKbZZyYIsXZdEyIGpojjvBkZ9U8FLTq3mBpKmM4UudIGMYjHLQ%2BqFoRc7CUzJ%2FzYiRHHeGyibXgPHt9OIs4MzIWusgkskKEkA5YvKgLF808zg5z0apSg%3D%3D') no-repeat center bottom / cover;
     width: 100%;
   }
   .main-title{
