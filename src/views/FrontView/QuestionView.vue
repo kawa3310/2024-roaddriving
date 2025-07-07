@@ -100,7 +100,7 @@ export default {
 
 <style scoped lang="scss">
   .quesiton-bg{
-  background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223680790.jpg?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=U1fglrKWfU3N6%2B0df7wGMb7i%2F5nREOCm4J6st7FzrmhPlfOnWH8nGbJMdKpEXk7G%2B6aAdM%2BqIeH5xKxms495lrO3KnYDiqKCRTrRpqcA6Zwk1sSsMZuRLg6Gv1QZSUDKbNIeBAc121QbZAk2XE9rKUmjDcgqLx9naweL6aE86iCQ7WX9aIXRl%2FMzDuv38Px0jZ8CmElX4a%2F2AFR2REA5oDu%2FmzDSR8VAOPA4IKhWLWNjCytBehyktTUuPYyu8YqfvHuis0UkotNR1mTatc1yauuAv%2BbMDq83g2AubHpaFyeBPgJQwcv2lEyJVAICFbfkfHP4%2FvyYotfgK8vDikuXCw%3D%3D') no-repeat center center / cover;
+  background: url('https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742223680790.jpg') no-repeat center center / cover;
   width: 100%;
   }
   .quesiton{

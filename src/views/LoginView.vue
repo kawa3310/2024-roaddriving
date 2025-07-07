@@ -18,7 +18,7 @@
       <div class="logo-box">
         <h5>南南駕訓班</h5>
         <div class="login-logo">
-          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215881995.png?GoogleAccessId=firebase-adminsdk-zzty7%40vue-course-api.iam.gserviceaccount.com&Expires=1742428800&Signature=Ti%2BPOwPUVod7CJEyYc%2F%2BGr9VmgOYvrPC%2BwyNTECd9hsR1lLIiifuLcQm0S%2Bu8nDlQFIoh7UnrpBM7zaJ%2FY%2B87h39RrDMQHdeuNXDipMcl8U%2Fjo7Ac66RJ2WIDZmnjPJga%2BjV1RlUiGnJyir5dfy7bhLGOAH6JF%2FPCckarXAcueceW7fl02WV5J77Caa3UA961dtfRO%2F9wC2gtyN8aeuQBeLXeLDuzxyrS69FbYPwycDqJsDEbNRLOPvdFGYum7qIFTfiI2gfbCA88e37WruqF2zD9NLXh1xvpkqZN1iGuya9eCRT57BPNM3s6HMHXiWIFmOKu7opJJGNoeaLWfQ1Dw%3D%3D" alt="logo-sm">
+          <img src="https://storage.googleapis.com/vue-course-api.appspot.com/rei/1742215881995.png" alt="logo-sm">
         </div>
       </div>
     </div>
